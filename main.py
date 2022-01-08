@@ -1,6 +1,7 @@
 # import sbol2
 import requests
 from bs4 import BeautifulSoup as bsp
+import sbol2
 import io
 
 url = "https://www.addgene.org/87912/"
@@ -14,7 +15,7 @@ soup = bsp(r.text, 'html.parser')
 page_dict = {}
 
 page_dict['plasmid_title'] = soup.find_all('span', {'class':'material-name'})[0].string.strip()
-page_dict['addgen_id'] = soup.find_all('span', {'id':'addgene-item-id'})[0].string.strip()
+page_dict['addgene_id'] = soup.find_all('span', {'id':'addgene-item-id'})[0].string.strip()
 
 
 top_info = soup.find_all('div', {'class':'field'})
@@ -75,6 +76,13 @@ page_dict['ref_bib'] = citations[1]
 
 
 # print(page_dict)
+##################################### PULL ARTICLE INFORMATION #####################
+pub_link = page_dict['Publication']['href']
+r = requests.get(pub_link)
+pub_soup = bsp(r.text, 'html.parser')
+article_png = pub_soup.find_all('span', {'class':'glyphicon glyphicon-new-window'})[0]
+page_dict['Publication'] = article_png.parent['href']
+
 # $$$$$$$$$$$$$$$$$$$$$$$$$$PULL SEQUENCE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 seq_info = page_dict['Sequence Information'][0]
 r = requests.get(seq_info)
@@ -102,4 +110,52 @@ request = { 'options': {'language' : 'SBOL2',
 
 
 resp = requests.post("https://validator.sbolstandard.org/validate/", json=request)
-print(resp.text)
+sbol_cont = resp.json()['result']
+# with open('sbol.xml', 'w') as f:
+#     f.write(sbol_cont)
+
+sbol_file = io.StringIO(sbol_cont)
+####################### SBOL ADD PAGE DICT ##################################
+doc = sbol2.Document()
+doc.read(sbol_file)
+cd = doc.componentDefinitions[0]
+
+addgene_url = 'https://www.addgene.org/'
+doc.addNamespace(addgene_url, "addgene")
+
+
+text_prop = {'plasmid_title':'plasmidTitle', 'addgene_id':'addgeneId',
+             'Purpose':'purpose', 'Vector backbone':'vectorBackbone',
+             'Bacterial Resistance(s)':'bacterialResistance',
+             'Growth Temperature':'growthTemp', 'Copy number':'copyNum',
+             'Promoter':'promoter', 'Gene/Insert name':'geneName',
+             f'5{chr(8242)} sequencing primer':'fivePrimer',
+             f'3{chr(8242)} sequencing primer':'threePrimer',
+             'Terms and Licenses':'licenses',
+             'Industry Terms':'industryTerms', 'ref_method':'refMethod',
+             'Cloning method':'cloningMethod',
+             'Growth Strain(s)':'growthStrain', 'ref_bib':'refBibliography'}
+
+
+setattr(cd, 'depositingLab', 
+            sbol2.URIProperty(cd, f'{addgene_url}depositingLab', '0', '*', [],
+                              initial_value=page_dict['Depositing Lab']['href']))
+
+setattr(cd, 'doi', 
+            sbol2.URIProperty(cd, f'{addgene_url}doi', '0', '*', [],
+                              initial_value=page_dict['Publication']))
+
+
+for prop in text_prop:
+    prop_name = text_prop[prop]
+    setattr(cd, prop_name, 
+            sbol2.TextProperty(cd, f'{addgene_url}{prop_name}', '0', '*',
+                               initial_value=page_dict[prop]))
+
+
+# uri_prop = ['Growth Strain(s)', 'Cloning method']
+# for prop in uri_prop:
+#     print(page_dict[prop])
+
+doc.write('sbol_out.xml')
+########################### RUN THROUGH SYNBICT ###################################
