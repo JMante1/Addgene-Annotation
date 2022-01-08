@@ -1,6 +1,7 @@
 # import sbol2
 import requests
 from bs4 import BeautifulSoup as bsp
+import io
 
 url = "https://www.addgene.org/87912/"
 
@@ -80,5 +81,25 @@ r = requests.get(seq_info)
 seq_soup = bsp(r.text, 'html.parser')
 gbk_url = seq_soup.find_all('a', {'class':'genbank-file-download'})[0]['href']
 r = requests.get(gbk_url)
-genbank_file = r.content
+genbank_file = io.StringIO(r.content.decode()) # turn bytes to file type object
 
+request = { 'options': {'language' : 'SBOL2',
+                        'test_equality': False,
+                        'check_uri_compliance': False,
+                        'check_completeness': False,
+                        'check_best_practices': False,
+                        'fail_on_first_error': False,
+                        'provide_detailed_stack_trace': False,
+                        'subset_uri': '',
+                        'uri_prefix': 'www.examples.org',
+                        'version': '',
+                        'insert_type': False,
+                        'main_file_name': 'genbank.gb',
+                                },
+            'return_file': True,
+            'main_file': genbank_file.read()
+          }
+
+
+resp = requests.post("https://validator.sbolstandard.org/validate/", json=request)
+print(resp.text)
