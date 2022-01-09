@@ -124,19 +124,6 @@ addgene_url = 'https://www.addgene.org/'
 doc.addNamespace(addgene_url, "addgene")
 
 
-text_prop = {'plasmid_title':'plasmidTitle', 'addgene_id':'addgeneId',
-             'Purpose':'purpose', 'Vector backbone':'vectorBackbone',
-             'Bacterial Resistance(s)':'bacterialResistance',
-             'Growth Temperature':'growthTemp', 'Copy number':'copyNum',
-             'Promoter':'promoter', 'Gene/Insert name':'geneName',
-             f'5{chr(8242)} sequencing primer':'fivePrimer',
-             f'3{chr(8242)} sequencing primer':'threePrimer',
-             'Terms and Licenses':'licenses',
-             'Industry Terms':'industryTerms', 'ref_method':'refMethod',
-             'Cloning method':'cloningMethod',
-             'Growth Strain(s)':'growthStrain', 'ref_bib':'refBibliography'}
-
-
 setattr(cd, 'depositingLab', 
             sbol2.URIProperty(cd, f'{addgene_url}depositingLab', '0', '*', [],
                               initial_value=page_dict['Depositing Lab']['href']))
@@ -145,9 +132,29 @@ setattr(cd, 'doi',
             sbol2.URIProperty(cd, f'{addgene_url}doi', '0', '*', [],
                               initial_value=page_dict['Publication']))
 
+prop_dict = {}
+for prop in page_dict.keys():
+    if prop not in ['Publication', 'Depositing Lab', 'Sequence Information']:
+        prop_new = prop.replace("_", " ")
+        prop_new = prop_new.replace("3", "three")
+        prop_new = prop_new.replace('5', 'five')
+        # A = 65, Z = 90, a=97, z=122
+        next_upper = False
+        prop_new2 = ''
+        for ch in prop_new:
+            if ord(ch) == 32:
+                next_upper = True
+            elif 65 <= ord(ch) <= 90 or 97 <= ord(ch) <= 122:
+                if next_upper:
+                    prop_new2 += ch.upper()
+                    next_upper = False
+                else:
+                    prop_new2 += ch
+        prop_new2 = prop_new2[0].lower() + prop_new2[1:]
+        prop_dict[prop] = prop_new2
 
-for prop in text_prop:
-    prop_name = text_prop[prop]
+for prop in prop_dict:
+    prop_name = prop_dict[prop]
     setattr(cd, prop_name, 
             sbol2.TextProperty(cd, f'{addgene_url}{prop_name}', '0', '*',
                                initial_value=page_dict[prop]))
