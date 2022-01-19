@@ -1,0 +1,102 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:vectorBackbone>PRK7</addgene:vectorBackbone>
+    <obo:OBI_0001617>17974916</obo:OBI_0001617>
+    <genbank:keywords>pRK7-Myc-TEAD1</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>Myc</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>74</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>45</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>Myc</dcterms:title>
+        <gbConv:translation>EQKLISEEDL</gbConv:translation>
+        <gbConv:product>Myc (human c-Myc proto-oncogene) epitope tag</gbConv:product>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pRK7-Myc-TEAD1 was a gift from  Kunliang Guan   (Addgene plasmid # 33101)   </addgene:refMethod>
+    <addgene:addgeneId>33101</addgene:addgeneId>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/719/"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:entrezGene>TEAD1
+
+                        
+                        (a.k.a. AA, NTEF-1, REF1, TCF-13, TCF13, TEAD-1, TEF-1)</addgene:entrezGene>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>776</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:geneInsertName>TEAD1</addgene:geneInsertName>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:refBib>  Inactivation of YAP oncoprotein by the Hippo pathway is involved in cell contact inhibition and tissue growth control. Zhao B, Wei X, Li W, Udan RS, Yang Q, Kim J, Xie J, Ikenoue T, Yu J, Li L, Zheng P, Ye K, Chinnaiyan A, Halder G, Lai ZC, Guan KL. Genes Dev. 2007 Nov 1. 21(21):2747-61. 10.1101/gad.1602907   PubMed 17974916   </addgene:refBib>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:plasmidTitle>pRK7-Myc-TEAD1</addgene:plasmidTitle>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/17974916"/>
+    <genbank:date>31-AUG-2021</genbank:date>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:backboneSizeWoInsertBp>4700</addgene:backboneSizeWoInsertBp>
+    <addgene:tagFusionProtein>Myc (N terminal on insert)</addgene:tagFusionProtein>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:division>SYN</genbank:division>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Zhao B, Wei X, Li W, Udan RS, Yang Q, Kim J, Xie J, Ikenoue T, Yu J, Li L, Zheng P, Ye K, Chinnaiyan A, Halder G, Lai ZC, Guan KL</genbank:authors>
+    <genbank:pubmed>17974916</genbank:pubmed>
+    <genbank:title>Inactivation of YAP oncoprotein by the Hippo pathway is involved in cell contact inhibition and tissue growth control.</genbank:title>
+    <genbank:journal>Genes Dev. 2007 Nov 1. 21(21):2747-61.</genbank:journal>
+    <genbank:label>1  (bases 1 to 776)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Aug 31, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 776)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>cactcccaggtccaactggcacctcggcttctaagctgagaatggagcaaaagctcatctcagaggaagatctgaagcttctgcaggtcgactctagagaaaggatgagtgactctgcagataagccaattgacaatgatgcagaaggggtctggagccccgacatcgagcaaagctttcaggaggccctggctatctatccaccatgtgggaggaggaaaatcatcttatcagacgaaggcaaaatgtatggtaggaatgaattgatagccagatacatcaaactcaggacaggcaagacgaggaccagaaaacaggtgtctagtcacattcaggttcttgccagaaggaaatctcgtgattttcattccaagctaaaggatcagactgcaaaggataaggccctgcagcacatggcggccatgtcctcagcccagatcgtctcggccactgccattcataacaagctggggctgcctgggattccacgcccgaccttcccaggggcgccggggttctggccgggaatgattcaaacagggcagccaggatcctcacaagacgtcaagccttttgtgcagcaggcctaccccatccagccagcggtcacagcccccattccagggtttgagcctgcatcggccccagctccctcagtccctgcctggcaaggtcgctccattggcacaaccaagcttcgcctggtggaattttcagcttttctcgagcagcagcgagacccagactcgtacaacaaacacctcttcgtgcacatt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
