@@ -185,27 +185,23 @@ async def pull_data(session, addgene_id):
 
 ################################# CREATE ALL SBOL FILES ##############################
 # ids = [3, 4, 6]
-async def main(min_i, max_i):
+async def main(cwd):
     async with aiohttp.ClientSession() as session:
         # add list of files in folder. and check what is in data but not folder
-        start = time.time()
         data = pd.read_csv('addgene_combined_ids.csv', header=None).to_dict(orient='list')[0]
         problem_data = pd.read_csv('addgene_issues.csv', header=None).to_dict(orient='list')[0]
         conv_files = os.listdir(os.path.join(cwd, 'addgene_sbol'))
         conv_file_num = [int(x.replace('_addgene_out.xml', '')) for x in conv_files]
         conv_file_num = conv_file_num + problem_data
         files_to_do = list(set(data) - set(conv_file_num))
-        # files_to_do = [i for i in data if i not in conv_file_num]
 
-        end = time.time()
-        print(f'time is {end-start}')
         print('starting async pull')
         print(f'files to do: {len(files_to_do)}')
         
-        ret = await asyncio.gather(*[pull_data(session, i) for i in files_to_do if min_i <= i < max_i])
+        ret = await asyncio.gather(*[pull_data(session, i) for i in files_to_do])
 
 
-min_i = 0
-max_i =  200000 #181796
+
+#181796
 cwd = os.getcwd()
-asyncio.run(main(min_i, max_i))
+asyncio.run(main(cwd))

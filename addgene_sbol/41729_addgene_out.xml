@@ -1,0 +1,102 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:mutation>in-frame UGA stop codon at codon 110 in the open reading frame of the RLuc cDNA</addgene:mutation>
+    <addgene:backboneSizeWoInsertBp>4079</addgene:backboneSizeWoInsertBp>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1387/"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:vectorType>Mammalian Expression, Luciferase</addgene:vectorType>
+    <addgene:refBib>  Mechanism of PTC124 activity in cell-based luciferase assays of nonsense codon suppression. Auld DS, Thorne N, Maguire WF, Inglese J. Proc Natl Acad Sci U S A. 2009 Mar 3;106(9):3585-90. Epub 2009 Feb 10. 10.1073/pnas.0813345106   PubMed 19208811   </addgene:refBib>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:division>SYN</genbank:division>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:backboneManufacturer>Promega</addgene:backboneManufacturer>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19208811"/>
+    <genbank:date>14-JUN-2021</genbank:date>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:altName>renilla luciferase</addgene:altName>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>48</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>30</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T7 promoter</dcterms:title>
+        <gbConv:note>promoter for bacteriophage T7 RNA polymerase</gbConv:note>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>T7 promoter</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:end>829</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:addgeneId>41729</addgene:addgeneId>
+    <addgene:fiveSequencingPrimer>GCTAGAGTACTTAATACGACTC</addgene:fiveSequencingPrimer>
+    <genbank:keywords>pRLuc110UGA</genbank:keywords>
+    <addgene:insertSizeBp>861</addgene:insertSizeBp>
+    <addgene:refMethod> pRLuc110UGA was a gift from  James Inglese    (Addgene plasmid # 41729 ; http://n2t.net/addgene:41729 ; RRID:Addgene_41729)    </addgene:refMethod>
+    <addgene:cloningMethod>Ligation Independent Cloning</addgene:cloningMethod>
+    <addgene:vectorBackbone>pRL-CMV</addgene:vectorBackbone>
+    <addgene:promoter>CMV</addgene:promoter>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>This construct was prepared and sequenced by GenScript Coporation.</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:plasmidTitle>pRLuc110UGA</addgene:plasmidTitle>
+    <addgene:geneInsertName>RLuc110UGA</addgene:geneInsertName>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <obo:OBI_0001617>19208811</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>19208811</genbank:pubmed>
+    <genbank:title>Mechanism of PTC124 activity in cell-based luciferase assays of nonsense codon suppression.</genbank:title>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2009 Mar 3;106(9):3585-90. Epub 2009 Feb 10.</genbank:journal>
+    <genbank:label>1  (bases 1 to 829)</genbank:label>
+    <genbank:authors>Auld DS, Thorne N, Maguire WF, Inglese J</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 14, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 829)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>ttcattacagctcttaaggctagagtacttaatacgactcactataggctagccaccatgacttcgaaagtttatgatccagaacaaaggaaacggatgataactggtccgcagtggtgggccagatgtaaacaaatgaatgttcttgattcatttattaattattatgattcagaaaaacatgcagaaaatgctgttatttttttacatggtaacgcggcctcttcttatttatggcgacatgttgtgccacatattgagccagtagcgcggtgtattataccagaccttattggtatgggcaaatcaggcaaatctggtaatggttcttataggttacttgatcattacaaatatcttactgcatggtttgaacttcttaattgaccaaagaagatcatttttgtcggccatgattggggtgcttgtttggcatttcattatagctatgagcatcaagataagatcaaagcaatagttcacgctgaaagtgtagtagatgtgattgaatcatgggatgaatggcctgatattgaagaagatattgcgttgatcaaatctgaagaaggagaaaaaatggttttggagaataacttcttcgtggaaaccatgttgccatcaaaaatcatgagaaagttagaaccagaagaatttgcagcatatcttgaaccattcaaagagaaaggtgaagttcgtcgtccaacattatcatggcctcgtgaaatcccgttagtaaaaggtggtaaacctgacgttgtacaaattgttaggaattataatgcttatctacgtgcaagtgatgatttaccaaaaatgtttattgaatcgg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

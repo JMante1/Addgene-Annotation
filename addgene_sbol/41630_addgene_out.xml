@@ -1,0 +1,149 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:geneInsertName>Transmembrane Protein 138</addgene:geneInsertName>
+    <addgene:plasmidTitle>TMEM138-mCherry</addgene:plasmidTitle>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:refBib>  Evolutionarily assembled cis-regulatory module at a human ciliopathy locus. Lee JH, Silhavy JL, Lee JE, Al-Gazali L, Thomas S, Davis EE, Bielas SL, Hill KJ, Iannicelli M, Brancati F, Gabriel SB, Russ C, Logan CV, Sharif SM, Bennett CP, Abe M, Hildebrandt F, Diplas BH, Attie-Bitach T, Katsanis N, Rajab A, Koul R, Sztriha L, Waters ER, Ferro-Novick S, Woods CG, Johnson CA, Valente EM, Zaki MS, Gleeson JG. Science. 2012 Feb 24;335(6071):966-9. Epub 2012 Jan 26. 10.1126/science.1213506   PubMed 22282472   </addgene:refBib>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <obo:OBI_0001617>22282472</obo:OBI_0001617>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <dcterms:title>mCherry-R</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:end>568</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:start>550</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>mCherry, reverse primer</gbConv:note>
+        <gbConv:label>mCherry-R</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:division>SYN</genbank:division>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:entrezGene>TMEM138
+
+                        
+                        (a.k.a. HSPC196)</addgene:entrezGene>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>300</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>281</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:label>mCherry-F</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:note>mCherry, forward primer</gbConv:note>
+        <dcterms:title>mCherry-F</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/22282472"/>
+    <addgene:addgeneId>41630</addgene:addgeneId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>886</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:keywords>TMEM138-mCherry</genbank:keywords>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:date>13-JUN-2021</genbank:date>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:vectorBackbone>pcDNA3.1</addgene:vectorBackbone>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <addgene:tagFusionProtein>mCherry (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:altName>TMEM138</addgene:altName>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/741/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:product>monomeric derivative of DsRed fluorescent protein (Shaner et al., 2004)</gbConv:product>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:translation>MVSKGEEDNMAIIKEFMRFKVHMEGSVNGHEFEIEGEGEGRPYEGTQTAKLKVTKGGPLPFAWDILSPQFMYGSKAYVKHPADIPDYLKLSFPEGFKWERVMNFEDGGVVTVTQDSSLQDGEFIYKVKLRGTNFPSDGPVMQKKTMGWEASSERMYPEDGALKGEIKQRLKLKDGGHYDAEVKTTYKAKKPVQLPGAYNVNIKLDITSHNEDYTIVEQYERAEGRHSTGGMDELYK</gbConv:translation>
+        <dcterms:title>mCherry</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:label>mCherry</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>713</sbol:end>
+            <sbol:start>3</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>mammalian codon-optimized</gbConv:note>
+        <gbConv:codon_start>1</gbConv:codon_start>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:modificationsToBackbone>added C-terminal mCherry</addgene:modificationsToBackbone>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:refMethod> TMEM138-mCherry was a gift from  Joseph Gleeson    (Addgene plasmid # 41630 ; http://n2t.net/addgene:41630 ; RRID:Addgene_41630)    </addgene:refMethod>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:threeSequencingPrimer>mCherry-R for insert; BGH-rev for vector</addgene:threeSequencingPrimer>
+    <addgene:promoter>CMV</addgene:promoter>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Evolutionarily assembled cis-regulatory module at a human ciliopathy locus.</genbank:title>
+    <genbank:authors>Lee JH, Silhavy JL, Lee JE, Al-Gazali L, Thomas S, Davis EE, Bielas SL, Hill KJ, Iannicelli M, Brancati F, Gabriel SB, Russ C, Logan CV, Sharif SM, Bennett CP, Abe M, Hildebrandt F, Diplas BH, Attie-Bitach T, Katsanis N, Rajab A, Koul R, Sztriha L, Waters ER, Ferro-Novick S, Woods CG, Johnson CA, Valente EM, Zaki MS, Gleeson JG</genbank:authors>
+    <genbank:label>1  (bases 1 to 886)</genbank:label>
+    <genbank:journal>Science. 2012 Feb 24;335(6071):966-9. Epub 2012 Jan 26.</genbank:journal>
+    <genbank:pubmed>22282472</genbank:pubmed>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 886)</genbank:label>
+    <genbank:journal>Exported Jun 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>agctacttgtacagctcgtccatgccgccggtggagtggcggccctcggcgcgttcgtactgttccacgatggtgtagtcctcgttgtgggaggtgatgtccaacttgatgttgacgttgtaggcgccgggcagctgcacgggcttcttggccttgtaggtggtcttgacctcagcgtcgtagtggccgccgtccttcagcttcagcctctgcttgatctcgcccttcagggcgccgtcctcggggtacatccgctcggaggaggcctcccagcccatggtcttcttctgcattacggggccgtcggaggggaagttggtgccgcgcagcttcaccttgtagatgaactcgccgtcctgcagggaggagtcctgggtcacggtcaccacgccgccgtcctcgaagttcatcacgcgctcccacttgaagccctcggggaaggacagcttcaagtagtcggggatgtcggcggggtgcttcacgtaggccttggagccgtacatgaactgaggggacaggatgtcccaggcgaagggcagggggccacccttggtcaccttcagcttggcggtctgggtgccctcgtaggggcggccctcgccctcgccctcgatctcgaactcgtggccgttcacggagccctccatgtgcaccttgaagcgcatgaactccttgatgatggccatgttatcctcctcgcccttgctcaccatacgcgtccttcgaacttgcatgaactccttgcgcagccacaaagagtcctggtagaagtgaggatcgcctagtcttacggctgtccgtttatagaagtagcagtacaacactgctgctagtctctggaatacaaacagcatttgaagtccatctgtccatatgaagctgttgg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

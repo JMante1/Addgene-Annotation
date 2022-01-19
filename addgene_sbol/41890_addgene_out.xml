@@ -1,0 +1,91 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:fiveCloningSite>Eco881
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1433/"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23277568"/>
+    <addgene:vectorBackbone>prset-b</addgene:vectorBackbone>
+    <genbank:keywords>KaiC CI fragment (248--&gt;TAA stop codon)</genbank:keywords>
+    <addgene:growthInstructions>for expression: grow at 25 C for two days</addgene:growthInstructions>
+    <addgene:species>cyanobacteria</addgene:species>
+    <addgene:insertSizeBp>814</addgene:insertSizeBp>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <obo:OBI_0001617>23277568</obo:OBI_0001617>
+    <addgene:threeSequencingPrimer>GGAGGTAGATCTTTAGCTCTCCGGCCCTTTTTCTTG</addgene:threeSequencingPrimer>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:refBib>  Robust and tunable circadian rhythms from differentially sensitive catalytic domains. Phong C, Markson JS, Wilhoite CM, Rust MJ. Proc Natl Acad Sci U S A. 2013 Jan 15;110(3):1124-9. doi: 10.1073/pnas.1212113110. Epub 2012 Dec 31. 10.1073/pnas.1212113110   PubMed 23277568   </addgene:refBib>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:mutation>CII portion is deleted</addgene:mutation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:threeCloningSite>BglII
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:end>815</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:selectableMarkers>Puromycin</addgene:selectableMarkers>
+    <addgene:promoter>t7</addgene:promoter>
+    <addgene:totalVectorSizeBp>3000</addgene:totalVectorSizeBp>
+    <addgene:backboneSizeWoInsertBp>2200</addgene:backboneSizeWoInsertBp>
+    <addgene:backboneManufacturer>invitrogen</addgene:backboneManufacturer>
+    <addgene:addgeneId>41890</addgene:addgeneId>
+    <addgene:fiveSequencingPrimer>CCCGCTCGGGGCAATGCGCCTTACGCAGCGATC</addgene:fiveSequencingPrimer>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:genBankID>cp000100</addgene:genBankID>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:geneInsertName>Kai C CI fragment</addgene:geneInsertName>
+    <addgene:refMethod> KaiC CI fragment (248--&gt;TAA stop codon) was a gift from  Michael Rust   (Addgene plasmid # 41890)   </addgene:refMethod>
+    <genbank:date>02-SEP-2021</genbank:date>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:plasmidTitle>KaiC CI fragment (248--&gt;TAA stop codon)</addgene:plasmidTitle>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Phong C, Markson JS, Wilhoite CM, Rust MJ</genbank:authors>
+    <genbank:pubmed>23277568</genbank:pubmed>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2013 Jan 15;110(3):1124-9. doi: 10.1073/pnas.1212113110. Epub 2012 Dec 31.</genbank:journal>
+    <genbank:title>Robust and tunable circadian rhythms from differentially sensitive catalytic domains.</genbank:title>
+    <genbank:label>1  (bases 1 to 815)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Sep 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 815)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ccagctgcagatctttagctctccggccctttttcttgaacgccgcgcacaattcgcgagagttcgcttttctcatcgacggtaatccgtgttggcgaacctgaaataatccgctcaaagttccggaaagaatccttgatgtccggccctttgtcgctgatcatgaattcgcggattgctttgtcatgccaagatccgcgcatcttgaagacgttaatggcgcgggacatttcgccacgaatctcgacgtattggagcaagataatcgtatccgtaattgttgagatatgggagtcagtaatcgaatgcgctcccataaattgatcactggtatttgtgaatagtcccgtgatttcttcttgtttcgcgtagccagtgacaccaattacaaattggcggaaggcattgttgctaacgccccgcgccaaagcagagagggagtcgattgcaatacgagctggcttaaagtcattgatctccgacttaataatctgcaaatggtcttcaagacctgcagattcaggataggcgcaaacaattttgaggaggttttggcgctccatctcctcaaagtccattccccatgaataggcattgcggagcagctgagctcgtgactcttcataagcgaacagaatcgcccgctctttgttagcacaagcattctcaacgaaacggctaactaacagagttttaccagtgcctgtagcgccagttgccagaatgattgagtccttaaagaagcccccaccacacatttcatcgagtcggacgacaccagatgaaacacgcacgttcgacgatcgctgcgtaag</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
