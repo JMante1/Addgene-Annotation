@@ -1,0 +1,115 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <obo:OBI_0001617>15358359</obo:OBI_0001617>
+    <addgene:plasmidTitle>pET21c(+)-EFG1mt</addgene:plasmidTitle>
+    <addgene:threeSequencingPrimer>T7-term</addgene:threeSequencingPrimer>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:keywords>pET21c(+)-EFG1mt</genbank:keywords>
+    <genbank:division>SYN</genbank:division>
+    <addgene:mutation>Includes the coding sequence for the mature form. Amino acids 36-751.</addgene:mutation>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:selectableMarkers>chloramphenicol</addgene:selectableMarkers>
+    <sbol:displayId>Exported</sbol:displayId>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <addgene:geneInsertName>Mature form human mitochondrial elongation factor G isoform 1</addgene:geneInsertName>
+    <addgene:tagFusionProtein>His (C terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:refMethod> pET21c(+)-EFG1mt was a gift from  Linda Spremulli    (Addgene plasmid # 31076 ; http://n2t.net/addgene:31076 ; RRID:Addgene_31076)    </addgene:refMethod>
+    <addgene:addgeneId>31076</addgene:addgeneId>
+    <addgene:altName>GFM1</addgene:altName>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:refBib>  Expression and characterization of isoform 1 of human mitochondrial elongation factor G. Bhargava K, Templeton P, Spremulli LL. Protein Expr Purif. 2004 Oct . 37(2):368-76. 10.1016/j.pep.2004.06.030   PubMed 15358359   </addgene:refBib>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/991/"/>
+    <addgene:backboneSizeWoInsertBp>5400</addgene:backboneSizeWoInsertBp>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:entrezGene>GFM1
+
+                        
+                        (a.k.a. COXPD1, EFG, EFG1, EFGM, EGF1, FLJ12662, FLJ13632, FLJ20773, GFM, hEFG1)</addgene:entrezGene>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:fiveCloningSite>NdeI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>43</sbol:end>
+            <sbol:start>26</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <dcterms:title>6xHis</dcterms:title>
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:label>6xHis</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:insertSizeBp>2145</addgene:insertSizeBp>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:backboneManufacturer>Novagen</addgene:backboneManufacturer>
+    <addgene:vectorBackbone>pET-21c(+)</addgene:vectorBackbone>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/15358359"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>848</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:date>13-JUN-2021</genbank:date>
+    <addgene:growthInstructions>BL21(DE3)(RIL). The RIL plasmid provides the isoacceptor tRNAs for Arg, Ile, Leu and the Chloramphenicol resistance</addgene:growthInstructions>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Expression and characterization of isoform 1 of human mitochondrial elongation factor G.</genbank:title>
+    <genbank:pubmed>15358359</genbank:pubmed>
+    <genbank:journal>Protein Expr Purif. 2004 Oct . 37(2):368-76.</genbank:journal>
+    <genbank:label>1  (bases 1 to 848)</genbank:label>
+    <genbank:authors>Bhargava K, Templeton P, Spremulli LL</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 848)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>gggctttgttagcagccggatctcagtggtggtggtggtggtgctcgaggttcttggcttttccttttttaacaggaagttgacctgtagcttccaaatacttattaatgacgtcttcttgtgtggatggtaaacatggctgatacctgctatactccattgtgtattctccctttccctctgtgcatgacctaagttcagtggaataaccaaacatatcatttagagggacatctgcatacagtgtaaaatagtcctcaactccatcttgcccagtgattaccccatggcgtcggttaattcctgcaattacttgtccctgaaattcatttggagctacaacttccacagccataataggttcaagaatacataatgttgcatttgccaaggcttgtttaagagcaccttctcctgctcggatgaaagagatttcattagaatcaaccatgtggtgtgctccatcttgcaggacaaaccggagcccagagagcttgtgaccagaaagagggcccttctcgcaggcatctaaaaaccccttttctacagcaggcacaaactgctttggaatatttgatccgaatgtttcatctgaaaattccaatttagtgtagtcctctgggtccagaggctccaggacacctattacttttccatactggcctgcaccacctgattgttttttatgtgtaaagtcaaacgggacaggggcagtaatggtctctcgaaaggcaacttttggctttcctgtgatacaaggacagccatactctctttccagcctctgagcatagatttccaggtgtaattctcccattccagatataactgtctctttgttctcagtg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
