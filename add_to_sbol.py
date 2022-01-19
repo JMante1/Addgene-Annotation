@@ -200,7 +200,7 @@ async def main(min_i, max_i):
         ret = await asyncio.gather(*[pull_data(session, i) for i in files_to_do if min_i <= i < max_i])
 
 
-min_i = 2000
-max_i =  30000 #181796
+min_i = 30000
+max_i =  60000 #181796
 cwd = os.getcwd()
 asyncio.run(main(min_i, max_i))

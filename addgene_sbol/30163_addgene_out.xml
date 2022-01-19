@@ -1,0 +1,104 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:keywords>pLW-24</genbank:keywords>
+    <addgene:backboneManufacturer>Promega</addgene:backboneManufacturer>
+    <addgene:refBib>  Protective immunity in macaques vaccinated with a modified vaccinia virus Ankara-based measles virus vaccine in the presence of passively acquired antibodies. Stittelaar KJ, Wyatt LS, de Swart RL, Vos HW, Groen J, van Amerongen G, van Binnendijk RS, Rozenblatt S, Moss B, Osterhaus AD. J Virol. 2000 May . 74(9):4236-43. 10.1128/JVI.74.9.4236-4243.2000   PubMed 10756037   </addgene:refBib>
+    <genbank:date>31-AUG-2021</genbank:date>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:backboneSizeWoInsertBp>2746</addgene:backboneSizeWoInsertBp>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <obo:OBI_0001617>10756037</obo:OBI_0001617>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/10756037"/>
+    <addgene:addgeneId>30163</addgene:addgeneId>
+    <addgene:plasmidTitle>pLW-24</addgene:plasmidTitle>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1038/"/>
+    <addgene:vectorBackbone>pGEM4Z</addgene:vectorBackbone>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:refMethod> pLW-24 was a gift from  Bernard Moss   (Addgene plasmid # 30163)   </addgene:refMethod>
+    <addgene:vectorType>Cloning</addgene:vectorType>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:product>enterokinase recognition and cleavage site</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>DDDDK</gbConv:translation>
+        <gbConv:label>enterokinase site</gbConv:label>
+        <dcterms:title>enterokinase site</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>235</sbol:end>
+            <sbol:start>221</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:threeSequencingPrimer>SP6</addgene:threeSequencingPrimer>
+    <addgene:insertSizeBp>1732</addgene:insertSizeBp>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:mutation>MVA FLANK1 (926 b.p.)&#13;
+VACCINIA VIRUS 7.5 PROMOTOR&#13;
+MVA FLANK2 (520 B.P.)</addgene:mutation>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:geneInsertName>MVA-FLNK1--P7.5 VV PROMOTOR--MVA FLNK2</addgene:geneInsertName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>873</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 873)</genbank:label>
+    <genbank:pubmed>10756037</genbank:pubmed>
+    <genbank:authors>Stittelaar KJ, Wyatt LS, de Swart RL, Vos HW, Groen J, van Amerongen G, van Binnendijk RS, Rozenblatt S, Moss B, Osterhaus AD</genbank:authors>
+    <genbank:title>Protective immunity in macaques vaccinated with a modified vaccinia virus Ankara-based measles virus vaccine in the presence of passively acquired antibodies.</genbank:title>
+    <genbank:journal>J Virol. 2000 May . 74(9):4236-43.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Aug 31, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 873)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>gttagtaaaacatggcgaggaaataaatcatataaaaaatgatttcatgattaaaccatgttgtgaaaaagtcaagaacgttcacattggcggacaatctaaaaacaatacagtgattgcagatttgccatatatggataatgcggtatccgatgtatgcaattcactgtataaaaagaatgtatcaagaatatccagatttgctaatttgataaagatagatgacgatgacaagactcctactggtgtatataattattttaaacctaaagatgccattcctgttattatatccataggaaaggatagagatgtttgtgaactattaatctcatctgataaagcgtgtgcgtgtatagagttaaattcatataaagtagccattcttcccatggatgtttccttttttaccaaaggaaatgcatcattgattattctcctgtttgatttctctatcgatgcggcacctctcttaagaagtgtaaccgataataatgttattatatctagacaccagcgtctacatgacgagcttccgagttccaattggttcaagttttacataagtataaagtccgactattgttctatattatatatggttgttgatggatctgtgatgcatgcaatagctgataatagaacttacgcaaatattagcaaaaatatattagacaatactacaattaacgatgagtgtagatgctgttattttgaaccacagattaggattcttgatagagatgagatgctcaatggatcatcgtgtgatatgaacagacattgtattatgatgaatttacctgatgtaggcgaatttggatctagtatgttggggaaatatgaacctgacatgattaagattgctctttc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
