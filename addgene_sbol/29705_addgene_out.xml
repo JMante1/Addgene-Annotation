@@ -1,0 +1,90 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:refBib>  Mutational inactivation of PTPRD in glioblastoma multiforme and malignant melanoma. Solomon DA, Kim JS, Cronin JC, Sibenaller Z, Ryken T, Rosenberg SA, Ressom H, Jean W, Bigner D, Yan H, Samuels Y, Waldman T. Cancer Res. 2008 Dec 15. 68(24):10300-6. 10.1158/0008-5472.CAN-08-3272   PubMed 19074898   </addgene:refBib>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <obo:OBI_0001617>19074898</obo:OBI_0001617>
+    <genbank:keywords>pCR-Blunt II-TOPO-PTPRD</genbank:keywords>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:entrezGene>PTPRD
+
+                        
+                        (a.k.a. HPTP, HPTPD, HPTPDELTA, PTPD, R-PTP-delta, RPTPDELTA)</addgene:entrezGene>
+    <addgene:fiveSequencingPrimer>M13-Fwd, T7</addgene:fiveSequencingPrimer>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:cloningMethod>TOPO Cloning</addgene:cloningMethod>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:backboneSizeWoInsertBp>3519</addgene:backboneSizeWoInsertBp>
+    <addgene:insertSizeBp>5041</addgene:insertSizeBp>
+    <addgene:geneInsertName>Protein tyrosine phosphatase receptor-type delta</addgene:geneInsertName>
+    <addgene:vectorType>cloning vector</addgene:vectorType>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19074898"/>
+    <addgene:mutation>none</addgene:mutation>
+    <addgene:genBankID>BC106714</addgene:genBankID>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:refMethod> pCR-Blunt II-TOPO-PTPRD was a gift from  Todd Waldman    (Addgene plasmid # 29705 ; http://n2t.net/addgene:29705 ; RRID:Addgene_29705)    </addgene:refMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>886</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/757/"/>
+    <addgene:plasmidTitle>pCR-Blunt II-TOPO-PTPRD</addgene:plasmidTitle>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:division>SYN</genbank:division>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <addgene:vectorBackbone>pCR-Blunt II-TOPO</addgene:vectorBackbone>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:locus>Exported</genbank:locus>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:altName>PTP delta</addgene:altName>
+    <addgene:selectableMarkers>Zeocin</addgene:selectableMarkers>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>received from Open Biosystems, is a clone from the IMAGE Consortium</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:threeSequencingPrimer>M13-Rev, SP6</addgene:threeSequencingPrimer>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:addgeneId>29705</addgene:addgeneId>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:date>25-MAY-2021</genbank:date>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Mutational inactivation of PTPRD in glioblastoma multiforme and malignant melanoma.</genbank:title>
+    <genbank:pubmed>19074898</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 886)</genbank:label>
+    <genbank:journal>Cancer Res. 2008 Dec 15. 68(24):10300-6.</genbank:journal>
+    <genbank:authors>Solomon DA, Kim JS, Cronin JC, Sibenaller Z, Ryken T, Rosenberg SA, Ressom H, Jean W, Bigner D, Yan H, Samuels Y, Waldman T</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 25, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 886)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>acgactcactatagggcgaattgggccctctagatgcatgctcgagcggccgccagtgtgatggatatctgcagaattcgcccttcaccccggaggcagtgattccaagctgctcgcgcacgctgctgccaagctgcaggatggtgcacgtagccaggctgctgctgctgctcctcactttcttcctccgcacggatgctgagacacctccaaggtttacacgaacacccgttgatcagacaggggtctctggcggagttgcctctttcatctgccaagctacgggagacccaagacctaaaattgtctggaacaaaaaaggaaagaaagtcagcaatcagagatttgaggtaatagagtttgacgatgggtctggatcagttctcagaatacaacccttacggactccgagggatgaggccatttatgaatgtgtggcctcaaataatgtgggagaaataagtgtatccaccagactcacagttttgcgggaagatcaaattcccaggggcttccctaccattgacatgggcccacagttgaaggtggttgagcgtactcgcacggccaccatgctttgtgcagccagtggtaatccggatccagaaatcacttggtttaaagatttcttacctgtggacacaagcaacaacaatggtcgtattaagcagttacgatcagaatctattggtggtacaccaataagaggagcccttcagattgagcagagtgaagagtctgaccaaggaaaatatgagtgtgttgccaccaacagcgcgggcactcgctattccgctcctgccaatttatatgtcagagagctgcgagaagttcgccgtgtcccaccaagattctctatcccacccactaatcatgaaatcatgcc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
