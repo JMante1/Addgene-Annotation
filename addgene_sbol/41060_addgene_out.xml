@@ -1,0 +1,91 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:date>02-SEP-2021</genbank:date>
+    <addgene:altName>Pr55(Gag)</addgene:altName>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:vectorBackbone>pCDNA3.1(+)</addgene:vectorBackbone>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:promoter>CMV</addgene:promoter>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:species>HIV-1 HXB2</addgene:species>
+    <addgene:genBankID>K03455.1
+AAB50258.1</addgene:genBankID>
+    <addgene:refBib>  Characterization of a myristoylated, monomeric HIV Gag protein. Dou J, Wang JJ, Chen X, Li H, Ding L, Spearman P. Virology. 2009 May 10;387(2):341-52. Epub 2009 Mar 12. 10.1016/j.virol.2009.02.037   PubMed 19285328   </addgene:refBib>
+    <genbank:keywords>Myr(-) WT Gag HA-tagged pcDNA3.1(+)</genbank:keywords>
+    <addgene:threeCloningSite>BamHI
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:division>SYN</genbank:division>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:tagFusionProtein>HA (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:mutation>Myr(-) (G2A); codon-optimized (human)</addgene:mutation>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:backboneSizeWoInsertBp>5428</addgene:backboneSizeWoInsertBp>
+    <addgene:plasmidTitle>Myr(-) WT Gag HA-tagged pcDNA3.1(+)</addgene:plasmidTitle>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1389/"/>
+    <addgene:refMethod> Myr(-) WT Gag HA-tagged pcDNA3.1(+) was a gift from  Paul Spearman   (Addgene plasmid # 41060)   </addgene:refMethod>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>825</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:fiveCloningSite>HindIII
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:geneInsertName>Myr(-) WT Gag HA-tagged</addgene:geneInsertName>
+    <addgene:threeSequencingPrimer>BGH-rev</addgene:threeSequencingPrimer>
+    <obo:OBI_0001617>19285328</obo:OBI_0001617>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19285328"/>
+    <addgene:addgeneId>41060</addgene:addgeneId>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Characterization of a myristoylated, monomeric HIV Gag protein.</genbank:title>
+    <genbank:authors>Dou J, Wang JJ, Chen X, Li H, Ding L, Spearman P</genbank:authors>
+    <genbank:pubmed>19285328</genbank:pubmed>
+    <genbank:journal>Virology. 2009 May 10;387(2):341-52. Epub 2009 Mar 12.</genbank:journal>
+    <genbank:label>1  (bases 1 to 825)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Sep 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 825)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>ctctagactcgagcggccgccactgtgctggatatctgcagaattccaccacactggactagtggatccttaggcagagtctgggacgtcatatggatattgtgacgaggggtcgctgccaaagagtgatctgagggaagctaaaggatacagttccttgtctatcggctcctgcttctgagagggagttgttgtctcttccccaaacctgaagctctcttctggtggggctgttggctctggtctgctctgaagaaaattccctggccttcccttgtgggaaggccagatcttccctaaaaaattagcctgtcgctcggtgcagtccttcatctggtggccctccttgccgcacttccagcagcccttcttgcggggggcgcggcagttgcgggcggtgtggccctccttgccgcagttgaagcacttcacgatcttgcgctggttgcggaagttgccgcgctgcatcatgatggtggcgctgttggtcacctggctcatggcctcggccagcacgcgggccttgtggccggggccgcccacgccctggcaggcggtcatcatctcctccagggtggcggcggggcccagggccttcaggatggtcttgcagtcggggttggcgttctgcaccagcagggtctcggtcatccagttcttcacctcctggctggcctgctcggcgcgcagggtcttgtagaagcggtccacgtagtcgcggaagggctccttggggccctggcggatgtccaggatgctggtggggctgtacatgcgcacgatcttgttcaggcccaggatgatccagcgcttgtagatctcgcc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
