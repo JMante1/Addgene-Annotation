@@ -194,7 +194,7 @@ async def main(min_i, max_i):
         problem_data = pd.read_csv('addgene_issues.csv', header=None).to_dict(orient='list')[0]
         conv_files = os.listdir(os.path.join(cwd, 'addgene_sbol'))
         conv_file_num = [int(x.replace('_addgene_out.xml', '')) for x in conv_files]
-        conv_file_num = conv_file_num.append(problem_data)
+        conv_file_num.append(problem_data)
         files_to_do = [i for i in data if i not in conv_file_num]
 
         print('starting async pull')
