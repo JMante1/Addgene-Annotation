@@ -7,6 +7,7 @@ import os
 import pandas as pd
 import asyncio
 import aiohttp
+import time
 
 
 async def addgene_to_sbol(session, addgene_id):
@@ -187,13 +188,17 @@ async def pull_data(session, addgene_id):
 async def main(min_i, max_i):
     async with aiohttp.ClientSession() as session:
         # add list of files in folder. and check what is in data but not folder
+        start = time.time()
         data = pd.read_csv('addgene_combined_ids.csv', header=None).to_dict(orient='list')[0]
         problem_data = pd.read_csv('addgene_issues.csv', header=None).to_dict(orient='list')[0]
         conv_files = os.listdir(os.path.join(cwd, 'addgene_sbol'))
         conv_file_num = [int(x.replace('_addgene_out.xml', '')) for x in conv_files]
         conv_file_num = conv_file_num + problem_data
-        files_to_do = [i for i in data if i not in conv_file_num]
+        files_to_do = list(set(data) - set(conv_file_num))
+        # files_to_do = [i for i in data if i not in conv_file_num]
 
+        end = time.time()
+        print(f'time is {end-start}')
         print('starting async pull')
         print(f'files to do: {len(files_to_do)}')
         
