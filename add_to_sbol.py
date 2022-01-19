@@ -204,6 +204,3 @@ min_i = 2000
 max_i =  30000 #181796
 cwd = os.getcwd()
 asyncio.run(main(min_i, max_i))
-
-
-# BEFORE RUNNING ADD CODE TO CHECK IF ALREADY CONVERTED FILE EXISTS AND UPDATE COMBINED IDS
