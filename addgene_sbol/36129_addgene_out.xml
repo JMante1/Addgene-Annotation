@@ -1,0 +1,205 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:addgeneId>36129</addgene:addgeneId>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <dcterms:title>F1ori-F</dcterms:title>
+        <gbConv:label>F1ori-F</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>621</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+            <sbol:start>600</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <gbConv:note>F1 origin, forward primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pcDNA-DEST47-CypB-Full C-term GFP was a gift from  Patrick Van Oostveldt    (Addgene plasmid # 36129 ; http://n2t.net/addgene:36129 ; RRID:Addgene_36129)    </addgene:refMethod>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:start>303</sbol:start>
+            <sbol:end>731</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:direction>RIGHT</gbConv:direction>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <dcterms:title>f1 ori</dcterms:title>
+        <gbConv:label>f1 ori</gbConv:label>
+        <gbConv:note>f1 bacteriophage origin of replication; arrow indicates direction of (+) strand synthesis</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>28-JUN-2021</genbank:date>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:tagFusionProtein>GFP (C terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:label>bGH poly(A) signal</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:end>257</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>33</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>bovine growth hormone polyadenylation signal</gbConv:note>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <dcterms:title>bGH poly(A) signal</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:threeSequencingPrimer>BGH-rev</addgene:threeSequencingPrimer>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:refBib>  Spatiotemporal behavior of nuclear cyclophilin B indicates a role in RNA transcription. Dieriks B, Van Oostveldt P. Int J Mol Med. 2012 Mar 13. doi: 10.3892/ijmm.2012.937. 10.3892/ijmm.2012.937   PubMed 22426501   </addgene:refBib>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1217/"/>
+    <addgene:altName>Peptidyl-prolyl cis-trans isomerase B</addgene:altName>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <dcterms:title>BGH-rev</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:note>Bovine growth hormone terminator, reverse primer. Also called BGH reverse</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>44</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>27</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>BGH-rev</gbConv:label>
+        <sbol:displayId>annotation1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:plasmidTitle>pcDNA-DEST47-CypB-Full C-term GFP</addgene:plasmidTitle>
+    <addgene:geneInsertName>cyclophilin B</addgene:geneInsertName>
+    <addgene:backboneSizeWoInsertBp>7780</addgene:backboneSizeWoInsertBp>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <genbank:keywords>pcDNA-DEST47-CypB-Full C-term GFP</genbank:keywords>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:mutation>AA 1-216 (=full cyclophilin B sequence)</addgene:mutation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:entrezGene>PPIB
+
+                        
+                        (a.k.a. B, CYP-S1, CYPB, HEL-S-39, OI9, SCYLP)</addgene:entrezGene>
+    <obo:OBI_0001617>22426501</obo:OBI_0001617>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <dcterms:title>F1ori-R</dcterms:title>
+        <gbConv:note>F1 origin, reverse primer</gbConv:note>
+        <gbConv:label>F1ori-R</gbConv:label>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:end>409</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>390</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>898</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/22426501"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <gbConv:label>pBABE 3'</gbConv:label>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <dcterms:title>pBABE 3'</dcterms:title>
+        <gbConv:note>SV40 enhancer, reverse primer for pBABE vectors</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:start>740</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>760</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Gateway Cloning</addgene:cloningMethod>
+    <addgene:vectorBackbone>pcDNA-DEST47</addgene:vectorBackbone>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Dieriks B, Van Oostveldt P</genbank:authors>
+    <genbank:label>1  (bases 1 to 898)</genbank:label>
+    <genbank:pubmed>22426501</genbank:pubmed>
+    <genbank:journal>Int J Mol Med. 2012 Mar 13. doi: 10.3892/ijmm.2012.937.</genbank:journal>
+    <genbank:title>Spatiotemporal behavior of nuclear cyclophilin B indicates a role in RNA transcription.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 898)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 28, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>aataatgaattaaacccgctgatcagcctcgactgtgccttctagttgccagccatctgttgtttgcccctcccccgtgccttccttgaccctggaaggtgccactcccactgtcctttcctaataaaatgaggaaattgcatcgcattgtctgagtaggtgtcattctattctggggggtggggtggggcaggacagcaagggggaggattgggaagacaatagcaggcatgctggggatgcggtgggctctatggcttctgaggcggaaagaaccagctggggctctagggggtatccccacgcgccctgtagcggcgcattaagcgcggcgggtgtggtggttacgcgcagcgtgaccgctacacttgccagcgccctagcgcccgctcctttcgctttcttcccttcctttctcgccacgttcgccggctttccccgtcaagctctaaatcgggggctccctttagggttccgatttagtgctttacggcacctcgaccccaaaaaacttgattagggtgatggttcacgtagtgggccatcgccctgatagacggtttttcgccctttgacgttggagtccacgttctttaatagtggactcttgttccaaactggaacaacactcaaccctatctcggtctattcttttgatttataagggattttgccgatttcggcctattggttaaaaaatgagctgatttaacaaaaatttaacgcgaattaattctgtggaatgtgtgtcagttagggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcagcaaccaggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcagcaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>

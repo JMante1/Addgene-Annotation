@@ -1,0 +1,169 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:entrezGene>MIR28
+
+                        
+                        (a.k.a. MIRN28, hsa-mir-28, miR-28)</addgene:entrezGene>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:division>SYN</genbank:division>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/22240480"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:label>SV40 promoter</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:note>SV40 enhancer and early promoter</gbConv:note>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:end>850</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>521</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>SV40 promoter</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeCloningSite>EcoRI
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:refMethod> pBABE-miR-28 was a gift from  George Calin    (Addgene plasmid # 35686 ; http://n2t.net/addgene:35686 ; RRID:Addgene_35686)    </addgene:refMethod>
+    <genbank:date>30-MAY-2021</genbank:date>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:genBankID>407020
+NR_029502.1</addgene:genBankID>
+    <addgene:vectorType>Mammalian Expression, Retroviral</addgene:vectorType>
+    <addgene:addgeneId>35686</addgene:addgeneId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:displayId>annotation4</sbol:displayId>
+        <dcterms:title>SV40pro-F</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:end>782</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:start>763</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>SV40pro-F</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:note>SV40 promoter/origin, forward primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:altName>MIR28</addgene:altName>
+    <addgene:refBib>  Strand-Specific miR-28-5p and miR-28-3p Have Distinct Effects in Colorectal Cancer Cells. Almeida MI, Nicoloso MS, Zeng L, Ivan C, Spizzo R, Gafa R, Xiao L, Zhang X, Vannini I, Fanini F, Fabbri M, Lanza G, Reis RM, Zweidler-McKay PA, Calin GA. Gastroenterology. 2012 Jan 10. 10.1053/j.gastro.2011.12.047   PubMed 22240480   </addgene:refBib>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:end>881</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1131/"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:backboneManufacturer>Weinberg (www.addgene.org/1764/)</addgene:backboneManufacturer>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>701</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:end>836</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>SV40 origin of replication</gbConv:note>
+        <dcterms:title>SV40 ori</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <gbConv:label>SV40 ori</gbConv:label>
+        <sbol:displayId>annotation3</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:insertSizeBp>483</addgene:insertSizeBp>
+    <addgene:plasmidTitle>pBABE-miR-28</addgene:plasmidTitle>
+    <addgene:threeSequencingPrimer>pBABE-3</addgene:threeSequencingPrimer>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:backboneSizeWoInsertBp>5169</addgene:backboneSizeWoInsertBp>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:selectableMarkers>Puromycin</addgene:selectableMarkers>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <obo:OBI_0001617>22240480</obo:OBI_0001617>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:vectorBackbone>pBABE-puro</addgene:vectorBackbone>
+    <addgene:fiveSequencingPrimer>pBABE-5</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>536</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>516</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>SV40 enhancer, reverse primer for pBABE vectors</gbConv:note>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>pBABE 3'</dcterms:title>
+        <gbConv:label>pBABE 3'</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:geneInsertName>hsa-miR-28</addgene:geneInsertName>
+    <addgene:fiveCloningSite>BamHI
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <genbank:keywords>pBABE-miR-28</genbank:keywords>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>22240480</genbank:pubmed>
+    <genbank:title>Strand-Specific miR-28-5p and miR-28-3p Have Distinct Effects in Colorectal Cancer Cells.</genbank:title>
+    <genbank:authors>Almeida MI, Nicoloso MS, Zeng L, Ivan C, Spizzo R, Gafa R, Xiao L, Zhang X, Vannini I, Fanini F, Fabbri M, Lanza G, Reis RM, Zweidler-McKay PA, Calin GA</genbank:authors>
+    <genbank:journal>Gastroenterology. 2012 Jan 10.</genbank:journal>
+    <genbank:label>1  (bases 1 to 881)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 30, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 881)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>cgcggacggccttcaggactttctagtagtactcaggagtttgacaaagaggagctagaagaggtttgtgaagtcagatgagtaatataattaggtttgtattttatgaagggcaacatctaaatatggcttgtctattcagcaagcacttattaagtgccttttgcatggtagacaacatgcttgatgctgaagatacaagaaaaaatttaaaatggtccttgccctcaaggagctcacagtctattgagttacctttctgactttcccactagattgtgagctcctggagggcaggcactttcgttcatctgaataagagcttaaatttcagtgttaatcctagattacaatcccgcctctattattttaactttgttcacatctgttaactgctctgaaagtcagagctaatactgcctacctcatcagggaaagattaaacgagaaaagaatgagatgtgattgacacagcaggagctctgtgaattcgccagcacagtggtcgaccctgtggaatgtgtgtcagttagggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcagcaaccaggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcaccaaccatagtcccgcccctaactccgcccatcccgcccctaactccgcccagttccgcccattctccgccccatggctgactaattttttttatttatgcagaggccgaggccgcctcggcctctgagctattccagaagtagtgaggaggcttttttggaggcctaggcttttgcaaaaagcttaccatgaccgagtacaagcccgggc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
