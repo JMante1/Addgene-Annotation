@@ -1,0 +1,110 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:entrezGene>PIK3CG
+
+                        
+                        (a.k.a. PI3CG, PI3K, PI3Kgamma, PIK3, p110gamma, p120-PI3K)</addgene:entrezGene>
+    <genbank:date>26-JUL-2021</genbank:date>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <obo:OBI_0001617>16432180</obo:OBI_0001617>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:keywords>pBSFI-p110-gamma</genbank:keywords>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16432180"/>
+    <addgene:backboneManufacturer>Aoki et al., PNAS. 1998 Dec 8;95(25):14950-5</addgene:backboneManufacturer>
+    <genbank:division>SYN</genbank:division>
+    <addgene:backboneSizeWoInsertBp>2949</addgene:backboneSizeWoInsertBp>
+    <addgene:fiveSequencingPrimer>T3</addgene:fiveSequencingPrimer>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:vectorBackbone>pBSFI</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>540</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <dcterms:title>WELQut site</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>430</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>441</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>WELQut site</gbConv:label>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:product>WELQut protease recognition and cleavage site</gbConv:product>
+        <gbConv:translation>WELQ</gbConv:translation>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:refBib>  Oncogenic transformation induced by the p110beta, -gamma, and -delta isoforms of class I phosphoinositide 3-kinase. Kang S, Denley A, Vanhaesebroeck B, Vogt PK. Proc Natl Acad Sci U S A. 2006 Jan 31;103(5):1289-94. Epub 2006 Jan 23. 10.1073/pnas.0510772103   PubMed 16432180   </addgene:refBib>
+    <addgene:addgeneId>34892</addgene:addgeneId>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:threeSequencingPrimer>T7</addgene:threeSequencingPrimer>
+    <addgene:threeCloningSite>MluI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:geneInsertName>p110&#947;</addgene:geneInsertName>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/554/"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:plasmidTitle>pBSFI-p110&#947;</addgene:plasmidTitle>
+    <addgene:altName>PIK3CG</addgene:altName>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:vectorType>Adaptor plasmid</addgene:vectorType>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:refMethod> pBSFI-p110&#947; was a gift from  Peter Vogt    (Addgene plasmid # 34892 ; http://n2t.net/addgene:34892 ; RRID:Addgene_34892)    </addgene:refMethod>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Oncogenic transformation induced by the p110beta, -gamma, and -delta isoforms of class I phosphoinositide 3-kinase.</genbank:title>
+    <genbank:pubmed>16432180</genbank:pubmed>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2006 Jan 31;103(5):1289-94. Epub 2006 Jan 23.</genbank:journal>
+    <genbank:label>1  (bases 1 to 540)</genbank:label>
+    <genbank:authors>Kang S, Denley A, Vanhaesebroeck B, Vogt PK</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jul 26, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 540)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>tcgataagcttacgcgtttttgattctagcctaaagtattaggctgaatgtttctctccttgtttgatgccaagaacaagatgtagaaaccaattaaactgcacagtccatcctttgtctctgcaaacttcgatctgatcaagaaaatactttttagcatcctcctcatttttccccactgtgagggcatcccggatatattcaatgtcttctttgcttgttaactggggcattcctgtcatcagcatcatggagaacaggatgatcagtaggtttgtgtgatgacgaagggctagataagccttaacacagatgtcctgaaatttctggaagtgtgggcttgtcttctttccagaagttcccatcacaaagaggaagtcaggggttagcacaaatggcactctctctttattaatgcccaggaaacttttgtaattcccaagaatgtgcccgaagtcaatatgaaataggtttcctgtctcggtgatcataatattgtcattgtgtctgtcgcctattccaagaacaaaggttgccaca</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
