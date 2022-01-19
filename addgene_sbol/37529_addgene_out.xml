@@ -1,0 +1,138 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:date>28-MAY-2021</genbank:date>
+    <addgene:addgeneId>37529</addgene:addgeneId>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:division>SYN</genbank:division>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:plasmidTitle>Monomer NA_V2</addgene:plasmidTitle>
+    <addgene:altName>RVD NA</addgene:altName>
+    <addgene:fiveSequencingPrimer>No</addgene:fiveSequencingPrimer>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <addgene:geneInsertName>Monomer NA</addgene:geneInsertName>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:keywords>Monomer NA_V2</genbank:keywords>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/898/"/>
+    <addgene:species>Synthetic</addgene:species>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>910</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <obo:OBI_0001617>22828628</obo:OBI_0001617>
+    <addgene:vectorBackbone>PJ201</addgene:vectorBackbone>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <dcterms:title>M13 Forward</dcterms:title>
+        <gbConv:label>M13 Forward</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:note>In lacZ gene. Also called M13-F20 or M13 (-21) Forward</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>588</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>571</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:totalVectorSizeBp>2746</addgene:totalVectorSizeBp>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/22828628"/>
+    <addgene:growthStrains>Stbl3</addgene:growthStrains>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:refMethod> Monomer NA_V2 was a gift from  Feng Zhang    (Addgene plasmid # 37529 ; http://n2t.net/addgene:37529 ; RRID:Addgene_37529)    </addgene:refMethod>
+    <addgene:insertSizeBp>102</addgene:insertSizeBp>
+    <addgene:threeSequencingPrimer>M13F</addgene:threeSequencingPrimer>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:backboneSizeWoInsertBp>2644</addgene:backboneSizeWoInsertBp>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <dcterms:title>M13 fwd</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:start>571</sbol:start>
+            <sbol:end>587</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>common sequencing primer, one of multiple similar variants</gbConv:note>
+        <gbConv:label>M13 fwd</gbConv:label>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:end>703</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>686</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>L4440 vector, forward primer</gbConv:note>
+        <dcterms:title>L4440</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:label>L4440</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refBib>  Comprehensive interrogation of natural TALE DNA-binding modules and transcriptional repressor domains. Cong L, Zhou R, Kuo YC, Cunniff M, Zhang F. Nat Commun. 2012 Jul 24;3:968. doi: 10.1038/ncomms1962. 10.1038/ncomms1962   PubMed 22828628   </addgene:refBib>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Cong L, Zhou R, Kuo YC, Cunniff M, Zhang F</genbank:authors>
+    <genbank:journal>Nat Commun. 2012 Jul 24;3:968. doi: 10.1038/ncomms1962.</genbank:journal>
+    <genbank:title>Comprehensive interrogation of natural TALE DNA-binding modules and transcriptional repressor domains.</genbank:title>
+    <genbank:pubmed>22828628</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 910)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 28, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 910)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>ttcgctgactcaccccagagcaggtcgtggcaattgcgagcaacgccgggggaaagcaggcactcgaaaccgtccagaggttgctgcctgtgctgtgccaagcgcacggacgtcaaaagggcgacacaaaatttattctaaatgcataataaatactgataacatcttatagtttgtattatattttgtattatcgttgacatgtataattttgatatcaaaaactgattttccctttattattttcgagatttattttcttaattctctttaacaaactagaaatattgtatatacaaaaaatcataaataatagatgaatagtttaattataggtgttcatcaatcgaaaaagcaacgtatcttatttaaagtgcgttgcttttttctcatttataaggttaaataattctcatatatcaagcaaagtgacaggcgcccttaaatattctgacaaatgctctttccctaaactccccccataaaaaaacccgccgaagcgggtttttacgttatttgcggattaacgattactcgttatcagaaccgcccagggggcccgagcttaagactggccgtcgttttacaacacagaaagagtttgtagaaacgcaaaaaggccatccgtcaggggccttctgctnagtttgatgcctggcagttccctactctcgccttccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtca</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

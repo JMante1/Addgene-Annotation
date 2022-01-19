@@ -1,0 +1,83 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:date>01-SEP-2021</genbank:date>
+    <addgene:refMethod> pEV6.09 was a gift from  Geraldine Seydoux   (Addgene plasmid # 37491)   </addgene:refMethod>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:cloningMethod>Gateway Cloning</addgene:cloningMethod>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:division>SYN</genbank:division>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:geneInsertName>NPP-7::npp-7 3&#8217;UTR</addgene:geneInsertName>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:vectorType>Worm Expression</addgene:vectorType>
+    <addgene:backboneManufacturer>Seydoux lab</addgene:backboneManufacturer>
+    <addgene:insertSizeBp>7000</addgene:insertSizeBp>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/20335358"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:fiveSequencingPrimer>M13_for20</addgene:fiveSequencingPrimer>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>666</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeSequencingPrimer>GFP-R</addgene:threeSequencingPrimer>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:plasmidTitle>pEV6.09</addgene:plasmidTitle>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:vectorBackbone>pCG150</addgene:vectorBackbone>
+    <addgene:addgeneId>37491</addgene:addgeneId>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:tagFusionProtein>GFP-Tev(LAP) (C terminal on insert)</addgene:tagFusionProtein>
+    <obo:OBI_0001617>20335358</obo:OBI_0001617>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:keywords>pEV6.09</genbank:keywords>
+    <addgene:refBib>  The C. elegans homolog of nucleoporin Nup98 is required for the integrity and function of germline P granules. Voronina E, Seydoux G. Development. 2010 May;137(9):1441-50. Epub 2010 Mar 24. 10.1242/dev.047654   PubMed 20335358   </addgene:refBib>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/459/"/>
+    <addgene:backboneSizeWoInsertBp>6300</addgene:backboneSizeWoInsertBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:species>C. elegans (nematode)</addgene:species>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 666)</genbank:label>
+    <genbank:pubmed>20335358</genbank:pubmed>
+    <genbank:title>The C. elegans homolog of nucleoporin Nup98 is required for the integrity and function of germline P granules.</genbank:title>
+    <genbank:authors>Voronina E, Seydoux G</genbank:authors>
+    <genbank:journal>Development. 2010 May;137(9):1441-50. Epub 2010 Mar 24.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 666)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported Sep 1, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>agttggtggaaaaagtaagtaattttattgtttacttttgaattgaggtgggaggaggttctgtactaatctagagacacaggacgtgcagccaatcatttcaaattttgttttattttcacacctttattgattccaacctaggaaataccataacgagacaagtggtgggttttaaatggtgggagtggtcacaacaacaatagatataattagatttcccattaaaaattaattcttgaaaaaaaaaatcggaaagaaaacattcaaatgaaaacaaaggggaagtagctctagctagaactcaaaaggctcggtgttgaaaacttgaaagttgtgtttcggaatttgagcaaaattaaatggaaatgtgtgggggggctgtctaaaaaagaaaacaaaataacgggtaatctaaacatttttgaaatcagtcacagcgaaaagtgtattaacccgatggtaattttgaataatttgaattatattttgaatataacagtttttaaagacttttgaatgggaagaatcatttgataggagacatatgggtatatatgggaggaggggttaatagatgtagataatttttaaatatagaacgggggacaaatactaccggggggaaaaaagggaatgaggatagaaagataactagggttttat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
