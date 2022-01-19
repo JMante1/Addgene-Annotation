@@ -5,11 +5,8 @@ import sbol2
 import io
 import os
 import pandas as pd
-import signal
-import sys
 import asyncio
 import aiohttp
-import json
 
 
 async def addgene_to_sbol(session, addgene_id):
