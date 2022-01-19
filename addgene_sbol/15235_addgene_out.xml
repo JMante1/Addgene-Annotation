@@ -1,0 +1,97 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:date>11-AUG-2021</genbank:date>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>617</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:articlesCitingThisPlasmid>2 References</addgene:articlesCitingThisPlasmid>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <addgene:entrezGene>Arhgef7
+
+                        
+                        (a.k.a. C, Cool, P, PIX, Pak3bp, beta-Pix, betaPi, betaPix, betaPix-b, betaPix-c, coo, cool-1, mKIAA0142, p8, p85Cool1, p85SPR)</addgene:entrezGene>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:addgeneId>15235</addgene:addgeneId>
+    <genbank:division>SYN</genbank:division>
+    <addgene:backboneSizeWoInsertBp>6100</addgene:backboneSizeWoInsertBp>
+    <addgene:vectorBackbone>pcDNA3</addgene:vectorBackbone>
+    <addgene:refBib>  Identification of protein networks associated with the PAK1-betaPIX-GIT1-paxillin signaling complex by mass spectrometry. Mayhew MW, Webb DJ, Kovalenko M, Whitmore L, Fox JW, Horwitz AF. J Proteome Res. 2006 Sep . 5(9):2417-23. 10.1021/pr060140t   PubMed 16944954   </addgene:refBib>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/208/"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:altName>COOL 1</addgene:altName>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:keywords>Flag-ECFP-betaPIXa</genbank:keywords>
+    <obo:OBI_0001617>16944954</obo:OBI_0001617>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <addgene:plasmidTitle>Flag-ECFP-betaPIXa</addgene:plasmidTitle>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>Dr. Chris Turner&#13;
+SUNY Upstate Medical Univ.&#13;
+Syracuse, NY</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:termsAndLicenses>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:termsAndLicenses>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:refMethod> Flag-ECFP-betaPIXa was a gift from  Rick Horwitz    (Addgene plasmid # 15235 ; http://n2t.net/addgene:15235 ; RRID:Addgene_15235)    </addgene:refMethod>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16944954"/>
+    <addgene:geneInsertName>beta-PIXa</addgene:geneInsertName>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:tagsFusionProteins>Flag (N terminal on backbone)
+ECFP (N terminal on backbone)</addgene:tagsFusionProteins>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:insertSizeBp>1950</addgene:insertSizeBp>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>J Proteome Res. 2006 Sep . 5(9):2417-23.</genbank:journal>
+    <genbank:authors>Mayhew MW, Webb DJ, Kovalenko M, Whitmore L, Fox JW, Horwitz AF</genbank:authors>
+    <genbank:pubmed>16944954</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 617)</genbank:label>
+    <genbank:title>Identification of protein networks associated with the PAK1-betaPIX-GIT1-paxillin signaling complex by mass spectrometry.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Aug 11, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 617)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>gccctctagatgcatgctcgagctatagattggtctcatcccaggcagggtcgttcatattctttagaaccttcctcaccagcttctctaagtccttgcgggccctctgttcctcctctaaggacttcttcatcttcttgttatcctgtcttaactcctggacttcatcctttaacgcatacaccgtatccacgaggctcttttcctctatcactgtctgcccattgctcttggtttcttcgactataattttttcttcttctggaagcaacacttgtggagcagattctttgcgtgaacttgagttcagggtctggcgcgtctttgcacttgtgcaataagcttcgataaccttcaggatctgagcgtcttcttccagcgccgctgtgctcttgcgcacagcgaactcctcgtccgaaggcttccgctcgggcttgcgcttcggcagcagctttttcatggtcttggggctcttactgagatcctccttgtagcagagagcagctgagggccggaggggaggtgcaggccgcatgcaactcaggctccaaggcttgggggtcttcggaggctccaggggtccccagctgatggtggtgtgtggggtgccatggtga</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

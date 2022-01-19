@@ -1,0 +1,170 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:refBib>  Differential patterning of cGMP in vascular smooth muscle cells revealed by single GFP-linked biosensors. Nausch LW, Ledoux J, Bonev AD, Nelson MT, Dostmann WR. Proc Natl Acad Sci U S A. 2008 Jan 8. 105(1):365-70. 10.1073/pnas.0710387105   PubMed 18165313   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:label>6xHis</gbConv:label>
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>62</sbol:end>
+            <sbol:start>45</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <dcterms:title>6xHis</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:growthInstructions>DH5alpha, 37C, overnight</addgene:growthInstructions>
+    <addgene:altName>FlincG</addgene:altName>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:keywords>pRSETA-betaFlincG</genbank:keywords>
+    <addgene:geneInsertName>beta-FlincG</addgene:geneInsertName>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/122/"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18165313"/>
+    <addgene:threeSequencingPrimer>n/a</addgene:threeSequencingPrimer>
+    <genbank:division>SYN</genbank:division>
+    <addgene:species>Bovine</addgene:species>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <gbConv:product>Xpress(TM) epitope tag, including an enterokinase recognition and cleavage site</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>DLYDDDDK</gbConv:translation>
+        <dcterms:title>Xpress(TM) tag</dcterms:title>
+        <gbConv:label>Xpress(TM) tag</gbConv:label>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:start>102</sbol:start>
+            <sbol:end>125</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:termsAndLicenses>UBMTA</addgene:termsAndLicenses>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:refMethod> pRSETA-betaFlincG was a gift from  Wolfgang Dostmann    (Addgene plasmid # 19736 ; http://n2t.net/addgene:19736 ; RRID:Addgene_19736)    </addgene:refMethod>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:threeCloningSite>EcoR1
+    (not destroyed)</addgene:threeCloningSite>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:insertSizeBp>2800</addgene:insertSizeBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>625</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveCloningSite>Xho1
+    (not destroyed)</addgene:fiveCloningSite>
+    <obo:OBI_0001617>18165313</obo:OBI_0001617>
+    <addgene:tagFusionProtein>His (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:product>leader peptide from bacteriophage T7 gene 10</gbConv:product>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:end>98</sbol:end>
+            <sbol:start>66</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>T7 tag (gene 10 leader)</gbConv:label>
+        <gbConv:translation>MASMTGGQQMG</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:note>promotes efficient translation in E. coli</gbConv:note>
+        <dcterms:title>T7 tag (gene 10 leader)</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>18-JUN-2021</genbank:date>
+    <addgene:addgeneId>19736</addgene:addgeneId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:vectorBackbone>pRSET-A</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>25</sbol:end>
+            <sbol:start>3</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <dcterms:title>efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)</dcterms:title>
+        <gbConv:note>efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:backboneSizeWoInsertBp>2900</addgene:backboneSizeWoInsertBp>
+    <addgene:plasmidTitle>pRSETA-betaFlincG</addgene:plasmidTitle>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 625)</genbank:label>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2008 Jan 8. 105(1):365-70.</genbank:journal>
+    <genbank:title>Differential patterning of cGMP in vascular smooth muscle cells revealed by single GFP-linked biosensors.</genbank:title>
+    <genbank:pubmed>18165313</genbank:pubmed>
+    <genbank:authors>Nausch LW, Ledoux J, Bonev AD, Nelson MT, Dostmann WR</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 625)</genbank:label>
+    <genbank:journal>Exported Jun 18, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>attttgtttaactttaagaaggagatatacatatgcggggttctcatcatcatcatcatcatggtatggctagcatgactggtggacagcaaatgggtcgggatctgtacgacgatgacgataaggatcgatggggatccgagctcgaggccatgggcaccctgcgggatttacagtacgcgctccaggagaagatcgaggagctgaggcagcgggatgctctcatcgacgagctggagctggagttggatcagaaggacgaactgatccagaagctgcagaacgagctggacaagtaccgctcggtgatccggccggccacccagcaggcgcagaagcagagcgcgagcaccttgcaaggcgagccgcgcaccaagcggcaggcgatctccgctgagcccaccgcctttgacatccaggatctcagccatgtgaccctgcccttctaccccaagagtccacagtccaaggatctcataaaggaggccatccttgacaatgactttatgaagaacttggagctgtcacagatccaagagattgtggattgtatgtacccagtggagtacggcaaagacagctgcatcatcaaagaaggagatgtggggtcactggtgtatgtcat</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

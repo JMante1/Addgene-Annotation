@@ -1,0 +1,169 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:label>pGEX 3'</gbConv:label>
+        <dcterms:title>pGEX 3'</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>346</sbol:end>
+            <sbol:start>324</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>pGEX vectors, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:mutation>ILPSDIMDFVL --&gt; ILPADIMDFVL</addgene:mutation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:geneInsertName>MLL min A.D.</addgene:geneInsertName>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/11259575"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/264/"/>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <dcterms:title>AmpR promoter</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:label>AmpR promoter</gbConv:label>
+        <gbConv:gene>bla</gbConv:gene>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:end>681</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>577</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:keywords>3695 pGEX4T-3 MLL AD mut.E</genbank:keywords>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:termsAndLicenses>UBMTA</addgene:termsAndLicenses>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <addgene:backboneSizeWoInsertBp>4970</addgene:backboneSizeWoInsertBp>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:tagFusionProtein>GST (N terminal on backbone)</addgene:tagFusionProtein>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:addgeneId>8867</addgene:addgeneId>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:date>10-JUL-2021</genbank:date>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:growthStrains>XL1 Blue</addgene:growthStrains>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>779</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <obo:OBI_0001617>11259575</obo:OBI_0001617>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:label>pBRforEco</gbConv:label>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:note>pBR322 vectors, upsteam of EcoRI site, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>491</sbol:start>
+            <sbol:end>509</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>pBRforEco</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:altName>minimal activation domain (aa 2829-2883)</addgene:altName>
+    <addgene:vectorBackbone>pGEX-4T3</addgene:vectorBackbone>
+    <addgene:threeCloningSite>BamHI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:fiveSequencingPrimer>pGEX-5'</addgene:fiveSequencingPrimer>
+    <addgene:refBib>  MLL and CREB bind cooperatively to the nuclear coactivator CREB-binding protein. Ernst P, Wang J, Huang M, Goodman RH, Korsmeyer SJ. Mol Cell Biol. 2001 Apr . 21(7):2249-58. 10.1128/MCB.21.7.2249-2258.2001   PubMed 11259575   </addgene:refBib>
+    <addgene:entrezGene>KMT2A
+
+                        
+                        (a.k.a. ALL-1, CXXC7, HRX, HTRX1, MLL, MLL1, MLL1A, TRX1, WDSTS)</addgene:entrezGene>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:insertSizeBp>165</addgene:insertSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:label>thrombin site</gbConv:label>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:product>thrombin recognition and cleavage site</gbConv:product>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>24</sbol:end>
+            <sbol:start>7</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:translation>LVPRGS</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>thrombin site</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> 3695 pGEX4T-3 MLL AD mut.E was a gift from  Stanley Korsmeyer    (Addgene plasmid # 8867 ; http://n2t.net/addgene:8867 ; RRID:Addgene_8867)    </addgene:refMethod>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:threeSequencingPrimer>pGEX-3'</addgene:threeSequencingPrimer>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:plasmidTitle>3695 pGEX4T-3 MLL AD mut.E</addgene:plasmidTitle>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 779)</genbank:label>
+    <genbank:journal>Mol Cell Biol. 2001 Apr . 21(7):2249-58.</genbank:journal>
+    <genbank:title>MLL and CREB bind cooperatively to the nuclear coactivator CREB-binding protein.</genbank:title>
+    <genbank:pubmed>11259575</genbank:pubmed>
+    <genbank:authors>Ernst P, Wang J, Huang M, Goodman RH, Korsmeyer SJ</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 779)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported Jul 10, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>tcggatctggttccgcgtggatccctgaaatcagattcagacaataacaacagtgatgactgtgggaatatcctgcctgcggacattatggactttgtactaaagaatactccatccatgcaggctttgggtgagagcccagagtcatcttcatcagaactcctgaatcttggtgaaggattgggtcttgaatccctgcaagccgaattccagcacactggcggccgttactagtggatccccgaattcccgggtcgactcgagcggccgcatcgtgactgactgacgatctgcctcgcgcgtttcggtgatgacggtgaaaacctctgacacatgcagctcccggagacggtcacagcttgtctgtaagcggatgccgggagcagacaagcccgtcagggcgcgtcagcgggtgttggcgggtgtcggggcgcagccatgacccagtcacgtagcgatagcggagtgtataattcttgaagacgaaagggcctcgtgatacgcctatttttataggttaatgtcatgataataatggtttcttagacgtcaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcaccagaacgctggtgaagtaaaatgtga</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

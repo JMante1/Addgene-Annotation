@@ -1,0 +1,168 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <dcterms:title>T7 promoter</dcterms:title>
+        <gbConv:note>promoter for bacteriophage T7 RNA polymerase</gbConv:note>
+        <gbConv:label>T7 promoter</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>183</sbol:start>
+            <sbol:end>201</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>02-JUN-2021</genbank:date>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:cloningMethod>Gateway Cloning</addgene:cloningMethod>
+    <addgene:tagsFusionProteins>eCFP (N terminal on insert)
+eYFP (C terminal on insert)</addgene:tagsFusionProteins>
+    <addgene:vectorBackbone>pDRf1GW-ura3</addgene:vectorBackbone>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:insertSizeBp>2316</addgene:insertSizeBp>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <dcterms:title>EGFP-C</dcterms:title>
+        <gbConv:label>EGFP-C</gbConv:label>
+        <gbConv:note>EGFP, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:start>345</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>366</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pDR-GW FLIPglu-30&#956;&#916;13V was a gift from  Wolf Frommer    (Addgene plasmid # 27998 ; http://n2t.net/addgene:27998 ; RRID:Addgene_27998)    </addgene:refMethod>
+    <obo:OBI_0001617>20854260</obo:OBI_0001617>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:species>E. Coli</addgene:species>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <genbank:keywords>pDR-GW FLIPglu-30u-Delta-13V</genbank:keywords>
+    <addgene:threeSequencingPrimer>pHybLex_rev</addgene:threeSequencingPrimer>
+    <addgene:threeCloningSite>Gateway-based cloning
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:vectorType>Yeast Expression</addgene:vectorType>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:refBib>  Dynamic analysis of cytosolic glucose and ATP levels in yeast using optical sensors. Bermejo C, Haerizadeh F, Takanaga H, Chermak D, Frommer WB. Biochem J. 2010 Dec 1. 432(2):399-406. 10.1042/BJ20100946   PubMed 20854260   </addgene:refBib>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:fiveSequencingPrimer>pPMA-For 5'-AACAATCGTTAATAATTAATTAATTGG</addgene:fiveSequencingPrimer>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:fiveCloningSite>Gateway-based cloning
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:selectableMarkers>URA3</addgene:selectableMarkers>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/151/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>524</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:plasmidTitle>pDR-GW FLIPglu-30&#956;&#916;13V</addgene:plasmidTitle>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/20854260"/>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:gene>mutant version of attB</gbConv:gene>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:label>attB2</gbConv:label>
+        <gbConv:featureType>protein_bind</gbConv:featureType>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>264</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:end>288</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:bound_moiety>BP Clonase(TM)</gbConv:bound_moiety>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <gbConv:note>recombination site for the Gateway(R) BP reaction</gbConv:note>
+        <dcterms:title>attB2</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:addgeneId>27998</addgene:addgeneId>
+    <addgene:backboneSizeWoInsertBp>6866</addgene:backboneSizeWoInsertBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:termsAndLicenses>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:termsAndLicenses>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <dcterms:title>T7</dcterms:title>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>183</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>202</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>T7</gbConv:label>
+        <gbConv:note>T7 promoter, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:geneInsertName>FLIPglu-30&#956;&#916;13V</addgene:geneInsertName>
+    <addgene:mutation>D154A in mglB</addgene:mutation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>Biochem J. 2010 Dec 1. 432(2):399-406.</genbank:journal>
+    <genbank:title>Dynamic analysis of cytosolic glucose and ATP levels in yeast using optical sensors.</genbank:title>
+    <genbank:pubmed>20854260</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 524)</genbank:label>
+    <genbank:authors>Bermejo C, Haerizadeh F, Takanaga H, Chermak D, Frommer WB</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 524)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>tatttatataaaatcataaatcataagaaattcgcttatttagaagtgtcaacaacgtatctaccaacgatttgacccttttccatcttttcgtaaatttctggcaaggtagacaagccgacaaccttgattggagacttgaccaaacctctggcgaagaagtccaaagctggatccgcgcgtaatacgactcactatagggcgaattgggtaccgggccccccctcgaggtcgacctgcagcggccatcatgaattaactacaccactttgtacaagaaagctgggtctagatagcttttacttgtacagctcgtccatgccgagagtgatcccggcggcggtcacgaactccagcaggaccatgtgatcgcgcttctcgttggggtctttgctcagggcggactggtagctcaggtagtggttgtcgggcagcagcacggggccgtcgccgatgggggtgttctgctggtagtggtcggcgagctgcacgccgccgtcctcgatgttgtggcggatcttgaa</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

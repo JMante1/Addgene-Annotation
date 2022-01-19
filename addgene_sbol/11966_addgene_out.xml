@@ -1,0 +1,155 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:product>thrombin recognition and cleavage site</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:translation>LVPRGS</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>thrombin site</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>67</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>84</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:label>thrombin site</gbConv:label>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <addgene:entrezGene>IKBKG
+
+                        
+                        (a.k.a. AMCBX1, EDAID1, FIP-3, FIP3, Fip3p, IKK-gamma, IKKAP1, IKKG, IMD33, IP, IP1, IP2, IPD2, NEMO, ZC2HC9)</addgene:entrezGene>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16547522"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:refBib>  NEMO is a sensor of Lys 63-linked polyubiquitination and functions in NF-kappaB activation. Wu CJ, Conze DB, Li T, Srinivasula SM, Ashwell JD. Nat Cell Biol. 2006 Apr . 8(4):398-406. 10.1038/ncb1384   PubMed 16547522   </addgene:refBib>
+    <genbank:division>SYN</genbank:division>
+    <addgene:backboneSizeWoInsertBp>5370</addgene:backboneSizeWoInsertBp>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:termsAndLicenses>UBMTA</addgene:termsAndLicenses>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:plasmidTitle>pET-NEMO</addgene:plasmidTitle>
+    <addgene:addgeneId>11966</addgene:addgeneId>
+    <addgene:refMethod> pET-NEMO was a gift from  Jon Ashwell    (Addgene plasmid # 11966 ; http://n2t.net/addgene:11966 ; RRID:Addgene_11966)    </addgene:refMethod>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/13/"/>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:keywords>pET-NEMO</genbank:keywords>
+    <addgene:geneInsertName>NEMO</addgene:geneInsertName>
+    <addgene:vectorBackbone>pET28a</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>877</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:insertSizeBp>1290</addgene:insertSizeBp>
+    <addgene:genBankID>NM_003639</addgene:genBankID>
+    <addgene:tagFusionProtein>His (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:product>leader peptide from bacteriophage T7 gene 10</gbConv:product>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>88</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>120</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>T7 tag (gene 10 leader)</gbConv:label>
+        <gbConv:translation>MASMTGGQQMG</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:note>promotes efficient translation in E. coli</gbConv:note>
+        <dcterms:title>T7 tag (gene 10 leader)</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <obo:OBI_0001617>16547522</obo:OBI_0001617>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:altName>IKKgamma</addgene:altName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>40</sbol:start>
+            <sbol:end>57</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:label>6xHis</gbConv:label>
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>6xHis</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>04-JUN-2021</genbank:date>
+    <addgene:articlesCitingThisPlasmid>4 References</addgene:articlesCitingThisPlasmid>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>NEMO is a sensor of Lys 63-linked polyubiquitination and functions in NF-kappaB activation.</genbank:title>
+    <genbank:journal>Nat Cell Biol. 2006 Apr . 8(4):398-406.</genbank:journal>
+    <genbank:label>1  (bases 1 to 877)</genbank:label>
+    <genbank:pubmed>16547522</genbank:pubmed>
+    <genbank:authors>Wu CJ, Conze DB, Li T, Srinivasula SM, Ashwell JD</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 877)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 4, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>ttgtttactttaagaaggagatataccatgggcagcagccatcatcatcatcatcacagcagcggcctggtgccgcgcggcagccatatggctagcatgactggtggacagcaaatgggtcgcggatccgaattcaataggcacctctggaagagccaactgtgtgagatggtgcagcccagtggtggcccggcagcagatcaggacgtactgggcgaagagtctcctctggggaagccagccatgctgcacctgccttcagaacagggcgctcctgagaccctccagcgctgcctggaggagaatcaagagctccgagatgccatccggcagagcaaccagattctgcgggagcgctgcgaggagcttctgcatttccaagccagccagagggaggagaaggagttcctcatgtgcaagttccaggaggccaggaaactggtggagagactcggcctggagaagctcgatctgaagaggcagaaggagcaggctctgcgggaggtggagcacctgaagagatgccagcagcagatggctgaggacaaggcctctgtgaaagcccaggtgacgtccttgctcggggagctgcaggagagccagagtcgcttggaggctgccactaaggaatgccaggctctggagggtcgggcccgggcggccagcgagcaggcgcggcagctggagagtgagcgcgaggcgctgcagcagcagcacagcgtgcaggtggaccagctgcgcatgcagggccagagcgtggagaccgcgctccgcatggagcgccaggccgcctcggaggagaagaggaagctggcccagttgcaggtggcctatcaccagctcttccaagaatacgacaaccacatcaagagcagcg</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
