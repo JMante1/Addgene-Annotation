@@ -1,0 +1,169 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <obo:OBI_0001617>18455985</obo:OBI_0001617>
+    <addgene:fiveCloningSite>Eco RI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:plasmidTitle>pGFH14A6-12</addgene:plasmidTitle>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:genBankID>X73459.1</addgene:genBankID>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:keywords>pGFH14A6-12</genbank:keywords>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:tagFusionProtein>EGFP (N terminal on insert)</addgene:tagFusionProtein>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>812</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:label>Shine-Dalgarno sequence</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:note>full consensus sequence for ribosome-binding sites upstream of start codons in E. coli; complementary to a region in the 3' end of the 16S rRNA (Chen et al., 1994)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>313</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>321</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>Shine-Dalgarno sequence</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:addgeneId>39543</addgene:addgeneId>
+    <addgene:promoter>CMV</addgene:promoter>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:mutation>deleted amino acids 101-113</addgene:mutation>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:totalVectorSizeBp>5123</addgene:totalVectorSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:vectorBackbone>pEGFP-C1P</addgene:vectorBackbone>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <addgene:fiveSequencingPrimer>GCGATCACATGGTCCTGCTG</addgene:fiveSequencingPrimer>
+    <addgene:geneInsertName>SRP14</addgene:geneInsertName>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <dcterms:title>SV40pA-R</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <gbConv:note>SV40 polyA, reverse primer</gbConv:note>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>658</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:end>677</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>SV40pA-R</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pGFH14A6-12 was a gift from  Katharina Strub    (Addgene plasmid # 39543 ; http://n2t.net/addgene:39543 ; RRID:Addgene_39543)    </addgene:refMethod>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1330/"/>
+    <addgene:refBib>  SRP keeps polypeptides translocation-competent by slowing translation to match limiting ER-targeting sites. Lakkaraju AK, Mary C, Scherrer A, Johnson AE, Strub K. Cell. 2008 May 2;133(3):440-51. 10.1016/j.cell.2008.02.049   PubMed 18455985   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:label>SV40 poly(A) signal</gbConv:label>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:start>621</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>742</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>SV40 poly(A) signal</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:note>SV40 polyadenylation signal</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <gbConv:note>SV40 polyA terminator, reverse primer</gbConv:note>
+        <dcterms:title>EBV-rev</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>EBV-rev</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:start>712</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:end>731</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:threeSequencingPrimer>GTTCAGGGGGAGGTGTGGGAG</addgene:threeSequencingPrimer>
+    <addgene:entrezGene>SRP14
+
+                        
+                        (a.k.a. ALURBP)</addgene:entrezGene>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:threeCloningSite>Xma I
+    (not destroyed)</addgene:threeCloningSite>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:date>24-MAY-2021</genbank:date>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18455985"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Lakkaraju AK, Mary C, Scherrer A, Johnson AE, Strub K</genbank:authors>
+    <genbank:journal>Cell. 2008 May 2;133(3):440-51.</genbank:journal>
+    <genbank:title>SRP keeps polypeptides translocation-competent by slowing translation to match limiting ER-targeting sites.</genbank:title>
+    <genbank:pubmed>18455985</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 812)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 24, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 812)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>agtccggactcagatctcgagctcaagcttcgaattcacgtcgagccagcgtcgccgcgatggtgttgttggagagcgagcagttcctgacggagctgaccagacttttccagaagtgccggacgtcgggcagcgtctatatcaccttgaagaagtatgacggtcgaaccaaacccattccaaagaaaggtactgtggagggctttgagcccgcagacaacaagtgtctgttaagagctaccgatgggaagaagaagatcagcactgtggtgagctccaaggaagtgaataagtttcagatggcttattcaaacctccttagagctaacatggatgggttgaagaagagagacaaaaaggcagcagcacctgccgcagcagcaacagcagcaacaacagcagcaacaacagcagcaacagcagcacagtaaagggcatacatttcctgctttcaccaattaaccactgaattgctattttttccttttgggggatccaccggatctagataactgatcataatcagccataccacatttgtagaggttttacttgctttaaaaaacctcccacacctccccctgaacctgaaacataaaatgaatgcaattgttgttgttaacttgtttattgcagcttataatggttacaaataaagcaatagcatcacaaatttcacaaataaagcatttttttcactgcattctagttgtggtttgtccaaactcatcaatgtatcttaacgcgtaaattgtaagcgttaatattttgttaaaattcgcgttaaatttttgttaaatcagctcattttt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
