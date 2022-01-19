@@ -1,0 +1,89 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:refBib>  Critical role for scaffolding adapter Gab2 in Fc gamma R-mediated phagocytosis. Gu H, Botelho RJ, Yu M, Grinstein S, Neel BG. J Cell Biol. 2003 Jun 23;161(6):1151-61. 10.1083/jcb.200212158   PubMed 12821647   </addgene:refBib>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:threeCloningSite>XhoI
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:backboneSizeWoInsertBp>4700</addgene:backboneSizeWoInsertBp>
+    <addgene:vectorBackbone>pEGFP-C2</addgene:vectorBackbone>
+    <genbank:division>SYN</genbank:division>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/177/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>789</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <obo:OBI_0001617>12821647</obo:OBI_0001617>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:backboneManufacturer>Clontech</addgene:backboneManufacturer>
+    <addgene:fiveCloningSite>XhoI
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:tagFusionProtein>EGFP (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:refMethod> PH-Gab2-GFP was a gift from  Sergio Grinstein    (Addgene plasmid # 35147 ; http://n2t.net/addgene:35147 ; RRID:Addgene_35147)    </addgene:refMethod>
+    <addgene:plasmidTitle>PH-Gab2-GFP</addgene:plasmidTitle>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:addgeneId>35147</addgene:addgeneId>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:keywords>PH-Gab2-GFP</genbank:keywords>
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:fiveSequencingPrimer>EGFP-C</addgene:fiveSequencingPrimer>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:date>21-MAY-2021</genbank:date>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/12821647"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:mutation>Contains two copies of the PH domain of Gab2: aa 1-116</addgene:mutation>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:geneInsertName>Gab2 PH Domain(x2)</addgene:geneInsertName>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 789)</genbank:label>
+    <genbank:journal>J Cell Biol. 2003 Jun 23;161(6):1151-61.</genbank:journal>
+    <genbank:pubmed>12821647</genbank:pubmed>
+    <genbank:authors>Gu H, Botelho RJ, Yu M, Grinstein S, Neel BG</genbank:authors>
+    <genbank:title>Critical role for scaffolding adapter Gab2 in Fc gamma R-mediated phagocytosis.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 789)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 21, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>agctgtcagtccggccggactcagatctcgagtttagccggcgacatgagcggcggcggcggcgacgacgtggtgtgtaccggctggctgaggaaatcgcctcccgagaagaagttgaggcgctatgcctggaagaaacgctggtttatacttcggagtggccgaatgagtggagatccagatgttctggaatactacaagaatgagcactccaagaaacccctgcggatcatcaacctgaacttgtgtgagcaggtggatgcaggcctgaccttcaacaagaaagagctgcaggatagttttgtgtttgatatcaagaccagcgagcgcacattttacctggtggctgagacagaggctgacatgaataagtgggtccagagcatctgccagatctgcggcttctaaccgagtgagagtttagccggcgacatgagcggcggcggcggcgacgacgtggtgtgtaccggctggctgaggaaatcgcctcccgagaagaagttgaggcgctatgcctggaagaaacgctggtttatacttcggagtggccgaatgagtggagatccagatgttctggaatactacaagaatgagcactccaagaaacccctgcggatcatcaacctgaacttgtgtgagcaggtggatgcaggcctgaccttcaacaagaaagagctgcaggatagttttgtgtttgatatcaagaccagcgagcgcacattttacctggtggctgagacagaggctgacatgaataagtgggtccagagcatctgccagatctgcggc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
