@@ -1,0 +1,114 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:refBib>  Wnt signaling requires sequestration of glycogen synthase kinase 3 inside multivesicular endosomes. Taelman VF, Dobrowolski R, Plouhinec JL, Fuentealba LC, Vorwald PP, Gumper I, Sabatini DD, De Robertis EM. Cell. 2010 Dec 23. 143(7):1136-48. 10.1016/j.cell.2010.11.034   PubMed 21183076   </addgene:refBib>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <obo:OBI_0001617>21183076</obo:OBI_0001617>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:product>nanobody epitope tag corresponding to amino acids 16-27 of human beta-catenin (Traenkle et al., 2015)</gbConv:product>
+        <dcterms:title>BC2 tag</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>80</sbol:end>
+            <sbol:start>45</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>PDRKAAVSHWQQ</gbConv:translation>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:label>BC2 tag</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:insertSizeBp>2343</addgene:insertSizeBp>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:fiveCloningSite>BamH1
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:vectorBackbone>pCS2</addgene:vectorBackbone>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:tagFusionProtein>GFP (C terminal on backbone)</addgene:tagFusionProtein>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>843</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/657/"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:division>SYN</genbank:division>
+    <genbank:keywords>pCS2 stabilized mutant Beta Catenin-GFP</genbank:keywords>
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <addgene:refMethod> pCS2 stabilized mutant Beta Catenin-GFP was a gift from  Edward De Robertis    (Addgene plasmid # 29684 ; http://n2t.net/addgene:29684 ; RRID:Addgene_29684)    </addgene:refMethod>
+    <addgene:species>X. laevis (frog)</addgene:species>
+    <addgene:geneInsertName>beta catenin</addgene:geneInsertName>
+    <addgene:fiveSequencingPrimer>SP6</addgene:fiveSequencingPrimer>
+    <addgene:addgeneId>29684</addgene:addgeneId>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>derived from beta catenin GFP from Dr. Randy Moon</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:backboneSizeWoInsertBp>4096</addgene:backboneSizeWoInsertBp>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:plasmidTitle>pCS2 stabilized mutant Beta Catenin-GFP</addgene:plasmidTitle>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:threeCloningSite>Cla1
+    (not destroyed)</addgene:threeCloningSite>
+    <genbank:date>14-JUN-2021</genbank:date>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/21183076"/>
+    <addgene:mutation>S33A, S37A, T41A</addgene:mutation>
+    <addgene:entrezGene>ctnnb1.L
+
+                        
+                        (a.k.a. XELAEV_18031149mg, B-catenin, beta-catenin, ctnnb, ctnnb1, ctnnb1-a, ctnnb1-b)</addgene:entrezGene>
+    <addgene:threeSequencingPrimer>T3</addgene:threeSequencingPrimer>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Wnt signaling requires sequestration of glycogen synthase kinase 3 inside multivesicular endosomes.</genbank:title>
+    <genbank:journal>Cell. 2010 Dec 23. 143(7):1136-48.</genbank:journal>
+    <genbank:label>1  (bases 1 to 843)</genbank:label>
+    <genbank:pubmed>21183076</genbank:pubmed>
+    <genbank:authors>Taelman VF, Dobrowolski R, Plouhinec JL, Fuentealba LC, Vorwald PP, Gumper I, Sabatini DD, De Robertis EM</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 14, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 843)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tggcaactcaagcagatctaatggagctggacatggccatggagccagaccgaaaagcagcagtcagtcactggcagcaacagtcttacctggatgctgggattcatgctggagcaaccgccacagcaccatctttgagtggcaaaggaaacccagaggatgaagatgtggataccaaccaagttttgtatgagtgggagcagggcttctctcagtccttcactcaagatcaagtggctgatattgatggccagtacgccatgacaagagcccagcgagttcgtgctgcaatgtttccagaaacccttgatgaaggcatgcagattccatccacacaatttgactctgcacacccaacaaatgtgcaacgtttagcagagccttcccagatgctcaaacacgctgtggtcaacttgatcaattaccaggatgatgctgaattggccactcgagcaatccccgagctgacgaaactgcttaatgacgaggaccaggttgtagttaacaaggctgctgtaatggttcaccagctgtcaaagaaggaagcctcacgccatgctataatgcgctcaccacagatggtgtctgctatagttcgtacaatgcagaacacaaatgatgtagagactgcacgatgcactgcgggaacacttcacaacctttctcaccatcgtgaaggcttgttggccatatttaaatctggaggcattcctgctctagttaaaatgcttggctcaccagttgactctgtactattctatgccatcacaacactgcacaatctacttctccatcaagaaggagcaaaaatggctgtacgtctggctggtggcttgcagaaaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
