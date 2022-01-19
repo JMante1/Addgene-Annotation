@@ -1,0 +1,115 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:tagFusionProtein>untagged</addgene:tagFusionProtein>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:keywords>pBabe puro-eIF4E</genbank:keywords>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:label>pBABE 3'</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <dcterms:title>pBABE 3'</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>705</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>725</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>SV40 enhancer, reverse primer for pBABE vectors</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pBabe puro-eIF4E was a gift from  Thomas Roberts    (Addgene plasmid # 33252 ; http://n2t.net/addgene:33252 ; RRID:Addgene_33252)    </addgene:refMethod>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:refBib>  PI3K-targeted therapy can be evaded by gene amplification along the MYC-eukaryotic translation initiation factor 4E (eIF4E) axis. Ilic N, Utermark T, Widlund HR, Roberts TM. Proc Natl Acad Sci U S A. 2011 Sep 13;108(37):E699-708. Epub 2011 Aug 29. 10.1073/pnas.1108237108   PubMed 21876152   </addgene:refBib>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:geneInsertName>eIF4E</addgene:geneInsertName>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:plasmidTitle>pBabe puro-eIF4E</addgene:plasmidTitle>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:vectorBackbone>pBabe puro</addgene:vectorBackbone>
+    <obo:OBI_0001617>21876152</obo:OBI_0001617>
+    <genbank:division>SYN</genbank:division>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/419/"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:vectorType>Mammalian Expression, Retroviral</addgene:vectorType>
+    <addgene:threeCloningSite>SnaBI
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:fiveCloningSite>SnaBI
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/21876152"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <addgene:entrezGene>EIF4E
+
+                        
+                        (a.k.a. AUTS19, CBP, EIF4E1, EIF4EL1, EIF4F, eIF-4E)</addgene:entrezGene>
+    <addgene:selectableMarkers>Puromycin</addgene:selectableMarkers>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>800</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveSequencingPrimer>CTTTATCCAGCCCTCAC</addgene:fiveSequencingPrimer>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:promoter>SV40</addgene:promoter>
+    <addgene:backboneSizeWoInsertBp>5169</addgene:backboneSizeWoInsertBp>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:insertSizeBp>1000</addgene:insertSizeBp>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>from Dong-Er Zhang, University of California at San Diego, La&#13;
+Jolla, CA&#13;
+from the pHA-eIF4E construct Addgene&#13;
+plasmid 17343</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:addgeneId>33252</addgene:addgeneId>
+    <addgene:mutation>unmodified</addgene:mutation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 800)</genbank:label>
+    <genbank:pubmed>21876152</genbank:pubmed>
+    <genbank:authors>Ilic N, Utermark T, Widlund HR, Roberts TM</genbank:authors>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2011 Sep 13;108(37):E699-708. Epub 2011 Aug 29.</genbank:journal>
+    <genbank:title>PI3K-targeted therapy can be evaded by gene amplification along the MYC-eukaryotic translation initiation factor 4E (eIF4E) axis.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 800)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gtggtggtaccgatggcgactgtcgaaccggaaaccacccctactcctaatcccccgactacagaagaggagaaaacggaatctaatcaggaggttgctaacccagaacactatattaaacatcccctacagaacagatgggcactctggttttttaaaaatgataaaagcaaaacttggcaagcaaacctgcggctgatctccaagtttgatactgttgaagacttttgggctctgtacaaccatatccagttgtctagtaatttaatgcctggctgtgactactcactttttaaggatggtattgagcctatgtgggaagatgagaaaaacaaacggggaggacgatggctaattacattgaacaaacagcagagacgaagtgacctcgatcgcttttggctagagacacttctgtgccttattggagaatcttttgatgactacagtgatgatgtatgtggcgctgttgttaatgttagagctaaaggtgataagatagcaatatggactactgaatgtgaaaacagagaagctgttacacatatagggagggtatacaaggaaaggttaggacttcctccaaagatagtgattggttatcagtcccacgcagacacagctactaagagcggctccaccactaaaaataggtttgttgtttaactcgagtaggaattcgccagcacagtggtcgaccctgtggaatgtgtgtcagttagggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcagcaaccaggtgtg</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
