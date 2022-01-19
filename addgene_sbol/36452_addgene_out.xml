@@ -1,0 +1,91 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:fiveCloningSite>SmaI
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:division>SYN</genbank:division>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:selectableMarkers>URA3</addgene:selectableMarkers>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:totalVectorSizeBp>10570</addgene:totalVectorSizeBp>
+    <addgene:insertSizeBp>3500</addgene:insertSizeBp>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:vectorBackbone>YepFAT4</addgene:vectorBackbone>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <obo:OBI_0001617>10526232</obo:OBI_0001617>
+    <addgene:species>S. cerevisiae (budding yeast)</addgene:species>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:refBib>  High copy number suppression of the meiotic arrest caused by a dmc1 mutation: REC114 imposes an early recombination block and RAD54 promotes a DMC1-independent DSB repair pathway. Bishop DK, Nikolski Y, Oshiro J, Chon J, Shinohara M, Chen X. Genes Cells. 1999 Aug;4(8):425-44. 10.1046/j.1365-2443.1999.00273.x   PubMed 10526232   </addgene:refBib>
+    <addgene:vectorType>Yeast Expression</addgene:vectorType>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1231/"/>
+    <addgene:threeCloningSite>SacI
+    (destroyed during cloning)</addgene:threeCloningSite>
+    <addgene:promoter>T7</addgene:promoter>
+    <addgene:addgeneId>36452</addgene:addgeneId>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:backboneSizeWoInsertBp>7011</addgene:backboneSizeWoInsertBp>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/10526232"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:date>08-JUL-2021</genbank:date>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>894</sbol:end>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:keywords>pNRB143</genbank:keywords>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:entrezGene>RAD54
+
+                        
+                        (a.k.a. YGL163C, XRS1)</addgene:entrezGene>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:plasmidTitle>pNRB143</addgene:plasmidTitle>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:geneInsertName>RAD54</addgene:geneInsertName>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:refMethod> pNRB143 was a gift from  Douglas Bishop    (Addgene plasmid # 36452 ; http://n2t.net/addgene:36452 ; RRID:Addgene_36452)    </addgene:refMethod>
+    <addgene:backboneManufacturer>K Runge</addgene:backboneManufacturer>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>High copy number suppression of the meiotic arrest caused by a dmc1 mutation: REC114 imposes an early recombination block and RAD54 promotes a DMC1-independent DSB repair pathway.</genbank:title>
+    <genbank:pubmed>10526232</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 894)</genbank:label>
+    <genbank:authors>Bishop DK, Nikolski Y, Oshiro J, Chon J, Shinohara M, Chen X</genbank:authors>
+    <genbank:journal>Genes Cells. 1999 Aug;4(8):425-44.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 894)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jul 8, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>actagctatgtctgtaggtttacatttaatggtgcgtggttccagcttcatgtgcttgcatgtgatgtcctgcagatggtaagaagattctgaaagccgcgctaggagaaaaatattctgctcgaagatctgtcctcttaagtagaaagcgtgaaattgttgcgttcttgcattactactcaacgcgtacgcaaatgcgtctactgcacctgcatgataaagcttatgtatcaaaaatttaacatcttgaaaatacacaagtggtgcaaagatgtgtcacgttctggacctgagtggtgccatgtatgctatttaacatgcaaaggggaagacccttccgccttactgcaataataaaaagtattttacgcgttacccaatatagcaaagtttcgcgcaaaaaaaaaaataaaaaacaattacaaacaaaaagaaaaaaaaggaaataatagaagatctaactgaagcgaaggccaaaactcttctcacttgacgtaatagccgatacaaaatctagagcagcaacttttctctttcttcactaaagctgctacgaaagtatagaaaaatcaaacgctcagaacttagctctatttcaaggtaccatatatatttccttataactgatggcaagacgcagattaccagacagaccaccaaatggaataggagccggtgaacggccgagactggtacctaggcctattaacgtacaagactcggtgaaccgactaacgaaaccgttcagggtcccgtacaagaacacgcacatcccgcccgctgctggtagaatcgccaccgggtctgataatatcgtaggaggaaggagcttgaggaaaagatcagcgactgtatgttattccggcttggatataaatgcggacgaagcagagt</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
