@@ -33,8 +33,6 @@ async def pull_data(session, addgene_id):
 
         top_info = soup.find_all('div', {'class':'field'})
         for i in top_info:
-            print(i)
-            
             field_label = i.find_all('div', {'class':'field-label'})[0].string
             field_val = i.find_all('div', {'class':'field-content'})
             if len(field_val) > 0:
@@ -57,8 +55,6 @@ async def pull_data(session, addgene_id):
                     link_val = j.find_all('div', {'id':'sequence_information'})[0].a['href']
                     field_val1.append(f'https://www.addgene.org{link_val}')
                 field_val = field_val1
-            print(field_label, field_val)
-            print('$$$$$$$$$$$$$$$$$$$$')
             page_dict[field_label] = field_val
 
 
