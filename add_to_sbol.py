@@ -33,7 +33,8 @@ async def pull_data(session, addgene_id):
 
         top_info = soup.find_all('div', {'class':'field'})
         for i in top_info:
-            # print('$$$$$$$$$$$$$$$$$$$$')
+            print(i)
+            
             field_label = i.find_all('div', {'class':'field-label'})[0].string
             field_val = i.find_all('div', {'class':'field-content'})
             if len(field_val) > 0:
@@ -56,8 +57,10 @@ async def pull_data(session, addgene_id):
                     link_val = j.find_all('div', {'id':'sequence_information'})[0].a['href']
                     field_val1.append(f'https://www.addgene.org{link_val}')
                 field_val = field_val1
-
+            print(field_label, field_val)
+            print('$$$$$$$$$$$$$$$$$$$$')
             page_dict[field_label] = field_val
+
 
         details = soup.find_all('section')
         for sec in details:
@@ -179,7 +182,10 @@ async def pull_data(session, addgene_id):
         cd.title = f'Addgene_{addgene_id}'
         doc.write(os.path.join('addgene_sbol', f'{addgene_id}_addgene_out.xml'))
         return addgene_id
-    except:
+    except Exception as e:
+        with open('addgene_issues_with_text.csv', 'a') as f:
+            f.write(f'{addgene_id}, {e}\n')
+
         with open('addgene_issues.csv', 'a') as f:
             f.write(f'{addgene_id}\n')
 
@@ -199,6 +205,7 @@ async def main(cwd):
         print(f'files to do: {len(files_to_do)}')
         
         ret = await asyncio.gather(*[pull_data(session, i) for i in files_to_do])
+        # ret = await asyncio.gather(*[pull_data(session, i) for i in [43649]])
 
 
 
