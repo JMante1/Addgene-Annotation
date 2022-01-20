@@ -1,0 +1,90 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23022481"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:backboneSizeWoInsertBp>5000</addgene:backboneSizeWoInsertBp>
+    <addgene:mutation>contains amino acids 266-526</addgene:mutation>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:refMethod> GST-FUS 266-526 was a gift from  Robin Reed    (Addgene plasmid # 44981 ; http://n2t.net/addgene:44981 ; RRID:Addgene_44981)    </addgene:refMethod>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:division>SYN</genbank:division>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:totalVectorSizeBp>5800</addgene:totalVectorSizeBp>
+    <addgene:plasmidTitle>GST-FUS 266-526</addgene:plasmidTitle>
+    <addgene:addgeneId>44981</addgene:addgeneId>
+    <addgene:insertSizeBp>800</addgene:insertSizeBp>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:altName>fused in sarcoma</addgene:altName>
+    <genbank:keywords>GST-FUS 266-526</genbank:keywords>
+    <addgene:geneInsertName>FUS (266-526aa)</addgene:geneInsertName>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:threeSequencingPrimer>pGEX3</addgene:threeSequencingPrimer>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/412/"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:promoter>tac</addgene:promoter>
+    <addgene:fiveSequencingPrimer>pGEX5</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>736</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refBib>  FUS-SMN protein interactions link the motor neuron diseases ALS and SMA. Yamazaki T, Chen S, Yu Y, Yan B, Haertlein TC, Carrasco MA, Tapia JC, Zhai B, Das R, Lalancette-Hebert M, Sharma A, Chandran S, Sullivan G, Nishimura AL, Shaw CE, Gygi SP, Shneider NA, Maniatis T, Reed R. Cell Rep. 2012 Oct 25;2(4):799-806. doi: 10.1016/j.celrep.2012.08.025. Epub 2012 Sep 27. 10.1016/j.celrep.2012.08.025   PubMed 23022481   </addgene:refBib>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <obo:OBI_0001617>23022481</obo:OBI_0001617>
+    <addgene:tagFusionProtein>GST (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:genBankID></addgene:genBankID>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:vectorBackbone>pGEX-6P-1</addgene:vectorBackbone>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>23022481</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 736)</genbank:label>
+    <genbank:title>FUS-SMN protein interactions link the motor neuron diseases ALS and SMA.</genbank:title>
+    <genbank:journal>Cell Rep. 2012 Oct 25;2(4):799-806. doi: 10.1016/j.celrep.2012.08.025. Epub 2012 Sep 27.</genbank:journal>
+    <genbank:authors>Yamazaki T, Chen S, Yu Y, Yan B, Haertlein TC, Carrasco MA, Tapia JC, Zhai B, Das R, Lalancette-Hebert M, Sharma A, Chandran S, Sullivan G, Nishimura AL, Shaw CE, Gygi SP, Shneider NA, Maniatis T, Reed R</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 736)</genbank:label>
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>ctcaatcggactggagttctgttccaggggcccctgggatccggtggccctcgggaccaaggatcacgtcatgactccgaacaggataattcagacaacaacaccatctttgtgcaaggcctgggtgagaatgttacaattgagtctgtggctgattacttcaagcagattggtattattaagacaaacaagaaaacgggacagcccatgattaatttgtacacagacagggaaactggcaagctgaagggagaggcaacggtctcttttgatgacccaccttcagctaaagcagctattgactggtttgatggtaaagaattctccggaaatcctatcaaggtctcatttgctactcgccgggcagactttaatcggggtggtggcaatggtcgtggaggccgagggcgaggaggacccatgggccgtggaggctatggaggtggtggcagtggtggtggtggccgaggaggatttcccagtggaggtggtggcggtggaggacagcagcgagctggtgactggaagtgtcctaatcccacctgtgagaatatgaacttctcttggaggaatgaatgcaaccagtgtaaggcccctaaaccagatggcccaggagggggaccaggtggctctcacatggggggtaactacggggatgatcgtcgtggtggcagaggaggctatgatcgaggcggctaccggggccgcggcggggaccgtggaggcttccgagggg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
