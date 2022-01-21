@@ -1,0 +1,119 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:threeSequencingPrimer>CMV-R</addgene:threeSequencingPrimer>
+    <addgene:purpose>Expresses LGP2 with a mutation to motif IIa in mammalian cells</addgene:purpose>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:keywords>CMV-10-3xFLAG-LGP2-MIIa</genbank:keywords>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23184951"/>
+    <addgene:vectorBackbone>p3X-FLAG-CMV-10</addgene:vectorBackbone>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:altName>LGP2</addgene:altName>
+    <addgene:tagFusionProtein>3x FLAG (N terminal on insert)</addgene:tagFusionProtein>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <genbank:date>20-MAY-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:product>three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>3xFLAG</dcterms:title>
+        <gbConv:translation>DYKDHDGDYKDHDIDYKDDDDK</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>20</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>85</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>3xFLAG</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:insertSizeBp>2037</addgene:insertSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:threeCloningSite>XbaI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:geneInsertName>LGP2-MIIa</addgene:geneInsertName>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <addgene:genBankID>NM_024119</addgene:genBankID>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:refMethod> CMV-10-3xFLAG-LGP2-MIIa was a gift from  Curt Horvath    (Addgene plasmid # 58684 ; http://n2t.net/addgene:58684 ; RRID:Addgene_58684)    </addgene:refMethod>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:totalVectorSizeBp>8400</addgene:totalVectorSizeBp>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1670/"/>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>Cloned in Horvath Lab by Akihiko Komuro, mutation by Annie Bruns</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <obo:OBI_0001617>23184951</obo:OBI_0001617>
+    <dcterms:description>Expresses LGP2 with a mutation to motif IIa in mammalian cells.</dcterms:description>
+    <addgene:backboneManufacturer>Sigma Aldrich</addgene:backboneManufacturer>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:refBib>  ATP hydrolysis enhances RNA recognition and antiviral signal transduction by the innate immune sensor, laboratory of genetics and physiology 2 (LGP2). Bruns AM, Pollpeter D, Hadizadeh N, Myong S, Marko JF, Horvath CM. J Biol Chem. 2013 Jan 11;288(2):938-46. doi: 10.1074/jbc.M112.424416. Epub 2012 Nov 26. 10.1074/jbc.M112.424416   PubMed 23184951   </addgene:refBib>
+    <addgene:plasmidTitle>CMV-10-3xFLAG-LGP2-MIIa</addgene:plasmidTitle>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:addgeneId>58684</addgene:addgeneId>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:fiveCloningSite>NotI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:backboneSizeWoInsertBp>6300</addgene:backboneSizeWoInsertBp>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:mutation>mutation to Motif IIA, K138E and Y142F</addgene:mutation>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:entrezGene>DHX58
+
+                        
+                        (a.k.a. D11LGP2, D11lgp2e, LGP2, RLR-3)</addgene:entrezGene>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>770</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>ATP hydrolysis enhances RNA recognition and antiviral signal transduction by the innate immune sensor, laboratory of genetics and physiology 2 (LGP2).</genbank:title>
+    <genbank:label>1  (bases 1 to 770)</genbank:label>
+    <genbank:authors>Bruns AM, Pollpeter D, Hadizadeh N, Myong S, Marko JF, Horvath CM</genbank:authors>
+    <genbank:pubmed>23184951</genbank:pubmed>
+    <genbank:journal>J Biol Chem. 2013 Jan 11;288(2):938-46. doi: 10.1074/jbc.M112.424416. Epub 2012 Nov 26.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 20, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 770)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>accgtcagaattaaccatggactacaaagaccatgacggtgattataaagatcatgacatcgattacaaggatgacgatgacaagcttgcggccgcgatggagcttcggtcctaccaatgggaggtgatcatgcctgccctggagggcaagaatatcatcatctggctgcccacgggtgccgggaagacccgggcggctgcttatgtggccaagcggcacctagagactgtggatggagccaaggtggttgtattggtcaacagggtgcacctggtgacccagcatggtgaagagttcaggcgcatgctggatggacgctggaccgtgacaaccctgagtggggacatgggaccacgtgctggctttggccacctggcccggtgccatgacctgctcatctgcacagcagagcttctgcagatggcactgaccagccccgaggaggaggagcacgtggagctcactgtcttctccctgatcgtggtggatgagtgccaccacacgcacgaggacaccgtcttcaacgtcatcatgagccagtacctagaacttaaactccagagggcacagccgctaccccaggtgctgggtctcacagcctccccaggcactggcggggcctccaaactcgatggggccatcaaccacgtcctgcagctctgtgccaacttggacacgtggtgcatcatgtcaccccagaactgctgcccccagctgcaggagcacagccaacagccttgcaaacagtacaacctctgccacaggcgca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
