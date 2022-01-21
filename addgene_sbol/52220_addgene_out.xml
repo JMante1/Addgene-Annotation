@@ -1,0 +1,132 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:geneInsertName>Ink4c</addgene:geneInsertName>
+    <addgene:backboneManufacturer>Reya lab, Addgene Plasmid 20672</addgene:backboneManufacturer>
+    <addgene:entrezGene>Cdkn2c
+
+                        
+                        (a.k.a. C77269, INK4c, p18, p18-INK4c, p18-INK6, p18INK4c)</addgene:entrezGene>
+    <genbank:keywords>pMSCV-p18Ink4c-IRES-GFP</genbank:keywords>
+    <dcterms:description>retroviral bicistronic expression of p18Ink4c and GFP.</dcterms:description>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:note>IRES internal ribosome entry site, reverse primer. Also called pCDH-rev</gbConv:note>
+        <gbConv:label>IRES reverse</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>710</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>727</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>IRES reverse</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <obo:OBI_0001617>19029828</obo:OBI_0001617>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:altName>p18</addgene:altName>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:insertSizeBp>500</addgene:insertSizeBp>
+    <addgene:plasmidTitle>pMSCV-p18Ink4c-IRES-GFP</addgene:plasmidTitle>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:fiveSequencingPrimer>pLXSN5</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>22</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>31</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeSequencingPrimer>pCDH-rev (GCATTCCTTTGGCGAGAG)</addgene:threeSequencingPrimer>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1113/"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19029828"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:division>SYN</genbank:division>
+    <addgene:vectorBackbone>MSCV-IRES-GFP</addgene:vectorBackbone>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:refMethod> pMSCV-p18Ink4c-IRES-GFP was a gift from  Martine Roussel    (Addgene plasmid # 52220 ; http://n2t.net/addgene:52220 ; RRID:Addgene_52220)    </addgene:refMethod>
+    <addgene:backboneSizeWoInsertBp>6573</addgene:backboneSizeWoInsertBp>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:date>25-MAY-2021</genbank:date>
+    <addgene:purpose>retroviral bicistronic expression of p18Ink4c and GFP</addgene:purpose>
+    <addgene:tagFusionProtein>IRES-GFP (C terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthStrains>Stbl3</addgene:growthStrains>
+    <addgene:vectorType>Mammalian Expression, Retroviral</addgene:vectorType>
+    <addgene:refBib>  Differential post-transcriptional regulation of two Ink4 proteins, p18 Ink4c and p19 Ink4d. Forget A, Ayrault O, den Besten W, Kuo ML, Sherr CJ, Roussel MF. Cell Cycle. 2008 Dec;7(23):3737-46. Epub 2008 Dec 13. 10.4161/cc.7.23.7187   PubMed 19029828   </addgene:refBib>
+    <addgene:totalVectorSizeBp>7200</addgene:totalVectorSizeBp>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:addgeneId>52220</addgene:addgeneId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>730</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>19029828</genbank:pubmed>
+    <genbank:journal>Cell Cycle. 2008 Dec;7(23):3737-46. Epub 2008 Dec 13.</genbank:journal>
+    <genbank:authors>Forget A, Ayrault O, den Besten W, Kuo ML, Sherr CJ, Roussel MF</genbank:authors>
+    <genbank:title>Differential post-transcriptional regulation of two Ink4 proteins, p18 Ink4c and p19 Ink4d.</genbank:title>
+    <genbank:label>1  (bases 1 to 730)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported May 25, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 730)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>cttctctaggcgccggaattcgccaccatggccgagccttgggggaacgagttggcgtccgcagctgccaggggggacctagagcaacttactagtttgttgcaaaataatgtaaacgtcaacgctcaaaatggatttgggagaactgcgctgcaggttatgaaacttggaaatccggagattgccaggaggcttctcctcagaggtgctaatcccaatttgaaagatggaactggttttgctgtcattcatgatgctgccagagcaggtttcctggacactgtacaggctttgctggagttccaggctgatgttaacattgaagataatgaagggaacctgcccttgcacttggctgccaaggaaggccacctccctgtggtggagttccttatgaagcacacagcctgcaatgtggggcatcggaaccataagggggacaccgccttcgacttggccaggttctatggaagaaatgaggtcattagcctgatggaggcaaatggggttgggggagccacaagcctgcagtgactcgagcgggatcaattccgccccccccctaacgttactggccgaagccgcttggaataaggccggtgtgcgtttgtctatatgttattttccaccatattgccgtcttttggcaatgtgagggcccggaaacctggccctgtcttcttgacgagcattcctaggggtctttcccctctcgccaaaggaatgcaag</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

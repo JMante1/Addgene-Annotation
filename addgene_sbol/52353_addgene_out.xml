@@ -1,0 +1,133 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:keywords>pTT5-hSDC1-N10</genbank:keywords>
+    <dcterms:description>expresses human syndecan 1 'del 1- 10' truncation mutant in HEK293-EBNA1 (293E) suspension culture..</dcterms:description>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:note>Synthetic intron, forward primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>530</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>511</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:label>pMT2-F</gbConv:label>
+        <dcterms:title>pMT2-F</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pTT5-hSDC1-N10 was a gift from  Gordon Laurie   (Addgene plasmid # 52353)   </addgene:refMethod>
+    <addgene:threeSequencingPrimer>TATGTCCTTCCGAGTGAGAG</addgene:threeSequencingPrimer>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:refBib>  Targeting of heparanase-modified syndecan-1 by prosecretory mitogen lacritin requires conserved core GAGAL plus heparan and chondroitin sulfate as a novel hybrid binding site that enhances selectivity. Zhang Y, Wang N, Raab RW, McKown RL, Irwin JA, Kwon I, van Kuppevelt TH, Laurie GW. J Biol Chem. 2013 Apr 26;288(17):12090-101. doi: 10.1074/jbc.M112.422717. Epub 2013 Mar 15. 10.1074/jbc.M112.422717   PubMed 23504321   </addgene:refBib>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:totalVectorSizeBp>5300</addgene:totalVectorSizeBp>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23504321"/>
+    <genbank:date>02-SEP-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>LNCX</gbConv:label>
+        <dcterms:title>LNCX</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>30</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>6</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>Human CMV promoter, forward primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:entrezGene>SDC1
+
+                        
+                        (a.k.a. CD138, SDC, SYND1, syndecan)</addgene:entrezGene>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:addgeneId>52353</addgene:addgeneId>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:mutation>Deletion of SDC1 aa2-11 (according to numbering in Fig. 2A of associated publication) and replaced with GS; R117Q (R95Q numbering as in Fig. 2A)</addgene:mutation>
+    <addgene:purpose>expresses human syndecan 1 'del 1- 10' truncation mutant in HEK293-EBNA1 (293E) suspension culture.</addgene:purpose>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <obo:OBI_0001617>23504321</obo:OBI_0001617>
+    <addgene:plasmidTitle>pTT5-hSDC1-N10</addgene:plasmidTitle>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1540/"/>
+    <addgene:backboneSizeWoInsertBp>4401</addgene:backboneSizeWoInsertBp>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>pTT5 backbone used in his plasmids was obtained from Yves Durocher at National Research Council of Canada (NRC)</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:backboneManufacturer>NRC Biotechnology Research Institute</addgene:backboneManufacturer>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:insertSizeBp>903</addgene:insertSizeBp>
+    <addgene:fiveCloningSite>unknown
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:fiveSequencingPrimer>CCATACACTTGAGTGACAATGAC</addgene:fiveSequencingPrimer>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:altName>Syndecan-1 N10  or 'del 1- 10' truncation mutant</addgene:altName>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:threeCloningSite>unknown
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:geneInsertName>SDC1</addgene:geneInsertName>
+    <addgene:vectorBackbone>pTT5</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>671</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Zhang Y, Wang N, Raab RW, McKown RL, Irwin JA, Kwon I, van Kuppevelt TH, Laurie GW</genbank:authors>
+    <genbank:journal>J Biol Chem. 2013 Apr 26;288(17):12090-101. doi: 10.1074/jbc.M112.422717. Epub 2013 Mar 15.</genbank:journal>
+    <genbank:label>1  (bases 1 to 671)</genbank:label>
+    <genbank:title>Targeting of heparanase-modified syndecan-1 by prosecretory mitogen lacritin requires conserved core GAGAL plus heparan and chondroitin sulfate as a novel hybrid binding site that enhances selectivity.</genbank:title>
+    <genbank:pubmed>23504321</genbank:pubmed>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 671)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported Sep 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>agcagagctcgtttagtgaaccgtcagatcctcactctcttccgcatcgctgtctgcgagggccagctgttgggctcgcggttgaggacaaactcttcgcggtctttccagtactcttggatcggaaacccgtcggcctccgaacggtactccgccaccgagggacctgagcgagtccgcatcgaccggatcggaaaacctctcgagaaaggcgtctaaccagtcacagtcgcaaggtaggctgagcaccgtggcgggcggcagcgggtggcggtcggggttgtttctggcggaggtgctgctgatgatgtaattaaagtaggcggtcttgagacggcggatggtcgaggtgaggtgtggcaggcttgagatccagctgttggggtgagtactccctctcaaaagcgggcattacttctgcgctaagattgtcagtttccaaaaacgaggaggatttgatattcacctggcccgatctggccatacacttgagtgacaatgacatccactttgcctttctctccacaggtgtccactcccaggtccaagtttaaaacggatctctagcgaattccctctagagggcccgtttctgctagcaagcttatgaggcgcgcggcgctctggctctggctgtgcgcgctggcgctgagcctgcagccggccctgcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
