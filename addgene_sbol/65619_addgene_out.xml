@@ -1,0 +1,76 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:modificationsToBackbone>HR arms were cloned into Nhe1 and xho1; Not1 and EcoR1 sites. xho1 site was removed in the final vector.</addgene:modificationsToBackbone>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:addgeneId>65619</addgene:addgeneId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:growthStrains>Top10</addgene:growthStrains>
+    <addgene:refBib>  A chemical genetics approach for the functional assessment of novel cancer genes. Zhou Q, Derti A, Ruddy DA, Rakiec DP, Kao I, Lira M, Gibaja V, Chan H, Yang Y, Min J, Schlabach MR, Stegmeier F. Cancer Res. 2015 Mar 18. pii: canres.2930.2014. 10.1158/0008-5472.CAN-14-2930   PubMed 25788694   </addgene:refBib>
+    <addgene:selectableMarkers>Puromycin</addgene:selectableMarkers>
+    <dcterms:description>Donor vector to generate Degron-KI DD-p53.</dcterms:description>
+    <genbank:division>SYN</genbank:division>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:date>26-MAY-2021</genbank:date>
+    <addgene:plasmidTitle>Degron-KI p53 donor vector</addgene:plasmidTitle>
+    <addgene:purpose>Donor vector to generate Degron-KI DD-p53</addgene:purpose>
+    <addgene:geneInsertName>p53 Degron-KI left and right HR arms</addgene:geneInsertName>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2389/"/>
+    <obo:OBI_0001617>25788694</obo:OBI_0001617>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25788694"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:refMethod> Degron-KI p53 donor vector was a gift from  Frank Stegmeier    (Addgene plasmid # 65619 ; http://n2t.net/addgene:65619 ; RRID:Addgene_65619)    </addgene:refMethod>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>803</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:keywords>Degron-KI p53 donor vector</genbank:keywords>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:vectorBackbone>Degron-KI donor backbone vector</addgene:vectorBackbone>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Zhou Q, Derti A, Ruddy DA, Rakiec DP, Kao I, Lira M, Gibaja V, Chan H, Yang Y, Min J, Schlabach MR, Stegmeier F</genbank:authors>
+    <genbank:title>A chemical genetics approach for the functional assessment of novel cancer genes.</genbank:title>
+    <genbank:pubmed>25788694</genbank:pubmed>
+    <genbank:journal>Cancer Res. 2015 Mar 18. pii: canres.2930.2014.</genbank:journal>
+    <genbank:label>1  (bases 1 to 803)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 26, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 803)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>agtggggatccagcatgagacacttccaaccctgggtcacctgggcctgcagagaaggaaccccctcccccaacaccatgccagtgtctgagacagctcggcttcctgtggagcaggaaaagaatggctgcttcacattctctcttccaatgtttcaccacaacccaagcactcctgccccacccctcaccagccatgcacttctttgaggaaaagacaatcagagagggacttccaaccttcccaccactaaatccccaagacttcctaaatgtgcaccctattcccaactcccttcctgtattttttttttttttttgagatggagtctctctctgtcacctaggctggagcacagtggcatgatctcagctcactgcaacctctaccttccgggttcaagccattctcctgcctcagtctcccgagtagctgggattacaggcgagtaccaccacacccagctaatttttgtatttttagtagagacagggctttgcatgttggccaggctggtctcgaactccttacttcaggtgatcggcccgcctcagcctcctaaagtgccaagattacaggtgtgagctaccgtgccctgctcccacctcctgttaacaaggatatagtcattctcagcctgcaatctctgtatggggaaggacacccccttggcccccacccttccccacctgatacacggctccatttctttgattcctttcactgcaaagcttctggaagaacaactgtctcaccgctcacctgcccattctcttcggacactcctcagccctgcattacaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
