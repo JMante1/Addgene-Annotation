@@ -1,0 +1,154 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:note>promoter for bacteriophage T7 RNA polymerase</gbConv:note>
+        <dcterms:title>T7 promoter</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>36</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>54</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:label>T7 promoter</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorBackbone>pcdna3</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:product>leader peptide from bacteriophage T7 gene 10</gbConv:product>
+        <gbConv:label>T7 tag (gene 10 leader)</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>T7 tag (gene 10 leader)</dcterms:title>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:note>promotes efficient translation in E. coli</gbConv:note>
+        <gbConv:translation>MASMTGGQQMG</gbConv:translation>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>68</sbol:start>
+            <sbol:end>100</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:altName>Jip2</addgene:altName>
+    <dcterms:description>act as molecular scaffolds that mediate the activation of the JNK signaling pathway in vivo..</dcterms:description>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/106/"/>
+    <addgene:totalVectorSizeBp>7950</addgene:totalVectorSizeBp>
+    <addgene:genBankID>AF136382</addgene:genBankID>
+    <genbank:date>07-JUN-2021</genbank:date>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:refMethod> pcdna3 T7 Jip2 was a gift from  Roger Davis    (Addgene plasmid # 59028 ; http://n2t.net/addgene:59028 ; RRID:Addgene_59028)    </addgene:refMethod>
+    <addgene:refBib>  The JIP group of mitogen-activated protein kinase scaffold proteins. Yasuda J, Whitmarsh AJ, Cavanagh J, Sharma M, Davis RJ. Mol Cell Biol. 1999 Oct;19(10):7245-54.  PubMed 10490659   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>T7</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <dcterms:title>T7</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>36</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>55</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>T7 promoter, forward primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:threeSequencingPrimer>Sp6</addgene:threeSequencingPrimer>
+    <addgene:plasmidTitle>pcdna3 T7 Jip2</addgene:plasmidTitle>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:entrezGene>MAPK8IP2
+
+                        
+                        (a.k.a. IB-2, IB2, JIP2, PRKM8IPL)</addgene:entrezGene>
+    <addgene:growthStrains>Top10</addgene:growthStrains>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:purpose>act as molecular scaffolds that mediate the activation of the JNK signaling pathway in vivo.</addgene:purpose>
+    <addgene:tagFusionProtein>T7 (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:insertSizeBp>2504</addgene:insertSizeBp>
+    <addgene:addgeneId>59028</addgene:addgeneId>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:threeCloningSite>NA
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/10490659"/>
+    <genbank:keywords>pcdna3 T7 Jip2</genbank:keywords>
+    <addgene:geneInsertName>MAPK8IP2 mitogen-activated protein kinase 8 interacting protein 2</addgene:geneInsertName>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <obo:OBI_0001617>10490659</obo:OBI_0001617>
+    <addgene:backboneSizeWoInsertBp>5446</addgene:backboneSizeWoInsertBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>699</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>10490659</genbank:pubmed>
+    <genbank:journal>Mol Cell Biol. 1999 Oct;19(10):7245-54.</genbank:journal>
+    <genbank:authors>Yasuda J, Whitmarsh AJ, Cavanagh J, Sharma M, Davis RJ</genbank:authors>
+    <genbank:title>The JIP group of mitogen-activated protein kinase scaffold proteins.</genbank:title>
+    <genbank:label>1  (bases 1 to 699)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 7, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 699)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>actagagaacccactgcttactggcttatcgaaattaatacgactcactatagggagacccaagcttatggctagcatgactggtggacagcaaatgggtggatccatggcggatcgcgcggagatgttttctctctccaccttccactcgctgtcgccgccgggctgcaggcctccccaggacataagcctggaagaatttgacgacgaagatctgtctgagatcactgatgactgtggcctgggcctcagctacgactcagaccactgtgagaaggacagcctctccctggggcgctcggagcagccgcaccccatctgctccttccaggatgacttccaggagtttgagatgatcgatgacaatgaagaggaggacgatgaggacgaggaagaggaggaggaggaggaggagggagatggggaaggccaggagggaggagaccctggctcagaggcacctgcccccgggccccttatcccctccccttccgtggaggagccccacaagcaccggcccaccaccctccgtctgaccacactgggggcccaggactccctaaacaacaacggaggctttgacctggtgcgtccggcctcctggcaggagacagcgctatgctcacccgccccggaggccctcagagagctcccgggccccctccctgccacggacaccgggcccggcggggcgcagtc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
