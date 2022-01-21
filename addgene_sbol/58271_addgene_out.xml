@@ -1,0 +1,150 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:addgeneId>58271</addgene:addgeneId>
+    <addgene:purpose>bacterial expression of PITP beta K61A mutant (phosphatidylinositol transfer protein beta)</addgene:purpose>
+    <addgene:threeSequencingPrimer>T7 terminal</addgene:threeSequencingPrimer>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:entrezGene>PITPNB
+
+                        
+                        (a.k.a. PI-TP-beta, PtdInsTP, VIB1B)</addgene:entrezGene>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:product>leader peptide from bacteriophage T7 gene 10</gbConv:product>
+        <gbConv:translation>MASMTGGQQMG</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>62</sbol:start>
+            <sbol:end>94</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:label>T7 tag (gene 10 leader)</gbConv:label>
+        <gbConv:note>promotes efficient translation in E. coli</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>T7 tag (gene 10 leader)</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:altName>phosphatidylinositol transfer protein</addgene:altName>
+    <addgene:vectorBackbone>pRSET-C</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>DLYDDDDK</gbConv:translation>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:label>Xpress(TM) tag</gbConv:label>
+        <dcterms:title>Xpress(TM) tag</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:end>121</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>98</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:product>Xpress(TM) epitope tag, including an enterokinase recognition and cleavage site</gbConv:product>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pRSETC-PITPbeta (splice variant 1) K61A was a gift from  Shamshad Cockcroft    (Addgene plasmid # 58271 ; http://n2t.net/addgene:58271 ; RRID:Addgene_58271)    </addgene:refMethod>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>24</sbol:end>
+            <sbol:start>2</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)</dcterms:title>
+        <gbConv:note>efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:promoter>T7</addgene:promoter>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <dcterms:description>bacterial expression of PITP beta K61A mutant (phosphatidylinositol transfer protein beta) .</dcterms:description>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2001/"/>
+    <addgene:tagFusionProtein>HIS (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18636990"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:date>12-JUL-2021</genbank:date>
+    <addgene:plasmidTitle>pRSETC-PITPbeta (splice variant 1) K61A</addgene:plasmidTitle>
+    <addgene:backboneSizeWoInsertBp>2900</addgene:backboneSizeWoInsertBp>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:geneInsertName>PITP beta</addgene:geneInsertName>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:refBib>  Dynamics of lipid transfer by phosphatidylinositol transfer proteins in cells. Shadan S, Holic R, Carvou N, Ee P, Li M, Murray-Rust J, Cockcroft S. Traffic. 2008 Sep;9(10):1743-56. doi: 10.1111/j.1600-0854.2008.00794.x. Epub 2008 Jul 9. 10.1111/j.1600-0854.2008.00794.x   PubMed 18636990   </addgene:refBib>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:mutation>K61A (abolishes PI binding)</addgene:mutation>
+    <obo:OBI_0001617>18636990</obo:OBI_0001617>
+    <genbank:keywords>pRSETC-PITPbeta (splice variant 1) K61A</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>843</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>18636990</genbank:pubmed>
+    <genbank:authors>Shadan S, Holic R, Carvou N, Ee P, Li M, Murray-Rust J, Cockcroft S</genbank:authors>
+    <genbank:title>Dynamics of lipid transfer by phosphatidylinositol transfer proteins in cells.</genbank:title>
+    <genbank:label>1  (bases 1 to 843)</genbank:label>
+    <genbank:journal>Traffic. 2008 Sep;9(10):1743-56. doi: 10.1111/j.1600-0854.2008.00794.x. Epub 2008 Jul 9.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 843)</genbank:label>
+    <genbank:journal>Exported Jul 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>ttttgtttaactttaagaaggagatatacatatgcggggttctcatcatcatcatcatggtatggctagcatgactggtggacagcaaatgggtcgggatctgtacgacgatgacgataaggatccgatggtgctgatcaaggagttccgtgtggttttgccatgttctgttcaggagtatcaggttgggcagctttactctgttgcagaagctagtaagaatgagactggtggtggagaaggaattgaagtcttaaagaatgaaccttatgagaaggatggagaaaagggacagtatacgcacgcaatttatcacctaaagagcaaagtgcctgcattcgtgaggatgattgctcccgagggctccttggtgtttcatgagaaagcctggaatgcgtacccctactgtagaacaattgtaacgaatgaatatatgaaagatgatttcttcattaaaatcgaaacatggcacaaaccagacttgggaacattagaaaatgtacatggtttagatccaaacacatggaaaactgttgaaattgtccatatagacattgcagatagaagtcaagttgaaccagcagactacaaagctgatgaagacccagcattattccagtcagtcaagaccaagagaggccctttgggacccaactggaagaaggagctggcaaacagccctgactgtccccagatgtgtgcctataagctggtgaccatcaaattcaagtggtggggactgcaaagcaaagtagaaaacttcattcaaaagcaagaaaaacggatatttacaaacttccatcgccagcttttttgttggattgacaagtggatcgatctcac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
