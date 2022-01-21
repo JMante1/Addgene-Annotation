@@ -1,0 +1,170 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>GAL4 DNA binding domain</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>417</sbol:start>
+            <sbol:end>857</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:translation>MKLLSSIEQACDICRLKKLKCSKEKPKCAKCLKNNWECRYSPKTKRSPLTRAHLTEVESRLERLEQLFLLIFPREDLDMILKMDSLQDIKALLTGLFVQDNVNKDAVTDRLASVETDMPLTLRQHRISATSSSEESSNKGQRQLTVS</gbConv:translation>
+        <gbConv:product>DNA binding domain of the GAL4 transcriptional activator</gbConv:product>
+        <gbConv:label>GAL4 DNA binding domain</gbConv:label>
+        <gbConv:gene>Saccharomyces cerevisiae GAL4 (truncated)</gbConv:gene>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:note>promoter for bacteriophage T7 RNA polymerase</gbConv:note>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>906</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:start>888</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>T7 promoter</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <dcterms:title>T7 promoter</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <gbConv:note>Synthetic intron, forward primer</gbConv:note>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:start>949</sbol:start>
+            <sbol:end>968</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <dcterms:title>pMT2-F</dcterms:title>
+        <gbConv:label>pMT2-F</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:geneInsertName>HBSP</addgene:geneInsertName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <dcterms:title>T3 promoter</dcterms:title>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:label>T3 promoter</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>21</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>promoter for bacteriophage T3 RNA polymerase</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:backboneManufacturer>Promega</addgene:backboneManufacturer>
+    <addgene:threeCloningSite>XbaI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1930/"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:plasmidTitle>pBIND-HBSP</addgene:plasmidTitle>
+    <addgene:species>Hepatitis B virus</addgene:species>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:vectorBackbone>pBIND</addgene:vectorBackbone>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:date>24-MAY-2021</genbank:date>
+    <addgene:promoter>CMV</addgene:promoter>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:keywords>pBIND-HBSP</genbank:keywords>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <dcterms:description>Expression of GAL4BD-tagged Hepatitis B splicing protein.</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>1076</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <obo:OBI_0001617>24758376</obo:OBI_0001617>
+    <addgene:refBib>  Hepatitis B spliced protein (HBSP) promotes the carcinogenic effects of benzo [alpha] pyrene by interacting with microsomal epoxide hydrolase and enhancing its hydrolysis activity. Chen JY, Chen WN, Jiao BY, Lin WS, Wu YL, Liu LL, Lin X. BMC Cancer. 2014 Apr 23;14:282. doi: 10.1186/1471-2407-14-282. 10.1186/1471-2407-14-282   PubMed 24758376   </addgene:refBib>
+    <addgene:tagFusionProtein>GAL4BD (N terminal on backbone)</addgene:tagFusionProtein>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:addgeneNotes>Addgene Diagnostic Test</addgene:addgeneNotes>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:threeSequencingPrimer>EBV-Rev</addgene:threeSequencingPrimer>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24758376"/>
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <addgene:genBankID>FJ151413.1</addgene:genBankID>
+    <addgene:purpose>Expression of GAL4BD-tagged Hepatitis B splicing protein</addgene:purpose>
+    <addgene:addgeneId>53113</addgene:addgeneId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:refMethod> pBIND-HBSP was a gift from  Xu Lin    (Addgene plasmid # 53113 ; http://n2t.net/addgene:53113 ; RRID:Addgene_53113)    </addgene:refMethod>
+    <addgene:insertSizeBp>333</addgene:insertSizeBp>
+    <addgene:backboneSizeWoInsertBp>6360</addgene:backboneSizeWoInsertBp>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 1076)</genbank:label>
+    <genbank:journal>BMC Cancer. 2014 Apr 23;14:282. doi: 10.1186/1471-2407-14-282.</genbank:journal>
+    <genbank:pubmed>24758376</genbank:pubmed>
+    <genbank:title>Hepatitis B spliced protein (HBSP) promotes the carcinogenic effects of benzo [alpha] pyrene by interacting with microsomal epoxide hydrolase and enhancing its hydrolysis activity.</genbank:title>
+    <genbank:authors>Chen JY, Chen WN, Jiao BY, Lin WS, Wu YL, Liu LL, Lin X</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 1076)</genbank:label>
+    <genbank:journal>Exported May 24, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>agcattaaccctcactaaagggaagcggccttagttattcaggtacctgcggccgctctagactagtaaactgagccaggagaaacggactgaggcccactcccataggaatcttgcgaaagcccaggatgatgggatgggaatacaagtgcagtttccgtccgaaggttttgtacagcaacaagagggaaacatagaggttccttgagcaggaatcgtgcaggtcttgcatggccccgtgctggtggttgatgctcattgagattcccgagattgagatcttctgcgacgcggcgattgagaccttcgtctgcgaggcgagggagttcttcttctaggggacctgcctcgtcgtctaacaacagtagtttccggaagtgttgataagataggggacggatccccgggaattccggcgatacagtcaactgtctttgacctttgttactactctcttccgatgatgatgtcgcacttattctatgctgtctcaatgttagaggcatatcagtctccactgaagccaatctatctgtgacggcatctttattcacattatcttgtacaaataatcctgttaacaatgcttttatatcctgtaaagaatccattttcaaaatcatgtcaaggtcttctcgaggaaaaatcagtagaaatagctgttccagtctttctagccttgattccacttctgtcagatgtgccctagtcagcggagaccttttggttttgggagagtagcgacactcccagttgttcttcagacacttggcgcacttcggtttttctttggagcacttgagctttttaagtcggcaaatatcgcatgcttgttcgatagaagacagtagcttcatctttcaggaggcttgcttcaagctggctagcctatagtgagtcgtattaagtactctagccttaagagctgtaattgaactgggagtggacacctgtggagagaaaggcaaagtggatgtcagtaagaccaataggtgcctatcagaaacgcaagagtcttctctgtctcgacaagcccagtttctattggtctccttaaacctgtcttgtaaccttga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>

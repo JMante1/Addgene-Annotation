@@ -1,0 +1,111 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24670723"/>
+    <addgene:species>H. sapiens (human); firefly</addgene:species>
+    <addgene:threeSequencingPrimer>pBABE 3'</addgene:threeSequencingPrimer>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:refBib>  p38MAPK plays a crucial role in stromal mediated tumorigenesis. Alspach E, Flanagan KC, Luo X, Ruhland MK, Huang H, Pazolli E, Donlin MJ, Marsh T, Piwnica-Worms D, Monahan J, Novack DV, McAllister SS, Stewart SA. Cancer Discov. 2014 Mar 26. 10.1158/2159-8290.CD-13-0743   PubMed 24670723   </addgene:refBib>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:purpose>expresses a firefly luciferase mRNA fused to the 3' UTR of GAPDH</addgene:purpose>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:addgeneId>52885</addgene:addgeneId>
+    <addgene:geneInsertName>firefly luciferase fused to GAPDH 3' UTR</addgene:geneInsertName>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:selectableMarkers>Hygromycin</addgene:selectableMarkers>
+    <addgene:refMethod> pBABE lucGAPDH was a gift from  Sheila Stewart   (Addgene plasmid # 52885)   </addgene:refMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:product>PEST degradation sequence from mouse ornithine decarboxylase</gbConv:product>
+        <gbConv:label>hPEST</gbConv:label>
+        <gbConv:translation>SHGFPPEVEEQAAGTLPMSCAQESGMDRHPAACASARINV</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>937</sbol:start>
+            <sbol:end>1056</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>hPEST</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:note>human codon-optimized</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>02-SEP-2021</genbank:date>
+    <addgene:fiveCloningSite>SnabI
+    (destroyed during cloning)</addgene:fiveCloningSite>
+    <addgene:plasmidTitle>pBABE lucGAPDH</addgene:plasmidTitle>
+    <addgene:threeCloningSite>SalI
+    (destroyed during cloning)</addgene:threeCloningSite>
+    <addgene:fiveSequencingPrimer>pBABE 5'</addgene:fiveSequencingPrimer>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/502/"/>
+    <addgene:backboneSizeWoInsertBp>5578</addgene:backboneSizeWoInsertBp>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:insertSizeBp>1371</addgene:insertSizeBp>
+    <addgene:academicNonprofitTerms>UBMTA
+Luciferase Limited Use Label License</addgene:academicNonprofitTerms>
+    <addgene:totalVectorSizeBp>6921</addgene:totalVectorSizeBp>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>SwithGear genomics</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <obo:OBI_0001617>24670723</obo:OBI_0001617>
+    <genbank:keywords>pBABE lucGAPDH</genbank:keywords>
+    <dcterms:description>expresses a firefly luciferase mRNA fused to the 3' UTR of GAPDH.</dcterms:description>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:vectorType>Mammalian Expression, Retroviral, Luciferase</addgene:vectorType>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:growthStrains>XL10 Gold</addgene:growthStrains>
+    <addgene:vectorBackbone>pBABE hygro</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>1366</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 1366)</genbank:label>
+    <genbank:pubmed>24670723</genbank:pubmed>
+    <genbank:journal>Cancer Discov. 2014 Mar 26.</genbank:journal>
+    <genbank:authors>Alspach E, Flanagan KC, Luo X, Ruhland MK, Huang H, Pazolli E, Donlin MJ, Marsh T, Piwnica-Worms D, Monahan J, Novack DV, McAllister SS, Stewart SA</genbank:authors>
+    <genbank:title>p38MAPK plays a crucial role in stromal mediated tumorigenesis.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 1366)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported Sep 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>atggcttccaaggtgtacgacccggagcagcgcaagaggatgatcaccggccctcagtggtgggctcggtgcaagcagatgaacgtgctcgactccttcatcaactactacgacagcgagaaacatgcggagaacgccgtgatcttcctccacggcaacgccgcttcctcctacctgtggcgccacgtcgtgccccacatcgagcccgtcgcccggtgcatcatccctgatctgatcgggatggggaagagcgggaagagcggcaacggcagctaccgcctgctcgaccactacaagtacctcaccgcctggttcgagctgctgaacctccccaagaagatcatctttgtgggccacgactggggcgcttgtctcgcttttcactactcctacgagcaccaggataagatcaaggctatcgtgcatgctgagagcgtcgtggacgtgatcgagtcctgggacgagtggcccgatatcgaggaggatattgctctgatcaagtccgaggagggcgagaagatggtcctggagaataacttcttcgtggagactatgctgcctagcaagatcatgcgcaagctggagcccgaggagttcgctgcttacctggagcccttcaaggagaagggcgaggtcagaagaccaaccctcagctggcctcgggagatccctctggtcaagggcgggaagccggacgtggtgcagatcgtccggaactacaacgcctacctgcgcgccagcgacgacctgcctaagatgttcatcgagtccgaccccggcttcttcagcaacgctatcgtggagggcgccaagaagttccccaacaccgagttcgtgaaggtgaagggcctccacttctcccaagaggacgcccctgatgagatggggaagtacatcaagagcttcgtcgagcgcgtcctcaagaacgagcagaattctcacggcttccctcccgaggtggaggagcaggccgccggcaccctgcccatgagctgcgcccaggagagcggcatggatagacaccctgctgcttgcgccagcgccaggatcaacgtctaatctagagacaacgaatttggctacagcaacagggtggtggacctcatggcccacatggcctccaaggagtaagacccctggaccaccagccccagcaagagcacaagaggaagagagagaccctcactgctggggagtccctgccacactcagtcccccaccacactgaatctcccctcctcacagttgccatgtagaccccttgaagaggggaggggcctagggagccgcaccttgtcatgtaccatcaataaagtaccctgtgctcaaccagttacttgtcctgtcttattctagggtctggggc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

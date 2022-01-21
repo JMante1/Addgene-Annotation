@@ -1,0 +1,108 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24529375"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1872/"/>
+    <addgene:refBib>  A promiscuous lipid-binding protein diversifies the subcellular sites of toll-like receptor signal transduction. Bonham KS, Orzalli MH, Hayashi K, Wolf AI, Glanemann C, Weninger W, Iwasaki A, Knipe DM, Kagan JC. Cell. 2014 Feb 13;156(4):705-16. doi: 10.1016/j.cell.2014.01.019. 10.1016/j.cell.2014.01.019   PubMed 24529375   </addgene:refBib>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:mutation>Deleted amino acids 1-85</addgene:mutation>
+    <addgene:addgeneId>52736</addgene:addgeneId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>Retroviral vector expresses the lipid binding domain of PLCd1 fused to the TIR of hTIRAP and GFP. Also contains IRES-hCD2 as selectable marker.</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>927</sbol:start>
+            <sbol:end>936</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:insertSizeBp>1600</addgene:insertSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:purpose>Retroviral vector expresses the lipid binding domain of PLCd1 fused to the TIR of hTIRAP and GFP. Also contains IRES-hCD2 as selectable marker</addgene:purpose>
+    <addgene:genBankID>AF378129.1
+TIRAP</addgene:genBankID>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:refMethod> PLC-TIR-GFP was a gift from  Jonathan Kagan    (Addgene plasmid # 52736 ; http://n2t.net/addgene:52736 ; RRID:Addgene_52736)    </addgene:refMethod>
+    <addgene:plasmidTitle>PLC-TIR-GFP</addgene:plasmidTitle>
+    <addgene:entrezGene>TIRAP
+
+                        
+                        (a.k.a. BACTS1, Mal, MyD88-2, wyatt)</addgene:entrezGene>
+    <addgene:tagsFusionProteins>PLCd1 Lipid binding (N terminal on insert)
+GFP (C terminal on insert)</addgene:tagsFusionProteins>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:selectableMarkers>human CD2</addgene:selectableMarkers>
+    <genbank:date>25-MAY-2021</genbank:date>
+    <addgene:geneInsertName>Toll/IL-1 Receptor adaptor protein</addgene:geneInsertName>
+    <addgene:altName>Mal</addgene:altName>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <obo:OBI_0001617>24529375</obo:OBI_0001617>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:vectorType>Mammalian Expression, Retroviral</addgene:vectorType>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:vectorBackbone>MSCV2.2</addgene:vectorBackbone>
+    <genbank:keywords>PLC-TIR-GFP</genbank:keywords>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>943</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>24529375</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 943)</genbank:label>
+    <genbank:journal>Cell. 2014 Feb 13;156(4):705-16. doi: 10.1016/j.cell.2014.01.019.</genbank:journal>
+    <genbank:title>A promiscuous lipid-binding protein diversifies the subcellular sites of toll-like receptor signal transduction.</genbank:title>
+    <genbank:authors>Bonham KS, Orzalli MH, Hayashi K, Wolf AI, Glanemann C, Weninger W, Iwasaki A, Knipe DM, Kagan JC</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 943)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported May 25, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>ccctcactccttctctaggcgccggaattagatctctcgagctcaagcttcgaattcccgccgccaccatgcacgggctccaggatgacccggaccttcaggcccttctgaagggcagccagcttctgaaggtgaagtccagctcgtggcgtagggaacgcttctacaagctacaggaggactgcaagaccatctggcaggaatctcgaaaggtcatgaggtccccggagtcgcagctgttctccatcgaggacattcaggaggtacggatgggacaccgcacagaaggcctggagaagtttgcccgagacatccccgaggatcgatgcttctccattgtcttcaaggaccagcgcaacaccctagacctcattgccccatcaccagctgacgctcagcactgggtgcagggcctgcgcaagatcatccaccactccggctccatggaccagcggcagaagtatgacgtctgcgtgtgccacagtgaggaagacctggtggccgcccaggacctggtctcctacttggaaggcagcactgccagcctgcgctgcttcctgcaactccgggatgcaaccccaggcggcgctatagtgtccgagctgtgccaggcactgagcagtagtcactgccgggtgctgctcatcacgccgggcttccttcaggacccctggtgcaagtaccagatgctgcaggccctgaccgaggctccaggggccgagggctgcaccatccccctgctgtcgggcctcagcagagctgcctacccacctgagctccgattcatgtactacgtcgatggcaggggccctgatggtggctttcgtcaagtcaaagaagctgtcatgcgttgtaagctactacaggagggagaaggggaacgggattcagctacagtatctgatctacttggggatccaccggtcgccaccatggtgagcaa</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
