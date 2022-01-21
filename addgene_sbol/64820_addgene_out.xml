@@ -1,0 +1,167 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:date>03-SEP-2021</genbank:date>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:keywords>Pak1 Y3F</genbank:keywords>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <genbank:division>SYN</genbank:division>
+    <addgene:plasmidTitle>Pak1 Y3F</addgene:plasmidTitle>
+    <addgene:geneInsertName>PAK1</addgene:geneInsertName>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:selectableMarkers>Hygromycin, Gentamicin</addgene:selectableMarkers>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:mutation>Y153F,Y201F,Y285F</addgene:mutation>
+    <addgene:purpose>Mammalian expression of Pak1 Y153F,Y201F,Y285F mutant</addgene:purpose>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>T7</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>56</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>37</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T7</dcterms:title>
+        <gbConv:note>T7 promoter, forward primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:fiveSequencingPrimer>CTGGATGTGTTGGAGTTTTTCAACTCGAAGAAG to sequence mutations</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:product>HA (human influenza hemagglutinin) epitope tag</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>HA</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>83</sbol:start>
+            <sbol:end>109</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:label>HA</gbConv:label>
+        <gbConv:translation>YPYDVPDYA</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2320/"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:altName>p21 protein (Cdc42/Rac)-activated kinase 1</addgene:altName>
+    <addgene:addgeneId>64820</addgene:addgeneId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>1121</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:entrezGene>PAK1
+
+                        
+                        (a.k.a. IDDMSSD, PAKalpha, alpha-PAK, p65-PAK)</addgene:entrezGene>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:tagFusionProtein>HA (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:refMethod> Pak1 Y3F was a gift from  Maria Diakonova   (Addgene plasmid # 64820)   </addgene:refMethod>
+    <dcterms:description>Mammalian expression of Pak1 Y153F,Y201F,Y285F mutant.</dcterms:description>
+    <addgene:refBib>  JAK2 tyrosine kinase phosphorylates PAK1 and regulates PAK1 activity and functions. Rider L, Shatrova A, Feener EP, Webb L, Diakonova M. J Biol Chem. 2007 Oct 19;282(42):30985-96. Epub 2007 Aug 28. 10.1074/jbc.M701794200   PubMed 17726028   </addgene:refBib>
+    <addgene:vectorBackbone>CMV6</addgene:vectorBackbone>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:promoter>CMV</addgene:promoter>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:end>55</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>37</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T7 promoter</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:label>T7 promoter</gbConv:label>
+        <gbConv:note>promoter for bacteriophage T7 RNA polymerase</gbConv:note>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/17726028"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>671</sbol:end>
+            <sbol:start>654</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>6xHis</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <gbConv:label>6xHis</gbConv:label>
+        <sbol:displayId>annotation4</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <obo:OBI_0001617>17726028</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 1121)</genbank:label>
+    <genbank:pubmed>17726028</genbank:pubmed>
+    <genbank:title>JAK2 tyrosine kinase phosphorylates PAK1 and regulates PAK1 activity and functions.</genbank:title>
+    <genbank:authors>Rider L, Shatrova A, Feener EP, Webb L, Diakonova M</genbank:authors>
+    <genbank:journal>J Biol Chem. 2007 Oct 19;282(42):30985-96. Epub 2007 Aug 28.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Sep 3, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 1121)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>tactagagaacccactgcttactggcttatcgaaattaatacgactcactatagggagacccaagcttcgatcgtcgacatgtacccatacgatgttccagattacgcttctagaggatccatgtcaaataacggcctagacattcaagacaaacccccagcccctccgatgagaaataccagcactatgattggagccggcagcaaagatgctggaaccctaaaccatggttctaaacctctgcctccaaacccagaggagaagaaaaagaaggaccgattttaccgatccattttacctggagataaaacaaataaaaagaaagagaaagagcggccagagatttctctcccttcagattttgaacacacaattcatgtcggttttgatgctgtcacaggggagtttacgggaatgccagagcagtgggcccgcttgcttcagacatcaaatatcactaagtcggagcagaagaaaaacccgcaggctgttctggatgtgttggagttttacaactcgaagaagacatccaacagccagaaatacatgagctttacagataagtcagctgaggatttcaattcttctaatgccttgaatgtgaaggctgtgtctgagactcctgcagtgccaccagtttcagaagatgaggatgatgatgatgatgatgctaccccaccaccagtgattgctccacgcccagagcacacaaaatctgtattcacacggtctgtgattgaaccacttcctgtcactccaactcgggacgtggctacatctcccatttcacctactgaaaataacaccactccaccagatgctttgacccggaatactgagaagcagaagaagaagcctaaaatgtctgatgaggagatcttggagaaattacgaagcatagtgagtgtgggcgatcctaagaagaaatatacacggtttgagaagattggacaaggtgcttcaggcaccgtgttcacagcaatggatgtggccacaggacaggaggtggccattaagcagatgaatcttcagcagcagcccaagaaagagctgattattaatgagatcctggtcatgagggaaaacaagaacccaaacattgtgaattacttggacagtt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>

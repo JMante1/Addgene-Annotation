@@ -1,0 +1,136 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:genBankID>NM_003958.3</addgene:genBankID>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:vectorBackbone>p3XFLAG-CMV</addgene:vectorBackbone>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:mutation>only N terminus amino acids 1-140</addgene:mutation>
+    <addgene:totalVectorSizeBp>6820</addgene:totalVectorSizeBp>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:refMethod> p3xFLAG-CMV-RNF8-N-terminus(1-140) was a gift from  Marianne Farnebo    (Addgene plasmid # 64675 ; http://n2t.net/addgene:64675 ; RRID:Addgene_64675)    </addgene:refMethod>
+    <addgene:addgeneId>64675</addgene:addgeneId>
+    <genbank:division>SYN</genbank:division>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:backboneManufacturer>Sigma aldrich</addgene:backboneManufacturer>
+    <addgene:geneInsertName>Ring finger protein 8</addgene:geneInsertName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <dcterms:title>3xFLAG</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:product>three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>DYKDHDGDYKDHDIDYKDDDDK</gbConv:translation>
+        <gbConv:label>3xFLAG</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>20</sbol:start>
+            <sbol:end>85</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <dcterms:description>expresses only N terminus of RNF8, amino acids 1 to 140.</dcterms:description>
+    <obo:OBI_0001617>25512560</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:threeCloningSite>KpnI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:threeSequencingPrimer>CMV-24 reverse: 5&#8217;-TATTAGGACAAGGCTGGTGGGCAC-3&#8217;</addgene:threeSequencingPrimer>
+    <addgene:backboneSizeWoInsertBp>6400</addgene:backboneSizeWoInsertBp>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:plasmidTitle>p3xFLAG-CMV-RNF8-N-terminus(1-140)</addgene:plasmidTitle>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:purpose>expresses only N terminus of RNF8, amino acids 1 to 140</addgene:purpose>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>771</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>752</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>Human growth hormone terminator, reverse primer</gbConv:note>
+        <dcterms:title>hGH-PA-R</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>hGH-PA-R</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2316/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>845</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:refBib>  The scaffold protein WRAP53beta orchestrates the ubiquitin response critical for DNA double-strand break repair. Henriksson S, Rassoolzadeh H, Hedstrom E, Coucoravas C, Julner A, Goldstein M, Imreh G, Zhivotovsky B, Kastan MB, Helleday T, Farnebo M. Genes Dev. 2014 Dec 15;28(24):2726-38. doi: 10.1101/gad.246546.114. 10.1101/gad.246546.114   PubMed 25512560   </addgene:refBib>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25512560"/>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:tagFusionProtein>FLAG (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:keywords>p3xFLAG-CMV-RNF8-N-terminus(1-140)</genbank:keywords>
+    <addgene:insertSizeBp>420</addgene:insertSizeBp>
+    <addgene:altName>RNF8/N-terminus amino acids 1-140</addgene:altName>
+    <addgene:entrezGene>RNF8
+
+                        
+                        (a.k.a. hRNF8)</addgene:entrezGene>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Henriksson S, Rassoolzadeh H, Hedstrom E, Coucoravas C, Julner A, Goldstein M, Imreh G, Zhivotovsky B, Kastan MB, Helleday T, Farnebo M</genbank:authors>
+    <genbank:pubmed>25512560</genbank:pubmed>
+    <genbank:journal>Genes Dev. 2014 Dec 15;28(24):2726-38. doi: 10.1101/gad.246546.114.</genbank:journal>
+    <genbank:label>1  (bases 1 to 845)</genbank:label>
+    <genbank:title>The scaffold protein WRAP53beta orchestrates the ubiquitin response critical for DNA double-strand break repair.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 845)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>accgtcagaattaaccatggactacaaagaccatgacggtgattataaagatcatgacatcgattacaaggatgacgatgacaagcttgcggccgcgaattcaatgggggagcccggcttcttcgtcacaggagaccgcgccggtggccggagctggtgcctgcggcgggtggggatgagcgccgggtggctgctgctggaagatgggtgcgaggtgactgtaggacgaggatttggtgtcacataccaactggtatcaaaaatctgccccctgatgatttctcgaaaccactgtgttttgaagcagaatcctgagggccaatggacaattatggacaacaagagtctaaatggtgtttggctgaacagagcgcgtctggaacctttaagggtctattccattcatcagggagactacatccaacttggagtgcctctggaaaataaggagaatgcggagtatgaatatgaagttactgaagaagactgggagacaatatatccttgtctttccccaaagaattaaggtaccagtcgactctagaggatcccgggtggcatccctgtgacccctccccagtgcctctcctggccctggaagttgccactccagtgcccaccagccttgtcctaataaaattaagttgcatcattttgtctgactaggtgtccttctataatattatggggtggaggggggtggtatggagcaaggggcaagttgggaagacaacctgtagggcctgcggggtctattgggaaccaagctggagtgcagtggcacaatcttggctcactgcaatctccgcctcctgggttcaagcgattctcctgcctcagcctcc</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

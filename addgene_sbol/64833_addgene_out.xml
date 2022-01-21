@@ -1,0 +1,117 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:keywords>pLVX-IRES-tdTomato-FlagAkt1W80A</genbank:keywords>
+    <addgene:backboneSizeWoInsertBp>8892</addgene:backboneSizeWoInsertBp>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <obo:OBI_0001617>25856301</obo:OBI_0001617>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:vectorBackbone>pLVX-IRES-tdTomato</addgene:vectorBackbone>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <addgene:fiveCloningSite>Eco RI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:insertSizeBp>1512</addgene:insertSizeBp>
+    <addgene:totalVectorSizeBp>10404</addgene:totalVectorSizeBp>
+    <genbank:date>23-MAY-2021</genbank:date>
+    <addgene:fiveSequencingPrimer>GACCTCCATAGAAGACACCGACT</addgene:fiveSequencingPrimer>
+    <genbank:division>SYN</genbank:division>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:threeSequencingPrimer>GCCTTATTCCAAGCGGCTTCG</addgene:threeSequencingPrimer>
+    <addgene:tagFusionProtein>3xFlag (N terminal on insert)</addgene:tagFusionProtein>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:geneInsertName>Akt1</addgene:geneInsertName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <dcterms:title>3xFLAG</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:product>three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>DYKDHDGDYKDHDIDYKDDDDK</gbConv:translation>
+        <gbConv:label>3xFLAG</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>93</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>158</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:altName>PKBalpha</addgene:altName>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:genBankID>NM_009652</addgene:genBankID>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2321/"/>
+    <addgene:growthStrains>Stbl3</addgene:growthStrains>
+    <addgene:threeCloningSite>BamHI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:vectorType>Mammalian Expression, Lentiviral</addgene:vectorType>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25856301"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:refBib>  Development of a new model system to dissect isoform specific Akt signaling in adipocytes. Kajno E, McGraw TE, Gonzalez E. Biochem J. 2015 Apr 9. 10.1042/BJ20150191   PubMed 25856301   </addgene:refBib>
+    <addgene:refMethod> pLVX-IRES-tdTomato-FlagAkt1W80A was a gift from  Eva Gonzalez    (Addgene plasmid # 64833 ; http://n2t.net/addgene:64833 ; RRID:Addgene_64833)    </addgene:refMethod>
+    <dcterms:description>cDNA of Akt1 with point mutation from Trp to Ala at position 80. This mutation confers resistance to the MK-2206 drug.</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:plasmidTitle>pLVX-IRES-tdTomato-FlagAkt1W80A</addgene:plasmidTitle>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>724</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:addgeneId>64833</addgene:addgeneId>
+    <addgene:entrezGene>Akt1
+
+                        
+                        (a.k.a. Akt, LTR-akt, PKB, PKB/Akt, PKBalpha, Rac)</addgene:entrezGene>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:purpose>cDNA of Akt1 with point mutation from Trp to Ala at position 80. This mutation confers resistance to the MK-2206 drug</addgene:purpose>
+    <addgene:mutation>Point mutation from Trp to Ala at position 80</addgene:mutation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 724)</genbank:label>
+    <genbank:authors>Kajno E, McGraw TE, Gonzalez E</genbank:authors>
+    <genbank:title>Development of a new model system to dissect isoform specific Akt signaling in adipocytes.</genbank:title>
+    <genbank:pubmed>25856301</genbank:pubmed>
+    <genbank:journal>Biochem J. 2015 Apr 9.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 724)</genbank:label>
+    <genbank:journal>Exported May 23, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>ccgtcagatcgcctggagacgccatccacgctgttttgacctccatagaagacaccgactctactagaggatctatttccggtgaattcatggactacaaagaccatgacggtgattataaagatcatgacatcgattacaaggatgacgatgacaagcttatgaacgacgtagccattgtgaaggagggctggctgcacaaacgaggggaatatattaaaacctggcggccacgctacttcctcctcaagaacgatggcacctttattggctacaaggaacggcctcaggatgtggatcagcgagagtccccactcaacaacttctcagtggcacaatgccagctgatgaagacagagcggccaaggcccaacacctttatcatccgctgcctgcaggccaccacagtcattgagcgcaccttccatgtggaaacgcctgaggagcgggaagaatgggccaccgccattcagactgtggcagatggactcaagaggcaggaagaagagacgatggacttccgatcaggctcacccagtgacaactcaggggctgaagagatggaggtgtccctggccaagcccaagcaccgtgtgaccatgaacgagtttgagtacctgaagctactgggcaagggcacctttgggaaggtgattctggtgaaagagaaggccacaggccgctactatgccatgaagatcctcaagaaggaggtcatcgtcgc</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

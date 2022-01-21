@@ -1,0 +1,111 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:mutation>Residues 1-109</addgene:mutation>
+    <obo:OBI_0001617>16710298</obo:OBI_0001617>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:tagFusionProtein>GST (N terminal on insert)</addgene:tagFusionProtein>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <dcterms:description>Expression of murine Ring 1b (1-159 aa) and Bmi1 (1-109 aa).</dcterms:description>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:division>SYN</genbank:division>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:threeSequencingPrimer>pGEX3</addgene:threeSequencingPrimer>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:keywords>pGEX6p2rbs-GST-Ring1b(1-159)-Bmi1(1-109)</genbank:keywords>
+    <addgene:addgeneId>63139</addgene:addgeneId>
+    <addgene:backboneManufacturer>GE Healthcare Life Sciences</addgene:backboneManufacturer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:note>efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)</gbConv:note>
+        <dcterms:title>efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>529</sbol:start>
+            <sbol:end>551</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:insertSizeBp>330</addgene:insertSizeBp>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2258/"/>
+    <addgene:geneInsertName>Bmi1</addgene:geneInsertName>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:promoter>tac</addgene:promoter>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:refMethod> pGEX6p2rbs-GST-Ring1b(1-159)-Bmi1(1-109) was a gift from  Titia Sixma    (Addgene plasmid # 63139 ; http://n2t.net/addgene:63139 ; RRID:Addgene_63139)    </addgene:refMethod>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:plasmidTitle>pGEX6p2rbs-GST-Ring1b(1-159)-Bmi1(1-109)</addgene:plasmidTitle>
+    <addgene:refBib>  Structure and E3-ligase activity of the Ring-Ring complex of polycomb proteins Bmi1 and Ring1b. Buchwald G, van der Stoop P, Weichenrieder O, Perrakis A, van Lohuizen M, Sixma TK. EMBO J. 2006 Jun 7;25(11):2465-74. Epub 2006 May 18. 10.1038/sj.emboj.7601144   PubMed 16710298   </addgene:refBib>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16710298"/>
+    <addgene:vectorBackbone>pGEX-6p-2</addgene:vectorBackbone>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:date>18-MAY-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>678</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:purpose>Expression of murine Ring 1b (1-159 aa) and Bmi1 (1-109 aa)</addgene:purpose>
+    <addgene:entrezGene>Bmi1
+
+                        
+                        (a.k.a. AW546694, Bmi-1, Pcgf4)</addgene:entrezGene>
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:fiveSequencingPrimer>pGEX5</addgene:fiveSequencingPrimer>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 678)</genbank:label>
+    <genbank:pubmed>16710298</genbank:pubmed>
+    <genbank:authors>Buchwald G, van der Stoop P, Weichenrieder O, Perrakis A, van Lohuizen M, Sixma TK</genbank:authors>
+    <genbank:title>Structure and E3-ligase activity of the Ring-Ring complex of polycomb proteins Bmi1 and Ring1b.</genbank:title>
+    <genbank:journal>EMBO J. 2006 Jun 7;25(11):2465-74. Epub 2006 May 18.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 678)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 18, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>tgggatcccatatgtctcaggctgtgcagacaaatggaactcaaccattaagcaaaacatgggaactcagtttgtatgagttacaacgaacacctcaggaggcaataacagatggcttggaaattgtggtttcacctagaagtctacacagtgaattaatgtgcccaatttgtttggatatgttaaagaacaccatgactacaaaggagtgtttacatcggttttgcgcggattgtattatcacagcccttagaagtggcaacaaagagtgtcctacctgtcggaaaaaactggtttctaaaagatcactaaggccagacccgaactttgatgcactcatcagcaagatttatcccagtcgtgatgagtatgaagcgcatcaggaaagggtcttagcaaggatcaacaaacacaacaatcagcaggctctcagccacagcatcgaggaggggctgaagatacaggccatgaacagattacagcgaggctgataagaattcaaaggcctacgtcgacactagtaataattttgtttaactttaagaaggagatagatcccatatgcatcgaacaaccagaatcaagatcactgagctaaatccccacttaatgtgtgtcctgtgtggagggtacttcattgatgccactaccataatagaatgtctacattccttctgt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
