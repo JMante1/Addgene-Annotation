@@ -205,12 +205,16 @@ async def main(cwd, timeout):
             # ret = await asyncio.gather(*[pull_data(session, i) for i in [43649]])
         except:
             # hoping to catch time out and disconnect errors
-            print("HELLO WORLD")
-            print(files_to_do)
+            return len(files_to_do)
 
 
 
 #181796
 timeout = aiohttp.ClientTimeout(total=0) #so it only stops when finished
 cwd = os.getcwd()
-asyncio.run(main(cwd, timeout))
+
+# wrapped in while function to restart when get disconnected
+files_left = 10000000000000
+while files_left > 0:
+    files_left = asyncio.run(main(cwd, timeout))
+    print('##########################################################################################')
