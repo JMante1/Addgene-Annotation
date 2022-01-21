@@ -1,0 +1,129 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:insertSizeBp>2629</addgene:insertSizeBp>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>36</sbol:end>
+            <sbol:start>27</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:threeCloningSite>NotI
+    (not destroyed)</addgene:threeCloningSite>
+    <obo:OBI_0001617>23723238</obo:OBI_0001617>
+    <genbank:division>SYN</genbank:division>
+    <addgene:threeSequencingPrimer>SV40pA-R</addgene:threeSequencingPrimer>
+    <genbank:keywords>Cterminal HA Mios pRK5</genbank:keywords>
+    <addgene:geneInsertName>Mios</addgene:geneInsertName>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:start>57</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>83</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:product>HA (human influenza hemagglutinin) epitope tag</gbConv:product>
+        <gbConv:translation>YPYDVPDYA</gbConv:translation>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <dcterms:title>HA</dcterms:title>
+        <gbConv:label>HA</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:addgeneId>46329</addgene:addgeneId>
+    <genbank:date>21-MAY-2021</genbank:date>
+    <addgene:refMethod> Cterminal HA Mios pRK5 was a gift from  David Sabatini    (Addgene plasmid # 46329 ; http://n2t.net/addgene:46329 ; RRID:Addgene_46329)    </addgene:refMethod>
+    <addgene:plasmidTitle>Cterminal HA Mios pRK5</addgene:plasmidTitle>
+    <addgene:articlesCitingThisPlasmid>2 References</addgene:articlesCitingThisPlasmid>
+    <addgene:vectorBackbone>pRK5</addgene:vectorBackbone>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:fiveSequencingPrimer>SP6</addgene:fiveSequencingPrimer>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23723238"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:fiveCloningSite>SalI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:entrezGene>MIOS
+
+                        
+                        (a.k.a. MIO, Sea4)</addgene:entrezGene>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/432/"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:tagFusionProtein>HA (C terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:refBib>  A Tumor suppressor complex with GAP activity for the Rag GTPases that signal amino acid sufficiency to mTORC1. Bar-Peled L, Chantranupong L, Cherniack AD, Chen WW, Ottina KA, Grabiner BC, Spear ED, Carter SL, Meyerson M, Sabatini DM. Science. 2013 May 31;340(6136):1100-6. doi: 10.1126/science.1232044. 10.1126/science.1232044   PubMed 23723238   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>906</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>Science. 2013 May 31;340(6136):1100-6. doi: 10.1126/science.1232044.</genbank:journal>
+    <genbank:title>A Tumor suppressor complex with GAP activity for the Rag GTPases that signal amino acid sufficiency to mTORC1.</genbank:title>
+    <genbank:pubmed>23723238</genbank:pubmed>
+    <genbank:authors>Bar-Peled L, Chantranupong L, Cherniack AD, Chen WW, Ottina KA, Grabiner BC, Spear ED, Carter SL, Meyerson M, Sabatini DM</genbank:authors>
+    <genbank:label>1  (bases 1 to 906)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 906)</genbank:label>
+    <genbank:journal>Exported May 21, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttataagctgcaataaacaagttgggccatggcggccaagctggggatccttatcatgcgtagtcaggcacatcataggggtaacctccacctcctgcggccgctggctggacagtctctgcaggtaccagattccccgttgtatccaactgcatacatttacacgtgcatgcagacacagggcactctgcatggtccctgaaccaactaagcatatgtccagcatgtccaccgtgcctgcaattatgacaccatgtaaaccagttgttaaattgggctaattttttgtccttgctcaagtccactttttcatctgatttggttcctccaggacagctagaaactggtgttcccatattaatgagacaaagcgcacatcgaggaagtggttttcgacagccaggacaacttgtgactttagatttcgttggtgagccactcacaccatactgactaaaacctctgccctgatgaggcacagctgaacagctgtaggagattgacttgccacagaaattgcaactcacaaaaacttgtgctaaaggcttggaactgggatccaacttactcctgtgaatatcaaattcagctcgtttatgccaaaacctccaggcatctaataaatttctataattctcaatccagtactgaaccctttcatctttaagaacatctaaaggtgaaccctgtaacatacagtaacttgctgtttgaacatctccagttctatcaacataactctccattaagtccactccatctttagtaaggcctgtaagcaaaattccttccaaatttccagcctctttcatttcattggtcaacttttcgatgtatctatttaactgagtatcactaaggaatttacaagcaaatgccactctgtcacgtactgcaactttgttt</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

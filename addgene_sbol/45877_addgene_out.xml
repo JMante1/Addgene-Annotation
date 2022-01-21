@@ -1,0 +1,96 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:vectorBackbone>pEGFP-C2</addgene:vectorBackbone>
+    <addgene:fiveSequencingPrimer>EGFP_C_primer</addgene:fiveSequencingPrimer>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:date>13-JUN-2021</genbank:date>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:keywords>pEGFP-parkin C431S</genbank:keywords>
+    <addgene:tagFusionProtein>EGFP (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:promoter>CMV</addgene:promoter>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:backboneSizeWoInsertBp>4731</addgene:backboneSizeWoInsertBp>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:altName>PARK2</addgene:altName>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23661642"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:insertSizeBp>1398</addgene:insertSizeBp>
+    <addgene:refBib>  Structure of Parkin Reveals Mechanisms for Ubiquitin Ligase Activation. Trempe JF, Sauve V, Grenier K, Seirafi M, Tang MY, Menade M, Al-Abdul-Wahid S, Krett J, Wong K, Kozlov G, Nagar B, Fon EA, Gehring K. Science. 2013 May 9. 10.1126/science.1237908   PubMed 23661642   </addgene:refBib>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:totalVectorSizeBp>6129</addgene:totalVectorSizeBp>
+    <addgene:articlesCitingThisPlasmid>2 References</addgene:articlesCitingThisPlasmid>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:genBankID>NM_004562.2</addgene:genBankID>
+    <obo:OBI_0001617>23661642</obo:OBI_0001617>
+    <addgene:geneInsertName>Parkin</addgene:geneInsertName>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:plasmidTitle>pEGFP-parkin C431S</addgene:plasmidTitle>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>808</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:mutation>C431S mutation (ubiquitin acceptor site)</addgene:mutation>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1596/"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:threeCloningSite>SalI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:refMethod> pEGFP-parkin C431S was a gift from  Edward Fon    (Addgene plasmid # 45877 ; http://n2t.net/addgene:45877 ; RRID:Addgene_45877)    </addgene:refMethod>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:division>SYN</genbank:division>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:entrezGene>PRKN
+
+                        
+                        (a.k.a. AR-JP, LPRS2, PARK2, PDJ)</addgene:entrezGene>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:addgeneId>45877</addgene:addgeneId>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Structure of Parkin Reveals Mechanisms for Ubiquitin Ligase Activation.</genbank:title>
+    <genbank:journal>Science. 2013 May 9.</genbank:journal>
+    <genbank:label>1  (bases 1 to 808)</genbank:label>
+    <genbank:pubmed>23661642</genbank:pubmed>
+    <genbank:authors>Trempe JF, Sauve V, Grenier K, Seirafi M, Tang MY, Menade M, Al-Abdul-Wahid S, Krett J, Wong K, Kozlov G, Nagar B, Fon EA, Gehring K</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 808)</genbank:label>
+    <genbank:journal>Exported Jun 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>cggcatggacgagctgtacaagtccggccggactcagatctcgagctcaagcttcgaattcatgatagtgtttgtcaggttcaactccagccatggtttcccagtggaggtcgattctgacaccagcatcttccagctcaaggaggtggttgctaagcgacagggggttccggctgaccagttgcgtgtgattttcgcagggaaggagctgaggaatgactggactgtgcagaattgtgacctggatcagcagagcattgttcacattgtgcagagaccgtggagaaaaggtcaagaaatgaatgcaactggaggcgacgaccccagaaacgcggcgggaggctgtgagcgggagccccagagcttgactcgggtggacctcagcagctcagtcctcccaggagactctgtggggctggctgtcattctgcacactgacagcaggaaggactcaccaccagctggaagtccagcaggtagatcaatctacaacagcttttatgtgtattgcaaaggcccctgtcaaagagtgcagccgggaaaactcagggtacagtgcagcacctgcaggcaggcaacgctcaccttgacccagggtccatcttgctgggatgatgttttaattccaaaccggatgagtggtgaatgccaatccccacactgccctgggactagtgcagaatttttctttaaatgtggagcacaccccacctctgacaaggaaacatcagtagctttgcacctgatcgcaacaaatagtcggaacatcacttgcattacgtgcacagacgtcaggagccccgtcctg</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

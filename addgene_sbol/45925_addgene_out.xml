@@ -1,0 +1,93 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:fiveSequencingPrimer>M13_pUC_rev; M13-rev</addgene:fiveSequencingPrimer>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:promoter>lac</addgene:promoter>
+    <addgene:species>S. cerevisiae (budding yeast)</addgene:species>
+    <addgene:entrezGene>STP22
+
+                        
+                        (a.k.a. YCL008C, AGS1, VPL15, VPS23)</addgene:entrezGene>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:totalVectorSizeBp>8601</addgene:totalVectorSizeBp>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>21505419</obo:OBI_0001617>
+    <addgene:refBib>  Structural basis for endosomal recruitment of ESCRT-I by ESCRT-0 in yeast. Ren X, Hurley JH. EMBO J. 2011 Jun 1;30(11):2130-9. doi: 10.1038/emboj.2011.122. Epub 2011 Apr 19. 10.1038/emboj.2011.122   PubMed 21505419   </addgene:refBib>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:vectorBackbone>YCplac111</addgene:vectorBackbone>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:backboneSizeWoInsertBp>6103</addgene:backboneSizeWoInsertBp>
+    <addgene:threeSequencingPrimer>mCherry-R; M13_pUC_fwd; M13-F20</addgene:threeSequencingPrimer>
+    <addgene:fiveCloningSite>HindIII
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>871</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:addgeneId>45925</addgene:addgeneId>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:insertSizeBp>2498</addgene:insertSizeBp>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/216/"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:refMethod> YCplac111-yVps23-mCherry was a gift from  James Hurley    (Addgene plasmid # 45925 ; http://n2t.net/addgene:45925 ; RRID:Addgene_45925)    </addgene:refMethod>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:date>10-JUN-2021</genbank:date>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/21505419"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:tagFusionProtein>mCherry (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:geneInsertName>yeast Vps23</addgene:geneInsertName>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:keywords>YCplac111-yVps23-mCherry</genbank:keywords>
+    <addgene:selectableMarkers>LEU2</addgene:selectableMarkers>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:threeCloningSite>EcoRI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:plasmidTitle>YCplac111-yVps23-mCherry</addgene:plasmidTitle>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:vectorType>Yeast Expression</addgene:vectorType>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>EMBO J. 2011 Jun 1;30(11):2130-9. doi: 10.1038/emboj.2011.122. Epub 2011 Apr 19.</genbank:journal>
+    <genbank:title>Structural basis for endosomal recruitment of ESCRT-I by ESCRT-0 in yeast.</genbank:title>
+    <genbank:label>1  (bases 1 to 871)</genbank:label>
+    <genbank:pubmed>21505419</genbank:pubmed>
+    <genbank:authors>Ren X, Hurley JH</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 871)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 10, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>tgaccatgattacgccaagcttggacatggcactaaccactatgaatacaccaacaacagtatagctaaattggacgcgcagagagttagtagaagaagaaggaagaaaagggaagcggagagaagagattatgacacatacaaactactcattactctttgttctttattattcgttggacctttgtttcttaaagtatagataaaaggtcaaaaaatgtagtagtcttttttcacagagcgagaataaaaagttacggcaaaattttgtgggcagttggtatcttaacggccaagaaaagagagagagtgaagagcaacgatgtctgcaaacggcaagatctctgttcccgaggcggtggtcaattggctgttcaaagtcattcaacccatttataacgacggaagaacaactttccacgattctttagcgctgctggacaattttcacagtttaaggccaagaacaagggtatttacgcactctgacggcactccacaactactgttgtccatatatggtaccattagtactggtgaggatggttcatctcctcacagtattcctgtgatcatgtgggtacccagtatgtacccggtaaaacctccctttataagtataaacttggaaaatttcgacatgaacaccatcagtagttccttgcccattcaagaatacatcgactccaatgggtggattgcgctgcccatactccactgctgggatcctgccgcgatgaaccttataatggtcgtacaagaattaatgagtctcttacacgagccgccacaagatcaggcgcccagtctaccccctaagcccaatacgcagctccagcaggagcagaatactcccccactgcccccaaag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

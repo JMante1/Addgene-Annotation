@@ -1,0 +1,132 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:promoter>CMV</addgene:promoter>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:note>T7 promoter, forward primer</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>80</sbol:end>
+            <sbol:start>61</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T7</dcterms:title>
+        <gbConv:label>T7</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:mutation>S600D</addgene:mutation>
+    <addgene:threeSequencingPrimer>BGH reverse</addgene:threeSequencingPrimer>
+    <addgene:totalVectorSizeBp>7478</addgene:totalVectorSizeBp>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <dcterms:title>T7 promoter</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:end>79</sbol:end>
+            <sbol:start>61</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>promoter for bacteriophage T7 RNA polymerase</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:label>T7 promoter</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:keywords>pcDNA3.1(+) Drp1 V2 S600D</genbank:keywords>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:insertSizeBp>2100</addgene:insertSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:geneInsertName>Drp1 V2</addgene:geneInsertName>
+    <addgene:entrezGene>Dnm1l
+
+                        
+                        (a.k.a. 6330417M19Rik, AI450666, Dlp1, Dnmlp1, Drp1, python)</addgene:entrezGene>
+    <addgene:plasmidTitle>pcDNA3.1(+) Drp1 V2 S600D</addgene:plasmidTitle>
+    <addgene:vectorBackbone>pcDNA3.1(+)</addgene:vectorBackbone>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:addgeneId>46345</addgene:addgeneId>
+    <addgene:altName>Dynamin related protein 1, Variant 2</addgene:altName>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <obo:OBI_0001617>23283981</obo:OBI_0001617>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:backboneSizeWoInsertBp>5378</addgene:backboneSizeWoInsertBp>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23283981"/>
+    <addgene:refBib>  Fis1, Mff, MiD49 and MiD51 mediate Drp1 recruitment in mitochondrial fission. Loson OC, Song Z, Chen H, Chan DC. Mol Biol Cell. 2013 Jan 2. 10.1091/mbc.E12-10-0721   PubMed 23283981   </addgene:refBib>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:fiveSequencingPrimer>T7 promoter</addgene:fiveSequencingPrimer>
+    <addgene:refMethod> pcDNA3.1(+) Drp1 V2 S600D was a gift from  David Chan    (Addgene plasmid # 46345 ; http://n2t.net/addgene:46345 ; RRID:Addgene_46345)    </addgene:refMethod>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/665/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>1099</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Loson OC, Song Z, Chen H, Chan DC</genbank:authors>
+    <genbank:pubmed>23283981</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 1099)</genbank:label>
+    <genbank:title>Fis1, Mff, MiD49 and MiD51 mediate Drp1 recruitment in mitochondrial fission.</genbank:title>
+    <genbank:journal>Mol Biol Cell. 2013 Jan 2.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 1099)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>ctatataagcagagctctctggctaactagagaacccactgcttactggcttatcgaaattaatacgactcactatagggagacccaagctggctagcgtttaaacttaagcttggtaccgagctcggatccatggaggcgctgatcccggtcatcaataagctgcaggacgtcttcaacacagtgggtgcggacatcatccagctgcctcagatcgtcgtagtgggaacgcagagcagtgggaagagctcagtgctggaaagcctagtgggcagggaccttcttcccagaggaactggtgtggtcacccggagacctctcattctgcagctagtccacgtttcaccagaagataaaagaaaaacaacaggagaagaaaatggagttgaagcagaagaatggggtaaatttcttcacaccaaaaacaagctttacacagattttgatgaaattcgacaagaaattgaaaatgaaactgaaagaatttcaggaaataataagggggtaagccctgagccaatccatctcaaggttttctcgcccaacgttgtcaacctgacacttgtggatttaccgggaatgaccaaagtacctgtaggcgatcagcccaaggacatcgagcttcagatcagagaacttattcttcggttcatcagtaatcccaattccattatcctcgccgtcactgctgcaaatacagatatggcaacatcagaagcactcaagatttccagagaggtagatccagatgggcgcagaactctagctgtaatcactaaacttgatctcatggatgcgggtactgatgccatggatgtattgatgggaagggttattccagtcaagcttggaataattggagtagttaacagaagccaactggatattaacaataagaagagtgtaactgattcaatccgtgatgagtatgcttttcttcaaaagaagtacccatctctggccaacagaaatggaacaaagtatcttgctaggaccctgaataggttacttatgcatcatatcagagattgtttaccagagctgaaaacaagaataaatgtcttagctgctcagtatcagtctcttctaaatagctatg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
