@@ -1,0 +1,135 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:tagFusionProtein>V5/His (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1986/"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:label>V5 tag</gbConv:label>
+        <gbConv:translation>GKPIPNPLLGLDST</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>69</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>28</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <dcterms:title>V5 tag</dcterms:title>
+        <gbConv:product>epitope tag from simian virus 5</gbConv:product>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:insertSizeBp>1790</addgene:insertSizeBp>
+    <addgene:totalVectorSizeBp>7313</addgene:totalVectorSizeBp>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <genbank:date>20-MAY-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>6xHis</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>18</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>6xHis</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:refMethod> pcDNATM3.1/V5-His TOPO-PKCi-A120E was a gift from  Pedro Salas    (Addgene plasmid # 55687 ; http://n2t.net/addgene:55687 ; RRID:Addgene_55687)    </addgene:refMethod>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <obo:OBI_0001617>18270268</obo:OBI_0001617>
+    <addgene:addgeneId>55687</addgene:addgeneId>
+    <addgene:cloningMethod>TOPO Cloning</addgene:cloningMethod>
+    <addgene:threeSequencingPrimer>BGH</addgene:threeSequencingPrimer>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:growthStrains>Top10</addgene:growthStrains>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:refBib>  Atypical protein kinase C (iota) activates ezrin in the apical domain of intestinal epithelial cells. Wald FA, Oriolo AS, Mashukova A, Fregien NL, Langshaw AH, Salas PJ. J Cell Sci. 2008 Mar 1;121(Pt 5):644-54. doi: 10.1242/jcs.016246. Epub 2008 Feb 12. 10.1242/jcs.016246   PubMed 18270268   </addgene:refBib>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:fiveSequencingPrimer>T7</addgene:fiveSequencingPrimer>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:mutation>A120E</addgene:mutation>
+    <addgene:entrezGene>PRKCI
+
+                        
+                        (a.k.a. DXS1179E, PKCI, nPKC-iota)</addgene:entrezGene>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:keywords>pcDNATM3.1/V5-His TOPO-PKCi-A120E</genbank:keywords>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:vectorBackbone>pcDNA3.1/V5-His TOPO</addgene:vectorBackbone>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:purpose>expresses constitutively active human PKCi tagged with V5</addgene:purpose>
+    <addgene:geneInsertName>Homo sapiens protein kinase C, iota (PRKCI)</addgene:geneInsertName>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18270268"/>
+    <addgene:plasmidTitle>pcDNATM3.1/V5-His TOPO-PKCi-A120E</addgene:plasmidTitle>
+    <addgene:genBankID>NM_002740.4
+NP_002731.3</addgene:genBankID>
+    <addgene:backboneSizeWoInsertBp>5523</addgene:backboneSizeWoInsertBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>969</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>expresses constitutively active human PKCi tagged with V5.</dcterms:description>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>18270268</genbank:pubmed>
+    <genbank:authors>Wald FA, Oriolo AS, Mashukova A, Fregien NL, Langshaw AH, Salas PJ</genbank:authors>
+    <genbank:journal>J Cell Sci. 2008 Mar 1;121(Pt 5):644-54. doi: 10.1242/jcs.016246. Epub 2008 Feb 12.</genbank:journal>
+    <genbank:title>Atypical protein kinase C (iota) activates ezrin in the apical domain of intestinal epithelial cells.</genbank:title>
+    <genbank:label>1  (bases 1 to 969)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 969)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 20, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>atggtgatggtgatgatgaccggtacgcgtagaatcgagaccgaggagagggttagggataggcttaccttcgaaccgcgggccctctagactcgagcggccgccactgtgctggatatctgcagaattgtcttgacccttgacacattcttctgcagacatcaaaagaggattgatatactcaaaaccttcaaattcagactgatcaatcttcctcacaatgtcatcgtcatctggagtgagctggacaggttcattagtaaactgagaatcaaagttgtccaaaccaaattccccagaaatatttggtttaaagggaggtaccacctgtttttgctccatcatatcccaatcaacatttcggaagaacgggtgtccctgaatatcagcaaatcctgtttgaggatgacaacccaatcgttccttagggtccttattaagaaaactcttcagaacacttgcagcttttacagacagagaacgtggtatgcgaatttgtttttccaaaataacttggaagagataatcctctgtgttctggtcagggttatcggagctcccaacaatatcaaatggagaccttcctgccatcatctcaaacatgagcactccaagagcccaccagtcaacactgaaaccataatcttctcctcttaaaatttcaggagcaatgtaattaggagtaccacagaaagtgctggttgtatctcctggccgtaatccttccttacacatgccgtagtcagtgagtttaatgtggccttcagagtccagtaatacattgtccagtttcaaatctctataaattatccctcgctcatgaagataatttaatgctagactgatttctgcagagtaaaatctggcatgttcttcaggaagttttctttgtcgctgcatatgaaacattaggtctcctccatttacatactctataacaaagaacaatctgctttctgtctgaaagca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
