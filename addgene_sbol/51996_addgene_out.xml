@@ -1,0 +1,112 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:purpose>PCMV10 backbone</addgene:purpose>
+    <addgene:addgeneId>51996</addgene:addgeneId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <obo:OBI_0001617>15699353</obo:OBI_0001617>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:entrezGene>Fbxl21
+
+                        
+                        (a.k.a. D630045D17Rik, FBL3B, FBXL3B, Psttm)</addgene:entrezGene>
+    <addgene:vectorBackbone>pCMV10</addgene:vectorBackbone>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:product>three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>3xFLAG</dcterms:title>
+        <gbConv:translation>DYKDHDGDYKDHDIDYKDDDDK</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>106</sbol:end>
+            <sbol:start>41</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>3xFLAG</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>02-SEP-2021</genbank:date>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/15699353"/>
+    <addgene:geneInsertName>mouse Fbxl21</addgene:geneInsertName>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:threeSequencingPrimer>hGHpA-rev</addgene:threeSequencingPrimer>
+    <addgene:plasmidTitle>pCMV10-Flag-psttm</addgene:plasmidTitle>
+    <addgene:refBib>  A noncanonical E-box enhancer drives mouse Period2 circadian oscillations in vivo. Yoo SH, Ko CH, Lowrey PL, Buhr ED, Song EJ, Chang S, Yoo OJ, Yamazaki S, Lee C, Takahashi JS. Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2608-13. Epub 2005 Feb 7. 10.1073/pnas.0409763102   PubMed 15699353   </addgene:refBib>
+    <addgene:mutation>Psttm mutation</addgene:mutation>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <dcterms:description>PCMV10 backbone.</dcterms:description>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:refMethod> pCMV10-Flag-psttm was a gift from  Joseph Takahashi   (Addgene plasmid # 51996)   </addgene:refMethod>
+    <addgene:fiveCloningSite>unknown
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1664/"/>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:threeCloningSite>unknown
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:tagFusionProtein>FLAG (N terminal on insert)</addgene:tagFusionProtein>
+    <genbank:keywords>pCMV10-Flag-psttm</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>1051</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>15699353</genbank:pubmed>
+    <genbank:title>A noncanonical E-box enhancer drives mouse Period2 circadian oscillations in vivo.</genbank:title>
+    <genbank:authors>Yoo SH, Ko CH, Lowrey PL, Buhr ED, Song EJ, Chang S, Yoo OJ, Yamazaki S, Lee C, Takahashi JS</genbank:authors>
+    <genbank:label>1  (bases 1 to 1051)</genbank:label>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2608-13. Epub 2005 Feb 7.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 1051)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported Sep 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>taagcagagctcgtttagtgaaccgtcagaattaaccatggactacaaagaccatgacggtgattataaagatcatgacatcgattacaaggatgacgatgacaagcttgcggccgcgaattcatcgatagatctgatatcggtaccgatgaagaggaataatttctctgccgtgaataaggttgtccagtcgtcaccagtagtgaaacagcccaaacgtgggctctgctcttccctccgccagacccatgcgctctctgtccttctggactgggggactttacctcaccatgtcatattacagatctttcagtaccttcctttaatagatcgagcccgggcttcgtccgtgtgcaggagatggaatgaagtattccacatccctgatctttggaggaagtttgagtttgagctgaaccaatcagcaacttcttatttcaagtccactcatcccgacctcattcaacagatcatcaaaaagcacgctgcacatcttcagtatgtcagctttaaggttgatagcagtactgagtcggcagaagccgcctgtgatatcctttctcagctggtaaattgttctatccagaccttggaattgatttcaacagccaaaccaagtttcatgaatgtgcccaagtctcactttgtgtcggcacttacggtcgtgtttgtcaactcaaaatcgttatcatcgattaaaattgaggacacgccagtggatgacccttccctgaagattcttgtggctaacaacagtgacacccttcgactcctcaaaatgagtagctgtcctcacgtttcatctgatgggatcctctgtgtggcggaccactgtcagggcctccgagagctggccctgaattactacattctgagcgacgaaattctccttgcgctctccagcgagactcacgtgaacctcgaacatctccggatagacgttgtgagtgaaaacccggggcagatcaagttccattctattaagaaacgcagctgggacgcactgatcaaacactccccgagagtgaacgtcgtcatgtacttcttcttg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
