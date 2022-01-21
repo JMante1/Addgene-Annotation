@@ -1,0 +1,101 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23685627"/>
+    <genbank:division>SYN</genbank:division>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/719/"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:refBib>  ULK1 induces autophagy by phosphorylating Beclin-1 and activating VPS34 lipid kinase. Russell RC, Tian Y, Yuan H, Park HW, Chang YY, Kim J, Kim H, Neufeld TP, Dillin A, Guan KL. Nat Cell Biol. 2013 Jul;15(7):741-50. doi: 10.1038/ncb2757. Epub 2013 May 19. 10.1038/ncb2757   PubMed 23685627   </addgene:refBib>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:purpose>Expresses Beclin1 in mammalian cells</addgene:purpose>
+    <addgene:mutation>S14A</addgene:mutation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:label>HA</gbConv:label>
+        <gbConv:product>HA (human influenza hemagglutinin) epitope tag</gbConv:product>
+        <gbConv:translation>YPYDVPDYA</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>HA</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>122</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>96</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:refMethod> Beclin-HA S-A was a gift from  Kunliang Guan    (Addgene plasmid # 46994 ; http://n2t.net/addgene:46994 ; RRID:Addgene_46994)    </addgene:refMethod>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <addgene:tagFusionProtein>HA (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:selectableMarkers>Hygromycin</addgene:selectableMarkers>
+    <genbank:keywords>Beclin-HA S-A</genbank:keywords>
+    <addgene:geneInsertName>becn1</addgene:geneInsertName>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <obo:OBI_0001617>23685627</obo:OBI_0001617>
+    <addgene:plasmidTitle>Beclin-HA S-A</addgene:plasmidTitle>
+    <addgene:addgeneId>46994</addgene:addgeneId>
+    <addgene:vectorBackbone>pqcxih</addgene:vectorBackbone>
+    <dcterms:description>Expresses Beclin1 in mammalian cells .</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>1012</sbol:end>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>Nat Cell Biol. 2013 Jul;15(7):741-50. doi: 10.1038/ncb2757. Epub 2013 May 19.</genbank:journal>
+    <genbank:title>ULK1 induces autophagy by phosphorylating Beclin-1 and activating VPS34 lipid kinase.</genbank:title>
+    <genbank:label>1  (bases 1 to 1012)</genbank:label>
+    <genbank:pubmed>23685627</genbank:pubmed>
+    <genbank:authors>Russell RC, Tian Y, Yuan H, Park HW, Chang YY, Kim J, Kim H, Neufeld TP, Dillin A, Guan KL</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 1012)</genbank:label>
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>ttttgacctccatagaagacaccgggaccgatccagcctccgcggccgggaacggtgcattggaacggacctgcaggaattgatccgcggccatgtacccatacgatgttccagattacgctgggggaggcgaggggtctaaggcgtccagcagcaccatgcaggtggcattcgtgtgccagcgctgtagccagcctctgaaactggacacgagcttcaagatcctggaccgggtcaccatccaggaactcacagctccattacttaccacagcccaggcgaaaccaggagagacccaggaggaagaggctaatagcggtgaagaacctttcattgaaactcgccaggatggtgtctctcgaagattcatccccccagccaggatgatgtctacagaaagtgctaatagcttcactctgatcggggaggcatctgatggtggcaccatggagaacctcagccggagactcaaggtcactggagacctgtttgacatcatgtcgggccagaccgatgtggatcacccgctgtgtgaggaatgcacagacactcttttagaccagctggacactcagctcaatgtcactgagaatgaatgtcagaactacaaacgctgtttggagatcctggagcagatgaatgaggatgacagtgagcagctgcagagggagctgaaggagctggccttggaggaggagaggctgatccaggagctggaagatgtggaaaagaaccgcaaggtggtggcagagaacctggagaaggtccaggctgaggcggagagattggaccaggaggaagctcagtaccagcgggagtatagtgagtttaaaaggcagcagctggagttggatgacgaactcaagagtgtggagaaccaggtgcgctacgcccagatccagctggacaagctcaagaaaaccaatgtcttcaatgccaccttccatatctggcacagcggacagtttggcacaatcaataatttcagactgggtcgcttgcccagcgttcc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
