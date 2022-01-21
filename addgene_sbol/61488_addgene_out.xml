@@ -1,0 +1,109 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:fiveSequencingPrimer>biPGK-F (CTGACAATTCCGTGGTGTTGTCGC)</addgene:fiveSequencingPrimer>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:geneInsertName>miR-144-451 Trap</addgene:geneInsertName>
+    <addgene:vectorBackbone>biPGK</addgene:vectorBackbone>
+    <addgene:backboneManufacturer>Naldinin lab, Brown, et al. 2007 PMID 18026085</addgene:backboneManufacturer>
+    <addgene:promoter>bidirectional phosphoglycerate kinase promoter (biPGK)</addgene:promoter>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:refMethod> miR-144-451 Trap was a gift from  Curt Civin    (Addgene plasmid # 61488 ; http://n2t.net/addgene:61488 ; RRID:Addgene_61488)    </addgene:refMethod>
+    <genbank:date>17-JUL-2021</genbank:date>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2172/"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:fiveCloningSite>XmaI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25312678"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:purpose>to knockdown endogenous miR144 and miR451 levels</addgene:purpose>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:product>Factor Xa recognition and cleavage site</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:label>Factor Xa site</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>IEGR</gbConv:translation>
+        <dcterms:title>Factor Xa site</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>50</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>39</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <dcterms:description>to knockdown endogenous miR144 and miR451 levels.</dcterms:description>
+    <genbank:keywords>miR-144-451 Trap</genbank:keywords>
+    <addgene:threeCloningSite>KpnI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:addgeneId>61488</addgene:addgeneId>
+    <addgene:growthStrains>Stbl3</addgene:growthStrains>
+    <addgene:vectorType>Mammalian Expression, Lentiviral</addgene:vectorType>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <obo:OBI_0001617>25312678</obo:OBI_0001617>
+    <addgene:tagFusionProtein>GFP (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:refBib>  MIR144 and MIR451 regulate human erythropoiesis via RAB14. Kim M, Tan YS, Cheng WC, Kingsbury TJ, Heimfeld S, Civin CI. Br J Haematol. 2014 Oct 14. doi: 10.1111/bjh.13164. 10.1111/bjh.13164   PubMed 25312678   </addgene:refBib>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:plasmidTitle>miR-144-451 Trap</addgene:plasmidTitle>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>501</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:insertSizeBp>530</addgene:insertSizeBp>
+    <addgene:threeSequencingPrimer>biPGK-R (CCCAGGCTCAGATCTGGTCTAACC)</addgene:threeSequencingPrimer>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:altName>miR 144 Trap inserted downstream of miR-451 trap</addgene:altName>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>Br J Haematol. 2014 Oct 14. doi: 10.1111/bjh.13164.</genbank:journal>
+    <genbank:pubmed>25312678</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 501)</genbank:label>
+    <genbank:title>MIR144 and MIR451 regulate human erythropoiesis via RAB14.</genbank:title>
+    <genbank:authors>Kim M, Tan YS, Cheng WC, Kingsbury TJ, Heimfeld S, Civin CI</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jul 17, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 501)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>cctggattctgcgcgggacgtccttctgctacgtcccttcggccctcaatccagcggaccttccttcccgcggcctgctgccggctctagagcctcttccgcgtcttcgccttcccgggaagtaaagcggccgcgactctagaattcaactcagtaaccaaacggttttagagaacttaactcagtaaccaaacggtttagagaacttaaactcagtaaccaaacggtttgaacttagagaactcagtaaccaaacggtttcttagagaacaactcagtaaccaaacggtttagagaacttaaactcagtaaccaaacggttttagagaacttaactcagtaaccaaacggtttcttagagaacaactcagtaaccaaacggtttaccgctagcaccggtggatccatcgatgaacttagagtctagagaattcagtacatcagaatactgtatagagaacttagtacatcagaatactgtaagagaacttaagtacatca</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

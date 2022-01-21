@@ -1,0 +1,114 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:tagFusionProtein>Flag (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:keywords>pLJM1 Flag-Sesn2 419A/422A/426A</genbank:keywords>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:fiveCloningSite>SalI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:purpose>Lentivirial expression of Flag-Sesn 419A/422A/426A (mouse) mutant</addgene:purpose>
+    <sbol:displayId>Exported</sbol:displayId>
+    <dcterms:description>Lentivirial expression of Flag-Sesn 419A/422A/426A (mouse) mutant.</dcterms:description>
+    <addgene:geneInsertName>Sesn2</addgene:geneInsertName>
+    <addgene:mutation>419A/422A/426A</addgene:mutation>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:backboneSizeWoInsertBp>7000</addgene:backboneSizeWoInsertBp>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25259925"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:selectableMarkers>Puromycin</addgene:selectableMarkers>
+    <addgene:plasmidTitle>pLJM1 Flag-Sesn2 419A/422A/426A</addgene:plasmidTitle>
+    <genbank:division>SYN</genbank:division>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:totalVectorSizeBp>8440</addgene:totalVectorSizeBp>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2202/"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <addgene:insertSizeBp>1440</addgene:insertSizeBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <dcterms:title>FLAG</dcterms:title>
+        <gbConv:product>FLAG(R) epitope tag, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:translation>DYKDDDDK</gbConv:translation>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>35</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>58</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:label>FLAG</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <obo:OBI_0001617>25259925</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:threeCloningSite>EcoRI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:refMethod> pLJM1 Flag-Sesn2 419A/422A/426A was a gift from  Ming Li    (Addgene plasmid # 61872 ; http://n2t.net/addgene:61872 ; RRID:Addgene_61872)    </addgene:refMethod>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:entrezGene>Sesn2
+
+                        
+                        (a.k.a. HI95, SEST2, Ses2)</addgene:entrezGene>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:vectorBackbone>pLJM1</addgene:vectorBackbone>
+    <genbank:date>28-JUN-2021</genbank:date>
+    <addgene:growthStrains>Stbl3</addgene:growthStrains>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:addgeneId>61872</addgene:addgeneId>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>714</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:refBib>  Sestrins function as guanine nucleotide dissociation inhibitors for Rag GTPases to control mTORC1 signaling. Peng M, Yin N, Li MO. Cell. 2014 Sep 25;159(1):122-33. doi: 10.1016/j.cell.2014.08.038. 10.1016/j.cell.2014.08.038   PubMed 25259925   </addgene:refBib>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>25259925</genbank:pubmed>
+    <genbank:journal>Cell. 2014 Sep 25;159(1):122-33. doi: 10.1016/j.cell.2014.08.038.</genbank:journal>
+    <genbank:title>Sestrins function as guanine nucleotide dissociation inhibitors for Rag GTPases to control mTORC1 signaling.</genbank:title>
+    <genbank:authors>Peng M, Yin N, Li MO</genbank:authors>
+    <genbank:label>1  (bases 1 to 714)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 28, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 714)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>agtgaccgtcagatccgctagcgctaccggtatggactacaaggatgacgatgacaagggtggtggtggtggtgcgtcgacgatgatcgtagcggactccgagtgccattccgagatcaagggctacctgccgttcaccaggggtggtgtggccggccccgagacccgagaggagcatcgggagggccaggctcggcgaggctctcgagggcccagcgctttcattccagtggaagagatccttcgggaaggagctgagagcctggagcagcacctggggctcgaggccctgatgtcctcagggcgggtggacaacctggcggtggtgatgggtctacacccggactaccttagcagcttctggcgcctgcattacctgctgctgcatacggatgggcccctggccagctcctggcgccactacattgccatcatggctgctgcccgtcaccagtgttcttacctggtgggttcccacatgactgagttcctgcagaccggcggtgaccccgagtggctgctgggccttcaccgggcccctgagaagctccgcaagctcagcgaggtcaacaagttactggcgcatcggccgtggctcatcaccaaggagcatatccaggccttgctgaagactggcgagcacagctggtccctggccgaactcatccaagcactggtcctgcttacccactgccactctctggcctcctttgt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
