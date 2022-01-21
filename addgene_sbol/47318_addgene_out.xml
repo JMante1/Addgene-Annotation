@@ -1,0 +1,115 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/765/"/>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:geneInsertName>Cas9m3-VP64</addgene:geneInsertName>
+    <genbank:keywords>Cas9m3-VP64</genbank:keywords>
+    <addgene:vectorBackbone>pcDNA3.3_TOPO</addgene:vectorBackbone>
+    <addgene:vectorType>CRISPR</addgene:vectorType>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:label>LNCX</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>LNCX</dcterms:title>
+        <gbConv:note>Human CMV promoter, forward primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>29</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>5</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:refMethod> Cas9m3-VP64 was a gift from  George Church    (Addgene plasmid # 47318 ; http://n2t.net/addgene:47318 ; RRID:Addgene_47318)    </addgene:refMethod>
+    <addgene:plasmidTitle>Cas9m3-VP64</addgene:plasmidTitle>
+    <addgene:refBib>  CAS9 transcriptional activators for target specificity screening and paired nickases for cooperative genome engineering. Mali P, Aach J, Stranges PB, Esvelt KM, Moosburner M, Kosuri S, Yang L, Church GM. Nat Biotechnol. 2013 Aug 1. doi: 10.1038/nbt.2675. 10.1038/nbt.2675   PubMed 23907171   </addgene:refBib>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:purpose>Cas9m3 Activator</addgene:purpose>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <dcterms:description>Cas9m3 Activator.</dcterms:description>
+    <obo:OBI_0001617>23907171</obo:OBI_0001617>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/23907171"/>
+    <addgene:addgeneId>47318</addgene:addgeneId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>930</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>Stbl3</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:product>nuclear localization signal of SV40 (simian virus 40) large T antigen</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:label>SV40 NLS</gbConv:label>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:end>146</sbol:end>
+            <sbol:start>126</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:translation>PKKKRKV</gbConv:translation>
+        <dcterms:title>SV40 NLS</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:division>SYN</genbank:division>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>CAS9 transcriptional activators for target specificity screening and paired nickases for cooperative genome engineering.</genbank:title>
+    <genbank:pubmed>23907171</genbank:pubmed>
+    <genbank:journal>Nat Biotechnol. 2013 Aug 1. doi: 10.1038/nbt.2675.</genbank:journal>
+    <genbank:authors>Mali P, Aach J, Stranges PB, Esvelt KM, Moosburner M, Kosuri S, Yang L, Church GM</genbank:authors>
+    <genbank:label>1  (bases 1 to 930)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 930)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>gcagagctcgtttagtgaaccgtcagatcgcctggagacgccatccacgctgttttgacctccatagaagacaccgggaccgatccagcctccggactctagaggatcgaacccttgccaccatgcccaagaagaagaggaaggtgggaagggggatggacaagaagtactccattgggctcgctatcggcacaaacagcgtcggctgggccgtcattacggacgagtacaaggtgccgagcaaaaaattcaaagttctgggcaataccgatcgccacagcataaagaagaacctcattggcgccctcctgttcgactccggggagacggccgaagccacgcggctcaaaagaacagcacggcgcagatatacccgcagaaagaatcggatctgctacctgcaggagatctttagtaatgagatggctaaggtggatgactctttcttccataggctggaggagtcctttttggtggaggaggataaaaagcacgagcgccacccaatctttggcaatatcgtggacgaggtggcgtaccatgaaaagtacccaaccatatatcatctgaggaagaagcttgtagacagtactgataaggctgacttgcggttgatctatctcgcgctggcgcatatgatcaaatttcggggacacttcctcatcgagggggacctgaacccagacaacagcgatgtcgacaaactctttatccaactggttcagacttacaatcagcttttcgaagagaacccgatcaacgcatccggagttgacgccaaagcaatcctgagcgctaggctgtccaaatcccggcggctcgaaaacctcatcgcacagctccctggggagaagaagaacggcctgtttggtaatcttatcgccctgtcactcgggctgacccccaactttaaatctaacttcgacctgg</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

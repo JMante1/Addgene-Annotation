@@ -1,0 +1,107 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:insertSizeBp>1050</addgene:insertSizeBp>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:vectorBackbone>pGEX-2tk</addgene:vectorBackbone>
+    <addgene:promoter>tac</addgene:promoter>
+    <addgene:refMethod> Endophilin Full was a gift from  Peter McPherson    (Addgene plasmid # 47408 ; http://n2t.net/addgene:47408 ; RRID:Addgene_47408)    </addgene:refMethod>
+    <obo:OBI_0001617>9341169</obo:OBI_0001617>
+    <addgene:refBib>  Synaptojanin forms two separate complexes in the nerve terminal. Interactions with endophilin and amphiphysin. Micheva KD, Kay BK, McPherson PS. J Biol Chem. 1997 Oct 24;272(43):27239-45. 10.1074/jbc.272.43.27239   PubMed 9341169   </addgene:refBib>
+    <addgene:fiveSequencingPrimer>pGEX5'</addgene:fiveSequencingPrimer>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1667/"/>
+    <addgene:threeSequencingPrimer>pGEX3'</addgene:threeSequencingPrimer>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:product>thrombin recognition and cleavage site</gbConv:product>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>thrombin site</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>26</sbol:end>
+            <sbol:start>9</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:translation>LVPRGS</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>thrombin site</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:keywords>Endophilin Full</genbank:keywords>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/9341169"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:threeCloningSite>EcoRI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:plasmidTitle>Endophilin Full</addgene:plasmidTitle>
+    <addgene:geneInsertName>Endophilin</addgene:geneInsertName>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:addgeneId>47408</addgene:addgeneId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <addgene:backboneManufacturer>Amersham</addgene:backboneManufacturer>
+    <genbank:division>SYN</genbank:division>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:date>12-JUN-2021</genbank:date>
+    <addgene:backboneSizeWoInsertBp>5000</addgene:backboneSizeWoInsertBp>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>908</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:tagFusionProtein>GST (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Synaptojanin forms two separate complexes in the nerve terminal. Interactions with endophilin and amphiphysin.</genbank:title>
+    <genbank:label>1  (bases 1 to 908)</genbank:label>
+    <genbank:pubmed>9341169</genbank:pubmed>
+    <genbank:authors>Micheva KD, Kay BK, McPherson PS</genbank:authors>
+    <genbank:journal>J Biol Chem. 1997 Oct 24;272(43):27239-45.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 908)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>aatcggatctggttccgcgtggatccatgtcggtggcagggctgaagaagcagttccacaaagccactcagaaagtgagtgagaaggtgggaggagcggaaggcaccaagctcgatgatgacttcaaagagatggagaggaaagtggatgtcaccagcagggctgtgatggagataatgacaaaaacgattgaatacctccaacccaatccagcttccagggctaagctcagtatgatcaacaccatgtcgaaaatccgcggccaagagaaggggccaggctaccctcaggcggaagcactgctggcagaggccatgctcaagttcggcagggagctgggtgatgattgcaactttggtcctgctctcggtgaggtgggagaagccatgagggagctctcggaggtcaaggactcattggacatggaagtgaagcagaatttcatcgacccccttcagaatcttcatgacaaggatctgagggagattcagcatcatctgaaaaagctggaaggccgacgcttagactttgattataagaagaagcgacaaggcaagattccagatgaagaactccgccaagctctggagaaattcgatgagtctaaagaaatcgccgagtcgagcatgttcaacctcttggagatggatatagaacaggtgagccagctctccgcacttgttcaggctcagctggagtaccacaagcaggcagtgcagatcctgcagcaggtcactgtcagactggaagaaagaataagacaagcttcatctcagccaagaagggaatatcagcccaaaccacggatgagcctagagtttgccactggagacagtactcagcccaacgggggtctctcccacacaggcacacccaaacctccaggtgtccaaatggatcagccctgc</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

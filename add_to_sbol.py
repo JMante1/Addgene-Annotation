@@ -187,8 +187,8 @@ async def pull_data(session, addgene_id):
 
 ################################# CREATE ALL SBOL FILES ##############################
 # ids = [3, 4, 6]
-async def main(cwd, timeout, connector):
-    async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
+async def main(cwd, timeout):
+    async with aiohttp.ClientSession(timeout=timeout) as session:
         # add list of files in folder. and check what is in data but not folder
         data = pd.read_csv('addgene_combined_ids.csv', header=None).to_dict(orient='list')[0]
         problem_data = pd.read_csv('addgene_issues.csv', header=None).to_dict(orient='list')[0]
@@ -200,13 +200,17 @@ async def main(cwd, timeout, connector):
         print('starting async pull')
         print(f'files to do: {len(files_to_do)}')
         
-        ret = await asyncio.gather(*[pull_data(session, i) for i in files_to_do])
-        # ret = await asyncio.gather(*[pull_data(session, i) for i in [43649]])
+        try:
+            ret = await asyncio.gather(*[pull_data(session, i) for i in files_to_do])
+            # ret = await asyncio.gather(*[pull_data(session, i) for i in [43649]])
+        except:
+            # hoping to catch time out and disconnect errors
+            print("HELLO WORLD")
+            print(files_to_do)
 
 
 
 #181796
 timeout = aiohttp.ClientTimeout(total=0) #so it only stops when finished
-connector = aiohttp.TCPConnector(force_close=True) # so addgene doesn't disconnect us
 cwd = os.getcwd()
-asyncio.run(main(cwd, timeout, connector))
+asyncio.run(main(cwd, timeout))
