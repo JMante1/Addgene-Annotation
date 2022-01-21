@@ -216,5 +216,9 @@ cwd = os.getcwd()
 # wrapped in while function to restart when get disconnected
 files_left = 10000000000000
 while files_left > 0:
+    files_left1 = files_left
+    start = time.time()
     files_left = asyncio.run(main(cwd, timeout))
     print('##########################################################################################')
+    end = time.time()
+    print(f'Time since last restart is {end - start} and files done is {files_left1-files_left}')
