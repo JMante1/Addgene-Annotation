@@ -1,0 +1,112 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/432/"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25263562"/>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:date>19-MAY-2021</genbank:date>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:genBankID>NM_144665.3</addgene:genBankID>
+    <addgene:mutation>codon optimized for mammalian expression, see deposited sequence</addgene:mutation>
+    <addgene:purpose>overexpression, codon optimized for mammalian expression</addgene:purpose>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:refMethod> pRK5-FLAG-Sestrin3 was a gift from  David Sabatini    (Addgene plasmid # 72592 ; http://n2t.net/addgene:72592 ; RRID:Addgene_72592)    </addgene:refMethod>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:entrezGene>SESN3
+
+                        
+                        (a.k.a. SEST3)</addgene:entrezGene>
+    <addgene:plasmidTitle>pRK5-FLAG-Sestrin3</addgene:plasmidTitle>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:tagFusionProtein>FLAG (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:fiveCloningSite>Sal1
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:division>SYN</genbank:division>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:keywords>pRK5-FLAG-Sestrin3</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>27</sbol:end>
+            <sbol:start>18</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeSequencingPrimer>pRK5-3': TGT AAC CAT TAT AAG CTG</addgene:threeSequencingPrimer>
+    <addgene:altName>SEST3</addgene:altName>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>966</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:addgeneId>72592</addgene:addgeneId>
+    <obo:OBI_0001617>25263562</obo:OBI_0001617>
+    <addgene:vectorBackbone>pRK5</addgene:vectorBackbone>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:geneInsertName>SESN3</addgene:geneInsertName>
+    <addgene:backboneSizeWoInsertBp>4661</addgene:backboneSizeWoInsertBp>
+    <addgene:threeCloningSite>Not1
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <dcterms:description>overexpression, codon optimized for mammalian expression.</dcterms:description>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:refBib>  The Sestrins interact with GATOR2 to negatively regulate the amino-acid-sensing pathway upstream of mTORC1. Chantranupong L, Wolfson RL, Orozco JM, Saxton RA, Scaria SM, Bar-Peled L, Spooner E, Isasa M, Gygi SP, Sabatini DM. Cell Rep. 2014 Oct 9;9(1):1-8. doi: 10.1016/j.celrep.2014.09.014. Epub 2014 Sep 25. 10.1016/j.celrep.2014.09.014   PubMed 25263562   </addgene:refBib>
+    <addgene:fiveSequencingPrimer>SP6 : ATT TAG GTG ACA CTA TAG</addgene:fiveSequencingPrimer>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>The Sestrins interact with GATOR2 to negatively regulate the amino-acid-sensing pathway upstream of mTORC1.</genbank:title>
+    <genbank:authors>Chantranupong L, Wolfson RL, Orozco JM, Saxton RA, Scaria SM, Bar-Peled L, Spooner E, Isasa M, Gygi SP, Sabatini DM</genbank:authors>
+    <genbank:journal>Cell Rep. 2014 Oct 9;9(1):1-8. doi: 10.1016/j.celrep.2014.09.014. Epub 2014 Sep 25.</genbank:journal>
+    <genbank:pubmed>25263562</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 966)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 19, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 966)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gctgcataacagttgggccatggcggccaagctggggatccttacttacttagcggccgcgttaggtcagatggcgagtaatagccctcagagcatacagcagttcagcctgcattcttgcttccatcagcagcaggttgacatgcactttctcagagtgcttaaactgccgccaataggagtcgtacatccttttggtagttctctcgggataacaagtgactgtcttgatgtacaccttcagagatctttccagcagctgattcacttcgccataatcgtaatcgtcataccggattccaaacatgcagtggacgtagttgaacagtgcgcgcctcagcattgtggtatccacgtcttcatgagtagccattgtattataggtcaggttgtagaccatgcggaacttctcatccagcaggtgtccaatgtcagaatacagcctattcaccagggaaaacccatggttctcccaagtgtagtcctgggcgcggaatgtgggcaggtgttcctcgcctctccgtgcaaagtcttcatatccgaaccctggatcctcgatgtacctactcacgtcagaggtaatgatcatatcgtcttcaaagtcagaatgaggaaaggagtggaaagtatcgccactgaccacaaacagagactctttcttttctttctcgaatcgggtggacatttcctcctggctagcttcctcgtcttcgcgttcctcctgcagccgcttcattcgctccatcagggcttccagctcggacaggctatccacaatcccgaagtttgagccactcagagatgcattctcgatattgttatcgttagccaggtcacagacgcaaaaattgttcacgctaatcaggcggaagccatttgagatttcaggatccctctcggggttgatgcctgatccaaacacgaaactagccagggcatggtagtgggccagcaggaccactgcgt</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

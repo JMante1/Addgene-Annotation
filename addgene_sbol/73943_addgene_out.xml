@@ -1,0 +1,112 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:vectorType>make RNA for Xenopus oocyte injection</addgene:vectorType>
+    <addgene:insertSizeBp>2120</addgene:insertSizeBp>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:plasmidTitle>pBF_HsPepT1</addgene:plasmidTitle>
+    <addgene:tagFusionProtein>Flag (C terminal on insert)</addgene:tagFusionProtein>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:threeCloningSite>BglII
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:totalVectorSizeBp>5225</addgene:totalVectorSizeBp>
+    <addgene:entrezGene>SLC15A1
+
+                        
+                        (a.k.a. HPECT1, HPEPT1, PEPT1)</addgene:entrezGene>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <dcterms:description>Xenopus oocyte expression vector containing the cDNA of human PepT1 with a c terminal flag tag.</dcterms:description>
+    <addgene:refMethod> pBF_HsPepT1 was a gift from  Simon Newstead    (Addgene plasmid # 73943 ; http://n2t.net/addgene:73943 ; RRID:Addgene_73943)    </addgene:refMethod>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:promoter>beta globin</addgene:promoter>
+    <addgene:refBib>  Crystal Structures of the Extracellular Domain from PepT1 and PepT2 Provide Novel Insights into Mammalian Peptide Transport. Beale JH, Parker JL, Samsudin F, Barrett AL, Senan A, Bird LE, Scott D, Owens RJ, Sansom MS, Tucker SJ, Meredith D, Fowler PW, Newstead S. Structure. 2015 Oct 6;23(10):1889-99. doi: 10.1016/j.str.2015.07.016. Epub 2015 Aug 27. 10.1016/j.str.2015.07.016   PubMed 26320580   </addgene:refBib>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:division>SYN</genbank:division>
+    <addgene:geneInsertName>PepT1</addgene:geneInsertName>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26320580</obo:OBI_0001617>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>36</sbol:end>
+            <sbol:start>27</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:altName>SLC15A1</addgene:altName>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:fiveCloningSite>BamHi
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:purpose>Xenopus oocyte expression vector containing the cDNA of human PepT1 with a c terminal flag tag</addgene:purpose>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>967</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/26320580"/>
+    <addgene:threeSequencingPrimer>GCTTAGAGACTCCATTCGGG</addgene:threeSequencingPrimer>
+    <genbank:date>29-MAY-2021</genbank:date>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2005/"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:backboneSizeWoInsertBp>3003</addgene:backboneSizeWoInsertBp>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthStrains>NEB Stable</addgene:growthStrains>
+    <addgene:fiveSequencingPrimer>TTGTTCTTTTTGCAGAAGC</addgene:fiveSequencingPrimer>
+    <addgene:vectorBackbone>pBF</addgene:vectorBackbone>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:addgeneId>73943</addgene:addgeneId>
+    <genbank:keywords>pBF_HsPepT1</genbank:keywords>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Beale JH, Parker JL, Samsudin F, Barrett AL, Senan A, Bird LE, Scott D, Owens RJ, Sansom MS, Tucker SJ, Meredith D, Fowler PW, Newstead S</genbank:authors>
+    <genbank:title>Crystal Structures of the Extracellular Domain from PepT1 and PepT2 Provide Novel Insights into Mammalian Peptide Transport.</genbank:title>
+    <genbank:pubmed>26320580</genbank:pubmed>
+    <genbank:journal>Structure. 2015 Oct 6;23(10):1889-99. doi: 10.1016/j.str.2015.07.016. Epub 2015 Aug 27.</genbank:journal>
+    <genbank:label>1  (bases 1 to 967)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 29, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 967)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>acgctcaactttggcagggatccgccgccaccatgggaatgtccaaatcacacagtttctttggttatcccctgagcatcttcttcatcgtggtcaatgagttttgcgaaagattttcctactatggaatgcgagcaatcctgattctgtacttcacaaatttcatcagctgggatgataacctgtccaccgccatctaccatacgtttgtggctctgtgctacctgacgccaattctcggagctcttatcgccgactcgtggctgggaaagttcaagaccattgtgtcgctctccattgtctacacaattggacaagcagtcacctcagtaagctccattaatgacctcacagaccacaaccatgatggcacccccgacagccttcctgtgcacgtggtgctgtccttgatcggcctggccctgatagctctcgggactggaggaatcaaaccctgtgtgtctgcgtttggtggagatcagtttgaagagggccaggagaaacaaagaaacagatttttttccatcttttacttggctattaatgctggaagtttgctttccacaatcatcacacccatgctcagagttcaacaatgtggaattcacagtaaacaagcttgttacccactggcctttggggttcctgctgctctcatggctgtagccctgattgtgtttgtccttggcagtgggatgtacaagaagttcaagccacagggcaacatcatgggtaaagtggccaagtgcatcggttttgccatcaaaaatagatttaggcatcggagtaaggcatttcccaagagggagcactggctggactgggctaaagagaaatacgatgagcggctcatctcccaaattaagatggttacgagggtgatgttcctgtatattccactcccaatgttctgggccttgtttgaccagcagggctccaggtggacactgcaggcaacaactatgtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
