@@ -1,0 +1,109 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25079319"/>
+    <genbank:date>24-MAY-2021</genbank:date>
+    <addgene:vectorType>Mammalian Expression, Luciferase</addgene:vectorType>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:fiveCloningSite>AvrII
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:promoter>SV40</addgene:promoter>
+    <genbank:division>SYN</genbank:division>
+    <addgene:refBib>  RNA G-quadruplexes cause eIF4A-dependent oncogene translation in cancer. Wolfe AL, Singh K, Zhong Y, Drewe P, Rajasekhar VK, Sanghvi VR, Mavrakis KJ, Jiang M, Roderick JE, Van der Meulen J, Schatz JH, Rodrigo CM, Zhao C, Rondou P, de Stanchina E, Teruya-Feldstein J, Kelliher MA, Speleman F, Porco JA Jr, Pelletier J, Ratsch G, Wendel HG. Nature. 2014 Sep 4;513(7516):65-70. doi: 10.1038/nature13485. Epub 2014 Jul 27. 10.1038/nature13485   PubMed 25079319   </addgene:refBib>
+    <addgene:plasmidTitle>PGL4-4X TE Down (GQs) Renilla</addgene:plasmidTitle>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:mutation>4 repeats of TE down motif (G-quadruplexes) in 5'UTR</addgene:mutation>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <obo:OBI_0001617>25079319</obo:OBI_0001617>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>198</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>189</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeSequencingPrimer>Luc2-Rev</addgene:threeSequencingPrimer>
+    <genbank:keywords>PGL4-4X TE Down (GQs) Renilla</genbank:keywords>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:backboneManufacturer>Promega</addgene:backboneManufacturer>
+    <addgene:fiveSequencingPrimer>SV40pro-F</addgene:fiveSequencingPrimer>
+    <addgene:altName>Four tandem repeats of the (CGG)4 12-mer motif</addgene:altName>
+    <addgene:tagFusionProtein>renilla luciferase (C terminal on backbone)</addgene:tagFusionProtein>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:species>Synthetic</addgene:species>
+    <addgene:geneInsertName>4x TE Down (G-quadruplexes) in 5'UTR</addgene:geneInsertName>
+    <addgene:insertSizeBp>100</addgene:insertSizeBp>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>850</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2642/"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:vectorBackbone>pGL4.13</addgene:vectorBackbone>
+    <addgene:refMethod> PGL4-4X TE Down (GQs) Renilla was a gift from  Hans-Guido Wendel    (Addgene plasmid # 70039 ; http://n2t.net/addgene:70039 ; RRID:Addgene_70039)    </addgene:refMethod>
+    <addgene:backboneSizeWoInsertBp>4600</addgene:backboneSizeWoInsertBp>
+    <addgene:addgeneId>70039</addgene:addgeneId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:purpose>Plasmid for testing 5&#8217;UTR TE Down (G-quadruplex) folding elements</addgene:purpose>
+    <dcterms:description>Plasmid for testing 5'UTR TE Down (G-quadruplex) folding elements.</dcterms:description>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:threeCloningSite>HindIII
+    (not destroyed)</addgene:threeCloningSite>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>25079319</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 850)</genbank:label>
+    <genbank:authors>Wolfe AL, Singh K, Zhong Y, Drewe P, Rajasekhar VK, Sanghvi VR, Mavrakis KJ, Jiang M, Roderick JE, Van der Meulen J, Schatz JH, Rodrigo CM, Zhao C, Rondou P, de Stanchina E, Teruya-Feldstein J, Kelliher MA, Speleman F, Porco JA Jr, Pelletier J, Ratsch G, Wendel HG</genbank:authors>
+    <genbank:title>RNA G-quadruplexes cause eIF4A-dependent oncogene translation in cancer.</genbank:title>
+    <genbank:journal>Nature. 2014 Sep 4;513(7516):65-70. doi: 10.1038/nature13485. Epub 2014 Jul 27.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 24, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 850)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>gcctcggcctctgagctattccagaagtagtgaggaggcttttttggaggcctaggttgaaagtactttgacggcggcggcggtcaatcttacggcggcggcggacatagatacggcggcggcggtagaaactacggcggcggcggattagaatagtaaaagcttggcaatccggtactgttggtaaagccaccatggcttccaaggtgtacgaccccgagcaacgcaaacgcatgatcactgggcctcagtggtgggctcgctgcaagcaaatgaacgtgctggactccttcatcaactactatgattccgagaagcacgccgagaacgccgtgatttttctgcatggtaacgctgcctccagctacctgtggaggcacgtcgtgcctcacatcgagcccgtggctagatgcatcatccctgatctgatcggaatgggtaagtccggcaagagcgggaatggctcatatcgcctcctggatcactacaagtacctcaccgcttggttcgagctgctgaaccttccaaagaaaatcatctttgtgggccacgactggggggcttgtctggcctttcactactcctacgagcaccaagacaagatcaaggccatcgtccatgctgagagtgtcgtggacgtgatcgagtcctgggacgagtggcctgacatcgaggaggatatcgccctgatcaagagcgaagagggcgagaaaatggtgcttgagaataacttcttcgtcgagaccatgctcccaagcaagatcatgcggaaactggagcctgaggagttcgctgcctacctggagccattcaaggagaagggcgaggttagacggcctaccctctcctg</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
