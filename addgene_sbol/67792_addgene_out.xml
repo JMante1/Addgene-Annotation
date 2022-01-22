@@ -1,0 +1,150 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:vectorBackbone>pCMV</addgene:vectorBackbone>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:backboneManufacturer>Clontech</addgene:backboneManufacturer>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:backboneSizeWoInsertBp>3800</addgene:backboneSizeWoInsertBp>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/168/"/>
+    <addgene:addgeneId>67792</addgene:addgeneId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:tagFusionProtein>HA (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:division>SYN</genbank:division>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:entrezGene>PA2G4
+
+                        
+                        (a.k.a. EBP1, HG4-1, p38-2G4)</addgene:entrezGene>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>LNCX</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>LNCX</gbConv:label>
+        <gbConv:note>Human CMV promoter, forward primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>26</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:plasmidTitle>pCMV-HA-Ebp1</addgene:plasmidTitle>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:threeCloningSite>EcoRI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:purpose>Mammalian expression of Ebp1 tagged with HA</addgene:purpose>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <obo:OBI_0001617>24227866</obo:OBI_0001617>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24227866"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:product>HA (human influenza hemagglutinin) epitope tag</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>HA</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>329</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>303</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:label>HA</gbConv:label>
+        <gbConv:translation>YPYDVPDYA</gbConv:translation>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>29-MAY-2021</genbank:date>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:refMethod> pCMV-HA-Ebp1 was a gift from  Stephen Goff    (Addgene plasmid # 67792 ; http://n2t.net/addgene:67792 ; RRID:Addgene_67792)    </addgene:refMethod>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:refBib>  EBP1, a novel host factor involved in primer binding site-dependent restriction of moloney murine leukemia virus in embryonic cells. Wang GZ, Wolf D, Goff SP. J Virol. 2014 Feb;88(3):1825-9. doi: 10.1128/JVI.02578-13. Epub 2013 Nov 13. 10.1128/JVI.02578-13   PubMed 24227866   </addgene:refBib>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:geneInsertName>Ebp1</addgene:geneInsertName>
+    <addgene:threeSequencingPrimer>BGH Reverse</addgene:threeSequencingPrimer>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>239</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:start>143</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000188"/>
+        <gbConv:label>SV40 intron</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <dcterms:title>SV40 intron</dcterms:title>
+        <gbConv:note>modified SV40 intron with splice donor and acceptor sites</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>Mammalian expression of Ebp1 tagged with HA.</dcterms:description>
+    <genbank:keywords>pCMV-HA-Ebp1</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>730</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:fiveSequencingPrimer>CMV Forward</addgene:fiveSequencingPrimer>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>J Virol. 2014 Feb;88(3):1825-9. doi: 10.1128/JVI.02578-13. Epub 2013 Nov 13.</genbank:journal>
+    <genbank:pubmed>24227866</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 730)</genbank:label>
+    <genbank:authors>Wang GZ, Wolf D, Goff SP</genbank:authors>
+    <genbank:title>EBP1, a novel host factor involved in primer binding site-dependent restriction of moloney murine leukemia virus in embryonic cells.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 29, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 730)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>gagctcgtttagtgaaccgtcagatcgcctggagacgccatccacgctgttttgacctccatagaagacaccgggaccgatccagcctccggactctagaggatccggtactagaggaactgaaaaaccagaaagttaactggtaagtttagtctttttgtcttttatttcaggtcccggatccggtggtggtgcaaatcaaagaactgctcctcagtggatgttgcctttacttctaggcctgtacggaagtgttacttctgctctaaaagctgcggaattgtacccgcgggcccaccatgtacccatacgatgttccagattacgctcttatggccatggaggcccgaattcaaatgtcgggcgaggacgagcaacaggagcaaactatcgctgaggacctggtcgtgaccaagtataagatggggggcgacatcgccaacagggtacttcggtccttggtggaagcatctagctcaggtgtgtcggtactgagcctgtgtgagaaaggtgatgccatgattatggaagaaacagggaaaatcttcaagaaagaaaaggaaatgaagaaaggtattgcttttcccaccagcatttcggtaaataactgtgtatgtcacttctcccctttgaagagcgaccaggattatattctcaaggaaggtgacttggtaaaaattgaccttggggtccatgtggatggcttcatcgctaatgtagctcacacttt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
