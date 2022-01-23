@@ -1,0 +1,148 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:purpose>Expresses WT Cas9 and GFP, along with a sgRNA to mouse AMPK alpha 2.</addgene:purpose>
+    <addgene:refMethod> Cas9-GFP_sg_mAMPKa2 was a gift from  Reuben Shaw    (Addgene plasmid # 79005 ; http://n2t.net/addgene:79005 ; RRID:Addgene_79005)    </addgene:refMethod>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:geneInsertName>Prkaa2</addgene:geneInsertName>
+    <addgene:plasmidTitle>Cas9-GFP_sg_mAMPKa2</addgene:plasmidTitle>
+    <addgene:fiveCloningSite>BbsI
+    (destroyed during cloning)</addgene:fiveCloningSite>
+    <addgene:vectorType>Mammalian Expression, CRISPR</addgene:vectorType>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <dcterms:description>Expresses WT Cas9 and GFP, along with a sgRNA to mouse AMPK alpha 2..</dcterms:description>
+    <obo:OBI_0001617>26944679</obo:OBI_0001617>
+    <addgene:promoter>U6</addgene:promoter>
+    <addgene:addgeneId>79005</addgene:addgeneId>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:gRNAshRNASequence>ACAGGCATATGGTTGTCCAT</addgene:gRNAshRNASequence>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>738</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:label>CMV enhancer</gbConv:label>
+        <dcterms:title>CMV enhancer</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000165"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>394</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:end>679</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>human cytomegalovirus immediate early enhancer; contains an 18-bp deletion relative to the standard CMV enhancer</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:entrezGene>Prkaa2
+
+                        
+                        (a.k.a. 2310008I11Rik, A830082D05, AMPK, AMPKalpha2)</addgene:entrezGene>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:threeCloningSite>BbsI
+    (destroyed during cloning)</addgene:threeCloningSite>
+    <addgene:vectorBackbone>pSpCas9(BB)-2A-GFP (PX458)</addgene:vectorBackbone>
+    <addgene:articleCitingThisPlasmid>1 Reference</addgene:articleCitingThisPlasmid>
+    <addgene:fiveSequencingPrimer>TTTATGGCGAGGCGGCGG</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:label>gRNA scaffold</gbConv:label>
+        <gbConv:note>guide RNA scaffold for the Streptococcus pyogenes CRISPR/Cas9 system</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000673"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>297</sbol:end>
+            <sbol:start>222</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>gRNA scaffold</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/463/"/>
+    <genbank:keywords>Cas9-GFP_sg_mAMPKa2</genbank:keywords>
+    <addgene:totalVectorSizeBp>9300</addgene:totalVectorSizeBp>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:date>18-MAY-2021</genbank:date>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:refBib>  AMPK governs lineage specification through Tfeb-dependent regulation of lysosomes. Young NP, Kamireddy A, Van Nostrand JL, Eichner LJ, Shokhirev MN, Dayn Y, Shaw RJ. Genes Dev. 2016 Mar 1;30(5):535-52. doi: 10.1101/gad.274142.115. 10.1101/gad.274142.115   PubMed 26944679   </addgene:refBib>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/26944679"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:note>Human U6 promoter, forward primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>123</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>142</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>LKO.1 5'</gbConv:label>
+        <dcterms:title>LKO.1 5'</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>26944679</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 738)</genbank:label>
+    <genbank:title>AMPK governs lineage specification through Tfeb-dependent regulation of lysosomes.</genbank:title>
+    <genbank:authors>Young NP, Kamireddy A, Van Nostrand JL, Eichner LJ, Shokhirev MN, Dayn Y, Shaw RJ</genbank:authors>
+    <genbank:journal>Genes Dev. 2016 Mar 1;30(5):535-52. doi: 10.1101/gad.274142.115.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 738)</genbank:label>
+    <genbank:journal>Exported May 18, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>ctgttagagagataattggaattaatttgactgtaaacacaaagatattagtacaaaatacgtgacgtagaaagtaataatttcttgggtagtttgcagttttaaaattatgttttaaaatggactatcatatgcttaccgtaacttgaaagtatttcgatttcttggctttatatatcttgtggaaaggacgaaacaccgacaggcatatggttgtccatgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgcttttttgttttagagctagaaatagcaagttaaaataaggctagtccgtttttagcgcgtgcgccaattctgcagacaaatggctctagaggtacccgttacataacttacggtaaatggcccgcctggctgaccgcccaacgacccccgcccattgacgtcaatagtaacgccaatagggactttccattgacgtcaatgggtggagtatttacggtaaactgcccacttggcagtacatcaagtgtatcatatgccaagtacgccccctattgacgtcaatgacggtaaatggcccgcctggcattgtgcccagtacatgaccttatgggactttcctacttggcagtacatctacgtattagtcatcgctattaccatggtcgaggtgagccccacgttctgcttcactctccccatctcccccccctccccaccccc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

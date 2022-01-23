@@ -1,0 +1,147 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25183011"/>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:backboneSizeWoInsertBp>6952</addgene:backboneSizeWoInsertBp>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:threeSequencingPrimer>CCTTGTGCCCAGGTAAGG</addgene:threeSequencingPrimer>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthStrains>NEB Stable</addgene:growthStrains>
+    <genbank:keywords>pLenti6/V5-miR-539</genbank:keywords>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>752</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:geneInsertName>mmu-miRNA-539</addgene:geneInsertName>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:plasmidTitle>pLenti6/V5-miR-539</addgene:plasmidTitle>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>530</sbol:end>
+            <sbol:start>510</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>SV40 enhancer, reverse primer for pBABE vectors</gbConv:note>
+        <dcterms:title>pBABE 3'</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>pBABE 3'</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:tagFusionProtein>V5 (C terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:vectorBackbone>pLenti6/V5</addgene:vectorBackbone>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2417/"/>
+    <addgene:purpose>To overexpress miR-539 in mammalian cell culture and to constuct miR-539 lentivirus.</addgene:purpose>
+    <addgene:refBib>  MicroRNA-539 is up-regulated in failing heart, and suppresses O-GlcNAcase expression. Muthusamy S, DeMartino AM, Watson LJ, Brittian KR, Zafir A, Dassanayaka S, Hong KU, Jones SP. J Biol Chem. 2014 Oct 24;289(43):29665-76. doi: 10.1074/jbc.M114.578682. Epub 2014 Sep 2. 10.1074/jbc.M114.578682   PubMed 25183011   </addgene:refBib>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:refMethod> pLenti6/V5-miR-539 was a gift from  Steven Jones   (Addgene plasmid # 79273)   </addgene:refMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <dcterms:title>V5 tag</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:product>epitope tag from simian virus 5</gbConv:product>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:label>V5 tag</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:translation>GKPIPNPLLGLDST</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>473</sbol:end>
+            <sbol:start>432</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:fiveSequencingPrimer>CGCAAATGGGCGGTAGGCGTG</addgene:fiveSequencingPrimer>
+    <obo:OBI_0001617>25183011</obo:OBI_0001617>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:growthTemperature>30&#176;C</addgene:growthTemperature>
+    <dcterms:description>To overexpress miR-539 in mammalian cell culture and to constuct miR-539 lentivirus..</dcterms:description>
+    <genbank:date>08-SEP-2021</genbank:date>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:addgeneId>79273</addgene:addgeneId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>DYKDDDDKDYKDDDDKDYKDDDDK</gbConv:translation>
+        <dcterms:title>3xFLAG</dcterms:title>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>73</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>144</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:product>three tandem FLAG(R) epitope tags</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:label>3xFLAG</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>MicroRNA-539 is up-regulated in failing heart, and suppresses O-GlcNAcase expression.</genbank:title>
+    <genbank:label>1  (bases 1 to 752)</genbank:label>
+    <genbank:pubmed>25183011</genbank:pubmed>
+    <genbank:authors>Muthusamy S, DeMartino AM, Watson LJ, Brittian KR, Zafir A, Dassanayaka S, Hong KU, Jones SP</genbank:authors>
+    <genbank:journal>J Biol Chem. 2014 Oct 24;289(43):29665-76. doi: 10.1074/jbc.M114.578682. Epub 2014 Sep 2.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 752)</genbank:label>
+    <genbank:journal>Exported Sep 8, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>agatcgcctggagacgccatccacgctgttttgacctccatagaagacaccgactctagaggatcgaccatggattacaaggatgacgacgataaggattacaaggatgacgacgataaggattacaaggatgacgacgataagggatcctgcaggaattccacgtgtgaggagtggtgatcactcccaagaggcctatggatgctggtattcctgctgtgctactgtttcatacttgaggagaaattatccttggtgtgttggctcttttggatgaatcatacaaggataatttctttttgagtatcaaatactgccctggtggacttccgggatgacgagacggttgtttaaagaggtgcctggtgcatgatgcatgggttagccttacctgggcacaaggctcgagtctagagggcccgcggttcgaaggtaagcctatccctaaccctctcctcggtctcgattctacgcgtaccggttagtaatgagtttggaattaattctgtggaatgtgtgtcagttagggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcagcaaccaggtgtggaaagtccccaggctccccagcaggcagaagtatgcaaagcatgcatctcaattagtcagcaaccatagtcccgcccctaactccgcccatcccgcccctaactccgcccagttccgcccattctccgccccatggctgactaattt</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

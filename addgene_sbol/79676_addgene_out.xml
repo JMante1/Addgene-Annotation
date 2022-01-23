@@ -1,0 +1,98 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <dcterms:description>mammalian expression of GFP-PRMT9 catalytically inactive LDIG(182-185)AAAA mutant.</dcterms:description>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25979344"/>
+    <addgene:threeSequencingPrimer>SV40pA-R</addgene:threeSequencingPrimer>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:fiveCloningSite>unknown
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:genBankID>NM_138364.3</addgene:genBankID>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:refMethod> GFP-PRMT9 L182A/D183A/I184A/G185A was a gift from  Steven Clarke    (Addgene plasmid # 79676 ; http://n2t.net/addgene:79676 ; RRID:Addgene_79676)    </addgene:refMethod>
+    <addgene:insertSizeBp>2538</addgene:insertSizeBp>
+    <addgene:altName>Q6P2P2</addgene:altName>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1140/"/>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>Mark Bedford Lab at UT Smithville MD Anderson Cooper</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:plasmidTitle>GFP-PRMT9 L182A/D183A/I184A/G185A</addgene:plasmidTitle>
+    <addgene:vectorBackbone>pEGFP-C1</addgene:vectorBackbone>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:addgeneId>79676</addgene:addgeneId>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>822</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:mutation>L182A/D183A/I184A/G185A catalytic mutant</addgene:mutation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:date>11-JUN-2021</genbank:date>
+    <genbank:keywords>GFP-PRMT9 L182A/D183A/I184A/G185A</genbank:keywords>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:backboneManufacturer>Clontech</addgene:backboneManufacturer>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:threeCloningSite>unknown
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:tagFusionProtein>EGFP (N terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:backboneSizeWoInsertBp>4733</addgene:backboneSizeWoInsertBp>
+    <addgene:geneInsertName>PRMT9</addgene:geneInsertName>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:refBib>  Unique Features of Human Protein Arginine Methyltransferase 9 (PRMT9) and its Substrate RNA Splicing Factor SF3B2. Hadjikyriacou A, Yang Y, Espejo A, Bedford MT, Clarke SG. J Biol Chem. 2015 May 15. pii: jbc.M115.659433. 10.1074/jbc.M115.659433   PubMed 25979344   </addgene:refBib>
+    <addgene:fiveSequencingPrimer>EGFP-C</addgene:fiveSequencingPrimer>
+    <obo:OBI_0001617>25979344</obo:OBI_0001617>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:purpose>mammalian expression of GFP-PRMT9 catalytically inactive LDIG(182-185)AAAA mutant</addgene:purpose>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:entrezGene>PRMT9
+
+                        
+                        (a.k.a. PRMT10)</addgene:entrezGene>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>J Biol Chem. 2015 May 15. pii: jbc.M115.659433.</genbank:journal>
+    <genbank:authors>Hadjikyriacou A, Yang Y, Espejo A, Bedford MT, Clarke SG</genbank:authors>
+    <genbank:title>Unique Features of Human Protein Arginine Methyltransferase 9 (PRMT9) and its Substrate RNA Splicing Factor SF3B2.</genbank:title>
+    <genbank:label>1  (bases 1 to 822)</genbank:label>
+    <genbank:pubmed>25979344</genbank:pubmed>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 11, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 822)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>agtccggactcagatccatgtcgaactcgcggcccaggtcccgccgagacgccgggggtggcgctggggcagccggccgggacgagctggtgtcgcggtccttgcagagcgcagagcactgtctgggcgtccaggacttcggcactgcctatgcccactacctcctcgtgctcagcctggcgccggagctgaaacacgacgtgaaggaaacttttcagtacacacttttcagatgggctgaagagcttgatgctctcagtcggatacaagacttacttggttgctatgagcaggccttggaactgtttcctgatgatgaagtgatttgcaatagtatgggggagcatctcttcagaatgggctttagggatgaagcagctgggtattttcataaagcagtgaagctaaaccctgatttcagtgatgcaaaggagaatttttatcgtgttgcaaactggttggtggagcgctggcactttatcatgcttaatgacaccaagaggaatacaatttataatgcagcaatccaaaaggcagtttgtttggggtccaaaagtgttgcggccgctgcggcaggaactggaatactaagcatgtttgctaaaaaagctggagcacattccgtgtatgcctgtgagttatccaagaccatgtatgaacttgcctgtgatgtcgtggcagcaaacaagatggaagcagggatcaaactcttacatacgaagtcacttgacatagagattccaaaacatattcccgaaagagtgtccctagttgtaacagaaactgtcgatgcaggtttatttggagaaggaattgtggaga</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
