@@ -1,0 +1,92 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:date>07-SEP-2021</genbank:date>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3009/"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:threeSequencingPrimer>BGH-rev</addgene:threeSequencingPrimer>
+    <addgene:purpose>mammalian expression of Cox2-GFP</addgene:purpose>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <addgene:addgeneId>82348</addgene:addgeneId>
+    <addgene:refBib>  Overexpression of cyclooxygenase-2 induces cell cycle arrest. Evidence for a prostaglandin-independent mechanism. Trifan OC, Smith RM, Thompson BD, Hla T. J Biol Chem. 1999 Nov 26;274(48):34141-7.  PubMed 10567385   </addgene:refBib>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <dcterms:description>mammalian expression of Cox2-GFP.</dcterms:description>
+    <genbank:keywords>pcDNA1-Cox2GFP</genbank:keywords>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>1848</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:mutation>EGFP open reading frame (excluding the initiator methionine and the termination codon) into the BspEI site of Cox-2 (position 1854, between amino acids Ser-586 and Gly-587)</addgene:mutation>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:refMethod> pcDNA1-Cox2GFP was a gift from  Timothy Hla   (Addgene plasmid # 82348)   </addgene:refMethod>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:tagFusionProtein>EGFP</addgene:tagFusionProtein>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:geneInsertName>Cox-2</addgene:geneInsertName>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:plasmidTitle>pcDNA1-Cox2GFP</addgene:plasmidTitle>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:totalVectorSizeBp>5848</addgene:totalVectorSizeBp>
+    <addgene:backboneSizeWoInsertBp>4000</addgene:backboneSizeWoInsertBp>
+    <addgene:fiveSequencingPrimer>CMV-F</addgene:fiveSequencingPrimer>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/10567385"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:vectorBackbone>pcDNA1</addgene:vectorBackbone>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:entrezGene>PTGS2
+
+                        
+                        (a.k.a. COX-2, COX2, GRIPGHS, PGG/HS, PGHS-2, PHS-2, hCox-2)</addgene:entrezGene>
+    <addgene:genBankID>U04636.1</addgene:genBankID>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <obo:OBI_0001617>10567385</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>10567385</genbank:pubmed>
+    <genbank:title>Overexpression of cyclooxygenase-2 induces cell cycle arrest. Evidence for a prostaglandin-independent mechanism.</genbank:title>
+    <genbank:label>1  (bases 1 to 1848)</genbank:label>
+    <genbank:authors>Trifan OC, Smith RM, Thompson BD, Hla T</genbank:authors>
+    <genbank:journal>J Biol Chem. 1999 Nov 26;274(48):34141-7.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 1848)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Sep 7, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>atgctcgcccgcgccctgctgctgtgcgcggtcctggcgctcagccatacaggtgagtacctggcgccgcgcaccggggactccggttccacgcacccgggcagagaaatccttgctgttcccacccatgtcaaaaccgaggtgtatgtatgagtgtgggatttgaccagtataagtgcgattgtacccggacaggattctatggagaaaactgctcaacaccggaatttttgacaagaataaaattatttctgaaacccactccaaacacagtgcactacatacttacccacttcaagggattttggaacgttgtgaataacattcccttccttcgaaatgcaattatgagttatgtcttgacatccagatcacatttgattgacagtccaccaacttacaatgctgactatggctacaaaagctgggaagccttctctaacctctcctattatactagagcccttcctcctgtgcctgatgattgcccgactcccttgggtgtcaaaggtaaaaagcagcttcctgattcaaatgagattgtggaaaaattgcttctaagaagaaagttcatccctgatccccagggctcaaacatgatgtttgcattctttgcccagcacttcacgcatcagtttttcaagacagatcataagcgagggccagctttcaccaacgggctgggccatggggtggacttaaatcatatttacggtgaaactctggctagacagcgtaaactgcgccttttcaaggatggaaaaatgaaatatcagataattgatggagagatgtatcctcccacagtcaaagatactcaggcagagatgatctaccctcctcacatctacggtttgctgtggggcaggaggtctttggtctggtgcctggtctgatgatgtatgccacaatctggctgcgggaacacaacagagtatgcgatgtgcttaaacaggagcatcctgaatggggtgatgagcagttgttccagacaagcaggctaatactgataggagagactattaagattgtgattgaagattatgtgcaacacttgagtggctatcacttcaaactgaaatttgacccagaactacttttcaacaaacaattccagtaccaaaatcgtattgctgctgaatttaacaccctctatcactggcatccccttctgcctgacacctttcaaattcatgaccagaaatacaactatcaacagtttatctacaacaactctatattgctggaacatggaattacccagtttgttgaatcattcaccaggcaaattgctggcagggtaggaatgttccacccgcagtacagaaagtatcacaggcttccattgaccagagcaggcagatgaaataccagtcttttaatgagtaccgcaaacgctttatgctgaagccctatgaatcatttgaagaacttacaggagaaaaggaaatgtctgcagagttggaagcactctatggtgacatcgatgctgtggagctgtatcctgcccttctggtagaaaagcctcggccagatgccatctttggtgaaaccatggtagaagttggagcaccattctccttgaaaggacttatgggtaatgttatatgttctcctgcctactggaagccaagcacttttggtggagaagtgggttttcaaatcatcaacactgcctcaattcagtctctcatctgcaataacgtgaagggctgtccctttacttcattcagtgttccagatccagagctcattaaaacagtcaccatcaatgcaagttcttcccgctccggactagatgatatcaatcccacagtactactaaaagaacgttcgactgaactgtag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
