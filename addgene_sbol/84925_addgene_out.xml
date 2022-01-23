@@ -1,0 +1,109 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:backboneManufacturer>Promega</addgene:backboneManufacturer>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:purpose>luciferase reporter for mutant TERT promoter</addgene:purpose>
+    <addgene:articlesCitingThisPlasmid>2 References</addgene:articlesCitingThisPlasmid>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:refBib>  Cancer. The transcription factor GABP selectively binds and activates the mutant TERT promoter in cancer. Bell RJ, Rube HT, Kreig A, Mancini A, Fouse SD, Nagarajan RP, Choi S, Hong C, He D, Pekmezci M, Wiencke JK, Wrensch MR, Chang SM, Walsh KM, Myong S, Song JS, Costello JF. Science. 2015 May 29;348(6238):1036-9. doi: 10.1126/science.aab0015. Epub 2015 May 14. 10.1126/science.aab0015   PubMed 25977370   </addgene:refBib>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <addgene:academicNonprofitTerms>UBMTA
+Luciferase Limited Use Label License</addgene:academicNonprofitTerms>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <genbank:date>31-MAY-2021</genbank:date>
+    <addgene:altName>telomerase reverse transcriptase</addgene:altName>
+    <addgene:entrezGene>TERT
+
+                        
+                        (a.k.a. CMM9, DKCA2, DKCB4, EST2, PFBMFT1, TCS1, TP2, TRT, hEST2, hTRT)</addgene:entrezGene>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:addgeneId>84925</addgene:addgeneId>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>1039</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:threeSequencingPrimer>Luc2-Rev</addgene:threeSequencingPrimer>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/713/"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:refMethod> pGL4.0-TERT G250A was a gift from  Joseph Costello    (Addgene plasmid # 84925 ; http://n2t.net/addgene:84925 ; RRID:Addgene_84925)    </addgene:refMethod>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:geneInsertName>TERT promoter</addgene:geneInsertName>
+    <addgene:vectorType>Mammalian Expression, Luciferase</addgene:vectorType>
+    <addgene:plasmidTitle>pGL4.0-TERT G250A</addgene:plasmidTitle>
+    <genbank:keywords>pGL4.0-TERT G250A</genbank:keywords>
+    <addgene:promoter>TERT</addgene:promoter>
+    <obo:OBI_0001617>25977370</obo:OBI_0001617>
+    <addgene:vectorBackbone>pGL4.0</addgene:vectorBackbone>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:mutation>G250A</addgene:mutation>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <dcterms:description>luciferase reporter for mutant TERT promoter.</dcterms:description>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:fiveSequencingPrimer>RVprimer3</addgene:fiveSequencingPrimer>
+    <addgene:tagFusionProtein>luciferase (C terminal on backbone)</addgene:tagFusionProtein>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25977370"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>267</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>258</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>Cancer. The transcription factor GABP selectively binds and activates the mutant TERT promoter in cancer.</genbank:title>
+    <genbank:authors>Bell RJ, Rube HT, Kreig A, Mancini A, Fouse SD, Nagarajan RP, Choi S, Hong C, He D, Pekmezci M, Wiencke JK, Wrensch MR, Chang SM, Walsh KM, Myong S, Song JS, Costello JF</genbank:authors>
+    <genbank:journal>Science. 2015 May 29;348(6238):1036-9. doi: 10.1126/science.aab0015. Epub 2015 May 14.</genbank:journal>
+    <genbank:pubmed>25977370</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 1039)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 1039)</genbank:label>
+    <genbank:journal>Exported May 31, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>acatttctctggcctaactggccggtacctgagctcgctagcctcgagtcctgccccttcaccttccagctccgcctcctccgcgcggaccccgccccgtcccgaccccttccgggtccccggcccagccccctccgggccctcccagcccctccccttcctttccgcggccccgccctctcctcgcggcgcgagtttcaggcagcgctggatctggcctcggcggccaagcttggcaatccggtactgttggtaaagccaccatggaagatgccaaaaacattaagaagggcccagcgccattctacccactcgaagacgggaccgccggcgagcagctgcacaaagccatgaagcgctacgccctggtgcccggcaccatcgcctttaccgacgcacatatcgaggtggacattacctacgccgagtacttcgagatgagcgttcggctggcagaagctatgaagcgctatgggctgaatacaaaccatcggatcgtggtgtgcagcgagaatagcttgcagttcttcatgcccgtgttgggtgccctgttcatcggtgtggctgtggccccagctaacgacatctacaacgagcgcgagctgctgaacagcatgggcatcagccagcccaccgtcgtattcgtgagcaagaaagggctgcaaaagatcctcaacgtgcaaaagaagctaccgatcatacaaaagatcatcatcatggatagcaagaccgactaccagggcttccaaagcatgtacaccttcgtgacttcccatttgccacccggcttcaacgagtacgacttcgtgcccgagagcttcgaccgggacaaaaccatcgccctgatcatgaacagtagtggcagtaccggattgcccaagggcgtagccctaccgcaccgcaccgcttgtgtccgattcagtcatgcccgcgaccccatcttcggcaaccagatcatccccgacaccgctatcctcagcgtggtgccatttcaccacggcttcggcatgttcaccacgctgggctacttgatctgcgg</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:fiveSequencingPrimer>hUBCpro-F</addgene:fiveSequencingPrimer>
+    <addgene:refBib>  Analysis of ubiquitination in vivo using a transgenic mouse model. Tsirigotis M, Thurig S, Dube M, Vanderhyden BC, Zhang M, Gray DA. Biotechniques. 2001 Jul;31(1):120-6, 128, 130. 10.2144/01311rr03   PubMed 11464505   </addgene:refBib>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <dcterms:description>mammalian expression of ubiquitin-EGFP fusion.</dcterms:description>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/11464505"/>
+    <addgene:refMethod> pDG268 was a gift from  Douglas Gray   (Addgene plasmid # 85218)   </addgene:refMethod>
+    <addgene:promoter>human ubiquitin C</addgene:promoter>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3137/"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:purpose>mammalian expression of ubiquitin-EGFP fusion</addgene:purpose>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:keywords>pDG268</genbank:keywords>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:entrezGene>UBC
+
+                        
+                        (a.k.a. HMG20)</addgene:entrezGene>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>737</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <obo:OBI_0001617>11464505</obo:OBI_0001617>
+    <addgene:vectorBackbone>unknown</addgene:vectorBackbone>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:geneInsertName>ubiquitin C</addgene:geneInsertName>
+    <addgene:tagsFusionProteins>6xHIS (N terminal on insert)
+EGFP (C terminal on insert)</addgene:tagsFusionProteins>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:threeSequencingPrimer>EGFP-N</addgene:threeSequencingPrimer>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:plasmidTitle>pDG268</addgene:plasmidTitle>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <genbank:date>08-SEP-2021</genbank:date>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:addgeneId>85218</addgene:addgeneId>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>11464505</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 737)</genbank:label>
+    <genbank:journal>Biotechniques. 2001 Jul;31(1):120-6, 128, 130.</genbank:journal>
+    <genbank:title>Analysis of ubiquitination in vivo using a transgenic mouse model.</genbank:title>
+    <genbank:authors>Tsirigotis M, Thurig S, Dube M, Vanderhyden BC, Zhang M, Gray DA</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 737)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Sep 8, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:elements>ccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
