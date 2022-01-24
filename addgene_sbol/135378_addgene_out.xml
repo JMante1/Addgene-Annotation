@@ -1,0 +1,210 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:keywords>nSaCas9 K736 miniABEMax V82G</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:end>4401</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:mutation>(V82G)</addgene:mutation>
+    <genbank:date>21-SEP-2021</genbank:date>
+    <addgene:fiveCloningSite>Unknown
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:addgeneId>135378</addgene:addgeneId>
+    <obo:OBI_0001617>32978399</obo:OBI_0001617>
+    <addgene:refBib>  Engineering domain-inlaid SaCas9 adenine base editors with reduced RNA off-targets and increased on-target DNA editing. Nguyen Tran MT, Mohd Khalid MKN, Wang Q, Walker JKR, Lidgerwood GE, Dilworth KL, Lisowski L, Pebay A, Hewitt AW. Nat Commun. 2020 Sep 25;11(1):4871. doi: 10.1038/s41467-020-18715-y. 10.1038/s41467-020-18715-y   PubMed 32978399   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3946</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+            <sbol:end>4002</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:product>2A peptide from porcine teschovirus-1 polyprotein</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <gbConv:note>Eukaryotic ribosomes fail to insert a peptide bond between the Gly and Pro residues, yielding separate polypeptides.</gbConv:note>
+        <dcterms:title>P2A</dcterms:title>
+        <gbConv:translation>ATNFSLLKQAGDVEENPGP</gbConv:translation>
+        <gbConv:label>P2A</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32978399"/>
+    <dcterms:description>Expression of nSaCas9 intradomain insertion of single evolved TadA monomer (V82G) at the specified position (K736 ).</dcterms:description>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:plasmidTitle>nSaCas9 K736 miniABEMax V82G</addgene:plasmidTitle>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>bipartite nuclear localization signal from nucleoplasmin</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>3912</sbol:end>
+            <sbol:start>3865</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:translation>KRPAATKKAGQAKKKK</gbConv:translation>
+        <dcterms:title>nucleoplasmin NLS</dcterms:title>
+        <gbConv:label>nucleoplasmin NLS</gbConv:label>
+        <sbol:displayId>annotation3</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>MAKPLSQEESTLIERATATINSIPISEDYSVASAALSSDGRIFTGVNVYHFTGGPCAELVVLGTAAAAAAGNLTCIVAIGNENRGILSPCGRCRQVLLDLHPGIKAIVKDSDGQPTAVGIRELLPSGYVWEG</gbConv:translation>
+        <gbConv:product>blasticidin S deaminase</gbConv:product>
+        <gbConv:gene>Aspergillus terreus BSD</gbConv:gene>
+        <dcterms:title>BSD</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:end>4401</sbol:end>
+            <sbol:start>4003</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>confers resistance to blasticidin</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <gbConv:label>BSD</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:purpose>Expression of nSaCas9 intradomain insertion of single evolved TadA monomer (V82G)  at the specified position (K736 )</addgene:purpose>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3240/"/>
+    <addgene:vectorBackbone>pcDNA3.1(+)</addgene:vectorBackbone>
+    <addgene:species>Synthetic</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:geneInsertName>nSaCas9 K736 miniABEMax V82G</addgene:geneInsertName>
+    <addgene:selectableMarkers>Blasticidin</addgene:selectableMarkers>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:end>2229</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>2209</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>PKKKRKV</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>nuclear localization signal of SV40 (simian virus 40) large T antigen</gbConv:product>
+        <dcterms:title>SV40 NLS</dcterms:title>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>SV40 NLS</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>SV40 NLS</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:translation>PKKKRKV</gbConv:translation>
+        <gbConv:product>nuclear localization signal of SV40 (simian virus 40) large T antigen</gbConv:product>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>2265</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:start>2245</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>SV40 NLS</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:displayId>annotation4</sbol:displayId>
+        <gbConv:product>FLAG(R) epitope tag, followed by an enterokinase cleavage site</gbConv:product>
+        <gbConv:translation>DYKDDDDK</gbConv:translation>
+        <dcterms:title>FLAG</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>3936</sbol:end>
+            <sbol:start>3913</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>FLAG</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:vectorType>Mammalian Expression, CRISPR</addgene:vectorType>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:growthStrains>NEB Stable</addgene:growthStrains>
+    <addgene:growthTemperature>30&#176;C</addgene:growthTemperature>
+    <addgene:refMethod> nSaCas9 K736 miniABEMax V82G was a gift from  Alex Hewitt   (Addgene plasmid # 135378)   </addgene:refMethod>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 4401)</genbank:label>
+    <genbank:authors>Nguyen Tran MT, Mohd Khalid MKN, Wang Q, Walker JKR, Lidgerwood GE, Dilworth KL, Lisowski L, Pebay A, Hewitt AW</genbank:authors>
+    <genbank:journal>Nat Commun. 2020 Sep 25;11(1):4871. doi: 10.1038/s41467-020-18715-y.</genbank:journal>
+    <genbank:title>Engineering domain-inlaid SaCas9 adenine base editors with reduced RNA off-targets and increased on-target DNA editing.</genbank:title>
+    <genbank:pubmed>32978399</genbank:pubmed>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 4401)</genbank:label>
+    <genbank:journal>Exported Sep 21, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgaagcgaaattacattctggggctggccattggcattacatcagtgggctatggcatcattgactacgagacaagggacgtgatcgacgccggcgtgagactgttcaaggaggccaacgtggagaacaatgagggccggagatccaagaggggagcaaggcgcctgaagcggagaaggcgccacagaatccagagagtgaagaagctgctgttcgattacaacctgctgaccgaccactccgagctgtctggcatcaatccttatgaggccagagtgaagggcctgtcccagaagctgtctgaggaggagtttagcgccgccctgctgcacctggcaaagaggagaggcgtgcacaacgtgaatgaggtggaggaggacaccggcaacgagctgtccacaaaggagcagatcagccgcaattccaaggccctggaggagaagtatgtggccgagctgcagctggagcggctgaagaaggatggcgaggtgaggggctccatcaatcgcttcaagacctctgactacgtgaaggaggccaagcagctgctgaaggtgcagaaggcctaccaccagctggatcagtcctttatcgatacatatatcgacctgctggagacaaggcgcacatactatgagggaccaggagagggctctcccttcggctggaaggacatcaaggagtggtacgagatgctgatgggccactgcacctattttccagaggagctgagaagcgtgaagtacgcctataacgccgatctgtacaacgccctgaatgacctgaacaacctggtcatcaccagggatgagaacgagaagctggagtactatgagaagttccagatcatcgagaacgtgttcaagcagaagaagaagcctacactgaagcagatcgccaaggagatcctggtgaacgaggaggacatcaagggctaccgcgtgacctccacaggcaagccagagttcaccaatctgaaggtgtatcacgatatcaaggacatcacagcccggaaggagatcatcgagaacgccgagctgctggatcagatcgccaagatcctgaccatctatcagagctccgaggacatccaggaggagctgaccaacctgaatagcgagctgacacaggaggagatcgagcagatcagcaatctgaagggctacaccggcacacacaacctgagcctgaaggccatcaatctgatcctggatgagctgtggcacacaaacgacaatcagatcgccatctttaaccggctgaagctggtgccaaagaaggtggacctgtcccagcagaaggagatcccaaccacactggtggacgatttcatcctgtctcccgtggtgaagcggagcttcatccagagcatcaaagtgatcaacgccatcatcaagaagtacggcctgcccaatgatatcatcatcgagctggccagggagaagaactccaaggacgcccagaagatgatcaatgagatgcagaagaggaaccgccagaccaatgagcggatcgaggagatcatcagaaccacaggcaaggagaacgccaagtacctgatcgagaagatcaagctgcacgatatgcaggagggcaagtgtctgtattctctggaggccatccctctggaggacctgctgaacaatccattcaactacgaggtggatcacatcatcccccggagcgtgagcttcgacaattcttttaacaataaggtgctggtgaagcaggaggagaacagcaagaagggcaataggacccctttccagtacctgtctagctccgattctaagatcagctacgagacattcaagaagcacatcctgaatctggccaagggcaagggccgcatcagcaagaccaagaaggagtacctgctggaggagcgggacatcaacagattctccgtgcagaaggacttcatcaaccggaatctggtggacaccagatacgccacacgcggcctgatgaatctgctgcggtcttatttcagagtgaacaatctggatgtgaaggtgaagagcatcaacggcggcttcacctcctttctgcggagaaagtggaagtttaagaaggagcgcaacaagggctataagcaccacgccgaggatgccctgatcatcgccaatgccgacttcatctttaaggagtggaagaagctggacaaggccaagaaagtgatggagaaccagatgttcgaggagaagccgaagaagaaacgtaaggtgggtagcagcggtagcccgaaaaagaagcgcaaagtgggcagcgacgcgctggacgatttcgatctggacatgctgggcagcgatgcgctggatgatttcggcggtggcagctctgaggtggagttttcccacgagtactggatgagacatgccctgaccctggccaagagggcacgcgatgagagggaggtgcctgtgggagccgtgctggtgctgaacaatagagtgatcggcgagggctggaacagagccatcggcctgcacgacccaacagcccatgccgaaattatggccctgagacagggcggcctggtcatgcagaactacagactgattgacgccaccctgtacggcacattcgagccttgcgtgatgtgcgccggcgccatgatccactctaggatcggccgcgtggtgtttggcgtgaggaacgcaaaaaccggcgccgcaggctccctgatggacgtgctgcactaccccggcatgaatcaccgcgtcgaaattaccgagggaatcctggcagatgaatgtgccgccctgctgtgctatttctttcggatgcctagacaggtgttcaatgctcagaagaaggcccagagctccaccgacggcggtagcggcggtagcggtggtagcggcggcagcggtggtagcggtggcagcggtggtaagcaggccgagagcatgcccgagatcgagacagagcaggagtacaaggagattttcatcacacctcaccagatcaagcacatcaaggacttcaaggactacaagtattctcacagggtggataagaagcccaaccgcgagctgatcaatgacaccctgtatagcacacggaaggacgataagggcaataccctgatcgtgaacaatctgaacggcctgtacgacaaggataatgacaagctgaagaagctgatcaacaagtctcccgagaagctgctgatgtaccaccacgatcctcagacatatcagaagctgaagctgatcatggagcagtacggcgacgagaagaacccactgtataagtactatgaggagacaggcaactacctgacaaagtatagcaagaaggataatggccccgtgatcaagaagatcaagtactatggcaacaagctgaatgcccacctggacatcaccgacgattaccctaactctcgcaataaggtggtgaagctgagcctgaagccataccggttcgacgtgtacctggacaacggcgtgtataagtttgtgacagtgaagaatctggatgtgatcaagaaggagaactactatgaggtgaacagcaagtgctacgaggaggccaagaagctgaagaagatcagcaaccaggccgagttcatcgcctctttttacaacaatgacctgatcaagatcaatggcgagctgtatagagtgatcggcgtgaacaatgatctgctgaacagaatcgaagtgaatatgatcgacatcacctacagggagtatctggagaacatgaatgataagaggccccctcgcatcatcaagaccatcgcctctaagacacagagcatcaagaagtacagcacagacatcctggggaacctgtatgaagtcaagagcaagaaacatcctcagattatcaagaaaggctctggtggttctaagcgacctgccgccacaaagaaggctggacaggctaagaagaagaaagattacaaagacgatgacgataagggatccggcgcaacaaacttctctctgctgaaacaagccggagatgtcgaagagaatcctggaccgatggccaagcctttgtctcaagaagaatccaccctcattgaaagagcaacggctacaatcaacagcatccccatctctgaagactacagcgtcgccagcgcagctctctctagcgacggccgcatcttcactggtgtcaatgtatatcattttactgggggaccttgtgcagaactcgtggtgctgggcactgctgctgctgcggcagctggcaacctgacttgtatcgtcgcgatcggaaatgagaacaggggcatcttgagcccctgcggacggtgccgacaggtgcttctcgatctgcatcctgggatcaaagccatagtgaaggacagtgatggacagccgacggcagttgggattcgtgaattgctgccctctggttatgtgtgggagggctaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
