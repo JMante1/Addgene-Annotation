@@ -1,0 +1,367 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:fiveCloningSite>EcoRI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2286/"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>5219</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation11">
+        <gbConv:note>pBR322 origin, forward primer</gbConv:note>
+        <dcterms:title>pBR322ori-F</dcterms:title>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11"/>
+        <gbConv:label>pBR322ori-F</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation11/range">
+            <sbol:end>4466</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>4447</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:addgeneId>91735</addgene:addgeneId>
+    <addgene:refMethod> pFUSEss-CHIg-mM-Asp212Ala_M18 was a gift from  Joanna Bereta    (Addgene plasmid # 91735 ; http://n2t.net/addgene:91735 ; RRID:Addgene_91735)    </addgene:refMethod>
+    <addgene:growthInstructions>Top10 or DH5alpha could be selected on LB LOW SALT with 35-50 micrograms/ml Zeocin.</addgene:growthInstructions>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>2414</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+            <sbol:start>2395</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>EBV-rev</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <gbConv:note>SV40 polyA terminator, reverse primer</gbConv:note>
+        <dcterms:title>EBV-rev</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>13-MAY-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:displayId>annotation3</sbol:displayId>
+        <dcterms:title>IL-2 signal sequence</dcterms:title>
+        <gbConv:product>human interleukin-2 signal sequence</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000418"/>
+        <gbConv:label>IL-2 signal sequence</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>632</sbol:end>
+            <sbol:start>573</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <gbConv:label>SV40pA-R</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+            <sbol:start>2449</sbol:start>
+            <sbol:end>2468</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>SV40 polyA, reverse primer</gbConv:note>
+        <dcterms:title>SV40pA-R</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation13">
+        <sbol:displayId>annotation13</sbol:displayId>
+        <gbConv:label>pause site</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation13"/>
+        <dcterms:title>pause site</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <gbConv:note>RNA polymerase II transcriptional pause signal from the human alpha-2 globin gene</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation13/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation13/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>5213</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>5122</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:bacterialResistances>Bleocin(Zeocin)</addgene:bacterialResistances>
+    <genbank:keywords>pFUSEss-CHIg-mM-Asp212Ala_M18</genbank:keywords>
+    <addgene:vectorBackbone>pFUSEss-CHIg-mM</addgene:vectorBackbone>
+    <addgene:modificationsToBackbone>Nucleotides coding for Asp212 (EU numbering) were changed into triplet encoding Ala.</addgene:modificationsToBackbone>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:mutation>Asp212 changed to Ala (EU numbering)</addgene:mutation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation9">
+        <gbConv:note>human cytomegalovirus immediate early enhancer</gbConv:note>
+        <dcterms:title>CMV enhancer</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9"/>
+        <gbConv:label>CMV enhancer</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation9/range">
+            <sbol:end>4287</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3984</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000165"/>
+        <sbol:displayId>annotation9</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <obo:OBI_0001617>29323348</obo:OBI_0001617>
+    <addgene:entrezGene>Ighm
+
+                        
+                        (a.k.a. AI326478, Ig, Igh-, Igh-6, Igh-M, Igh6, Igm, muH)</addgene:entrezGene>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation7">
+        <dcterms:title>-beta-globin poly(A)</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation7/range">
+            <sbol:end>3003</sbol:end>
+            <sbol:start>2609</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>-beta-globin poly(A)</gbConv:label>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+        <gbConv:note>human beta-globin polyadenylation signal</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>31</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>242</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>EF-1-alpha core promoter</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>EF-1-alpha core promoter</dcterms:title>
+        <gbConv:note>core promoter for human elongation factor EF-1-alpha</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000286"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>255</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>523</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>5' LTR (truncated)</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <dcterms:title>5' LTR (truncated)</dcterms:title>
+        <gbConv:note>truncated 5' long terminal repeat (LTR) from human T-cell leukemia virus (HTLV) type 1</gbConv:note>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveSequencingPrimer>RVprimer3</addgene:fiveSequencingPrimer>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:promoter>hEF1-HTLV prom</addgene:promoter>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:backboneSizeWoInsertBp>4852</addgene:backboneSizeWoInsertBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation8">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8"/>
+        <gbConv:label>BleoR</gbConv:label>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <gbConv:translation>MAKLTSAVPVLTARDVAGAVEFWTDRLGFSRDFVEDDFAGVVRDDVTLFISAVQDQVVPDNTLAWVWVRGLDELYAEWSEVVSTNFRDASGPAMTEIGEQPWGREFALRDPAGNCVHFVAEEQD</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>BleoR</dcterms:title>
+        <gbConv:product>antibiotic-binding protein</gbConv:product>
+        <gbConv:note>confers resistance to bleomycin, phleomycin, and Zeocin(TM)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation8/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8/range"/>
+            <sbol:start>3017</sbol:start>
+            <sbol:end>3391</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:gene>Sh ble from Streptoalloteichus hindustanus</gbConv:gene>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:altName>IgM, IGHM, mouse IgM (immunoglobulin M) heavy chain</addgene:altName>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <addgene:geneInsertName>immunoglobulin heavy constant mu</addgene:geneInsertName>
+    <addgene:totalVectorSizeBp>5219</addgene:totalVectorSizeBp>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation14">
+        <sbol:displayId>annotation14</sbol:displayId>
+        <gbConv:label>RVprimer3</gbConv:label>
+        <gbConv:note>pGL3 vector, forward primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation14/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>5162</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation14/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>5181</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation14"/>
+        <dcterms:title>RVprimer3</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:selectableMarkers>Zeocin</addgene:selectableMarkers>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation12">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+        <gbConv:note>synthetic polyadenylation signal</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+        <dcterms:title>synthetic polyadenylation signal</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation12/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12/range"/>
+            <sbol:end>5111</sbol:end>
+            <sbol:start>5063</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:backboneManufacturer>Invivogen</addgene:backboneManufacturer>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/29323348"/>
+    <addgene:threeSequencingPrimer>EBV-rev</addgene:threeSequencingPrimer>
+    <addgene:insertSizeBp>367</addgene:insertSizeBp>
+    <addgene:refBib>  Mouse Antibody of IgM Class is Prone to Non-Enzymatic Cleavage between CH1 and CH2 Domains. Klaus T, Stalinska K, Czaplicki D, Mak P, Skupien-Rabian B, Kedracka-Krok S, Wiatrowska K, Bzowska M, Machula M, Bereta J. Sci Rep. 2018 Jan 11;8(1):519. doi: 10.1038/s41598-017-19003-4. 10.1038/s41598-017-19003-4   PubMed 29323348   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation10">
+        <gbConv:direction>LEFT</gbConv:direction>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <gbConv:note>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</gbConv:note>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <gbConv:label>ori</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation10/range">
+            <sbol:end>4955</sbol:end>
+            <sbol:start>4367</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>ori</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeCloningSite>NheI
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:purpose>Expression plasmid coding for mutated heavy chain of mouse IgM antibody specific to antigen B of the ABO blood group system, clone M18. Mutation: Asp212Ala (EU numbering).</addgene:purpose>
+    <addgene:plasmidTitle>pFUSEss-CHIg-mM-Asp212Ala_M18</addgene:plasmidTitle>
+    <genbank:division>SYN</genbank:division>
+    <dcterms:description>Expression plasmid coding for mutated heavy chain of mouse IgM antibody specific to antigen B of the ABO blood group system, clone M18. Mutation: Asp212Ala (EU numbering)..</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+        <gbConv:note>SV40 polyadenylation signal</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:start>2384</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>2505</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>SV40 poly(A) signal</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:label>SV40 poly(A) signal</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:growthStrains>NEB Stable</addgene:growthStrains>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>Sci Rep. 2018 Jan 11;8(1):519. doi: 10.1038/s41598-017-19003-4.</genbank:journal>
+    <genbank:authors>Klaus T, Stalinska K, Czaplicki D, Mak P, Skupien-Rabian B, Kedracka-Krok S, Wiatrowska K, Bzowska M, Machula M, Bereta J</genbank:authors>
+    <genbank:label>1  (bases 1 to 5219)</genbank:label>
+    <genbank:pubmed>29323348</genbank:pubmed>
+    <genbank:title>Mouse Antibody of IgM Class is Prone to Non-Enzymatic Cleavage between CH1 and CH2 Domains.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 5219)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggatctgcgatcgctccggtgcccgtcagtgggcagagcgcacatcgcccacagtccccgagaagttggggggaggggtcggcaattgaacgggtgcctagagaaggtggcgcggggtaaactgggaaagtgatgtcgtgtactggctccgcctttttcccgagggtgggggagaaccgtatataagtgcagtagtcgccgtgaacgttctttttcgcaacgggtttgccgccagaacacagctgaagcttcgaggggctcgcatctctccttcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttaaagctcaggtcgagaccgggcctttgtccggcgctcccttggagcctacctagactcagccggctctccacgctttgcctgaccctgcttgctcaactctacgtctttgtttcgttttctgttctgcgccgttacagatccaagctgtgaccggcgcctacctgagatcaccggcgaaggagggccaccatgtacaggatgcaactcctgtcttgcattgcactaagtcttgcacttgtcacgaattcgcaggttcagctgcagcagtctggagctgagctgatgaagcctggggcctcagtgaggatatcctgcaaggctactggctacatattcagtggctactggattgagtggacaaagcagaggcctggacatggccttgagtggattggagagatttttcctggaagtggtaatactaactacaaggagaagttcaagggcaaggccacattcactgcagatacatcatccaacacagcctacatgcaactcagcagactgacatctgaggactctgccgtctatttctgtgcaagaatcgtaccaggaaagtattttgactgctggggccaaggcaccactctcacagtctcctcagctagctcagagagtcagtccttcccaaatgtcttccccctcgtctcctgcgagagccccctgtctgataagaatctggtggccatgggctgcctggcccgggacttcctgcccagcaccatttccttcacctggaactaccagaacaacactgaagtcatccagggtatcagaaccttcccaacactgaggacagggggcaagtacctagccacctcgcaggtgttgctgtctcccaagagcatccttgaaggttcagatgaatacctggtatgcaaaatccactacggaggcaaaaacagagctctgcatgtgcccattccagctgtcgcagagatgaaccccaatgtaaatgtgttcgtcccaccacgggatggcttctctggccctgcaccacgcaagtctaaactcatctgcgaggccacgaacttcactccaaaaccgatcacagtatcctggctaaaggatgggaagctcgtggaatctggcttcaccacagatccggtgaccatcgagaacaaaggatccacaccccaaacctacaaggtcataagcacacttaccatctctgaaatcgactggctgaacctgaatgtgtacacctgccgtgtggatcacaggggtctcaccttcttgaagaacgtgtcctccacatgtgctgccagtccctccacagacatcctaaccttcaccatccccccctcctttgccgacatcttcctcagcaagtccgctaacctgacctgtctggtctcaaacctggcaacctatgaaaccctgaatatctcctgggcttctcaaagtggtgaaccactggaaaccaaaattaaaatcatggaaagccatcccaatggcaccttcagtgctaagggtgtggctagtgtttgtgtggaagactggaataacaggaaggaatttgtgtgtactgtgactcacagggatctgccttcaccacagaagaaattcatctcaaaacccaatgaggtgcacaaacatccacctgctgtgtacctgctgccaccagctcgtgagcaactgaacctgagggagtcagccacagtcacctgcctggtgaagggcttctctcctgcagacatcagtgtgcagtggcttcagagagggcaactcttgccccaagagaagtatgtgaccagtgccccgatgccagagcctggggccccaggcttctactttacccacagcatcctgactgtgacagaggaggaatggaactccggagagacctatacctgtgttgtaggccacgaggccctgccacacctggtgaccgagaggaccgtggacaagtccactggtaaacccacactgtacaatgtctccctgatcatgtctgacacaggcggcacctgctattgactctagctggccagacatgataagatacattgatgagtttggacaaaccacaactagaatgcagtgaaaaaaatgctttatttgtgaaatttgtgatgctattgctttatttgtaaccattataagctgcaataaacaagttaacaacaacaattgcattcattttatgtttcaggttcagggggaggtgtgggaggttttttaaagcaagtaaaacctctacaaatgtggtatggaattaattctaaaatacagcatagcaaaactttaacctccaaatcaagcctctacttgaatccttttctgagggatgaataaggcataggcatcaggggctgttgccaatgtgcattagctgtttgcagcctcaccttctttcatggagtttaagatatagtgtattttcccaaggtttgaactagctcttcatttctttatgttttaaatgcactgacctcccacattccctttttagtaaaatattcagaaataatttaaatacatcattgcaatgaaaataaatgttttttattaggcagaatccagatgctcaaggcccttcataatatcccccagtttagtagttggacttagggaacaaaggaacctttaatagaaattggacagcaagaaagcgagcttctagcttatcctcagtcctgctcctctgccacaaagtgcacgcagttgccggccgggtcgcgcagggcgaactcccgcccccacggctgctcgccgatctcggtcatggccggcccggaggcgtcccggaagttcgtggacacgacctccgaccactcggcgtacagctcgtccaggccgcgcacccacacccaggccagggtgttgtccggcaccacctggtcctggaccgcgctgatgaacagggtcacgtcgtcccggaccacaccggcgaagtcgtcctccacgaagtcccgggagaacccgagccggtcggtccagaactcgaccgctccggcgacgtcgcgcgcggtgagcaccggaacggcactggtcaacttggccatgatggctcctcctgtcaggagaggaaagagaagaaggttagtacaattgctatagtgagttgtattatactatgcagatatactatgccaatgattaattgtcaaactagggctgcagggttcatagtgccacttttcctgcactgccccatctcctgcccaccctttcccaggcatagacagtcagtgacttaccaaactcacaggagggagaaggcagaagcttgagacagacccgcgggaccgccgaactgcgaggggacgtggctagggcggcttcttttatggtgcgccggccctcggaggcagggcgctcggggaggcctagcggccaatctgcggtggcaggaggcggggccgaaggccgtgcctgaccaatccggagcacataggagtctcagccccccgccccaaagcaaggggaagtcacgcgcctgtagcgccagcgtgttgtgaaatgggggcttgggggggttggggccctgactagtcaaaacaaactcccattgacgtcaatggggtggagacttggaaatccccgtgagtcaaaccgctatccacgcccattgatgtactgccaaaaccgcatcatcatggtaatagcgatgactaatacgtagatgtactgccaagtaggaaagtcccataaggtcatgtactgggcataatgccaggcgggccatttaccgtcattgacgtcaatagggggcgtacttggcatatgatacacttgatgtactgccaagtgggcagtttaccgtaaatactccacccattgacgtcaatggaaagtccctattggcgttactatgggaacatacgtcattattgacgtcaatgggcgggggtcgttgggcggtcagccaggcgggccatttaccgtaagttatgtaacgcctgcaggttaattaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgcaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatggctagttaattaacatttaaatcagcggccgcaataaaatatctttattttcattacatctgtgtgttggttttttgtgtgaatcgtaactaacatacgctctccatcaaaacaaaacgaaacaaaacaaactagcaaaataggctgtccccagtgcaagtgcaggtgccagaacatttctctatcgaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
