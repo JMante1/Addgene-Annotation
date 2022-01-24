@@ -1,0 +1,331 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:promoter>Pelt-2</addgene:promoter>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation12">
+        <gbConv:translation>IEGR</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>Factor Xa recognition and cleavage site</gbConv:product>
+        <gbConv:label>Factor Xa site</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation12/range">
+            <sbol:start>12173</sbol:start>
+            <sbol:end>12184</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12"/>
+        <dcterms:title>Factor Xa site</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:purpose>MosSCI targeting vector expressing a fusion between a GFP nanobody and an ubiquitin ligase adaptor ZIF-1 to degrade GFP tagged proteins. Expression is controlled by Pelt-2 (intestine specific).</addgene:purpose>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:displayId>annotation4</sbol:displayId>
+        <gbConv:note>promoter for bacteriophage T3 RNA polymerase</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:start>6848</sbol:start>
+            <sbol:end>6866</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>T3 promoter</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <dcterms:title>T3 promoter</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <dcterms:title>pBRforEco</dcterms:title>
+        <gbConv:note>pBR322 vectors, upsteam of EcoRI site, forward primer</gbConv:note>
+        <gbConv:label>pBRforEco</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+            <sbol:start>8727</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>8745</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <genbank:date>12-MAY-2021</genbank:date>
+    <addgene:vectorType>Targeting vector for Mos1 transposon mediated single copy transgene insertion</addgene:vectorType>
+    <genbank:keywords>pOD2044-intDEG</genbank:keywords>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:product>GFP-binding fragment of a single-chain camelid antibody (Rothbauer et al., 2008)</gbConv:product>
+        <dcterms:title>GFP nanobody</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>3345</sbol:end>
+            <sbol:start>3004</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:translation>VQLVESGGALVQPGGSLRLSCAASGFPVNRYSMRWYRQAPGKEREWVAGMSSAGDRSSYEDSVKGRFTISRDDARNTVYLQMNSLKPEDTAVYYCNVNVGFEYWGQGTQVTVSS</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:label>GFP nanobody</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:supplementalDocuments>pOD2044-intDEG.gb</addgene:supplementalDocuments>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation8">
+        <gbConv:product>beta-lactamase</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:note>confers resistance to ampicillin, carbenicillin, and related antibiotics</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8"/>
+        <gbConv:gene>bla</gbConv:gene>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <dcterms:title>AmpR</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation8/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8/range"/>
+            <sbol:start>8918</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>9778</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:translation>MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGSDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW</gbConv:translation>
+        <gbConv:label>AmpR</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:refBib>  A toolkit for GFP-mediated tissue-specific protein degradation in C. elegans. Wang S, Tang NH, Lara-Gonzalez P, Zhao Z, Cheerambathur DK, Prevo B, Chisholm AD, Desai A, Oegema K. Development. 2017 Jun 15. pii: dev.150094. doi: 10.1242/dev.150094. 10.1242/dev.150094   PubMed 28619826   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <gbConv:note>pGEX vectors, reverse primer</gbConv:note>
+        <gbConv:label>pGEX 3'</gbConv:label>
+        <dcterms:title>pGEX 3'</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+            <sbol:end>8689</sbol:end>
+            <sbol:start>8667</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation5</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:plasmidTitle>pOD2044-intDEG</addgene:plasmidTitle>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:geneInsertName>vhhGFP4-ZIF-1</addgene:geneInsertName>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:division>SYN</genbank:division>
+    <addgene:insertSizeBp>2098</addgene:insertSizeBp>
+    <addgene:totalVectorSizeBp>14163</addgene:totalVectorSizeBp>
+    <addgene:fiveSequencingPrimer>tgtaaaacgacggccagt</addgene:fiveSequencingPrimer>
+    <addgene:entrezGene>zif-1
+
+                        
+                        (a.k.a. CELE_F59B2.6)</addgene:entrezGene>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation7">
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:label>AmpR promoter</gbConv:label>
+        <gbConv:gene>bla</gbConv:gene>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation7/range">
+            <sbol:end>8917</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>8813</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>AmpR promoter</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <addgene:backboneSizeWoInsertBp>7328</addgene:backboneSizeWoInsertBp>
+    <addgene:selectableMarkers>Cb-unc-119(+)</addgene:selectableMarkers>
+    <addgene:vectorBackbone>pCFJ151</addgene:vectorBackbone>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:cloningMethod>Gibson Cloning</addgene:cloningMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:label>tbb-2 terminator</gbConv:label>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <gbConv:note>transcription terminator for the C. elegans tubulin beta-2 gene</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <gbConv:gene>tbb-2</gbConv:gene>
+        <dcterms:title>tbb-2 terminator</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>6829</sbol:end>
+            <sbol:start>6506</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <obo:OBI_0001617>28619826</obo:OBI_0001617>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <dcterms:description>MosSCI targeting vector expressing a fusion between a GFP nanobody and an ubiquitin ligase adaptor ZIF-1 to degrade GFP tagged proteins. Expression is controlled by Pelt-2 (intestine specific)..</dcterms:description>
+    <addgene:threeSequencingPrimer>CGACTCACTAGTGGGCAGAT</addgene:threeSequencingPrimer>
+    <addgene:addgeneId>89366</addgene:addgeneId>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:tagFusionProtein>vhhGFP4 (GFP nanobody) (N terminal on insert)</addgene:tagFusionProtein>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>1692</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>1703</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>Factor Xa site</gbConv:label>
+        <gbConv:translation>IEGR</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:product>Factor Xa recognition and cleavage site</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <dcterms:title>Factor Xa site</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation11">
+        <gbConv:note>pBR322 origin, forward primer</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11"/>
+        <gbConv:label>pBR322ori-F</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <dcterms:title>pBR322ori-F</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation11/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11/range"/>
+            <sbol:end>10457</sbol:end>
+            <sbol:start>10438</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation11</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation10">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10"/>
+        <gbConv:label>ori</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation10/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10/range"/>
+            <sbol:end>10537</sbol:end>
+            <sbol:start>9949</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <dcterms:title>ori</dcterms:title>
+        <gbConv:direction>RIGHT</gbConv:direction>
+        <gbConv:note>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>14208</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pOD2044-intDEG was a gift from  Karen Oegema    (Addgene plasmid # 89366 ; http://n2t.net/addgene:89366 ; RRID:Addgene_89366)    </addgene:refMethod>
+    <addgene:species>C. elegans (nematode), Synthetic</addgene:species>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/28619826"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3319/"/>
+    <addgene:backboneManufacturer>Christian Fr&#248;kj&#230;r-Jensen (Erik Jorgensen lab)</addgene:backboneManufacturer>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation9">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation9/range">
+            <sbol:start>9136</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9/range"/>
+            <sbol:end>9155</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9"/>
+        <dcterms:title>Amp-R</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:note>Ampicillin resistance gene, reverse primer</gbConv:note>
+        <gbConv:label>Amp-R</gbConv:label>
+        <sbol:displayId>annotation9</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:label>1  (bases 1 to 14208)</genbank:label>
+    <genbank:title>A toolkit for GFP-mediated tissue-specific protein degradation in C. elegans.</genbank:title>
+    <genbank:journal>Development. 2017 Jun 15. pii: dev.150094. doi: 10.1242/dev.150094.</genbank:journal>
+    <genbank:pubmed>28619826</genbank:pubmed>
+    <genbank:authors>Wang S, Tang NH, Lara-Gonzalez P, Zhao Z, Cheerambathur DK, Prevo B, Chisholm AD, Desai A, Oegema K</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 14208)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>tacatctttaccggcaccagaagaaatcaccgctaaccaatgttcagtttttacctgaatatccctgaaagtacaaaaaaatcaatgttcaatcaagtttttgcatgccttcgtgtgatggctcgcaccaagtattctgacagttataaaatgtttcctgtgatcatgaatttgaaaaaaaaagaactgatgggaaaatgtgatattcataaatgaaatgtttaataaacaaaaaagaaccgtcatcacaaatctactctgaaacgttcacagttcctaattgaccaattcagaattttttgtactgacttaataaatataaatttacagttttaagaaacataaattgaattatataaataaaaaaaaaaaaactaaaatgaagacgtgatggaatgtttcacgtattaaaaaagctctcggaccgtttgacatccagaaattatgtgaaagtgattttctaaccctttgacgtcaaaaaagtttttcttttttgaaagatacgctgtttagaaatacttatacagctgattttagaatctccaaaaaaccttcaattacttaacaaactttctaaataaagaattttgattttgattttctttgaacttcaaaccccccgttaaaaaaccaaattaaaaaaaagataccagattaattttaaagtgaaaaatataaatttattcccgactgttaaaaacggtttataaacggagtcacaacactcatatacaactatcgacaccaaataaataacttcgaaagctaattgtgtcatttcggatatagagagtagtgtgagcagatgtgtttttgcagaactaaattgatgacactattatggaatataatgaccaaatgttaaatgtgttaaggtttgatatcaaaacctgtattttctttttatacagaattgataatgttatcttcaattgatttctacttctgagctacggcgatacgaggacgcattctcaacgataatgttgccattttgtcctgataatttttttactgattgtttcagaacacccatagtttttctctattaaacgttcatccttgacttccccgagtttgctggctgaataggaaatttgaagacaaaaaggaaagaatcggctcaaacgtcatgcaactgataaggcgaccgtacttcatttcaaaagaagctcacttactgagcgcaaacattgagaaatgagagcaaaagaagtggttttacaacatgctaatgtttttagaccttgtacccaataatattactgtagtatacagttcggagagcatatggttgaaatcttgaaataccaatttatcactagtttgattgtgttatcgatgtataaagatatattttatcatttttgattattatctgatattgtggggtgtgaagtaatattatgtgcgtgtgtggctgattatcgaaaaaaactgaaaattatcaatttttctacaggttatctttttttgttttatttttcattattgtattcttcatactccttatcctgcccgaatcacaaaagttccagacaacttgaaggtcgcatcacgttttgtttataagaatgttgaactggtcagctttggagacagaactgtcctccaaatgttgaatatgtttccgtaaaacacactgtgtaacaaaaagcgtaccctttgatccggtattcttgaaaaaaaacatagaagggcgtacttttcatatctcacaaatatgcgttttttattttataataatatcatttattgataattatatgtatttgtatgttttcttgtctttaaaattatggtgtgacatcacagtttaaaaattatatgaaaactaatgagtgaaaagttaaaaatgtatagtttgccgtattttctccattagtattgtattcaaaacttatttccaattggtgagcactataaactttgtagggtaattgaggttcaatactaatttttgaatatctagcttttgacaaattattcaagttttgacaatgatgccttatcaaattaaaaaaaattaccataaattcttgaaagcttttgattttgtttcactctgtgaaggatagtaatttatcaacattttaactagatacatctgttctggcaataaattaaagcaagactattactatgtgcagtattaatagctgcattgcaacttgtttgaaagtttcagtgaaaacgcaaaaactcaatttaattttcaagtttgtttgcaaaattggatatatgtatccatcaaaagtctgatcgcctgttttatctacttattgtctcctcagttgatttttttgtagttattataaacgctactttgaaaccaatattttcttcctcattccacttttttcaattaccaactaccgtacatgcaatgatgggcggacccgagtcccatgtttggctggaagtgggtggttgtctgcgtatatgagcgacagaggtcggggctgaaactgataagaatagtcgacactaacgccataatcgctagccagccatcatgcacaccgagctcggtgtgcacaccatctttcttttcaaaccaatacgctttgtgccttcattgacaattttctttttgataaaatcagcctatctatacttcccaatcatttttagtcttatcgttgaacagctatcgaggtgccactgttttcactgatatcttctaagttactatggcattaacatctttgtgttcttattttatgggttattttaattaatttttgcagttaatttttggaatgagcaagaaaatgttaattgtaatatcttcgtctgaaaattgtcttcaaatagttttaattttaaaggcagtatttaagaaaatacacttctcgaagcatttttgaatttttgaatttttaaactgcttgatgttttaggtgccactgttttcattgataagttttgatgtataaatgcttgattttcttggcattctaataaaatagaaactagaaaatagattatagaatggatcaagtccaactggtggagtctggtggcgctttggtgcagccaggtggctctctgcgtttgtcctgtgccgcttctggcttcccagtgaaccgctattccatgcgctggtatcgccaggctccaggcaaagagcgtgagtgggtagccggtatgtccagcgcgggtgatcgtagctcctatgaagactccgtgaagggccgtttcaccatcagccgtgacgatgcccgtaacacggtgtatctgcaaatgaacagcttgaaacctgaagatacggccgtgtattactgtaatgtgaacgtgggcttcgagtattggggccaaggcacccaggtcaccgtctccagcatgagtgagtgttccgcgagtaccagtcagttatctactttctgtgtaaatgagataccatggaagttggttccacaggtaaaaatcttgaaaaccactcagtttcgacaaaacaaaaatttcagacttgcgacgaattcagcgaatacgagttcatagatgaaaaatataggtgaggatctctagatatatatctattaaattttataaccttttcaggcgcctttctgacgtagaatcgtttgtctggaagtggtcgccgtgtggaagatatggaattgatcttccgggcggtcgtgacgtcattaaccaacaactacgtgaccgtatggctgtattcgatctacatacgaacaaatggaccctatacaccatggaccgtggtgctttcgaaattccacgagtttgctttctctactgggcacgaaacgatataatcggcacaataacccttgtagtaagtgtccgatctaccatacctaatccaaaaaataaaatttcagaaagactatgaagcaggaccggatgatgaaattccattgaaattcaagcaatcattcttctacgtatctcacgaaacacagacattagtgtactctggttcatgcaagtaccgtacgaataaaacaatcgtagcatcttattggtaccatattttcgaaaatcgacgtggcgaaccgttcattgatcacaataactacctgtggttggtattctcaaacggagtggattctctgattcttcttccatttattccaacttcaacgtgtttcaaagcgaaatgtgtatcatttgatatgaacgatatcgtcagtcaattcactggtattcgcgtatttctcgatccatttgtatcatctcactacgtgccatgggtctacagaaatgacgttaattttttcattaggattgattcgcattcatttatcgaggagcaaaaccgggactatggtctagatccgcaaattgataacccggagacgaaaccgcacagaggagtatttcaacttcgtgtgaatttgaaagatgtcatcgaaaagggcgaaaaagatgcgattcatgcagttaatcctgaaacaatagagacaagattcaatcgaggtgacattgaactatggcgaaaaatcagcgatgagctccgtcaagaacatcagagcatagcacagcatggcaaaatggttgtagtacaacgatggtcacactttactgttgatatggggctcagcaagaaaatgagaaccgtaggatatgaaaatattatttgttgatagtttattaatttaatttcagcgtgttgccgatttggacgcccgtgattactgttgcagccataagccacgtaattcgtcattctgctgtattgacttggacagcgagcgaatcaaggctgtggatgctctcattcttgggtacaaattaatctatttttttcctaagtatttttttttcagaactgacgtggttcttccccatcctagtggctctgtattcctatttcgatacaaggaaaattatggtaatccctccaccaaatagacgttttcttcatcgtaatttttcagggatgagttattgcgagcttccattcttccagccactttcattgaagctaaaatgtattcaagttctcaaggaatctgtcgaaatcgacccaagttactatagaatcaaatgctgccttaaaatgcaagaagaacttgaaaaagaaactgccgaaaatttgtgcacgataaatattcaacaataatggtctcttctcaataaaggttgtatatttattcatcttattgaatctgccatttcctcgtttttgcgagtttatataccttccaattttctttctattgtattttcaacttctaattttaattcagggaaactgcttcaacgcatcatgggaggtagggccggctctgtctcaaagggtgaagaagataacatggcaattattaaagagtttatgcgtttcaaggtgcatatggagggatctgtcaatgggcatgagtttgaaattgaaggtgaaggagaaggccgaccatatgagggaacacaaaccgcaaaactaaaggtaagtttaaacatatatatactaactaaccctgattatttaaattttcaggtaactaaaggcggaccattaccattcgcctgggacatcctctctccacagttcatgtatggaagtaaagcttatgttaaacatccggcagatataccagattatttgaaactttcattcccggagggttttaagtgggaacgcgtaatgaattttgaagacggaggagttgttacagtgacgcaagactcaaggtaagtttaaacagttcggtactaactaaccatacatatttaaattttcagcctccaagatggagaatttatttataaagtcaaacttcgaggaacgaatttcccctcggatggacctgttatgcagaagaagactatgggatgggaagcttcaagtgaaagaatgtaccctgaagacggtgctcttaagggagagattaaacaacgtcttaaattgaaagatggaggacattacgatgctgaggtaagtttaaacatgattttactaactaactaatctgatttaaattttcaggtgaagacaacttacaaagccaaaaaaccagttcagctgccaggagcgtacaatgttaatattaaactggatatcacctcccacaacgaggattacactatcgttgagcaatatgaaagagctgaagggcggcactcgacaggtggcatggatgaattgtataagggaggaggaggaggtggaatgccaccaaagccatctgccaagggagccaagaaggccgccaagaccgttacgaagccaaaggacggaaagaagagacgtcatgcccgtaaggaatcatactccgtctacatctaccgtgtcctcaagcaagttcatccagacactggagtttcctccaaagccatgtctatcatgaactcttttgtcaacgatgtcttcgagcgtattgctgctgaagcatcccgtcttgctcactacaacaagcgttccacaatctcatcccgcgaaattcagaccgctgtccgtctgatccttccaggagagcttgccaagcacgccgtgtctgagggaaccaaggccgttaccaagtacacttccagcaagtaaatgcaagatcctttcaagcattcccttcttctctatcactcttctttctttttgtcaaaaaattctctcgctaatttatttgcttttttaatgttattattttatgactttttatagtcactgaaaagtttgcatctgagtgaagtgaatgctatcaaaatgtgattctgtctgatgtactttcacaatctctcttcaattccattttgaagtgctttaaacccgaaaggttgagaaaaatgcgagcgctcaaatatttgtattgtgttcgttgagtgacccaacaaaaagaggaaactttattgtgccgccaagaaaaaagtctcattgcagcttttgttccctttagtgagggttaattcattcgaagatctgcccactagtgagtcgtattataagtgcaagtaagatcagtgtttgtttcgatatcagtctgtttcgtaacggtcttctgtataactacaaaaaagaataaaaaaccgtatcacaactgagaaaaaagacaaaacttattgaacagtgttcctttcaaaaaattattttgtaaaaaatcgagtttttctccaaaataacgcacgcaatcaaaaacaagaaaactaacgtgttctcctgggcgtggaactccttatcaagattaccattattgtctgtcagaattgatatttcaattatttcatatctagacaaacccgggtgtcttgcatttattagtactgtgagtttacatacaaacgaggcttactcagataacatagagtcacctctaattagcaaaaacccatttctaattagctatttcgaccagttctaaagtcaccgtaattagaaatggtttttgtagcttttctaattagaaatgaccccgagataagtgaaatatggcattttctgggttttctagtaagaaatgatcccgcacgtagtgattccgcgttacaagccaaattcaaattaaaaaagtatattacacaattcaagttacattattttcaggaaacaatggcgaagagcaaagcagagattcaaaaggaggaaagagacaacagatatgaacgaagacttcttgaaaagagaaagagacatgaggtgagtaaccatgataataaataatcaagtaagggctatagatttataaattctggagttaacagtttcgaaaaaaagtagttttcatatgtgcgaaggaatatcaaaaataggggaatagcctaaacgagtgagaaaattaaatgtttgttattttttcaaaaatgtctgcagggccgttatcctttcaaatgcactctatcaaacatagatcatatccatcatatcttatccagaatttatatcatatccaagattgagagcgtttcaaggaaaatctcaaacaaccatacaattttgtagatcgacaacaaggcctccacttcttcatcgatggcctctgcagcacctgcaccaccaagtttgtatttttcatattaatataaagtgagccacgcatagtcgtttttaggatttttgccagatcgatgtcgcgcaaacagactgtttttttttctttgaaagccgtgcgtgacatgggccacggattgtaacgccgcgctggatggataaaaatttattcagttttttagcctttacaaaatatggttcgactactttctttatttttacatttttataggtgctcattgagctgagatattttgggtataatcggaaaatcgctgattttggtcatttttctgcactaaagattacacaaaaagttcagtatttagattcattgttgaaaattggggatgatctacagatacatatcgccgtgttcaaaaacacacgtgctgtgacgtcgtgactggggaaaaccctggcgttacccaacttaatcgccttgcagcacatccccctttcgccagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatggcgcctgatgcggtattttctccttacgcatctgtgcggtatttcacaccgcatatggtgcactctcagtgcaatctgctctgatgccgcatagttaagccagccccgacacccgccaacacccgctgacgcgccctgacgggcttgtctgctcccggcatccgcttacagacaagctgtgaccgtctccgggagctgcatgtgtcagaggttttcaccgtcatcaccgaaacgcgcgagacgaaagggcctcgtgatacgcctatttttataggttaatgtcatgataataatggtttcttagacgtcaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtattgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgtagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtgggtctcgcggtatcattgcagcactggggtcagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggtcttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccagcggataacaatttcacagggccctgtcggattatgggctcttcttttatcctctactttctttctagaaaatgcaaatgttgagtcagaaattgctgaatggagtacaactgcaatgggtttagcttatgtttctggaacaattactggtggaattgtgattgaaaagtaaggttatatttcatttcaataaatgttaccacagtataacaaaaacaagttacattgttcagagtatgtctgaatgtattattattattgtatttgtgcatcagtactgtagttgtactgaagaagggtttaaaataatctcaacgtttttaagacgagttagtgagaatacggtcgcagttaggatgtttggacatagttttattagataatcgtgaactaactcactataaaaacccgctaactcattgaataagatagttttaaacgttcaaaatttgaagacaaaattgtatgaataagtttacagagttggtcgacgcaagcttctccttctcttcacatttctcaataatttagctctaattgcattcgtattcttcgcaaaaatacgtattctgattgacccgatgaaatacggatgcctagttgcattgatcatctacggttatacttatgggtgaggtttttcaaatatattttgatttaatcgaataatgaaatttcagaactggagttggtccaatttcgtggtttatatcctctgaactggtacctcaaaaacatcgtagtattgctcaatctgtggcatattcaatgaatactgtaatggtggttatcagtacatttacagtattacctctatattccgttattggtagttatgctttccttattctatattcaattccttcatttataagtatgcttatattatttcgctacttaccggaaaccaaaggacgagagattcatgatattgtgaatgaacttaaaaaaaaatgaaaacctttgaaaacgttcatacggccgaaattttacttgatcgagccaattgaacttttgttaagacttacagaaaagtgagagattttgttacaaaaaagtgagaaaaaagcgaaaatgaacaggaaaaagaagaaaaatacacccgaagtatcatataaaaattaaaaagattgtttgacctggcggaacttttttgcaaaaactctgaatatccatggcacatgcttcgtgcaaaacaggatccaaatgaatatcaacaagagattcttgaagacgacgagccacttgctcagagcattgcttatctcgaatgagacccttgttaaaatcatttttcaaacattatatgacattgtcgaaatgtcctcctgattccatgatggtagcaaactcacttcgtctttgagccaatttatccaagtccttgtaaaaagtattcgaaaattgttaacggataaaatgtttattataatatcaaaaacaatttgtcagttgaccactttttgatatatttgacagaaaccgggatgaattggctcaaagttagggcgcccttctattacagggtttctgataacaaaccggttattaactcccaacaagggatgatttcaattcatcatgctcaaattgacccaaattaagttacatgacaaattcatcgcccttttcaactcttcttggctcatcatctgttattctgttcctattctgtctgcaccctatacccctttgcatactctctcgtcattcctttcttggatagtgtcttcttctccccagctctgctacttctatgacttgcgcccgctgcttttccgctcgttcctctcctctctgacgtcttcttctgcttcttttctccttcctttttcccttctcaatcttcctctttttcccatttctgtcaatcattcgaagaagaagaagaagaagaccctcattcatttcatttttttttctgtcggtgtgtgctgctcggttaagagtgagctctctattccacgtcttcttctttttcttcttcgattcgaatcaatcactccaccaaaacgcattcgtttttgggattcaccccgcggttcgcaataggtttctttttcaaattattagcgttataaatagaaaaatggtggagtttcaataaaaatgataatttacaaagtgtattttgattacatgtactcaaaaaggttgaaatttttcataccagttttccggaaatccatctgatatcattatcgtatttttctttttaaaaatgttttcaaaaaaaaacaaaatatagctggttatttggcaccctctaattaccattttcctgtcacaccacactcttttccttcttccacttctttccgttttcagccgcttccaaccaaaccgatatgaaagccgagcaacaacgatcgattccacccggctcggcgaccttcccgtcgcaggtgagactcagaaaactagagaaaccgctcaactaactcttgatatccgatttcattcttttctcttttctttttgttgaacttttccatatttccagatgccacggccaccaccaagcaccgaacaaggaatcacaacggaatcggagcttgcgaagaaagctcaaatcactccgaacgacgttttagcacttccgggaatcactcaaggtatcttgctccctttggatttcagtttaaaacataaatttaggattcttatgctccccatctgcgaacatctataacatcgagttcaccaagttccaaatccgtgatctggacactgagcaagtgcttttcgagatcgccaaaccggagaacgatcaggagaatgatgagtcgccacaggagtcggcaagatacgtgcgttatagatttgctccaaactttttgaaactcaaaacggtcggagcaactgtggaattcaaagtaggagacatcccaatccatcatttccgaatgatcgaacgtcacttcttcaaagatcgccttctgaagtgttttgactttgaattcggattctgtattccgaattcacgaaacaactgtgaacatatctatgagttccctcaactctctcaacaactcagtgagtcattattctaaaaagtacaattcaaaagactaatctctttttcagtggacgacatgatcaacaatccaaacgagactcgttctgacagcttctatttcgtcgataacaaactcgtcatgcacaacaaagccgactactcatatgatgcataaatatttaatacaaaaatgttctggataattattctgtcgaatagaaaaaaaactccaaatgtgattaaattccaataattcctgtctagtttgttccttccccttccccttctcatgttcaatgcattcctaagcttttcagttccccccttgtttctatattttttcgctgtcctgtcacactcgctaaaaacactaatcacacggaaatctgttttcaataaaaactccaactttaactcattttcaatttcaactgaaagattttttcattagagaatgtctagaactaggcccgggctacgtaatacgactcacttaaggccttgactagagggtaccagagctca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

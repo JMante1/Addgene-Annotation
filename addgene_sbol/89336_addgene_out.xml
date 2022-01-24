@@ -1,0 +1,87 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <genbank:keywords>wild-type Dynamin-2-mNeon siRNA-resistant variant</genbank:keywords>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:vectorBackbone>pmNeonGreen-N1</addgene:vectorBackbone>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:insertSizeBp>2598</addgene:insertSizeBp>
+    <addgene:backboneSizeWoInsertBp>4700</addgene:backboneSizeWoInsertBp>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1740/"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/27798601"/>
+    <addgene:plasmidTitle>wild-type Dynamin-2-mNeon siRNA-resistant variant</addgene:plasmidTitle>
+    <addgene:altName>Resistant to siRNA #2 targeting GAGCGAATCGTCACCACTT</addgene:altName>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:refBib>  Multiple dynamin family members collaborate to drive mitochondrial division. Lee JE, Westrate LM, Wu H, Page C, Voeltz GK. Nature. 2016 Dec 1;540(7631):139-143. doi: 10.1038/nature20555. Epub 2016 Oct 31. 10.1038/nature20555   PubMed 27798601   </addgene:refBib>
+    <addgene:mutation>A1044T, T1047C, G1050A, G1053C, C1056T, T1059C, G1371A, A1374C, C1377A, C1380A, C1383A, T1386G</addgene:mutation>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:backboneManufacturer>Allele Biotechnology &amp; Pharmaceuticals, Inc</addgene:backboneManufacturer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>2598</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:fiveSequencingPrimer>CAGATC CTCGAG ATG GGC AAC CGC GGG ATG GAA GAG</addgene:fiveSequencingPrimer>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:date>16-SEP-2021</genbank:date>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:refMethod> wild-type Dynamin-2-mNeon siRNA-resistant variant was a gift from  Gia Voeltz   (Addgene plasmid # 89336)   </addgene:refMethod>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:addgeneId>89336</addgene:addgeneId>
+    <addgene:tagFusionProtein>pmNeonGreen-N1 (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:purpose>Expression of Dynamin-2 isoform 3 tagged with mNeon containing silent mutations to evade siRNA degradation</addgene:purpose>
+    <addgene:totalVectorSizeBp>7300</addgene:totalVectorSizeBp>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <obo:OBI_0001617>27798601</obo:OBI_0001617>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:cloningMethod>Ligation Independent Cloning</addgene:cloningMethod>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:genBankID>NM_004945</addgene:genBankID>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:threeSequencingPrimer>CAGATC GAATTC G GTC GAG CAG GGA TGG CTC GGC</addgene:threeSequencingPrimer>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <dcterms:description>Expression of Dynamin-2 isoform 3 tagged with mNeon containing silent mutations to evade siRNA degradation.</dcterms:description>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:geneInsertName>Dynamin-2 isoform 3 with silent mutations</addgene:geneInsertName>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>27798601</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 2598)</genbank:label>
+    <genbank:authors>Lee JE, Westrate LM, Wu H, Page C, Voeltz GK</genbank:authors>
+    <genbank:title>Multiple dynamin family members collaborate to drive mitochondrial division.</genbank:title>
+    <genbank:journal>Nature. 2016 Dec 1;540(7631):139-143. doi: 10.1038/nature20555. Epub 2016 Oct 31.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Sep 16, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 2598)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>atgggcaaccgcgggatggaagagctgatcccgctggtcaacaaactgcaggacgccttcagctccatcggccagagctgccacctggacctgccgcagatcgctgtagtgggcggccagagcgccggcaagagctcggtgctggagaacttcgtgggccgggacttccttccccgcggttcaggaatcgtcacccggcggcctctcattctgcagctcatcttctcaaaaacagaacatgccgagtttttgcactgcaagtccaaaaagtttacagactttgatgaagtccggcaggagattgaagcagagaccgacagggtcacggggaccaacaaaggcatctccccagtgcccatcaaccttcgagtctactcgccacacgtgttgaacttgaccctcatcgacctcccgggtatcaccaaggtgcctgtgggcgaccagcctccagacatcgagtaccagatcaaggacatgatcctgcagttcatcagccgggagagcagcctcattctggctgtcacgcccgccaacatggacctggccaactccgacgccctcaagctggccaaggaagtcgatccccaaggcctacggaccatcggtgtcatcaccaagcttgacctgatggacgagggcaccgacgccagggacgtcttggagaacaagttgctcccgttgagaagaggctacattggcgtggtgaaccgcagccagaaggatattgagggcaagaaggacatccgtgcagcactggcagctgagaggaagttcttcctctcccacccggcctaccggcacatggccgaccgcatgggcacgccacatctgcagaagacgctgaatcagcaactgaccaaccacatccgggagtcgctgccggccctacgtagcaaactacagagccagctgctgtccctggagaaggaggtggaggagtacaagaactttcggcccgacgaccccacccgcaaaaccaaagccctgctgcagatggtccagcagtttggggtggattttgagaagaggatcgagggctcaggtgaccaagtcgataccctggagctctccgggggcgcccgaatcaatcgcatcttccacgagcggttcccatttgagctggtgaagatggagtttgacgagaaggacttacgacgggagatcagctatgccattaagaacatccatggagtcaggaccgggcttttcaccccggacttggcattcgaggccattgtgaaaaagcaggtcgtcaagctgaaagagccctgtctgaaatgtgtcgacatggttatccaggagctaatcaatacagttaggcagtgtaccagtaagctcagttcctacccccggttgcgagaggagacagaacgcatagtaacaacgtacatccgggaacgggaggggagaacgaaggaccagattcttctgctgatcgacattgagcagtcctacatcaacacgaaccatgaggacttcatcgggtttgccaatgcccagcagaggagcacgcagctgaacaagaagagagccatccccaatcaggtgatccgcaggggctggctgaccatcaacaacatcagcctgatgaaaggcggctccaaggagtactggtttgtgctgactgccgagtcactgtcctggtacaaggatgaggaggagaaagagaagaagtacatgctgcctctggacaacctcaagatccgtgatgtggagaagggcttcatgtccaacaagcacgtcttcgccatcttcaacacggagcagagaaacgtctacaaggacctgcggcagatcgagctggcctgtgactcccaggaagacgtggacagctggaaggcctcgttcctccgagctggcgtctaccccgagaaggaccaggcagaaaacgaggatggggcccaggagaacaccttctccatggacccccaactggagcggcaggtggagaccattcgcaacctggtggactcatacgtggccatcatcaacaagtccatccgcgacctcatgccaaagaccatcatgcacctcatgatcaacaatacgaaggccttcatccaccacgagctgctggcctacctatactcctcggcagaccagagcagcctcatggaggagtcggctgaccaggcacagcggcgggacgacatgctgcgcatgtaccatgccctcaaggaggcgctcaacatcatcggtgacatcagcaccagcactgtgtccacgcctgtacccccgcctgtcgatgacacctggctccagagcgccagcagccacagccccactccacagcgccgaccggtgtccagcatacacccccctggccggcccccagcagtgaggggccccactccagggccccccctgattcctgttcccgtgggggcagcagcctccttctcggcgcccccaatcccatcccggcctggaccccagagcgtgtttgccaacagtgacctcttcccagccccgcctcagatcccatctcggccagttcggatccccccagggattcccccaggagtgcccagcagaagaccccctgctgcgcccagccggcccaccattatccgcccagccgagccatccctgctcgac</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
