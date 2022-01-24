@@ -1,0 +1,87 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:fiveCloningSite>BbsI (destroyed during cloning)
+    (destroyed during cloning)</addgene:fiveCloningSite>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/29932905"/>
+    <genbank:date>20-SEP-2021</genbank:date>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:gRNAshRNASequence>GGGCGCGTCAAGAATGTAAG</addgene:gRNAshRNASequence>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>20</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <dcterms:description>gRNA to delete a nucleation site near HoxD. Use with pEVX2-gRNA-N-del.</dcterms:description>
+    <addgene:geneInsertName>pEVX2-gRNA-C-del</addgene:geneInsertName>
+    <addgene:addgeneId>131528</addgene:addgeneId>
+    <addgene:plasmidTitle>pEVX2-gRNA-C-del</addgene:plasmidTitle>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:backboneManufacturer>Feng Zhang (Addgene plasmid # 48138)</addgene:backboneManufacturer>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/682/"/>
+    <genbank:division>SYN</genbank:division>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:vectorType>Mammalian Expression, CRISPR</addgene:vectorType>
+    <addgene:vectorBackbone>pSpCas9(BB)-2A-GFP (PX458)</addgene:vectorBackbone>
+    <addgene:totalVectorSizeBp>9320</addgene:totalVectorSizeBp>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:fiveSequencingPrimer>TTTATGGCGAGGCGGCGG</addgene:fiveSequencingPrimer>
+    <genbank:keywords>pEVX2-gRNA-C-del</genbank:keywords>
+    <obo:OBI_0001617>29932905</obo:OBI_0001617>
+    <addgene:refBib>  Capturing the Onset of PRC2-Mediated Repressive Domain Formation. Oksuz O, Narendra V, Lee CH, Descostes N, LeRoy G, Raviram R, Blumenberg L, Karch K, Rocha PP, Garcia BA, Skok JA, Reinberg D. Mol Cell. 2018 Jun 21;70(6):1149-1162.e5. doi: 10.1016/j.molcel.2018.05.023. 10.1016/j.molcel.2018.05.023   PubMed 29932905   </addgene:refBib>
+    <addgene:backboneSizeWoInsertBp>9300</addgene:backboneSizeWoInsertBp>
+    <addgene:purpose>gRNA to delete a nucleation site near HoxD. Use with pEVX2-gRNA-N-del</addgene:purpose>
+    <addgene:refMethod> pEVX2-gRNA-C-del was a gift from  Danny Reinberg   (Addgene plasmid # 131528)   </addgene:refMethod>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:threeCloningSite>BbsI (destroyed during cloning)
+    (destroyed during cloning)</addgene:threeCloningSite>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:journal>Mol Cell. 2018 Jun 21;70(6):1149-1162.e5. doi: 10.1016/j.molcel.2018.05.023.</genbank:journal>
+    <genbank:pubmed>29932905</genbank:pubmed>
+    <genbank:authors>Oksuz O, Narendra V, Lee CH, Descostes N, LeRoy G, Raviram R, Blumenberg L, Karch K, Rocha PP, Garcia BA, Skok JA, Reinberg D</genbank:authors>
+    <genbank:title>Capturing the Onset of PRC2-Mediated Repressive Domain Formation.</genbank:title>
+    <genbank:label>1  (bases 1 to 20)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 20)</genbank:label>
+    <genbank:journal>Exported Sep 20, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>gggcgcgtcaagaatgtaag</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
