@@ -1,0 +1,317 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:promoter>PvanCC</addgene:promoter>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:fiveSequencingPrimer>acagtcataacaagccatg</addgene:fiveSequencingPrimer>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>8500</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:plasmidTitle>pSHDY-PvanCC-mVenus_vanR</addgene:plasmidTitle>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation11">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:note>bacterial promoter (Registry of Standard Biological Parts BBa_J23119)</gbConv:note>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11"/>
+        <dcterms:title>J23119 promoter</dcterms:title>
+        <gbConv:label>J23119 promoter</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation11/range">
+            <sbol:start>7530</sbol:start>
+            <sbol:end>7564</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:cloningMethod>Gibson Cloning</addgene:cloningMethod>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:start>5358</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>5385</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T7Te terminator</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <gbConv:note>phage T7 early transcription terminator</gbConv:note>
+        <gbConv:label>T7Te terminator</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:backboneManufacturer>Anna Behle</addgene:backboneManufacturer>
+    <genbank:date>13-MAY-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000724"/>
+        <gbConv:label>RSF1010 oriT</gbConv:label>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3684</sbol:start>
+            <sbol:end>3770</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>RSF1010 oriT</dcterms:title>
+        <gbConv:note>origin of transfer of the broad-host-range plasmid RSF1010 (Scholz et al., 1989)</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>MREAVIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTIVMHDDIIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPAAEELFDPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVAADWAMERLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK</gbConv:translation>
+        <gbConv:gene>aadA</gbConv:gene>
+        <dcterms:title>SmR</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>6208</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+            <sbol:start>5417</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:note>confers resistance to spectinomycin and streptomycin</gbConv:note>
+        <gbConv:label>SmR</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+        <gbConv:product>aminoglycoside adenylyltransferase (Murphy, 1985)</gbConv:product>
+        <sbol:displayId>annotation6</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:purpose>Conjugative vector derived from pSHDY. Constitutive expression of the repressor vanR, as well as vanillate-inducible expression of mVenus.</addgene:purpose>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation9">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation9/range">
+            <sbol:end>7434</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>7363</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>transcription terminator T1 from the E. coli rrnB gene</gbConv:note>
+        <gbConv:label>rrnB T1 terminator</gbConv:label>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <dcterms:title>rrnB T1 terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation7">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <gbConv:label>BioBrick prefix</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation7/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>6435</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7/range"/>
+            <sbol:start>6414</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>BioBrick prefix for parts that do not start with ATG</gbConv:note>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7"/>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>124</sbol:start>
+            <sbol:end>963</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:product>replication protein A of the broad-host-range plasmid RSF1010 (Scholz et al., 1989)</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>MATHKPINILEAFAAAPPPLDYVLPNMVAGTVGALVSPGGAGKSMLALQLAAQIAGGPDLLEVGELPTGPVIYLPAEDPPTAIHHRLHALGAHLSAEERQAVADGLLIQPLIGSLPNIMAPEWFDGLKRAAEGRRLMVLDTLRRFHIEEENASGPMAQVIGRMEAIAADTGCSIVFLHHASKGAAMMGAGDQQQASRGSSVLVDNIRWQSYLSSMTSAEAEEWGVDDDQRRFFVRFGVSKANYGAPFADRWFRRHDGGVLKPAVLERQRKSKGVPRGEA</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:gene>repA</gbConv:gene>
+        <gbConv:label>RSF1010 RepA</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>RSF1010 RepA</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>RSF1010 RepB</dcterms:title>
+        <gbConv:gene>repB</gbConv:gene>
+        <gbConv:label>RSF1010 RepB</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:start>1474</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>2445</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:translation>MKNDRTLQAIGRQLKAMGCERFDIGVRDATTGQMMNREWSAAEVLQNTPWLKRMNAQGNDVYIRPAEQERHGLVLVDDLSEFDLDDMKAEGREPALVVETSPKNYQAWVKVADAAGGELRGQIARTLASEYDADPASADSRHYGRLAGFTNRKDKHTTRAGYQPWVLLRESKGKTATAGPALVQQAGQQIEQAQRQQEKARRLASLELPERQLSRHRRTALDEYRSEMAGLVKRFGDDLSKCDFIAAQKLASRGRSAEEIGKAMAEASPALAERKPGHEADYIERTVSKVMGLPSVQLARAELARAPAPRQRGMDRGGPDFSM</gbConv:translation>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:product>replication protein B of the broad-host-range plasmid RSF1010 (Scholz et al., 1989)</gbConv:product>
+        <sbol:displayId>annotation2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:keywords>pSHDY-PvanCC-mVenus_vanR</genbank:keywords>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:refMethod> pSHDY-PvanCC-mVenus_vanR was a gift from  Ilka Axmann    (Addgene plasmid # 137664 ; http://n2t.net/addgene:137664 ; RRID:Addgene_137664)    </addgene:refMethod>
+    <addgene:addgeneId>137664</addgene:addgeneId>
+    <addgene:geneInsertName>PvanCC:mVenus</addgene:geneInsertName>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:vectorType>Bacterial Expression</addgene:vectorType>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation8">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000673"/>
+        <gbConv:note>hammerhead ribozyme from the tobacco ringspot virus satellite RNA (Khvorova et al., 2003)</gbConv:note>
+        <gbConv:label>sTRSV HHRz</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <dcterms:title>sTRSV HHRz</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation8/range">
+            <sbol:start>6488</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>6537</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refBib>  Comparative analysis of inducible promoters in cyanobacteria. Behle A, Saake P, Axmann IM. BioRxiv 10.1101/757948   </addgene:refBib>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <addgene:vectorBackbone>pSHDY</addgene:vectorBackbone>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:doi rdf:resource="https://doi.org/10.1101/757948"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <dcterms:description>Conjugative vector derived from pSHDY. Constitutive expression of the repressor vanR, as well as vanillate-inducible expression of mVenus..</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation12">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <gbConv:note>universal suffix for all parts</gbConv:note>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+        <gbConv:label>BioBrick suffix</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation12/range">
+            <sbol:end>7585</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>7565</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:bacterialResistances>Spectinomycin</addgene:bacterialResistances>
+    <addgene:species>Synthetic</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation10">
+        <gbConv:label>T7Te terminator</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <gbConv:note>phage T7 early transcription terminator</gbConv:note>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation10/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10/range"/>
+            <sbol:end>7477</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>7450</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T7Te terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3657/"/>
+    <addgene:supplementalDocuments>pSHDY-PvanCC-mVenus_vanR.gb</addgene:supplementalDocuments>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>4112</sbol:start>
+            <sbol:end>4506</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <gbConv:label>RSF1010 oriV</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <dcterms:title>RSF1010 oriV</dcterms:title>
+        <gbConv:note>replication origin of the broad-host-range plasmid RSF1010; requires the RSF1010 RepA/B/C proteins for replication (Scholz et al., 1989)</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:authors>Behle A, Saake P, Axmann IM</genbank:authors>
+    <genbank:journal>BioRxiv</genbank:journal>
+    <genbank:label>1  (bases 1 to 8500)</genbank:label>
+    <genbank:title>Comparative analysis of inducible promoters in cyanobacteria</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 8500)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>ccgtagtcatacgtcacgtccagcttgctgcgcttgcgctcgccccgcttgagggcacggaacaggccgggggccagacagtgcgccgggtcgtgccggacgtggctgaggctgtgcttgttcttaggcttcaccacggggcacccccttgctcttgcgctgcctctccagcacggcgggcttgagcaccccgccgtcatgccgcctgaaccaccgatcagcgaacggtgcgccatagttggccttgctcacaccgaagcggacgaagaaccggcgctggtcgtcgtccacaccccattcctcggcctcggcgctggtcatgctcgacaggtaggactgccagcggatgttatcgaccagtaccgagctgccccggctggcctgctgctggtcgcctgcgcccatcatggccgcgcccttgctggcatggtgcaggaacacgatagagcacccggtatcggcggcgatggcctccatgcgaccgatgacctgggccatggggccgctggcgttttcttcctcgatgtggaaccggcgcagcgtgtccagcaccatcaggcggcggccctcggcggcgcgcttgaggccgtcgaaccactccggggccatgatgttgggcaggctgccgatcagcggctggatcagcaggccgtcagccacggcttgccgttcctcggcgctgaggtgcgccccaagggcgtgcaggcggtgatgaatggcggtgggcgggtcttcggcgggcaggtagatcaccgggccggtgggcagttcgcccacctccagcagatccggcccgcctgcaatctgtgcggccagttgcagggccagcatggatttaccggcaccaccgggcgacaccagcgccccgaccgtaccggccaccatgttgggcaaaacgtagtccagcggtggcggcgctgctgcgaacgcctccagaatattgataggcttatgggtagccattgattgcctcctttgcaggcagttggtggttaggcgctggcggggtcactacccccgccctgcgccgctctgagttcttccaggcactcgcgcagcgcctcgtattcgtcgtcggtcagccagaacttgcgctgacgcatccctttggccttcatgcgctcggcatatcgcgcttggcgtacagcgtcagggctggccagcaggtcgccggtctgcttgtccttttggtctttcatatcagtcaccgagaaacttgccggggccgaaaggcttgtcttcgcggaacaaggacaaggtgcagccgtcaaggttaaggctggccatatcagcgactgaaaagcggccagcctcggccttgtttgacgtataaccaaagccaccgggcaaccaatagcccttgtcacttttgatcaggtagaccgaccctgaagcgcttttttcgtattccataaaacccccttctgtgcgtgagtactcatagtataacaggcgtgagtaccaacgcaagcactacatgctgaaatctggcccgcccctgtccatgcctcgctggcggggtgccggtgcccgtgccagctcggcccgcgcaagctggacgctgggcagacccatgaccttgctgacggtgcgctcgatgtaatccgcttcgtggccgggcttgcgctctgccagcgctgggctggcctcggccatggccttgccgatttcctcggcactgcggccccggctggccagcttctgcgcggcgataaagtcgcacttgctgaggtcatcaccgaagcgcttgaccagcccggccatctcgctgcggtactcgtccagcgccgtgcgccggtggcggctaagctgccgctcgggcagttcgaggctggccagcctgcgggccttctcctgctgccgctgggcctgctcgatctgctggccagcctgctgcaccagcgccgggccagcggtggcggtcttgcccttggattcacgcagcagcacccacggctgataaccggcgcgggtggtgtgcttgtccttgcggttggtgaagcccgccaagcggccatagtggcggctgtcggcgctggccgggtcggcgtcgtactcgctggccagcgtccgggcaatctgcccccgaagttcaccgcctgcggcgtcggccaccttgacccatgcctgatagttcttcgggctggtttccactaccagggcaggctcccggccctcggctttcatgtcatccaggtcaaactcgctgaggtcgtccaccagcaccagaccatgccgctcctgctcggcgggcctgatatacacgtcattgccctgggcattcatccgcttgagccatggcgtgttctggagcacttcggcggctgaccattcccggttcatcatctggccggtggtggcgtccctgacgccgatatcgaagcgctcacagcccatggccttgagctgtcggcctatggcctgcaaagtcctgtcgttcttcatcgggccaccaagcgcagccagatcgagccgtcctcggttgtcagtggcgtcaggtcgagcaagagcaacgatgcgatcagcagcaccaccgtaggcatcatggaagccagcatcacggttagccatagcttccagtgccacccccgcgacgcgctccgggcgctctgcgcggcgctgctcacctcggcggctacctcccgcaactctttggccagctccacccatgccgcccctgtctggcgctgggctttcagccactccgccgcctgcgcctcgctggcctgctgggtctggctcatgacctgccgggcttcgtcggccagtgtcgccatgctctgggccagcggttcgatctgctccgctaactcgttgatgcctctggatttcttcactctgtcgattgcgttcatggtctattgcctcccggtattcctgtaagtcgatgatctgggcgttggcggtgtcgatgttcagggccacgtctgcccggtcggtgcggatgccccggccttccatctccaccacgttcggccccaggtgaacaccgggcaggcgctcgatgccctgcgcctcaagtgttctgtggtcaatgcgggcgtcgtggccagcccgctctaatgcccggttggcatggtcggcccatgcctcgcgggtctgctcaagccatgccttgggcttgagcgcttcggtcttctgtgccccgcccttctccggggtcttgccgttgtaccgcttgaaccactgagcggcgggccgctcgatgccgtcattgatccgctcggagatcatcaggtggcagtgcgggttctcgccgccaccggcatggatggccagcgtatacggcaggcgctcggcaccggtcaggtgctgggcgaactcggacgccagcgccttctgctggtcgagggtcagctcgaccggcagggcaaattcgacctccttgaacagccgcccattggcgcgttcatacaggtcggcagcatcccagtagtcggcgggccgctcgacgaactccggcatgtgcccggattcggcgtgcaagacttcatccatgtcgcgggcatacttgccttcgcgctggatgaagtcggccttggccctggccgattggccgcccgacctgctgccggttttcgccgtaaggtgataaatcgccatgctgcctcgctgttgcttttgcttttcggctccatgcaatggccctcggagagcgcaccgcccgaagggtggccgttaggccagtttctcgaagagaaaccggtaagtgcgcctcccctacaaagtagggtcgggattgccgccgctgtgcctccatgatagcctacgagacagcacattaacaatggggtgtcaagatggttaaggggagcaacaaggcggcggatcggctggccaagctcgaagaacaacgagcgcgaatcaatgccgaaattcagcgggtgcgggcaagggaacagcagcaagagcgcaagaacgaaacaaggcgcaaggtgctggtgggggccatgattttggccaaggtgaacagcagcgagtggccggaggatcggctcatggcggcaatggatgcgtaccttgaacgcgaccacgaccgcgccttgttcggtctgccgccacgccagaaggatgagccgggctgaatgatcgaccgagacaggccctgcggggctgcacacgcgcccccacccttcgggtagggggaaaggccgctaaagcggctaaaagcgctccagcgtatttctgcggggtttggtgtggggtttagcgggctttgcccgcctttccccctgccgcgcagcggtggggcggtgtgtagcctagcgcagcgaatagaccagctatccggcctctggccgggcatattgggcaagggcagcagcgccccacaagggcgctgataaccgcgcctagtggattattcttagataatcatggatggatttttccaacaccccgccagcccccgcccctgctgggtttgcaggtttgggggcgtgacagttattgcaggggttcgtgacagttattgcaggggggcgtgacagttattgcaggggttcgtgacagttagtacgggagtgacgggggtaccgaggtcgatgtcgacttgacggctagctcagtcctaggtacagtgctagcgcttaaactaacgaacgtaaataaggaggatagacatggacatgcctcgtattaaaccgggtcagcgtgttatgatggcactgcgtaaaatgattgcaagcggtgaaatcaaaagtggtgaacgtattgcagaaattccgaccgcagcagcactgggtgttagccgtatgccggttcgtatcgcactgcgttcactggaacaagaaggtctggttgttcgtctgggtgcacgtggttatgcagcccgtggtgttagcagcgatcagattcgtgatgcaattgaagttcgtggtgttctggaaggttttgcagcacgtcgtctggcagaacgtggtatgaccgcagaaacccatgcacgttttgttgtactgattgcagaaggtgaagcactgtttgcagccggtcgcctgaatggtgaagatctggatcgttatgccgcatataatcaggcatttcatgataccctggttagcgcagcaggtaatggtgcagttgaaagcgcactggcacgtaatggttttgaaccgtttgcagcagccggtgcactggccctggatctgatggacctgtctgccgaatatgaacatctgctggcagcacatcgtcagcatcaggcagttctggatgcagttagctgtggtgatgccgaaggtgcagaacgtattatgcgtgatcatgcactggcagcaattcgtaatgcaaaagtttttgaagcagcagcaagcgcaggcgcaccgctgggtgcagcatggtcaattcgtgcagattgaggctcaccttcgggtgggcctttctgcgtttatactcgagagcggccgaagcttagacattatttgccgactaccttggtgatctcgcctttcacgtagtggacaaattcttccaactgatctgcgcgcgaggccaagcgatcttcttcttgtccaagataagcctgtctagcttcaagtatgacgggctgatactgggccggcaggcgctccattgcccagtcggcagcgacatccttcggcgcgattttgccggttactgcgctgtaccaaatgcgggacaacgtaagcactacatttcgctcatcgccagcccagtcgggcggcgagttccatagcgttaaggtttcatttagcgcctcaaatagatcctgttcaggaaccggatcaaagagttcctccgccgctggacctaccaaggcaacgctatgttctcttgcttttgtcagcaagatagccagatcaatgtcgatcgtggctggctcgaagatacctgcaagaatgtcattgcgctgccattctccaaattgcagttcgcgcttagctggataacgccacggaatgatgtcgtcgtgcataacaatggtgacttctacagcgcggagaatctcgctctctccaggggaagccgaagtttccaaaaggtcgttgatcaaagctcgccgcgttgtttcatcaagccttacggtcaccgtaaccagcaaatcaatatcactgtgtggcttcaggccgccatccactgcggagccgtacaaatgtacggccagcaacgtcggttcgagatggcgctcgatgacgccaactacctctgatagttgagtcgatacttcggcgatcaccgcttccctcatgatgtttaactttgttttagggcgactgccctgctgcgtaacatcgttgctgctccataacatcaaacatcgacccacggcgtaacgcgcttgctgcttggatgcccgaggcatagactgtaccccaaaaaaacagtcataacaagccatgaaaaccgccactgcgccgttaccaccgctgcgttcggtcaaggttctggaccaggaattcgcggccgcttctagagattggatccaattgacagctagctcagtcctaggtaccattggatccaatagctgtcaccggatgtgctttccggtctgatgagtccgtgaggacgaaacagcctctacaaataattttgtttaatactagagtagtggaggttactagatggctagcaaaggagaggaactgtttaccggtgtggtacccattttagtagaattggatggtgatgtgaacggccacaagttcagcgtttccggggaaggcgaaggggatgcaacctatggaaagctaactttgaaactcatttgcactaccggtaaactccccgtcccctggcctacgttagtcacgaccctcggttatggtctgcaatgttttgcccgttatcccgatcatatgaaacaacacgatttctttaaatctgccatgccagagggatatgttcaagaacggacaattttctttaaggatgatggtaattataaaacccgtgcagaagtcaaatttgaaggtgatacactcgtgaatcgcatcgaactaaaaggtattgactttaaggaggatggaaacattctcggccataagttagaatacaattacaacagccataatgtgtacattactgcggataaacaaaaaaacggtatcaaagccaactttaaaattcgacataacatcgaagatggtggcgttcagttagcggatcactaccaacaaaatactcccattggagacggaccagtcctgctgcctgataaccattatctgtcttatcaatccaaactgtccaaggatccgaatgaaaagcgggatcacatggttctgttggagtttgtgaccgcggcaggtattactctcggaatggacgaactatacaaaaggcctgccgccaacgacgaaaactacgctgcatcagtttaatagtactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgttactagttcaatctgcacgaattgaccttatttacgttcgttagtttaagcgctagcattatacctaggactgagctagctgtcaatactagtagcggccgctgcaggagcagaagagcatacatctggaagcaaagccaggaaagcggcctatggagctgtgcggcagcgctcagtaggcaatttttcaaaatattgttaagccttttctgagcatggtatttttcatggtattaccaattagcaggaaaataagccattgaatataaaagataaaaatgtcttgtttacaatagagtggggggggtcagcctgccgccttgggccgggtgatgtcgtacttgcccgccgcgaactcggttaccgtccagcccagcgcgaccagctccggcaacgcctcgcgcacccgctggcggcgcttgcgcatggtcgaaccactggcctctgacggccagacatagccgcacaaggtatctatggaagccttgccggttttgccggggtcgatccagccacacagccgctggtgcagcaggcgggcggtttcgctgtccagcgcccgcacctcgtccatgctgatgcgcacatgctggccgccacccatgacggcctgcgcgatcaaggggttcagggccacgtacaggcgcccgtccgcctcgtcgctggcgtactccgacagcagccgaaacccctgccgcttgcggccattctgggcgatgatggataccttccaaaggcgctcgatgcagtcctgtatgtgcttgagcgccccaccactatcgacctctgccccgatttcctttgccagcgcccgatagctacctttgaccaccatggcatcagcggtgacggcctcccacttgggttccaggaacagccggagctgccgtccgccttcggtcttgggttccgggccaagcactaggccattaggcccagccatggccaccagcccttgcaggatgcgcagatcatcagcgcccagcggctccgggccgctgaactcgatccgcttgccgtcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
