@@ -197,6 +197,13 @@ async def main(cwd, timeout):
         conv_file_num = conv_file_num + problem_data
         files_to_do = list(set(data) - set(conv_file_num))
 
+        with open('files_to_do.csv', 'w') as f:
+            ftd = str(files_to_do)
+            ftd = ftd.replace("[","").replace("]", "")
+            ftd = ftd.split(", ")
+            ftd = "\n".join(ftd)
+            f.write(ftd)
+
         print('starting async pull')
         print(f'files to do: {len(files_to_do)}')
         
