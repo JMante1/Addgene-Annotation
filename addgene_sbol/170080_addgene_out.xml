@@ -1,0 +1,339 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:cloningMethod>Gibson Cloning</addgene:cloningMethod>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <gbConv:note>pBR322 origin, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <gbConv:label>pBR322ori-F</gbConv:label>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+            <sbol:end>362</sbol:end>
+            <sbol:start>343</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>pBR322ori-F</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation8">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <dcterms:title>cat promoter</dcterms:title>
+        <gbConv:label>cat promoter</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation8/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>1799</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>1697</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>promoter of the E. coli cat gene encoding chloramphenicol acetyltransferase</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveSequencingPrimer>TACGCCCGGTAGTGATCTTAT</addgene:fiveSequencingPrimer>
+    <addgene:addgeneId>170080</addgene:addgeneId>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/31536326"/>
+    <addgene:vectorType>Bacterial Expression, Synthetic Biology</addgene:vectorType>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <dcterms:title>L4440</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:end>146</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>129</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>L4440</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <gbConv:note>L4440 vector, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:division>SYN</genbank:division>
+    <dcterms:description>GFP expression under the control of E. coli ibpA promoter engineered with riboregulators.</dcterms:description>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:direction>LEFT</gbConv:direction>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>263</sbol:start>
+            <sbol:end>808</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>p15A ori</dcterms:title>
+        <gbConv:note>Plasmids containing the medium-copy-number p15A origin of replication can be propagated in E. coli cells that contain a second plasmid with the ColE1 origin. </gbConv:note>
+        <gbConv:label>p15A ori</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation9">
+        <gbConv:label>rrnB T1 terminator</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation9/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2062</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9/range"/>
+            <sbol:end>2148</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9"/>
+        <gbConv:gene>Escherichia coli rrnB</gbConv:gene>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <gbConv:note>transcription terminator T1 from the E. coli rrnB gene</gbConv:note>
+        <dcterms:title>rrnB T1 terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:bacterialResistances>Chloramphenicol</addgene:bacterialResistances>
+    <genbank:keywords>PibpA riboswitch GFP pZa</genbank:keywords>
+    <addgene:species>Bacteria</addgene:species>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:date>20-SEP-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation12">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation12/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2407</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>2435</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+        <gbConv:note>GFP, reverse primer. Does NOT anneal to EGFP</gbConv:note>
+        <dcterms:title>GFP-R</dcterms:title>
+        <gbConv:label>GFP-R</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorBackbone>pZa</addgene:vectorBackbone>
+    <addgene:refBib>  Genetic Circuits To Detect Nanomaterial Triggered Toxicity through Engineered Heat Shock Response Mechanism. Saltepe B, Bozkurt EU, Haciosmanoglu N, Seker UOS. ACS Synth Biol. 2019 Oct 18;8(10):2404-2417. doi: 10.1021/acssynbio.9b00291. Epub 2019 Oct 2. 10.1021/acssynbio.9b00291   PubMed 31536326   </addgene:refBib>
+    <obo:OBI_0001617>31536326</obo:OBI_0001617>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:purpose>GFP expression under the control of E. coli ibpA promoter engineered with riboregulators</addgene:purpose>
+    <addgene:altName>GFP</addgene:altName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation11">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>GFP</dcterms:title>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:translation>MRKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFGYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTQIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation11/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>3093</sbol:end>
+            <sbol:start>2377</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:product>Aequoria victoria green fluorescent protein</gbConv:product>
+        <gbConv:label>GFP</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:totalVectorSizeBp>3098</addgene:totalVectorSizeBp>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <gbConv:label>lambda t0 terminator</gbConv:label>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:end>1016</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>922</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+        <gbConv:note>transcription terminator from phage lambda</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <dcterms:title>lambda t0 terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>3097</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:promoter>PibpA</addgene:promoter>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <dcterms:title>CmR</dcterms:title>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:label>CmR</gbConv:label>
+        <gbConv:note>confers resistance to chloramphenicol</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+        <gbConv:translation>MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+            <sbol:end>1696</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1037</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:gene>cat</gbConv:gene>
+        <gbConv:product>chloramphenicol acetyltransferase</gbConv:product>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3336/"/>
+    <addgene:insertSizeBp>717</addgene:insertSizeBp>
+    <addgene:backboneSizeWoInsertBp>2381</addgene:backboneSizeWoInsertBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation13">
+        <dcterms:title>GFP-F</dcterms:title>
+        <sbol:displayId>annotation13</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation13/range">
+            <sbol:start>3030</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>3050</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation13/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation13"/>
+        <gbConv:note>GFP, forward primer. Does NOT anneal to EGFP</gbConv:note>
+        <gbConv:label>GFP-F</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> PibpA riboswitch GFP pZa was a gift from  Urartu Seker   (Addgene plasmid # 170080)   </addgene:refMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation10">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <gbConv:note>strong bacterial ribosome binding site (Elowitz and Leibler, 2000)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation10/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10/range"/>
+            <sbol:start>2359</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>2370</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>strong bacterial ribosome binding site (Elowitz and Leibler, 2000)</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10"/>
+        <sbol:displayId>annotation10</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation7">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation7/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1611</sbol:start>
+            <sbol:end>1630</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>CAT-R</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7"/>
+        <gbConv:note>Chloramphenicol resistance gene, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <dcterms:title>CAT-R</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:note>transcription terminator T1 from the E. coli rrnB gene</gbConv:note>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>94</sbol:end>
+            <sbol:start>8</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>rrnB T1 terminator</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:gene>Escherichia coli rrnB</gbConv:gene>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <dcterms:title>rrnB T1 terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:geneInsertName>Green fluorescent protein</addgene:geneInsertName>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:plasmidTitle>PibpA riboswitch GFP pZa</addgene:plasmidTitle>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>31536326</genbank:pubmed>
+    <genbank:authors>Saltepe B, Bozkurt EU, Haciosmanoglu N, Seker UOS</genbank:authors>
+    <genbank:title>Genetic Circuits To Detect Nanomaterial Triggered Toxicity through Engineered Heat Shock Response Mechanism.</genbank:title>
+    <genbank:label>1  (bases 1 to 3097)</genbank:label>
+    <genbank:journal>ACS Synth Biol. 2019 Oct 18;8(10):2404-2417. doi: 10.1021/acssynbio.9b00291. Epub 2019 Oct 2.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 3097)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Sep 20, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>agggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctcctgagtaggacaaatccgccgccctagacctagggatatattccgcttcctcgctcactgactcgctacgctcggtcgttcgactgcggcgagcggaaatggcttacgaacggggcggagatttcctggaagatgccaggaagatacttaacagggaagtgagagggccgcggcaaagccgtttttccataggctccgcccccctgacaagcatcacgaaatctgacgctcaaatcagtggtggcgaaacccgacaggactataaagataccaggcgtttccccctggcggctccctcgtgcgctctcctgttcctgcctttcggtttaccggtgtcattccgctgttatggccgcgtttgtctcattccacgcctgacactcagttccgggtaggcagttcgctccaagctggactgtatgcacgaaccccccgttcagtccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggaaagacatgcaaaagcaccactggcagcagccactggtaattgatttagaggagttagtcttgaagtcatgcgccggttaaggctaaactgaaaggacaagttttggtgactgcgctcctccaagccagttacctcggttcaaagagttggtagctcagagaaccttcgaaaaaccgccctgcaaggcggttttttcgttttcagagcaagagattacgcgcagaccaaaacgatctcaagaagatcatcttattaatcagataaaatatttctagatttcagtgcaatttatctcttcaaatgtagcacctgaagtcagccccatacgatataagttgttactagtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacggaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccactgcaggagctcaaaataacatcatcattacgtcgcactgtggcggctatcgcactttaacgtttcgtgctgccccctcagtctatgcaatagaccataaactgcaaaaaaaagtccgctgataaggcttgaaaagttcatttccagacccatttttacatcggtcgacacccaaatccaggaggtgattggtagtggtggttaatgaaaattaacttactactaccatatatcaagcttggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctcctgagtaggacaaatccgccgccctagactcgaggagctcaaaataacatcatcattacgtcgcactgtggaggctatcgcactttaacgtttcgtgctgccccctcagtctatgcaatagaccataaactgcaaaaaaaagtccgctgataaggcttgaaaagttcatttccagacccatttttacatcgggatcctaccattcacctcttggatttgggtattaaagaggagaaaggtaccatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactcaaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataactta</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
