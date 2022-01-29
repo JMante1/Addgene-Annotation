@@ -1,0 +1,331 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:addgeneId>101122</addgene:addgeneId>
+    <addgene:supplementalDocuments>pNS3_3B_with cscB insert.gb</addgene:supplementalDocuments>
+    <addgene:bacterialResistances>Chloramphenicol</addgene:bacterialResistances>
+    <addgene:backboneManufacturer>As reported in Niederholtmeyer et al</addgene:backboneManufacturer>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation9">
+        <dcterms:title>CAT-R</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9"/>
+        <gbConv:note>Chloramphenicol resistance gene, reverse primer</gbConv:note>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation9/range">
+            <sbol:start>3321</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation9/range"/>
+            <sbol:end>3340</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>CAT-R</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:threeSequencingPrimer>CGCCCGGTAGTGATCTTATTTC</addgene:threeSequencingPrimer>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:fiveCloningSite>XbaI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/22307292"/>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/2943/"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:altName>cscB</addgene:altName>
+    <addgene:species>Escherichia coli</addgene:species>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:threeCloningSite>NotI
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation10">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation10/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10/range"/>
+            <sbol:start>3979</sbol:start>
+            <sbol:end>4056</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>In the lacIq allele, a single base change in the promoter boosts expression of the lacI gene about 10-fold.</gbConv:note>
+        <gbConv:label>lacIq promoter</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:gene>lacI (mutant)</gbConv:gene>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <dcterms:title>lacIq promoter</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation10"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:date>13-MAY-2021</genbank:date>
+    <obo:OBI_0001617>22307292</obo:OBI_0001617>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation6">
+        <gbConv:featureType>protein_bind</gbConv:featureType>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation6/range">
+            <sbol:start>1839</sbol:start>
+            <sbol:end>1855</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation6/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <gbConv:bound_moiety>lac repressor encoded by lacI</gbConv:bound_moiety>
+        <dcterms:title>lac operator</dcterms:title>
+        <gbConv:label>lac operator</gbConv:label>
+        <gbConv:note>The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG).</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorType>Synthetic Biology ; Genomic Insertion, Cyanobacteria</addgene:vectorType>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation8">
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation8/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3255</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8/range"/>
+            <sbol:end>3914</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation8"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <gbConv:note>confers resistance to chloramphenicol</gbConv:note>
+        <gbConv:label>CmR</gbConv:label>
+        <gbConv:gene>cat</gbConv:gene>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <dcterms:title>CmR</dcterms:title>
+        <gbConv:translation>MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA</gbConv:translation>
+        <gbConv:product>chloramphenicol acetyltransferase</gbConv:product>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:keywords>pNS_3B-CscB</genbank:keywords>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:fiveSequencingPrimer>CGCCATAAACTGCCAGGCATC</addgene:fiveSequencingPrimer>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:vectorBackbone>pHN1_lacUV5 (aka pNS3_3B)</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <dcterms:title>rrnB T1 terminator</dcterms:title>
+        <gbConv:gene>Escherichia coli rrnB</gbConv:gene>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:end>1649</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:start>1563</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <gbConv:note>transcription terminator T1 from the E. coli rrnB gene</gbConv:note>
+        <gbConv:label>rrnB T1 terminator</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <gbConv:note>pBR322 origin, forward primer</gbConv:note>
+        <gbConv:label>pBR322ori-F</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+        <dcterms:title>pBR322ori-F</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:start>101</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>120</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>6103</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation5">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation5/range">
+            <sbol:start>1801</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>1831</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>lac UV5 promoter</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <gbConv:label>lac UV5 promoter</gbConv:label>
+        <gbConv:note>E. coli lac promoter with an up mutation</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pNS_3B-CscB was a gift from  Daniel Ducat   (Addgene plasmid # 101122)   </addgene:refMethod>
+    <dcterms:description>Inserts cscB under the control of an IPTG inducible promoter into the genome of Synecococcus elongatus PCC 7942, at neutral site 3..</dcterms:description>
+    <addgene:insertSizeBp>1248</addgene:insertSizeBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>ori</gbConv:label>
+        <gbConv:direction>LEFT</gbConv:direction>
+        <dcterms:title>ori</dcterms:title>
+        <gbConv:note>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>609</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>21</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:totalVectorSizeBp>6103</addgene:totalVectorSizeBp>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation11">
+        <gbConv:product>lac repressor</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11"/>
+        <dcterms:title>lacI</dcterms:title>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:note>The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG).</gbConv:note>
+        <gbConv:label>lacI</gbConv:label>
+        <gbConv:gene>lacI</gbConv:gene>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>MKPVTLYDVAEYAGVSYQTVSRVVNQASHVSAKTREKVEAAMAELNYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGVEACKAAVHNLLAQRVSGLIINYPLDDQDAIAVEAACTNVPALFLDVSDQTPINSIIFSHEDGTRLGVEHLVALGHQQIALLAGPLSSVSARLRLAGWHKYLTRNQIQPIAEREGDWSAMSGFQQTMQMLNEGIVPTAMLVANDQMALGAMRAITESGLRVGADISVVGYDDTEDSSCYIPPLTTIKQDFRLLGQTSVDRLLQLSQGQAVKGNQLLPVSLVKRKTTLAPNTQTASPRALADSLMQLARQVSRLESGQ</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation11/range">
+            <sbol:start>4057</sbol:start>
+            <sbol:end>5139</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation11/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:genBankID>WP_001197016</addgene:genBankID>
+    <addgene:refBib>  Rerouting carbon flux to enhance photosynthetic productivity. Ducat DC, Avelar-Rivas JA, Way JC, Silver PA. Appl Environ Microbiol. 2012 Apr;78(8):2660-8. doi: 10.1128/AEM.07901-11. Epub 2012 Feb 3. 10.1128/AEM.07901-11   PubMed 22307292   </addgene:refBib>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <gbConv:label>rrnB T2 terminator</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <dcterms:title>rrnB T2 terminator</dcterms:title>
+        <gbConv:note>transcription terminator T2 from the E. coli rrnB gene</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:start>1741</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>1768</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <addgene:promoter>lacUV5</addgene:promoter>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation7">
+        <sbol:displayId>annotation7</sbol:displayId>
+        <gbConv:label>cat promoter</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation7/range">
+            <sbol:end>3254</sbol:end>
+            <sbol:start>3153</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation7"/>
+        <gbConv:note>promoter of the E. coli cat gene encoding chloramphenicol acetyltransferase</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <dcterms:title>cat promoter</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:purpose>Inserts cscB under the control of an IPTG inducible promoter into the genome of Synecococcus elongatus PCC 7942, at neutral site 3.</addgene:purpose>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:backboneSizeWoInsertBp>4855</addgene:backboneSizeWoInsertBp>
+    <addgene:geneInsertName>Sucrose Permease</addgene:geneInsertName>
+    <addgene:plasmidTitle>pNS_3B-CscB</addgene:plasmidTitle>
+    <addgene:modificationsToBackbone>Deleted bases from -103 to -126</addgene:modificationsToBackbone>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation12">
+        <sbol:displayId>annotation12</sbol:displayId>
+        <gbConv:label>LacI-R</gbConv:label>
+        <gbConv:note>LacI, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation12/range">
+            <sbol:start>4076</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>4095</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>LacI-R</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation12"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>22307292</genbank:pubmed>
+    <genbank:journal>Appl Environ Microbiol. 2012 Apr;78(8):2660-8. doi: 10.1128/AEM.07901-11. Epub 2012 Feb 3.</genbank:journal>
+    <genbank:authors>Ducat DC, Avelar-Rivas JA, Way JC, Silver PA</genbank:authors>
+    <genbank:title>Rerouting carbon flux to enhance photosynthetic productivity.</genbank:title>
+    <genbank:label>1  (bases 1 to 6103)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported May 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 6103)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>ctagtcgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtctagttcagccagctcgtcgtgatgtcgaaacccaagccaccctcagaggtgaaggccgcttcgagcacatcgggaagcgtgtcgacgacggtgctcggtgcctcgggtaagagccagatagatgcggtgacgttcaccgtcgcgatcgtggcgggaaccacggtcactgcgtccgttacaactcgcacgtcgtcggccagcacgactgactcgacggcttcgattagcccgggagaggcaaggccatcaggctcggtagacagaatgctgattaacacctcgccgggagcagggctgctcacagccgcgtccttcacccgtgggtcagccgtcagcgcttgatagcggtaccaggccgcaccgcctgcggtcgagctgcccttgatccgctcgatggtgcgatcgcgaagctcgccatccggctcattcggctgccgcaccacgccgtagaacgcggcaaggttgtcgaggtcggggccgtttgagtagcgaagcagtgtcgcaagaagtgcgtcgttgatccgctgacgcaggatcagctcgcgggctgcgcagacctccagcagcttgatgaccgggtcggattcgaggatggcggtgtagctggcgtcacgcgatcgcaggtcgtcgatcaagtcctgcaggatcagttcaaagtccagcgcttcgatgatggtgggcgcgggaatcgtagcaaagtcaagaacggtcatgagacgactaagccctccagcgtgatacgcctgccctcggggatgtagtagccgatcaggttcagctcgacttgaccagctgcgctggctgagacgatgcgaaccttctccagcttcagccgtggctcccagcgatcgagcgcttcagctgtggccgccaccaggtcaacgatgagggactggttgatcggctagtcatcaaataaaacgaaaggctcagtcggaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctcctgagtaggacaaatccgccgggagcggatttgaacgttgcgaagcaacggcccggagggtggcgggcaggacgcccgccataaactgccaggcatcaaattaagcagaaggccatcctgacggatggcctttttgcgtttctactctagtttcgaaaccccaggcttgacactttatgcttccggctcgtataatgtgtggaattgtgagcggataacaatttcacacaaggaggaaaaacatatgtctagaatggcactgaatattccattcagaaatgcgtactatcgttttgcatccagttactcatttctcttttttatttcctggtcgctgtggtggtcgttatacgctatttggctgaaaggacatctagggttgacagggacggaattaggtacactttattcggtcaaccagtttaccagcattctatttatgatgttctacggcatcgttcaggataaactcggtctgaagaaaccgctcatctggtgtatgagtttcatcctggtcttgaccggaccgtttatgatttacgtttatgaaccgttactgcaaagcaatttttctgtaggtctaattctgggggcgctcttttttggcctggggtatctggcgggatgcggtttgcttgacagcttcaccgaaaaaatggcgcgaaattttcatttcgaatatggaacagcgcgcgcctggggatcttttggctatgctattggcgcgttctttgccggcatattttttagtatcagtccccatatcaacttctggttggtctcgctatttggcgctgtatttatgatgatcaacatgtgttttaaagataaggatcaccagtgcgtagcggcggatgcgggaggggtaaaaaaagaggattttatcgcagttttcaaggatcgaaacttctgggttttcgtcatatttattgttgggacgtggtctttctataacatttttgatcaacaactttttcctgtcttttatgcaggtttattcgaatcacacgatgtaggaacgcgcctgtatggttatctcaactcattccaggtggtactcgaagcgctgtgcatggcgattattccgttctttgtgaatcgggtagggccaaaaaatgcattacttatcggtgttgtgattatggcgttgcgtatcctttcctgcgcgctgttcgttaacccctggattatttcattagtgaagctgttacatgccattgaggttccactttgtgtcatatccgtcttcaaatacagcgtggcaaactttgataagcgcctgtcgtcgacgatctttctgattggttttcaaattgccagttcgcttgggattgtgctgctttcaacgccgactgggatactctttgaccacgcaggctaccagacagttttcttcgcaatttcgggtattgtctgcctgatgttgctatttggcattttcttcctgagtaaaaaacgcgagcaaatagttatggaaacgcctgtaccttcagcaatataggcggccgcgtaggatccgatcggcacgtaagaggttccaactttcaccataatgaaataagatcactaccgggcgtattttttgagttatcgagattttcaggagctaaggaagctaaaatggagaaaaaaatcactggatataccaccgttgatatatcccaatggcatcgtaaagaacattttgaggcatttcagtcagttgctcaatgtacctataaccagaccgttcagctggatattacggcctttttaaagaccgtaaagaaaaataagcacaagttttatccggcctttattcacattcttgcccgcctgatgaatgctcatccggagttccgtatggcaatgaaagacggtgagctggtgatatgggatagtgttcacccttgttacaccgttttccatgagcaaactgaaacgttttcatcgctctggagtgaataccacgacgatttccggcagtttctacacatatattcgcaagatgtggcgtgttacggtgaaaacctggcctatttccctaaagggtttattgagaatatgtttttcgtctcagccaatccctgggtgagtttcaccagttttgatttaaacgtggccaatatggacaacttcttcgcccccgttttcactatgggcaaatattatacgcaaggcgacaaggtgctgatgccgctggcgattcaggttcatcatgccgtctgtgatggcttccatgtcggcagaatgcttaatgaattacaacagtactgcgatgagtggcagggcggggcgtaatttttttaaggcagttattggtgcccttgaattcctactagtcgaagcggcatgcatttacgttgacaccatcgaatggtgcaaaacctttcgcggtatggcatgatagcgcccggaagagagtcaattcagggtggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgatcccacagccgccagttccgctggcggcattttaactttctttaatgaatctagtgacaagccggggcagacgtgagccgtagtcccgtcgccagacgcgggtgcccacgggcgtcgtcaggatgtccgtaattgactgccggaggtggtcaatgcccttcagctccttgccactgtcacggctcatgcctcgggtcattagtcgcccgctccggtatcttcactggcttcgatgattgccgccccgcagctgcagaggtcaccgatccgagcagtcggcctctggttggtaaagaccgtgcgactgccggtgatgatcgtgttcaagccatgcagggggcaggcgtgaaggtcatcctttcgggccacggggcggctgttgacgaaggtgtcgtcgctcccggtgatgatgatcccgccgtgatcggtcacgtcgtttagtcgagcgatgcctggcgtcgtagtcacgggtttaggtcaatacgacttgcggtcactgtaacgttgccctcggcggtcacgttaacgtcgccttgggcttcgacttgcgcctcctgcacaaggatcacaatccgtccttgggctgcggtgaggtcgatcttgtactcatgcgcttcgcggtcgtactggatgattgagtcatcctcgaactgcgtcttttggatcgtttctttgtcctcgatctgggggtagtcagtcgagaacgcgccgggcatcgcgaagccctgactgatctcgccggagggggccatcacgacgacggcctcaccgacctcgggcgcccaccagaaccgatccttgcccgctcgctgcgtgagccacggaatccagtcagtgaggagcagcgcctcgccgctctcctcgtcttcctcgatcgcgacacggatcagccccttgggatagtcagcctcggctaccctgcctacgcggagcaagttgccgtgacgccgactgtctcgagtat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
