@@ -1,0 +1,101 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <addgene:growthInstructions>Propagate in E. coli at 28C-30C. The plasmid contains a temperature sensitive origin of replication.</addgene:growthInstructions>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:division>SYN</genbank:division>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:end>2209</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <dcterms:description>Delivery vector for mariner-based transposon mutagenesis in oral streptococci.</dcterms:description>
+    <addgene:refBib>  A mariner transposon vector adapted for mutagenesis in oral streptococci. Nilsson M, Christiansen N, Hoiby N, Twetman S, Givskov M, Tolker-Nielsen T. Microbiologyopen. 2014 Jun;3(3):333-40. doi: 10.1002/mbo3.171. Epub 2014 Apr 21. 10.1002/mbo3.171   PubMed 24753509   </addgene:refBib>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3953/"/>
+    <addgene:vectorType>Transposon mutagenesis in oral streptococci</addgene:vectorType>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:date>16-SEP-2021</genbank:date>
+    <sbol:displayId>Exported</sbol:displayId>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:keywords>pMN100</genbank:keywords>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <addgene:addgeneId>111612</addgene:addgeneId>
+    <obo:OBI_0001617>24753509</obo:OBI_0001617>
+    <addgene:geneInsertName>Himar1 transposase</addgene:geneInsertName>
+    <addgene:vectorBackbone>pTV1-OK</addgene:vectorBackbone>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24753509"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>Factor Xa recognition and cleavage site</gbConv:product>
+        <gbConv:label>Factor Xa site</gbConv:label>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>Factor Xa site</dcterms:title>
+        <gbConv:translation>IEGR</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+            <sbol:end>262</sbol:end>
+            <sbol:start>251</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:growthTemperature>30&#176;C</addgene:growthTemperature>
+    <addgene:purpose>Delivery vector for mariner-based transposon mutagenesis in oral streptococci</addgene:purpose>
+    <addgene:fiveCloningSite>Unknown
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:species>Synthetic</addgene:species>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:plasmidTitle>pMN100</addgene:plasmidTitle>
+    <addgene:refMethod> pMN100 was a gift from  Tim Tolker-Nielsen   (Addgene plasmid # 111612)   </addgene:refMethod>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>24753509</genbank:pubmed>
+    <genbank:journal>Microbiologyopen. 2014 Jun;3(3):333-40. doi: 10.1002/mbo3.171. Epub 2014 Apr 21.</genbank:journal>
+    <genbank:title>A mariner transposon vector adapted for mutagenesis in oral streptococci.</genbank:title>
+    <genbank:label>1  (bases 1 to 2209)</genbank:label>
+    <genbank:authors>Nilsson M, Christiansen N, Hoiby N, Twetman S, Givskov M, Tolker-Nielsen T</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 2209)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Sep 16, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>taaataagtctagtgtgttagactttatgaaatctatatacgtttatatatatttattatccgattttttattaaaacgtctcaaaatcgtttctgagacgttttagcgtttatttcgtttagttatcggcataatcgttaaaacaggcgttatcgtagcgtaaaagcccttgagcgtagcgtggctttgcagcgaagatgttgtctgttagattatgaaagccgatgactgaatgaaataataagcgcagcgcccttctatttcggttggaggaggctcaagggagtatgagggaatgaaattccctcatgggtttgattttaaaaattgcttgcaattttgccgagcggtagcgctggaaaatttttgaaaaaaatttggaatttggaaaaaaatggggggaaaggaagcgaattttgcttccgtactacgaccccccattaagtgccgagtgccaatttttgtgccaaaaacgctctatcccaactggctcaagggtttaaggggtttttcaatcgccaacgaatcgccaacgttttcgccaacgttttttataaatctatatttaagtagctttattgttgtttttatgattacaaagtgatacactaactttataaaattatttgattggagttttttaaatggtgatttcagaatcgaaaaaaagagttatgatttctctgacaaaagagcaagataaaaaattaacagatatggcgaaacaaaaaggtttttcaaaatctgcggttgcggcgttagctatagaagaatatgcaagaaaggaatcagaacaaaaaaaataagcgaaagctcgcgtttttagaaggatacgagttttcgctacttgtttttgataaggtaattatatcatggctattaaaaatactaaagctagaaattttggatttttattatatcctgactcaattcctaatgattggaaagaaaaattagagagtttgggcgtatctatggctgtcagtcctttacacgatatggacgaaaaaaaagataaagatacatggaataatagtaatattatacaaaatggaaagcactataaaaaaccacactatcacgttatatatattgcacgaaatcctgtaacaatagaaagcgttaggaacaagattaagcgaaaattggggaatagttcagttgctcatgttgagatacttgattatatcaaaggttcatatgaatatttgactcatgaatcaaaggacgctattgctaagaataaacatatatacgacaaaaaagatattttgaacattaatgattttgatattgaccgctatataacacttgatgaaagccaaaaaagagaattgaagaatttacttttagatatagtggatgactataatttggtaaatacaaaagatttaatggcttttattcgccttaggggagcggagtttggaattttaaatacgaatgatgtaaaagatattgtttcaacaaattattaaaaaagtggtttttgaaagccatgcgtctgacatctatctgattgttgaagaaggattctacaagcgtaccttggatattcaccgaacactagggttgctcttgcacactcaagtctcgattcagcaattgcttaagctgccagcggaatgctttcatcctaaaccaaaagtaaacagtgtcttaataaaacttacccgccataccacagatgttccagataaatattggaagctatatacgtactttgtttcaaaatgggtcaatcgagaatatcgtcaactgtttactaaaaatcagtttcatcaagcaatgaaacacgccaaagtaaacaatttaagtaccgttacttatgagcaagtattgtctatttttaatagttatctattatttaacgggaggaaataattctatgagtcgcttttgtaaatttggaaagttacacgttactaaagggaatgtagataaattattaggtatactactgacagcttccaaggagctaaagaggtccctagcgcctacggggagaccggggacttatcagccaacctgttacaattcgagctcggtacccggggatcgttaaatttatactgcaatcggatgcgattattgaataaaagatatgagagatttatctaatttcttttttcttgtaaaaaaagaaagttcttaaaggttttatagttttggtcgtagagcacacggtttaacgacttaattacgaag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>
