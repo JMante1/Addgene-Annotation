@@ -1,0 +1,81 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <dcterms:description>bacterial artificial chromosome (BAC) BioBrick vector (Figure S1B) for cloning large BioBrick inserts in E. coli.</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:totalVectorSizeBp>10898</addgene:totalVectorSizeBp>
+    <addgene:growthStrains>E. coli Pir+ from Epicentre (WI, USA)</addgene:growthStrains>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:vectorType>Escherichia coli</addgene:vectorType>
+    <addgene:backboneSizeWoInsertBp>6504</addgene:backboneSizeWoInsertBp>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:purpose>bacterial artificial chromosome (BAC) BioBrick vector (Figure S1B) for cloning large BioBrick inserts in E. coli</addgene:purpose>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:addgeneId>117764</addgene:addgeneId>
+    <addgene:plasmidTitle>pM4F BioBrick BAC</addgene:plasmidTitle>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>4</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:modificationsToBackbone>BioBrick sites removed from backbone</addgene:modificationsToBackbone>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <addgene:insertSizeBp>4394</addgene:insertSizeBp>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:date>16-SEP-2021</genbank:date>
+    <genbank:division>SYN</genbank:division>
+    <genbank:keywords>pM4F BioBrick BAC</genbank:keywords>
+    <addgene:refMethod> pM4F BioBrick BAC was a gift from  Anthony Forster   (Addgene plasmid # 117764)   </addgene:refMethod>
+    <addgene:refBib>  De novo design and synthesis of a 30-cistron translation-factor module. Shepherd TR, Du L, Liljeruhm J, Samudyata, Wang J, Sjodin MOD, Wetterhall M, Yomo T, Forster AC. Nucleic Acids Res. 2017 Oct 13;45(18):10895-10905. doi: 10.1093/nar/gkx753. 10.1093/nar/gkx753   PubMed 28977654   </addgene:refBib>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <obo:OBI_0001617>28977654</obo:OBI_0001617>
+    <addgene:geneInsertName>ampR, colE1 ori, mRFP1</addgene:geneInsertName>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/28977654"/>
+    <addgene:vectorBackbone>modified iGEM part number J61031 pBACr-NESd plasmid</addgene:vectorBackbone>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <addgene:species>Escherichia coli</addgene:species>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/4191/"/>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:title>De novo design and synthesis of a 30-cistron translation-factor module.</genbank:title>
+    <genbank:pubmed>28977654</genbank:pubmed>
+    <genbank:authors>Shepherd TR, Du L, Liljeruhm J, Samudyata, Wang J, Sjodin MOD, Wetterhall M, Yomo T, Forster AC</genbank:authors>
+    <genbank:label>1  (bases 1 to 4)</genbank:label>
+    <genbank:journal>Nucleic Acids Res. 2017 Oct 13;45(18):10895-10905. doi: 10.1093/nar/gkx753.</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Sep 16, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 4)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>aaaa</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
