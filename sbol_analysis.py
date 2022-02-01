@@ -17,7 +17,7 @@ print(type(pred_list))
 output_dict = {}
 name_pred = 'bacterialResistances'
 pred = rdflib.URIRef(f'https://www.addgene.org/{name_pred}')
-all_addgene_predicates = False
+all_addgene_predicates = True
 for ind, file in enumerate(files):
     if 0 <= ind <= len(files):
         print(file, ind, len(files))
