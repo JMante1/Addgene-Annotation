@@ -1,0 +1,172 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/">
+  <sbol:ComponentDefinition rdf:about="www.examples.org/Exported">
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference0"/>
+    <addgene:bacterialResistances>Spectinomycin</addgene:bacterialResistances>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation4">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4"/>
+        <dcterms:title>pBR322ori-F</dcterms:title>
+        <gbConv:label>pBR322ori-F</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation4/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>3076</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>3095</sbol:end>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation4/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>pBR322 origin, forward primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation3">
+        <gbConv:direction>LEFT</gbConv:direction>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <gbConv:note>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</gbConv:note>
+        <gbConv:label>ori</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation3/range">
+            <sbol:start>2996</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>3584</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>ori</dcterms:title>
+        <sbol:displayId>annotation3</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/3301/"/>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:insertSizeBp>1653</addgene:insertSizeBp>
+    <addgene:vectorType>allelic replacement vector</addgene:vectorType>
+    <sbol:sequence rdf:resource="www.examples.org/Exported_seq"/>
+    <genbank:date>13-MAY-2021</genbank:date>
+    <genbank:reference rdf:resource="www.examples.org/Exported/reference1"/>
+    <addgene:fiveCloningSite>EcoRI
+    (destroyed during cloning)</addgene:fiveCloningSite>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation2">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <dcterms:title>LucNrev</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:note>Firefly luciferase, reverse primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation2/range">
+            <sbol:start>67</sbol:start>
+            <sbol:end>85</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>LucNrev</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>Allelic exchange plasmid to to integrate firefly luciferase gene into S. pyogenes for biophotonic imaging.</dcterms:description>
+    <genbank:keywords>pFW11-ffluc</genbank:keywords>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:fiveSequencingPrimer>gaatggactaatgaaaatg</addgene:fiveSequencingPrimer>
+    <addgene:altName>ffn</addgene:altName>
+    <addgene:threeCloningSite>EcoRI
+    (destroyed during cloning)</addgene:threeCloningSite>
+    <addgene:refBib>  Toxin-antitoxin-stabilized reporter plasmids for biophotonic imaging of Group A streptococcus. Loh JM, Proft T. Appl Microbiol Biotechnol. 2013 Nov;97(22):9737-45. doi: 10.1007/s00253-013-5200-7. Epub 2013 Sep 6. 10.1007/s00253-013-5200-7   PubMed 24061415   </addgene:refBib>
+    <addgene:species>Photinus pyralis</addgene:species>
+    <addgene:refMethod> pFW11-ffluc was a gift from  Thomas Proft    (Addgene plasmid # 128487 ; http://n2t.net/addgene:128487 ; RRID:Addgene_128487)    </addgene:refMethod>
+    <addgene:academicNonprofitTerms>UBMTA
+Luciferase Limited Use Label License</addgene:academicNonprofitTerms>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:plasmidTitle>pFW11-ffluc</addgene:plasmidTitle>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24061415"/>
+    <obo:OBI_0001617>24061415</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:addgeneId>128487</addgene:addgeneId>
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation1">
+        <dcterms:title>luciferase</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation1/range">
+            <sbol:start>1</sbol:start>
+            <sbol:end>1653</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation1"/>
+        <gbConv:product>firefly luciferase</gbConv:product>
+        <gbConv:translation>MEDAKNIKKGPAPFYPLEDGTAGEQLHKAMKRYALVPGTIAFTDAHIEVNITYAEYFEMSVRLAEAMKRYGLNTNHRIVVCSENSLQFFMPVLGALFIGVAVAPANDIYNERELLNSMNISQPTVVFVSKKGLQKILNVQKKLPIIQKIIIMDSKTDYQGFQSMYTFVTSHLPPGFNEYDFVPESFDRDKTIALIMNSSGSTGLPKGVALPHRTACVRFSHARDPIFGNQIIPDTAILSVVPFHHGFGMFTTLGYLICGFRVVLMYRFEEELFLRSLQDYKIQSALLVPTLFSFFAKSTLIDKYDLSNLHEIASGGAPLSKEVGEAVAKRFHLPGIRQGYGLTETTSAILITPEGDDKPGAVGKVVPFFEAKVVDLDTGKTLGVNQRGELCVRGPMIMSGYVNNPEATNALIDKDGWLHSGDIAYWDEDEHFFIVDRLKSLIKYKGYQVAPAELESILLQHPNIFDAGVAGLPDDDAGELPAAVVVLEHGKTMTEKEIVDYVASQVTTAKKLRGGVVFVDEVPKGLTGKLDARKIREILIKAKKGGKSKL</gbConv:translation>
+        <gbConv:gene>luc</gbConv:gene>
+        <gbConv:label>luciferase</gbConv:label>
+        <sbol:displayId>annotation1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>Prof. Andreas Podbielski, University of Rostock, Germany. Please cite https://www.ncbi.nlm.nih.gov/pubmed/?term=podbielski+a+pFW in any work using this plasmid</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:geneInsertName>firefly luciferase gene</addgene:geneInsertName>
+    <addgene:purpose>Allelic exchange plasmid to to integrate firefly luciferase gene into S. pyogenes for biophotonic imaging</addgene:purpose>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:threeSequencingPrimer>tagaatgaatatttccc</addgene:threeSequencingPrimer>
+    <addgene:promoter>synthetic</addgene:promoter>
+    <addgene:genBankID>AB644228.1
+BAL46512.1</addgene:genBankID>
+    <addgene:tagsFusionProteins>spy0535 upstream flanking region 
+spy0535 downstream flanking region</addgene:tagsFusionProteins>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:vectorBackbone>pFW11</addgene:vectorBackbone>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>6180</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference0">
+    <genbank:pubmed>24061415</genbank:pubmed>
+    <genbank:authors>Loh JM, Proft T</genbank:authors>
+    <genbank:label>1  (bases 1 to 6180)</genbank:label>
+    <genbank:journal>Appl Microbiol Biotechnol. 2013 Nov;97(22):9737-45. doi: 10.1007/s00253-013-5200-7. Epub 2013 Sep 6.</genbank:journal>
+    <genbank:title>Toxin-antitoxin-stabilized reporter plasmids for biophotonic imaging of Group A streptococcus.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 13, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 6180)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="www.examples.org/Exported_seq"/>
+    <sbol:elements>atggaagacgccaaaaacataaagaaaggcccggcgccattctatcctctagaggatggaaccgctggagagcaactgcataaggctatgaagagatacgccctggttcctggaacaattgcttttacagatgcacatatcgaggtgaacatcacgtacgcggaatacttcgaaatgtccgttcggttggcagaagctatgaaacgatatgggctgaatacaaatcacagaatcgtcgtatgcagtgaaaactctcttcaattctttatgccggtgttgggcgcgttatttatcggagttgcagttgcgcccgcgaacgacatttataatgaacgtgaattgctcaacagtatgaacatttcgcagcctaccgtagtgtttgtttccaaaaaggggttgcaaaaaattttgaacgtgcaaaaaaaattaccaataatccagaaaattattatcatggattctaaaacggattaccagggatttcagtcgatgtacacgttcgtcacatctcatctacctcccggttttaatgaatacgattttgtaccagagtcctttgatcgtgacaaaacaattgcactgataatgaattcctctggatctactgggttacctaagggtgtggcccttccgcatagaactgcctgcgtcagattctcgcatgccagagatcctatttttggcaatcaaatcattccggatactgcgattttaagtgttgttccattccatcacggttttggaatgtttactacactcggatatttgatatgtggatttcgagtcgtcttaatgtatagatttgaagaagagctgtttttacgatcccttcaggattacaaaattcaaagtgcgttgctagtaccaaccctattttcattcttcgccaaaagcactctgattgacaaatacgatttatctaatttacacgaaattgcttctgggggcgcacctctttcgaaagaagtcggggaagcggttgcaaaacgcttccatcttccagggatacgacaaggatatgggctcactgagactacatcagctattctgattacacccgagggggatgataaaccgggcgcggtcggtaaagttgttccattttttgaagcgaaggttgtggatctggataccgggaaaacgctgggcgttaatcagagaggcgaattatgtgtcagaggacctatgattatgtccggttatgtaaacaatccggaagcgaccaacgccttgattgacaaggatggatggctacattctggagacatagcttactgggacgaagacgaacacttcttcatagttgaccgcttgaagtctttaattaaatacaaaggatatcaggtggcccccgctgaattggaatcgatattgttacaacaccccaacatcttcgacgcgggcgtggcaggtcttcccgacgatgacgccggtgaacttcccgccgccgttgttgttttggagcacggaaagacgatgacggaaaaagagatcgtggattacgtcgccagtcaagtaacaaccgcgaaaaagttgcgcggaggagttgtgtttgtggacgaagtaccgaaaggtcttaccggaaaactcgacgcaagaaaaatcagagagatcctcataaaggccaagaagggcggaaagtccaaattgtaaggatcaattcaaaaattgaaaaaatggtggaaacactttcttcaatttttttgttttattatttaatatttgggaaatattcattctaattggtaagcgcgccatgggccctgcaggagtatattaatggaggctaaaatgaatttgagtatatttggtttaaagaatattccttatttgaaagaaggggatagtatagaaaagcttattgaagaaagcattaaaacttcagaattttttatcgaagacaatgatgtgctttgcatagcttctaaagttgtatctatcgcagaaggccaggtgatgtctttaaacgagatacaagtgagtgatgtagcaaaagaaatccacaggaatattcctcgtaaagatcctagaataattgaaattatgctaaatttagtcaatagagatctgtcacgtttagatatcaaaaaaaattacattggttgtcgcttggaaaatggtttaaagttgacaagtggtggaatcgatagaaaatcagtagatgaagtatttcttttacctaataatccggatgcttctgcaaaaagaatttcggaatatcttaaaaaatcacttggaaaaaatgttgcagttgttataacagatagtgatggtagagaggataaaagaggtgctactcaagtagcaattggtatttatggtattcatcctttgagaaaaacagaagtaatagattcacaaggagagacaataaaattccaagaagagactttgtgtgatatgattgcagcttgtgctggcttagtaatggggcaacgtggaactggaattccagctgtcctcattaggggcttggattataaatggtctgaaaatactagtattaaggaagcattaaatgagtagaaatcaggactgtaagaatattctaatcattggttttggaaaaattgggaaaattaaagcgtacaagtggctatcacgcggatatgaggtatatgtcaaagatttgaaattctccagcatgaaataccttaatacaaatagtgatgtgttggatgatttatcacgacaatattttactattgagatttgtactccgacaaatcaccaccttacgccccgggcgccggcctaggactagtgatcaccggtcgctcttccgcttcctcgctcactgacgcgtaaaaaaggcccacaaaagtgggccttttttctcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccctcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgtgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtccgataaacccagcgaaccatttgaggtgataggtaagattataccgaggtatgaaaacgagaattggacctttacagaattactctatgaagcgccatatttaaaaagctaccgagaaaaaaagcggccaaaaaggcctgccaccaggccaaaaaggccgcttttttcgaagaggatgaagaggatgaggaggcagattgccttgaatatattgacaatactgataagataatatttcttttatatagaagattttcgttcgtgaatacattgtacaattgctagcgtacggccgtcgacgtccggatccgggaagttacttaggtgtacacttaagtctttagagtatctaaagacttataggtaatggttagctctgtgtaatgcttgtactttatgttagtagtaaactaattaaacgtaggaggatgaaatttatgtattctgcattgcttggtaatccagttgaacattctatatcagatgaattatttgaatatctaaatcacaacataggagttctggatgaatataaacataaaaaaattttggtagactcagtgtgtttagaagataaaatcaaacatctgataaatgatccaaaatgtattggattaaatataactttaccttataaaagagaggtaatgaggtatattgacaatttagacagagtagcagagataactggatctgttaacaatatttataaatctggaaatataattacaggaactaatactgattggaaaggtatttataatacattagttttctttaatattagccatataacaaaatgttgtgttttaggtactggcggtactgctagagctgctattttcactttacaaaaactacaaatctcaccaacagttgtatacagggagccaattagtgagaatacaagaagtttgataaagagtttccctgatttaaagtatattacatataaggaattggctgatcaacaaattttaaatgatatggaaatcataataaatactacaccagttggtatgataaattatgaagaaagtttacctataaattttgatcatttggacaatgttaattataaagataaatactttatggatgtagttttcaatcctttacatacgaaacttcatgaatattttggtaaaaaaggagcaaaaataattgatggtttatgggttttgatttttcagggaattgaagcattttcattgtggagtgataaaattaatgatggtaaatattttttttcaaaagatgatgttgtcctaattcatacatttctagaagggaagataaaagaagcttgattttcgttcgtgaatacatgttataataactataactaataacgtaacgtaaaatttgtttgatttgtccaaaatatggtataataggtactaatcaaaatagtgaggaggatatatttgaatacatacgaacaaattaataaagtgaaaaaaatacttcggaaacatttaaaaaataaccttattggtacttacatgtttggatcaggagttgagagtggactaaaaccaaatagtgatcttgactttttagtcgtcgtatctgaaccattgacagatcaaagtaaagaaatacttatacaaaaaattagacctatttcaaaaaaaataggagataaaagcaacttacgatatattgaattaacaattattattcagcaagaaatggtaccgtggaatcatcctcccaaacaagaatttatttatggagaatggttacaagagctttatgaacaaggatacattcctcagaaggaattaaattcagatttaaccataatgctttaccaagcaaaacgaaaaaataaaagaatatacggaaattatgacttagaggaattactacctgatattccattttctgatgtgagaagagtcattatggattcgtcagaggaattaatagataattatcaggatgatgaaaccaactctatattaactttatgccgtatgattttaactatggacacgggtaaaatcataccaaaagatattgcgggaaatgcagtggctgaatcttctccattagaacatagggagagaattttgttagcagttcgtagttatcttggagagaatattgaatggactaatgaaaatgtaaatttaactataaactatttaaataacagattaaaaaaattataagaatcggaattgatctaaggaggaataaaaa</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
