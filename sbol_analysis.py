@@ -15,7 +15,7 @@ print(type(pred_list))
 #     print(p)
 
 output_dict = {}
-name_pred = 'species'
+name_pred = 'vectorType'
 pred = rdflib.URIRef(f'https://www.addgene.org/{name_pred}')
 all_addgene_predicates = False
 for ind, file in enumerate(files):
