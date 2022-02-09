@@ -6,4 +6,12 @@
 
 3. Then add_to_sbol.py is run. It pulls addgene info for ids found in addgene_combined_ids.csv between the numbers specified in line 177 and converts to sbol which is then output in the folder addgene_sbol. Any files which cause issues have their id number output to the file addgene_issues.csv
 
-4. Next sbol_analysis is run to look at the metadata found in tags in the sbol files. (not needed but gives an overview of the addgene dataset)
+4. Next sbol_analysis.py is run to look at the metadata found in tags in the sbol files. (not needed but gives an overview of the addgene dataset)
+
+5. Then manual analysis is carried out on the produced spreadsheets
+
+6. Grounding was done using the species spreadsheet and addgene_species_grounding.py
+
+7. Synbict analysis was carried out using addgene_synbict.py
+
+8. Files are uploaded using
