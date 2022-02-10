@@ -25,11 +25,11 @@ cwd = os.getcwd()
 addgene_sbol_list = os.listdir(os.path.join(cwd, 'addgene_sbol'))
 feature_library = synbict_init(cwd)
 
-for ind, file in enumerate(addgene_sbol_list):
-    if -1 < ind:
-        logging.basicConfig(filename=os.path.join(cwd, 'synbict.log'), encoding='utf-8', level=logging.DEBUG)
-        logger = logging.getLogger('synbict')
+logging.basicConfig(filename=os.path.join(cwd, 'synbict.log'), encoding='utf-8', level=logging.DEBUG)
+logger = logging.getLogger('synbict')
 
+for ind, file in enumerate(addgene_sbol_list):
+    if 2008 < ind:
         file_path_in = os.path.join(cwd, 'addgene_sbol', file)
         file_path_out = os.path.join(cwd, 'synbict_output', file)
 
