@@ -29,7 +29,8 @@ logging.basicConfig(filename=os.path.join(cwd, 'synbict.log'), encoding='utf-8',
 logger = logging.getLogger('synbict')
 
 for ind, file in enumerate(addgene_sbol_list):
-    if 3986 < ind:
+    file_num = int(file.replace("_addgene_out.xml", ""))
+    if 115979 < file_num:
         file_path_in = os.path.join(cwd, 'addgene_sbol', file)
         file_path_out = os.path.join(cwd, 'synbict_output', file)
 
