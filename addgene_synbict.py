@@ -28,24 +28,27 @@ feature_library = synbict_init(cwd)
 logging.basicConfig(filename=os.path.join(cwd, 'synbict.log'), encoding='utf-8', level=logging.DEBUG)
 logger = logging.getLogger('synbict')
 
+converted_list = os.listdir(os.path.join(cwd, 'synbict_output'))
+
 for ind, file in enumerate(addgene_sbol_list):
     file_num = int(file.replace("_addgene_out.xml", ""))
-    if 133830 < file_num < 163000:
-        file_path_in = os.path.join(cwd, 'addgene_sbol', file)
-        file_path_out = os.path.join(cwd, 'synbict_output', file)
+    if file_num < 140000:
+        if file not in converted_list:
+            file_path_in = os.path.join(cwd, 'addgene_sbol', file)
+            file_path_out = os.path.join(cwd, 'synbict_output', file)
 
-        target_doc = synbict_s2f.load_target_file(file_path_in)
-        target_library = synbict_s2f.FeatureLibrary([target_doc], False)
+            target_doc = synbict_s2f.load_target_file(file_path_in)
+            target_library = synbict_s2f.FeatureLibrary([target_doc], False)
 
-        output_docs = []
-        output_library = synbict_s2f.FeatureLibrary(output_docs, False)
+            output_docs = []
+            output_library = synbict_s2f.FeatureLibrary(output_docs, False)
 
-        synbict_s2f.curate(feature_library, target_library, output_library, [file_path_out], extend_features=False,
-                       no_annotation=False, min_feature_length=40, min_target_length=40,
-                       extension_threshold=0.05, extension_suffix='', in_place=True, minimal_output=False,
-                       no_pruning=False, deletion_roles=[], cover_offset=14, delete_flat=False, auto_swap=True,
-                       non_interactive=True, logger=logger, complete_matches=False, strip_prefixes=[])
+            synbict_s2f.curate(feature_library, target_library, output_library, [file_path_out], extend_features=False,
+                        no_annotation=False, min_feature_length=40, min_target_length=40,
+                        extension_threshold=0.05, extension_suffix='', in_place=True, minimal_output=False,
+                        no_pruning=False, deletion_roles=[], cover_offset=14, delete_flat=False, auto_swap=True,
+                        non_interactive=True, logger=logger, complete_matches=False, strip_prefixes=[])
 
 
 
-        print(ind, len(addgene_sbol_list), ind/len(addgene_sbol_list), file)
+            print(ind, len(addgene_sbol_list), ind/len(addgene_sbol_list), file)
