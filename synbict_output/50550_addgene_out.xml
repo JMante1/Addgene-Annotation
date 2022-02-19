@@ -1,0 +1,102 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:authors>Olson EJ, Hartsough LA, Landry BP, Shroff R, Tabor JJ</genbank:authors>
+    <genbank:journal>Nat Methods. 2014 Mar 9. doi: 10.1038/nmeth.2884.</genbank:journal>
+    <genbank:pubmed>24608181</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 805)</genbank:label>
+    <genbank:title>Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals.</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 23, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 805)</genbank:label>
+  </genbank:Reference>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <dcterms:description>Expresses sfGFP under the PompC1157 promoter.</dcterms:description>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <gbConv:note>BioBrick prefix for parts that do not start with ATG</gbConv:note>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbConv:label>BioBrick prefix</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>29</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>50</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pEO100c was a gift from  Jeffrey Tabor    (Addgene plasmid # 50550 ; http://n2t.net/addgene:50550 ; RRID:Addgene_50550)    </addgene:refMethod>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24608181"/>
+    <addgene:totalVectorSizeBp>5266</addgene:totalVectorSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:plasmidTitle>pEO100c</addgene:plasmidTitle>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:refBib>  Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals. Olson EJ, Hartsough LA, Landry BP, Shroff R, Tabor JJ. Nat Methods. 2014 Mar 9. doi: 10.1038/nmeth.2884. 10.1038/nmeth.2884   PubMed 24608181   </addgene:refBib>
+    <genbank:date>23-MAY-2021</genbank:date>
+    <addgene:species>Synthetic</addgene:species>
+    <addgene:altName>Superfolder GFP</addgene:altName>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1868/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>805</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:geneInsertName>sfGFP</addgene:geneInsertName>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:articlesCitingThisPlasmid>2 References</addgene:articlesCitingThisPlasmid>
+    <addgene:insertSizeBp>1909</addgene:insertSizeBp>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <addgene:vectorBackbone>pSB4A3</addgene:vectorBackbone>
+    <addgene:growthStrains>Top10</addgene:growthStrains>
+    <addgene:vectorType>Bacterial Expression, Synthetic Biology</addgene:vectorType>
+    <addgene:backboneManufacturer>Registry of Standard Biological Parts</addgene:backboneManufacturer>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:purpose>Expresses sfGFP under the PompC1157 promoter</addgene:purpose>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:addgeneId>50550</addgene:addgeneId>
+    <genbank:keywords>pEO100c</genbank:keywords>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:backboneSizeWoInsertBp>3357</addgene:backboneSizeWoInsertBp>
+    <obo:OBI_0001617>24608181</obo:OBI_0001617>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <sbol:displayId>Exported</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ccttagctttcgctaaggatgatttctggaattcgcggccgcttctagagtcccttgcatttacattttgaaacatctatagcgataaatgaaacatcttaaaagttttagtatcatattcgtgttggattattctgcatttttggggagaatggacttgccgactgattaatgagggttaatcagtatgcagtggcataaaaaagcaaataaaggcatataacagagggttaataacatgaaagttaaagtactgtccctcctggtcccagctctgctggtagcaggcgcagcaaacgctgctgaagtttacaacaaagacggcaacaaattagatctgtacggtaaagtagacggcctgcgctatttctctgacaacaaagatgtagatggcgaccagacctacatgcgtcttggcttcaaaggtgaaactcaggttactgaccagctgaccggttacggccagtgggaatatcagatccagggcaacagcgctgaaaacgaaaacaactcctggacccgtgtggcattcgcaggtctgaaattccaggatgtgggttctttcgactacggtcgtaactacggcgttgtttatgacgtaacttcctggaccgacgtactgccagaattcggtggtgacacctacggttctgacaacttcatgcagcagcgtggtaacggcttcgcgacctaccgtaacactgacttcttcggtctggttgacggcctgaactttgctgttcagtaccagggtaaaaacggcaacccatctggtgaaggctttactagtggcgtaactaacaac</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

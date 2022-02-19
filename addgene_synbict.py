@@ -32,7 +32,7 @@ converted_list = os.listdir(os.path.join(cwd, 'synbict_output'))
 
 for ind, file in enumerate(addgene_sbol_list):
     file_num = int(file.replace("_addgene_out.xml", ""))
-    if file_num < 50000:
+    if file_num < 10000:
         if file not in converted_list:
             file_path_in = os.path.join(cwd, 'addgene_sbol', file)
             file_path_out = os.path.join(cwd, 'synbict_output', file)

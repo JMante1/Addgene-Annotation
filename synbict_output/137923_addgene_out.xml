@@ -1,0 +1,540 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:ns0="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#" xmlns:ns1="https://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 8783)</genbank:label>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 12, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:title>Plasmid Vectors for in Vivo Selection-Free Use with the Probiotic E. coli Nissle 1917.</genbank:title>
+    <genbank:journal>ACS Synth Biol. 2020 Dec 10. doi: 10.1021/acssynbio.0c00466.</genbank:journal>
+    <genbank:pubmed>33301298</genbank:pubmed>
+    <genbank:authors>Kan A, Gelfat I, Emani S, Praveschotinunt P, Joshi NS</genbank:authors>
+    <genbank:label>1  (bases 1 to 8783)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>caaaaaaccgacgataatcaaaacaaacaaaaaattaactatatttgatggtttgcttaaatcagtaaagaccaacggcattatgtacgttgataaaaaagaaagatactcaccggattcttttttacatgaaacgacctttaactttcttgacaccgcaccggagtctaagtttttcaaaacccatcgataccaaatgtatgtataagaacaagttaaaatcaaagccccgcagatcactgacctcaatacagaaaatgttaatctgctatttgaatagtcgagtacgcattgaaattttccatccgcgccagaacacgaagacatggccttatctaaaacagaccatacgttatcaataccagaaaaatatattgttatcggtataaataaaaacaacattgataagagatacattctaattttcatttttgtaaaatttcctgtaccacgttgatctacttattcctaaagaaatccattctccatctctaactttcggccttccaccaccagagcttttttttccacgttgacgctgaatttcagaagtatgtgtttgtttaacatactcttcaaagccaagctctgtaaggttcttacttgtccacttagccacacttttagcaattcccatgacttcgttctcgtctaaaggtgcggagaactgcaggttgtaggctttagcgcgttcaatgcaggcttgtagccattggtcatactgcggccagccttggcggatagcgcggtaagcccacttgcgggttttatcgaagagggtgcagttacggcctaaaccgtagtccggcaggatttcgcggtcattggctgcgccaaggtcgaggtaatcggctaaccagtcaagggtatagagctctggctgccagacggtgatctgccagtgcaggtggttcggattcttgcaaattagccctgaataccccgcatctgcgcccaattttttacgcagcgcattctcgatggcggcggcgtatttaaggggggcagctcgaccatccggcgcggtacgtaccgccgtatgcaaggcatacaacaggtgagcatgtccgttctcggggtttttgatggtgagtgtgggcgcaggtgcccccagatcggcccaatcaatcgcggctccggctctgtccacgtcaaagcaaagccagtacatggcgtgaggctgattaaactggatgtattttgcgaggagagcacgctctttaccggcaatgcgaacaccaaactgtaaatcatcggagaagtacggcttgtggggtaaccggtcgttaaaaagcgttaaagcctgattatccaaggctcccagccttatggcggggctgttgttttgcacgctgcatgtgctaatatcctttctaggtttcgacctagccctgaatgtcatgtccgctcgccaaagtagagcatgatttcggggctttgttttttctgccactaagttacacctcaacaacggtttttgtcatccccgacaatccgttattcctgcttgttctcgcacggctttacgctcatactacttcttgtagatacacttgtcactacatcaagaggtgagatgatggccacgattaatattcggatcgatgacgagctgaaaagccgctcttatgccgcactggaaaagctgggcgtaacgccgtccgaggttctgcgccaaacactggaatatgtggcccaaagcggacgtttgccgttccagcaggttttgctgaccgaggatgatgccgatttgatggctatcgttcgggatcgtctggaaaacccacaggcgggcgtaaaggtgtcactggatgagctataaccttgaatttgatccccgagccctgaaggaatggcgcaagctcggggatgatgtccgtctgcagttcaagaaaaaactcgagcaggttctacaacacccgcggatcgataaaaatcgcctgcgagagctgcatgactgctacaaaatcaagctccgtgcatccggttatcgcttggtctatcaggttcgcgatcaaaccattacggtattcgtggtggcggtcggtaagcgcgagcgttctgccgcttacgatgcggccgataaacgcttataaactcatgccgtgaccgcgagaataccgctgttcgtgccgcttggctaattgctcaagcggcgcactgttctgtttaagctctcgacttgctgcgccaagccggtgacttgcatgctcaaggcctgacaaaccctgtcgtttttcgccaactcctgcgaggtaacctcgaacatgcgctgtaagttggcgtagctgtcctgccacgcttgctgctgttgttcgtagtgcctctgtaagctctctaatgcgctcagaagctgctgctccatttcggtcatgaatctcttcaccctgatagataaaaccgcccagaatcgattctgtggcgtctgatgaggttatttggcgctgtacttgatgacctgacgatgttgagcgttcttgtactcgtcgatcttcttcgccccctgcggaaggatcaggtaatacacgctcttgttcttggaatcgtgaattatcgatacgccggctccggtctggctctttaagtcctgcaggatctggctctgctcgctgatttcgttctggcgttcgaccacgatagtcccgagataccaagctactccaatcaatatcgcaaacaggatcccacttaatgccaggctgtacagccatgtcattccgactaagcggtgtatctgttttagctggctgtcgttctcttcttggatagcggtctgtatgttccctgagcttaatttcaaggcctcggtgatacgtttctcgtgcttctcgaatgcgttcgcgacgctcgttgcggtagtcttggcttgctgcttcgatttgctctcgaactcccgcgctaaatttaaaatctcgctcatacagcactccttttaagcgaatattcgggccacctgccggatcagcaatactgatactggatttggtttcccgtacgaccgacaatccggcatcggtaaggtgggaaatcacccctttacgatccgtaatttctccctgctcaatcaagctgattagccctttggtaatggcttccgctgcctgctgtttgttgcgaggaaggtcattagagggggttaatgctcggcgattagcagggtcattcgggtcgcgtaacccaagccggtcattggtgagggtttgccatgcgttaacacgaggccggtcagcccgatcaaagtaaggttgtagccgttttccgctctgcaattcgatgttcgggataacaaaattcaattcaagacgccctttgtcctgatgttgaacccagaggcaggcatactggtctttatctagaccggtcatcaatgtctgctcccattcatccatcaatcgctgcttttcgccttcgggtaaatcactctcctgaaaagagagcacgccagaggtataagttcgggcaaattcgcagccatcaatcagctctttgacgtgctcagggttaccccgtaacaccgtcgcttgttcgcgctgacgatcagggcccagaaggtaatcgacaggaccactcccgccaccggcaccacgaccatgaatcttaacgatcacgatgttgctccagcagttcggcaagatgttggtcaatgctattgagcaccgctaacaacgacacccgttcttgcggcggtaagccatgctgattcaagtaacgggctatttgattgaggttattaccgatcccgctgacctgacgtaacaaggtcgggtctacggtaggtagcggacgacgccgagctgtacgcgattcgcctaagccaacggctcgtaaccactcggccaaatgcttacggtcacagcgttcaagtagccgctgatgctccgcttcggtgagtctgattttgatctctttggtgcgcttttccatgagaatccgctgagaaagtttcgcacccaaagtgcgaattttcgcagtggatgcaaggggtttcggggggcggcgagccccctgaaacagtcacagacggcacctcgaagaggggacgctgtgtgtactccctaaatctagaatgcggtcgagctcgtaaacttggtctgacagctctagctccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgtttgccacctgacgtctaagaaaaggaatattcagcaatttgcccgtgccgaagaaaggcccacccgtgaaggtgagccagtgagttgattgctacgtaattagttagttagcccttagtgactcgaattcgcggccgcttctagaggagattctcatgtttgacagcttatcatcgataagctttaatgcggtagtttatcacagttaaattgctaacgcagtcaggcaccgtgtatgaaatctaacaatgcgctcatcgtcattctcggcaccgtcaccctggacgctgtaggcataggcttggttatgccggtactgccgggcctcttgcgggatatcgtccattccgacagtattgccagtcactatggcgtgctgcttgcgctctatgcgttgatgcaatttctttgcgcacccgttctcggagccctgtccgaccgctttggccgccgtccagtcctgctcgcttcgctccttggagccactatcgactacgcgatcatggcgaccacacccgtcctgtggattctctacgccggacgcatcgtggcgggcatcacgggtgccacaggtgcggttgctggtgcctatatcgccgacatcaccgatggggaagatcgggctcgccacttcgggctcatgagcgcttgtttcggcgtgggtatggtggtaggccccgtggccgggggactgttgggtgccatctccttgcatgcaccattccttgcggcggcggtgctcaacggcctcaacctcctcctgggctgcttccttatgcaggaatcgcataagggagagcgccgtccgatgcccttgcgtgccttcaatccagtcagctccttccggtgggcgcggggcatgactatcgtcgccgcacttatgactgttttctttatcatgcaactcgtaggacaggttccggcagcgctctgggtcattttcggcgaggaccgctttcgctggagcgcgacgatgatcggcctgtcgcttgcggtattcggaatcttgcacgccctcgctcaagccttcgtcacgggccccgccaccaaacgtttcggcgagaagcaggccattatcgcgggcatggcggccgacgcgctgggctacgtcttgctggcgttcgcgacgcgcggctggatggccttccccattatgattcttctcgcttccggcggcatcggtatgcccgcgttgcaggccatgctgtcccgccaagtagatgacgaccatcagggacagcttcaagggtcgctcgcggctcttaccagcctcacttcgatcattggaccgctgatcgtcacggcgatttatgccgcctcggcgagcacatggaacgggttggcatggattgtaggtgccgccctttaccttgtctgcctccccgcgttgcgtcgcggtgcatggagccgggccacctcgacctaataatactagctccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgtttgccacctgacgtctaagaaaaggaatattcagcaatttgcccgtgccgaagaaaggcccacccgtgaaggtgagccagtgagttgattgctacgtaacaatacgcaaaccgcctctcgttccttatcatctggcgaatcggacccacaagagcactgtttacagctagctcagtcctaggtattatgctagctactagagaaagaggagaaatactagatggcttcctccgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaataacgctgatagtgctagtgtagatcgctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactagtagcggccgctgcaggagtcactaagggttagttagttagattagcagaaagtcaaaagcctccgaccggaggcttttgactaaaacttcccttggggttatcattggggctcactcaaaggcggtaatcagatgcggcgagcggtatcagctcactcaaaggcggtaatcagataaaaaaaatccttagctttcgctaaggatgatttctgctagtacgtacggtttcgaagcttgctcttcttaagcattactcgcatccattctcaggctgtctcgtctcgtctccgcgcgcggtcttcctggagatgatcaaacctaggccaggatacatagattaccacaactccgagcccttccacccgccggcgagacctctaggccgcactcgagcaccaccaccaccaccactgagatccggctgctaacaaagcccgaaaggaagctgagttggctgctgccaccgctgagcaataactagcataaccccttggggcctctaaacgggtcttgaggggttttttgctgaaaggaggaactatatccggataaaccttgcttcttcgcggtggcttagtacagcatctatcgtacatcgaggtcgcatcacgcacaaacaaaaagccccgcaaaagcagggctgttatctgatataggttgttttgtctcacacggcagcggaagaggaatccgaagtggtactggtagtagtattggatgctgctgacgatattttccgctttgacccaaggcttaaataatcaatgcctgtaatcaacgatctcaatacgccttcggataccatagcgataaacgtatcttgctggttatggcttgcgatgcaaatcgtagcatcaccttttttatactttaaaacacctgctaaatatccattttcatctagaacactcttaagatgttcatttgttattgtttgtagcgtttgctttgtttcgcttcgagcatacgccttagctagcttccgagaaaaagcatccgcatcatgactatctttatttactcgctcaataaatttgcttaagtcaacaaatcccttaaaacgagtggacatattgttaacaaaatcagtggcagcattttttatccatgctttatagccaaaaaaacgctcgaaaacattttggtcgtagataaataccgtatcgccagcaaaaacaagagatgccttaccatcaatagaaatcatatcttgatctactcgagatagttcttttttgctaaacccataaaaattatttttctttcttgataagttttgaactggatattgcttcttgtatatggttatacaattgtcgtcattattcttactcaaaacgaaaatgattgagtcaacttttgatattagatccacactgtcaaaatcaacaattgggatattttcattgccatcaccaccaaacccagcatcaaacacaatgccagtcagaaacttcatttgctcattatcatactgctcagcatcatttaaaaatgaaatggtgttggtgcggtcacttagtgtattaacatctgatactatcacaacccgattttctaaatcagatatagttttctttatcacattatcaataatggactgttttagctcactgtcatttttaaggatggcaattttatagctaaaagagtccttagcacccgctttacctttatttttaaagttaaagtaagtgtgcaatgtaacatcgttaatatcacaatcaaaatgcttatacagttctaaaagctcttgtgctttttcttcattatgctccaaagcatcaagatctaaggcatcgtcactcatcatcattcctctatgatttttttcgcgaacgttaaataatcatcatgatttataactctgataaaatcattttcttttattaaatctttagataaaactatcaactcaccgtcttgcgttttttcccttccattagctaccacactgtaagtaatcttataggcagaaacattaaataatgacaatgttgggttgcagtgaattctttttgttttgatgtg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <addgene:fiveSequencingPrimer>GTTCCTTATCATCTGGCGAATCGG</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2">
+        <gbConv:label>BioBrick prefix</gbConv:label>
+        <gbConv:note>BioBrick prefix for parts that do not start with ATG</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4301</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>4322</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5">
+        <gbConv:label>pBRrevBam</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5/range"/>
+            <sbol:end>4783</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>4764</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <dcterms:title>pBRrevBam</dcterms:title>
+        <gbConv:note>pBR322 vectors, tet region, downstream of BamHI, reverse primer</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:backboneSizeWoInsertBp>3173</addgene:backboneSizeWoInsertBp>
+    <addgene:threeSequencingPrimer>GAGACGAGACGAGACAGCCTG</addgene:threeSequencingPrimer>
+    <addgene:plasmidTitle>pM2s2TsR</addgene:plasmidTitle>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/33301298"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation8">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <dcterms:title>mRFP1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation8"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>monomeric derivative of DsRed (Campbell et al., 2002)</gbConv:product>
+        <gbConv:label>mRFP1</gbConv:label>
+        <gbConv:translation>MASSEDVIKEFMRFKVRMEGSVNGHEFEIEGEGEGRPYEGTQTAKLKVTKGGPLPFAWDILSPQFQYGSKAYVKHPADIPDYLKLSFPEGFKWERVMNFEDGGVVTVTQDSSLQDGEFIYKVKLRGTNFPSDGPVMQKKTMGWEASTERMYPEDGALKGEIKMRLKLKDGGHYDAEVKTTYMAKKPVQLPGAYKTDIKLDITSHNEDYTIVEQYERAEGRHSTGA</gbConv:translation>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation8/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation8/range"/>
+            <sbol:start>5904</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>6581</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation12">
+        <sbol:displayId>annotation12</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation12/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation12/range"/>
+            <sbol:end>6834</sbol:end>
+            <sbol:start>6803</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>tonB terminator</dcterms:title>
+        <gbConv:note>bidirectional E. coli tonB-P14 transcription terminator</gbConv:note>
+        <gbConv:label>tonB terminator</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation12"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_anno_1/1">
+        <sbol:component rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_comp_1/1"/>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <dcterms:title>Bba_B0015</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:end>6746</sbol:end>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:start>6618</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/4809/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_anno_1/1">
+        <sbol:component rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_comp_1/1"/>
+        <dcterms:title>BBa_B0057</dcterms:title>
+        <dcterms:description>Natural terminator</dcterms:description>
+        <sbol:displayId>BBa_B0057_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_anno_1/BBa_B0057_anno_1_loc/1">
+            <sbol:end>6964</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_anno_1/BBa_B0057_anno_1_loc"/>
+            <sbol:start>6923</sbol:start>
+            <sbol:displayId>BBa_B0057_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:addgeneId>137923</addgene:addgeneId>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_anno_1/1">
+        <sbol:displayId>BBa_B0062_u45_R_anno_1</sbol:displayId>
+        <dcterms:description>Natural terminator</dcterms:description>
+        <dcterms:title>BBa_B0062-R</dcterms:title>
+        <sbol:component rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc/1">
+            <sbol:end>6963</sbol:end>
+            <sbol:start>6923</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc"/>
+            <sbol:displayId>BBa_B0062_u45_R_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:purpose>E. coli Nissle pMUT2-derived plasmid with tetracycline resistance and constitutive RFP expression</addgene:purpose>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_1/1">
+        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
+        <dcterms:description>Natural terminator</dcterms:description>
+        <dcterms:title>BBa_B0053</dcterms:title>
+        <sbol:component rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_1/BBa_B0053_anno_1_loc/1">
+            <sbol:end>4177</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_1/BBa_B0053_anno_1_loc"/>
+            <sbol:start>4106</sbol:start>
+            <sbol:displayId>BBa_B0053_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation7">
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation7"/>
+        <gbConv:note>strong bacterial ribosome binding site (Elowitz and Leibler, 2000)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation7/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation7/range"/>
+            <sbol:end>5897</sbol:end>
+            <sbol:start>5886</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>strong bacterial ribosome binding site (Elowitz and Leibler, 2000)</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0057_comp_1"/>
+        <sbol:displayId>BBa_B0057_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0057/1"/>
+        <dcterms:title>BBa_B0057</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <genbank:division>SYN</genbank:division>
+    <addgene:cloningMethod>Gibson Cloning</addgene:cloningMethod>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_2/1">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_2"/>
+        <dcterms:description>Natural terminator</dcterms:description>
+        <dcterms:title>BBa_B0053</dcterms:title>
+        <sbol:component rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_comp_2/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_2/BBa_B0053_anno_2_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_anno_2/BBa_B0053_anno_2_loc"/>
+            <sbol:start>5613</sbol:start>
+            <sbol:displayId>BBa_B0053_anno_2_loc</sbol:displayId>
+            <sbol:end>5684</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>BBa_B0053_anno_2</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorType>Bacterial Expression, Synthetic Biology ; For use with E. coli Nissle in the mouse gut</addgene:vectorType>
+    <sbol:component>
+      <sbol:Component rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_comp_1/1">
+        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <dcterms:title>BBa_B0053</dcterms:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0053/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3">
+        <gbConv:note>E. coli promoter for tetracycline efflux protein gene</gbConv:note>
+        <dcterms:title>tet promoter</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3/range"/>
+            <sbol:start>4336</sbol:start>
+            <sbol:end>4364</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:label>tet promoter</gbConv:label>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:geneInsertName>mRFP1</addgene:geneInsertName>
+    <genbank:keywords>pM2s2TsR</genbank:keywords>
+    <addgene:modificationsToBackbone>pMUT2 was modified with an insulated cassette with a selection marker</addgene:modificationsToBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation9">
+        <gbConv:label>rrnB T1 terminator</gbConv:label>
+        <dcterms:title>rrnB T1 terminator</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation9/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation9/range"/>
+            <sbol:start>6626</sbol:start>
+            <sbol:end>6697</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation9"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <gbConv:note>transcription terminator T1 from the E. coli rrnB gene</gbConv:note>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation14">
+        <dcterms:title>T7 Term</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation14"/>
+        <sbol:displayId>annotation14</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation14/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>7234</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation14/range"/>
+            <sbol:start>7216</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>T7 terminator, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>T7 Term</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorBackbone>pMUT2</addgene:vectorBackbone>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:supplementalDocuments>pMUT2s2TsR.gb</addgene:supplementalDocuments>
+    <sbol:component>
+      <sbol:Component rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <dcterms:title>BBa_B0062-R</dcterms:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0062_u45_R/1"/>
+        <sbol:displayId>BBa_B0062_u45_R_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0062_u45_R_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation6">
+        <gbConv:label>T3Te terminator</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation6/range">
+            <sbol:end>5761</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation6/range"/>
+            <sbol:start>5732</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <gbConv:note>phage T3 early transcription terminator</gbConv:note>
+        <dcterms:title>T3Te terminator</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation6"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation13">
+        <dcterms:title>6xHis</dcterms:title>
+        <gbConv:label>6xHis</gbConv:label>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation13</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation13"/>
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation13/range">
+            <sbol:start>7146</sbol:start>
+            <sbol:end>7163</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation13/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/Bba_B0015_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <dcterms:title>Bba_B0015</dcterms:title>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_comp_2/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <dcterms:title>BBa_B0053</dcterms:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0053/1"/>
+        <sbol:displayId>BBa_B0053_comp_2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/BBa_B0053_comp_2"/>
+      </sbol:Component>
+    </sbol:component>
+    <genbank:date>12-MAY-2021</genbank:date>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:end>4254</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>4225</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>T3Te terminator</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:note>phage T3 early transcription terminator</gbConv:note>
+        <gbConv:label>T3Te terminator</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:bacterialResistances>Tetracycline</addgene:bacterialResistances>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_comp_1"/>
+        <dcterms:title>B0015</dcterms:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation15">
+        <gbConv:note>transcription terminator for bacteriophage T7 RNA polymerase</gbConv:note>
+        <gbConv:label>T7 terminator</gbConv:label>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation15"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation15/range">
+            <sbol:end>7277</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation15/range"/>
+            <sbol:start>7230</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation15</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <dcterms:title>T7 terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation10">
+        <sbol:displayId>annotation10</sbol:displayId>
+        <gbConv:label>T7Te terminator</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation10/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation10/range"/>
+            <sbol:start>6713</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>6740</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <gbConv:note>phage T7 early transcription terminator</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation10"/>
+        <dcterms:title>T7Te terminator</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation11">
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation11/range">
+            <sbol:start>6747</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation11/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>6767</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:note>universal suffix for all parts</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation11"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <gbConv:label>BioBrick suffix</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4">
+        <dcterms:title>TcR</dcterms:title>
+        <gbConv:note>confers resistance to tetracycline</gbConv:note>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4"/>
+        <gbConv:translation>MKSNNALIVILGTVTLDAVGIGLVMPVLPGLLRDIVHSDSIASHYGVLLALYALMQFLCAPVLGALSDRFGRRPVLLASLLGATIDYAIMATTPVLWILYAGRIVAGITGATGAVAGAYIADITDGEDRARHFGLMSACFGVGMVVGPVAGGLLGAISLHAPFLAAAVLNGLNLLLGCFLMQESHKGERRPMPLRAFNPVSSFRWARGMTIVAALMTVFFIMQLVGQVPAALWVIFGEDRFRWSATMIGLSLAVFGILHALAQAFVTGPATKRFGEKQAIIAGMAADALGYVLLAFATRGWMAFPIMILLASGGIGMPALQAMLSRQVDDDHQGQLQGSLAALTSLTSIIGPLIVTAIYAASASTWNGLAWIVGAALYLVCLPALRRGAWSRATST</gbConv:translation>
+        <gbConv:gene>tet</gbConv:gene>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>tetracycline efflux protein</gbConv:product>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>5602</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>4412</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>TcR</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:species>Synthetic</addgene:species>
+    <addgene:insertSizeBp>678</addgene:insertSizeBp>
+    <ns0:OBI_0001617>33301298</ns0:OBI_0001617>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>8783</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refMethod> pM2s2TsR was a gift from  Neel Joshi    (Addgene plasmid # 137923 ; http://n2t.net/addgene:137923 ; RRID:Addgene_137923)    </addgene:refMethod>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <dcterms:description>E. coli Nissle pMUT2-derived plasmid with tetracycline resistance and constitutive RFP expression.</dcterms:description>
+    <addgene:refBib>  Plasmid Vectors for in Vivo Selection-Free Use with the Probiotic E. coli Nissle 1917. Kan A, Gelfat I, Emani S, Praveschotinunt P, Joshi NS. ACS Synth Biol. 2020 Dec 10. doi: 10.1021/acssynbio.0c00466. 10.1021/acssynbio.0c00466   PubMed 33301298   </addgene:refBib>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:totalVectorSizeBp>6442</addgene:totalVectorSizeBp>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:backboneManufacturer>Native to E. coli Nissle</addgene:backboneManufacturer>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_anno_1/1">
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:end>6746</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:start>6618</sbol:start>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:description>Double terminator, rrnBT1-T7TE</dcterms:description>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/B0015_anno_1"/>
+        <dcterms:title>B0015</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:promoter>J23101</addgene:promoter>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
