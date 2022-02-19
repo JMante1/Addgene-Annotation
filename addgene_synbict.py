@@ -52,3 +52,4 @@ for ind, file in enumerate(addgene_sbol_list):
 
 
             print(ind, len(addgene_sbol_list), ind/len(addgene_sbol_list), file)
+print("All done!")
