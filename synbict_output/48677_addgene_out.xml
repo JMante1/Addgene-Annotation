@@ -1,0 +1,183 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <genbank:keywords>M-tdTom-SP</genbank:keywords>
+    <genbank:division>SYN</genbank:division>
+    <addgene:refBib>  Orthogonal Cas9 proteins for RNA-guided gene regulation and editing. Esvelt KM, Mali P, Braff JL, Moosburner M, Yaung SJ, Church GM. Nat Methods. 2013 Sep 29. doi: 10.1038/nmeth.2681. 10.1038/nmeth.2681   PubMed 24076762   </addgene:refBib>
+    <addgene:fiveSequencingPrimer>SP6</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4">
+        <gbConv:product>FLAG(R) epitope tag, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <dcterms:title>FLAG</dcterms:title>
+        <gbConv:label>FLAG</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4/range">
+            <sbol:start>217</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>240</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:translation>DYKDDDDK</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:vectorType>CRISPR</addgene:vectorType>
+    <addgene:totalVectorSizeBp>4405</addgene:totalVectorSizeBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <dcterms:title>minimal CMV promoter</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:start>135</sbol:start>
+            <sbol:end>173</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <gbConv:note>human cytomegalovirus (CMV) immediate early promoter</gbConv:note>
+        <gbConv:label>minimal CMV promoter</gbConv:label>
+        <sbol:displayId>annotation1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <obo:OBI_0001617>24076762</obo:OBI_0001617>
+    <addgene:species>Synthetic</addgene:species>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>677</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3/range">
+            <sbol:end>217</sbol:end>
+            <sbol:start>208</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:addgeneId>48677</addgene:addgeneId>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:insertSizeBp>886</addgene:insertSizeBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <gbConv:label>mCherry-R</gbConv:label>
+        <gbConv:note>mCherry, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation5/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>398</sbol:start>
+            <sbol:end>416</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>mCherry-R</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <genbank:date>21-MAY-2021</genbank:date>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:supplementalDocuments>M-tdTom-SP genbank</addgene:supplementalDocuments>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <dcterms:description>Mammalian tdTomato activation reporter for SP with GTCCCCTCCACCCCACAGTG protospacer.</dcterms:description>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:threeSequencingPrimer>M13pUC-fwd</addgene:threeSequencingPrimer>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:promoter>Sp6</addgene:promoter>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/765/"/>
+    <addgene:geneInsertName>TAL binding site w/ GTCCCCTCCACCCCACAGTG protospacer, SP-PAM, and tdTomato reporter.  Compatible with S. pyogenes Cas9</addgene:geneInsertName>
+    <addgene:plasmidTitle>M-tdTom-SP</addgene:plasmidTitle>
+    <addgene:cloningMethod>Unknown</addgene:cloningMethod>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:bacterialResistances>Bleocin(Zeocin)</addgene:bacterialResistances>
+    <addgene:articlesCitingThisPlasmid>2 References</addgene:articlesCitingThisPlasmid>
+    <addgene:purpose>Mammalian tdTomato activation reporter for SP with GTCCCCTCCACCCCACAGTG protospacer</addgene:purpose>
+    <addgene:growthStrains>ccdB Survival</addgene:growthStrains>
+    <addgene:vectorBackbone>Unknown</addgene:vectorBackbone>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:refMethod> M-tdTom-SP was a gift from  George Church    (Addgene plasmid # 48677 ; http://n2t.net/addgene:48677 ; RRID:Addgene_48677)    </addgene:refMethod>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <gbConv:label>LNCX</gbConv:label>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <gbConv:note>Human CMV promoter, forward primer</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range"/>
+            <sbol:start>170</sbol:start>
+            <sbol:end>194</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>LNCX</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24076762"/>
+    <genbank:locus>Exported</genbank:locus>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported May 21, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 677)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:elements>ctatagggcgaattgggccctctagatgcatgctcgagcggccgccagtgtgatggatatctgcagaattcgcccttgcgacgtagggataacagggtaatagtgtcccctccaccccacagtgcgggaaacgaggtaggcgtgtacggtgggaggcctatataagcagagctcgtttagtgaaccgtcagatcgcctggagaattcgccaccatggactacaaggatgacgacgataaaacttccggtggcggactgggttccaccgtgagcaagggcgaggaggtcatcaaagagttcatgcgcttcaaggtgcgcatggagggctccatgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctgaaggtgaccaagggcggccccctgcccttcgcctgggacatcctgtccccccagttcatgtacggctccaaggcgtacgtgaagcaccccgccgacatccccgattacaagaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcggtctggtgaccgtgacccaggactcctccctgcaggacggcacgctgatctacaaggtgaagatgcgcggcaccaacttcccccccgacggccccgtaatgca</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:title>Orthogonal Cas9 proteins for RNA-guided gene regulation and editing.</genbank:title>
+    <genbank:authors>Esvelt KM, Mali P, Braff JL, Moosburner M, Yaung SJ, Church GM</genbank:authors>
+    <genbank:label>1  (bases 1 to 677)</genbank:label>
+    <genbank:pubmed>24076762</genbank:pubmed>
+    <genbank:journal>Nat Methods. 2013 Sep 29. doi: 10.1038/nmeth.2681.</genbank:journal>
+  </genbank:Reference>
+</rdf:RDF>

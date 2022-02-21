@@ -1,0 +1,96 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:elements>ctggcctgcccaacctttcggtataaagacttcgcgctgataccagacgttgcccgcataattacgaatatctgcatcggcgaactgatcgttaaaactgcctggcacagcaattgcccggctttcttgtaacgcgctttcccaccaacgctgatcaattccacagttttcgcgatccagactgaatgcccacaggccgtcgagttttttgatttcacgggttggggtttctacaggacgtaacataagggactgacctaccccatggatttcttgagtagtgattttgaagtagtgtgtgaaaatagtacttgtggatgattctttatatagatacatttcagctactttttattttctgaacaattactcatgttggatagagatcacatgcatagactttcatcgctggagccaaacataaatcacaggtttttattggataaatcacagattatagattgcatttgctgtaaagtgttggagtttgatatgcaaacagttttgattggttcccttttttcggaggatgcatggaagaagaagaagaatattctaacctagtttcactaatatcttaagctaactcaatttgttacgtggaaatgagagtaatttttacattagcttgatactttggtagtttatgtcttaatgatagtttacagctgtctcttagttca</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <genbank:division>SYN</genbank:division>
+    <obo:OBI_0001617>18284694</obo:OBI_0001617>
+    <addgene:promoter>GC1 (At1g22690), 1141 bp upstream of the transcriptional start</addgene:promoter>
+    <addgene:threeSequencingPrimer>GCGTCGACatggttgcaacagagaggatga</addgene:threeSequencingPrimer>
+    <genbank:keywords>pBI101-pGC1(D1)-GUS</genbank:keywords>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <addgene:refMethod> pBI101-pGC1(D1)-GUS was a gift from  Julian Schroeder    (Addgene plasmid # 49513 ; http://n2t.net/addgene:49513 ; RRID:Addgene_49513)    </addgene:refMethod>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:modificationsToBackbone>To amplify the GC1 (At1g22690) promoter from the Col genomic DNA by PCR, primers YZ27 (5'-CATGCCATGGatttcttgagtagtgattttgaag-3', right before the ATG start codon with NcoI site) and YZ159 (5'-GCGTCGACatggttgcaacagagaggatga-3', 1141 bp upstream of the transcriptional start, D1, with SalI site) were utilized. The PCR product was cloned into pGEM-Teasy vector (Invitrogen, Carlsbad, CA) to create pGEM-T-pGC1.&#13;
+&#13;
+To clone the GC1 promoter into the pBI101 vector, pGEM-T-pGC1 was first cut by NcoI. The sticky end was&#13;
+then filled-in by T4 DNA polymerase (New England BioLabs) to create a blunt end. The pGC1 fragment was&#13;
+then released by SalI digestion. Meanwhile, the destination vector, pBI101, was cut sequentially by SmaI and SalI. The pGC1 fragment was then inserted upstream of the GUS reporter gene in the pBI101 vector to create pBI101-pGC1::GUS construct (simplified as pGC1::GUS).</addgene:modificationsToBackbone>
+    <addgene:vectorBackbone>pBI101</addgene:vectorBackbone>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:threeCloningSite>SalI
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:altName>Promoter of GC1 (At1g22690)</addgene:altName>
+    <addgene:genBankID>NM_001198136.1
+NM_001198136.1</addgene:genBankID>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:geneInsertName>Promoter of GC1(D1)</addgene:geneInsertName>
+    <addgene:fiveCloningSite>NcoI
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:plasmidTitle>pBI101-pGC1(D1)-GUS</addgene:plasmidTitle>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <addgene:tagFusionProtein>beta-glucuronidase</addgene:tagFusionProtein>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18284694"/>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:fiveSequencingPrimer>CATGCCATGGatttcttgagtagtgattttgaag</addgene:fiveSequencingPrimer>
+    <addgene:insertSizeBp>1140</addgene:insertSizeBp>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <dcterms:description>Expresses beta-glucuronidase gene under the control of guard cell promoter (pGC1 (D1)) in plant.</dcterms:description>
+    <addgene:selectableMarkers>Kanamycin</addgene:selectableMarkers>
+    <addgene:species>A. thaliana (mustard weed)</addgene:species>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:purpose>Expresses beta-glucuronidase gene under the control of guard cell promoter (pGC1 (D1)) in plant</addgene:purpose>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1764/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:end>683</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>Yingzhen Yang</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:vectorType>Plant expression</addgene:vectorType>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:addgeneId>49513</addgene:addgeneId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:refBib>  Isolation of a strong Arabidopsis guard cell promoter and its potential as a research tool. Yang Y, Costa A, Leonhardt N, Siegel RS, Schroeder JI. Plant Methods. 2008 Feb 19;4:6. doi: 10.1186/1746-4811-4-6. 10.1186/1746-4811-4-6   PubMed 18284694   </addgene:refBib>
+    <genbank:date>19-MAY-2021</genbank:date>
+    <sbol:displayId>Exported</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:journal>Exported May 19, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:label>2  (bases 1 to 683)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:title>Isolation of a strong Arabidopsis guard cell promoter and its potential as a research tool.</genbank:title>
+    <genbank:label>1  (bases 1 to 683)</genbank:label>
+    <genbank:journal>Plant Methods. 2008 Feb 19;4:6. doi: 10.1186/1746-4811-4-6.</genbank:journal>
+    <genbank:pubmed>18284694</genbank:pubmed>
+    <genbank:authors>Yang Y, Costa A, Leonhardt N, Siegel RS, Schroeder JI</genbank:authors>
+  </genbank:Reference>
+</rdf:RDF>

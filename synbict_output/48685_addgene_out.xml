@@ -1,0 +1,114 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <dcterms:description>Expresses fusion protein in mitochondria inter-membrane space, and is released upon MOMP..</dcterms:description>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:start>111</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>120</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:entrezGene>HTRA2
+
+                        
+                        (a.k.a. MGCA8, OMI, PARK13, PRSS25)</addgene:entrezGene>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:geneInsertName>Omi</addgene:geneInsertName>
+    <addgene:growthStrains>Stbl2</addgene:growthStrains>
+    <addgene:threeCloningSite>BamHI
+    (destroyed during cloning)</addgene:threeCloningSite>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/20493813"/>
+    <addgene:refMethod> pBabe(puro)-Omi-mCherry was a gift from  Douglas Green    (Addgene plasmid # 48685 ; http://n2t.net/addgene:48685 ; RRID:Addgene_48685)    </addgene:refMethod>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:backboneSizeWoInsertBp>5100</addgene:backboneSizeWoInsertBp>
+    <addgene:vectorBackbone>pBabe (puro)</addgene:vectorBackbone>
+    <addgene:growthTemperature>30&#176;C</addgene:growthTemperature>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:altName>PARK13</addgene:altName>
+    <addgene:modificationsToBackbone>mCherry cloned via 5&#8217;BamH1/3&#8217;EcoRI restriction digest into pBabe puro. Human Omi (aka HtrA2) cloned via PCR/restriction digest using Omi-TC vector as template and primers with BglII restriction sites. PCR product was cut with BglII and cloned into pBabe mCherry via the BamHI site.</addgene:modificationsToBackbone>
+    <addgene:addgeneId>48685</addgene:addgeneId>
+    <addgene:threeSequencingPrimer>3'-accctaactgacacacattcc</addgene:threeSequencingPrimer>
+    <addgene:academicNonprofitTerms>UBMTA
+Takara Bio Limited Use Label License (formerly Clontech)</addgene:academicNonprofitTerms>
+    <addgene:vectorType>Mammalian Expression, Retroviral</addgene:vectorType>
+    <genbank:division>SYN</genbank:division>
+    <obo:OBI_0001617>20493813</obo:OBI_0001617>
+    <addgene:plasmidTitle>pBabe(puro)-Omi-mCherry</addgene:plasmidTitle>
+    <addgene:genBankID>NM_013247.4</addgene:genBankID>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:tagFusionProtein>mCherry (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1374/"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:refBib>  Resistance to caspase-independent cell death requires persistence of intact mitochondria. Tait SW, Parsons MJ, Llambi F, Bouchier-Hayes L, Connell S, Munoz-Pinedo C, Green DR. Dev Cell. 2010 May 18;18(5):802-13. 10.1016/j.devcel.2010.03.014   PubMed 20493813   </addgene:refBib>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>869</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:date>02-JUN-2021</genbank:date>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:fiveCloningSite>BamHI
+    (destroyed during cloning)</addgene:fiveCloningSite>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:fiveSequencingPrimer>5'-ctttatccagccctcac</addgene:fiveSequencingPrimer>
+    <addgene:selectableMarkers>Puromycin</addgene:selectableMarkers>
+    <genbank:keywords>pBabe(puro)-Omi-mCherry</genbank:keywords>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:purpose>Expresses fusion protein in mitochondria inter-membrane space, and is released upon MOMP.</addgene:purpose>
+    <addgene:promoter>LTR</addgene:promoter>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gccctcgccctcgatctcgaactcgtggccgttcacggagccctccatgtgcaccttgaagcgcatgaactccttgatgatggccatgttatcctcctcgcccttgctcaccatggtggcgggatctaattctgtgacctcaggggtcacatataaggtcagtgtttctcgtccccgccggatctgcactgccaactgggattgggttcgaacagcttcataaacatcttcagcattttgtaccatctgctccccaatggccaaaatcacatcaccaggccgcagaccagcccggtgtgcaggggagcccaggatgactttatggatgagtacaccatgctgaacatcgggaaagcttggttctcgaagctgtagttcagcaaggatgctgggactcagggtcagcatcatcaccccaatgtagcgccgctgggacccactgattccggaggaggaattcttcttttccccacgatgcagaaactctcgaagacgatcagaagggatggcaaaggagattccagctgtgaccttcatggtattcactccaatcacctccccatccaggttaaccaggggacctccagagtttccaaaatcaatagctgcatcagtttgaatgtattccacattggtttgggggagtcccaggtctctggctggacgctgagcagagctaacaatgccggatgtgatcgtgttctgcagtgcaaagggacttcccatggcaacaacaaactccccttgccggacatcagctgagcgtcccagaggcagcgtggggagaggctccttagtctgaatcctcagcgttgcgatgtctgccacgggatccacagctgtgaccacggcctcatacgtgtcgccgc</sbol:elements>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:journal>Dev Cell. 2010 May 18;18(5):802-13.</genbank:journal>
+    <genbank:pubmed>20493813</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 869)</genbank:label>
+    <genbank:title>Resistance to caspase-independent cell death requires persistence of intact mitochondria.</genbank:title>
+    <genbank:authors>Tait SW, Parsons MJ, Llambi F, Bouchier-Hayes L, Connell S, Munoz-Pinedo C, Green DR</genbank:authors>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:journal>Exported Jun 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 869)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+</rdf:RDF>

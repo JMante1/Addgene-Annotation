@@ -1,0 +1,109 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:vectorBackbone>pCMV (Clontech)</addgene:vectorBackbone>
+    <addgene:fiveCloningSite>NheI
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <genbank:keywords>peCALWY-3</genbank:keywords>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/332/"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:start>425</sbol:start>
+            <sbol:end>446</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <gbConv:note>EGFP, reverse primer</gbConv:note>
+        <gbConv:label>EGFP-N</gbConv:label>
+        <dcterms:title>EGFP-N</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>699</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <obo:OBI_0001617>19718032</obo:OBI_0001617>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:backboneSizeWoInsertBp>3900</addgene:backboneSizeWoInsertBp>
+    <addgene:addgeneId>22235</addgene:addgeneId>
+    <genbank:date>24-MAY-2021</genbank:date>
+    <addgene:refBib>  Genetically encoded FRET sensors to monitor intracellular Zn(2+) homeostasis. Vinkenborg JL, Nicolson TJ, Bellomo EA, Koay MS, Rutter GA, Merkx M. Nat Methods. 2009 Aug 30. ():. 10.1038/nmeth.1368   PubMed 19718032   </addgene:refBib>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:plasmidTitle>peCALWY-3</addgene:plasmidTitle>
+    <addgene:threeSequencingPrimer>CMV terminator</addgene:threeSequencingPrimer>
+    <addgene:termsAndLicenses>UBMTA</addgene:termsAndLicenses>
+    <addgene:species>H. sapiens (human); GFP's</addgene:species>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:geneInsertName>eCALWY-3 Zn(II) sensor</addgene:geneInsertName>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:growthInstructions>E.coli nova blue&#13;
+LB culture medium&#13;
+30 ug/ml kanamycin&#13;
+Culture overnight, 37 C/250 rpm</addgene:growthInstructions>
+    <addgene:threeCloningSite>NotI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:refMethod> peCALWY-3 was a gift from  Maarten Merkx    (Addgene plasmid # 22235 ; http://n2t.net/addgene:22235 ; RRID:Addgene_22235)    </addgene:refMethod>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:insertSizeBp>2100</addgene:insertSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:mutation>Similar to eCALWY-1, but with a linkerlength of 3 GGSGGS repeats instead of 9</addgene:mutation>
+    <addgene:fiveSequencingPrimer>CMV promotor</addgene:fiveSequencingPrimer>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19718032"/>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <genbank:division>SYN</genbank:division>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:elements>ctgcattgaatctgagcacagcatggacactctgcttgcaaccctgaagaaaacaggaaagactgtttcctaccttggccttgagctcattcgtggcggatccggcggaagcggcggatccggtggtagcggtggatccgggggtccgcggatgcagggcacatgcagtaccactctgattgccattgccggcatgacctgtgcatcctgtgtccattccattgaaggcatgatctcccaactggaaggggtgcagcaaatatcggtgtctttggccgaagggactgcaacagttctttataatcccgctgtaattagcccagaagaactcagagctgctatagaagacatgggatttgaggcttcagtctcggtacccatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcggctacggcctgatgtgcttcgcccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcnacta</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:pubmed>19718032</genbank:pubmed>
+    <genbank:journal>Nat Methods. 2009 Aug 30. ():.</genbank:journal>
+    <genbank:title>Genetically encoded FRET sensors to monitor intracellular Zn(2+) homeostasis.</genbank:title>
+    <genbank:authors>Vinkenborg JL, Nicolson TJ, Bellomo EA, Koay MS, Rutter GA, Merkx M</genbank:authors>
+    <genbank:label>1  (bases 1 to 699)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 699)</genbank:label>
+    <genbank:journal>Exported May 24, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:authors>.</genbank:authors>
+  </genbank:Reference>
+</rdf:RDF>

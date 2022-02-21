@@ -1,0 +1,115 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 809)</genbank:label>
+    <genbank:journal>Exported Aug 3, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:authors>Jana SS, Kim KY, Mao J, Kawamoto S, Sellers JR, Adelstein RS</genbank:authors>
+    <genbank:label>1  (bases 1 to 809)</genbank:label>
+    <genbank:journal>J Biol Chem. 2009 Apr 24;284(17):11563-71. doi: 10.1074/jbc.M806574200. Epub 2009 Feb 23.</genbank:journal>
+    <genbank:pubmed>19240025</genbank:pubmed>
+    <genbank:title>An alternatively spliced isoform of non-muscle myosin II-C is not regulated by myosin light chain phosphorylation.</genbank:title>
+  </genbank:Reference>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:start>2</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>11</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:tagFusionProtein>GFP (C terminal on backbone)</addgene:tagFusionProtein>
+    <addgene:bacterialResistances>Kanamycin</addgene:bacterialResistances>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:threeSequencingPrimer>EGFP-N: CGTCGCCGTCCAGCTCGACCAG</addgene:threeSequencingPrimer>
+    <addgene:genBankID>EF602040
+NM_001271538</addgene:genBankID>
+    <addgene:promoter>CMV immediate early</addgene:promoter>
+    <addgene:refBib>  An alternatively spliced isoform of non-muscle myosin II-C is not regulated by myosin light chain phosphorylation. Jana SS, Kim KY, Mao J, Kawamoto S, Sellers JR, Adelstein RS. J Biol Chem. 2009 Apr 24;284(17):11563-71. doi: 10.1074/jbc.M806574200. Epub 2009 Feb 23. 10.1074/jbc.M806574200   PubMed 19240025   </addgene:refBib>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19240025"/>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <genbank:keywords>pNMHCII-C2-GFP</genbank:keywords>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:fiveCloningSite>SalI
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:entrezGene>Myh14
+
+                        
+                        (a.k.a. 2400004E04Rik, II-C, NHMCII, NMHC II-C)</addgene:entrezGene>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:plasmidTitle>pNMHCII-C2-GFP</addgene:plasmidTitle>
+    <addgene:academicNonprofitTerms>UBMTA
+Ancillary Agreement for Plasmids Containing FP Materials</addgene:academicNonprofitTerms>
+    <addgene:threeCloningSite>BamHI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:totalVectorSizeBp>10800</addgene:totalVectorSizeBp>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:insertSizeBp>6129</addgene:insertSizeBp>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:fiveSequencingPrimer>CMV-for: CGCAAATGGGCGGTAGGCGTG</addgene:fiveSequencingPrimer>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:end>809</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:geneInsertName>nonmuscle myosin heavy chain II-C, isoform C2</addgene:geneInsertName>
+    <addgene:refMethod> pNMHCII-C2-GFP was a gift from  Robert Adelstein    (Addgene plasmid # 46043 ; http://n2t.net/addgene:46043 ; RRID:Addgene_46043)    </addgene:refMethod>
+    <addgene:backboneSizeWoInsertBp>4700</addgene:backboneSizeWoInsertBp>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:addgeneId>46043</addgene:addgeneId>
+    <addgene:backboneManufacturer>Clontech</addgene:backboneManufacturer>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:vectorBackbone>pEGFP-N3</addgene:vectorBackbone>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/5/"/>
+    <addgene:altName>Myh14, isoform C2</addgene:altName>
+    <sbol:displayId>Exported</sbol:displayId>
+    <obo:OBI_0001617>19240025</obo:OBI_0001617>
+    <genbank:date>03-AUG-2021</genbank:date>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>accatggtggcgatggatccttggggtgtggcagggggcggagcctccggctcctggcctggtgcagagccaggttcagctccttcagcctcttcctcgtcagaagccacgccctcttccagccggaacacctggcgcacagtccgtgtggtgaatgtaagtgggccacgccggagcctgttcctcagcgtggtcacctcccggttcatggattctgcagactcagtgacgtcctccagctcccgctgcagccgcctccgaccagcctgtgcccgagatgcctcctcctctgcctcctccagctgcctcttgagctgcttcagccggaggttgcttttctccagctggtcccggacctggtcagccaccctgcgctcttcatccacctgaagaactacctccttcagccgcttctcagctctgcgtaccagcttgccagagaggatgcgctccctgctctcctgctccagctgctcctctgcctgggccagtttagactccagagcagcgatcagcattttctgcctggctcgggctccagcatcctcttcacccaagcgggcccgcagttcctggatctgccgctccagctgctgccgtccactctcggccttggctgagaaacttcgttcggcagacagttctgtggtgagggactcgacctgtagcactagctttcggtaatggtccttgagcagctccgagttgttctgttcttcctccagctcctcttccaactggctcagtcgcccctccagctgccgtttttcctccagggtggctgccttgctaagattgccactggccac</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+</rdf:RDF>

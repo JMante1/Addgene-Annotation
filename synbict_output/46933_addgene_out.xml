@@ -1,0 +1,156 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:insertSizeBp>2351</addgene:insertSizeBp>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:articlesCitingThisPlasmid>3 References</addgene:articlesCitingThisPlasmid>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:threeCloningSite>XhoI
+    (not destroyed)</addgene:threeCloningSite>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <obo:OBI_0001617>19903771</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <addgene:tagFusionProtein>FLAG (C terminal on insert)</addgene:tagFusionProtein>
+    <addgene:backboneSizeWoInsertBp>5000</addgene:backboneSizeWoInsertBp>
+    <genbank:keywords>STAT3(Y705F)-TAL-Luc</genbank:keywords>
+    <addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>George Stark Lab, Case Western Reserve University</addgene:aPortionOfThisPlasmidWasDerivedFromAPlasmidMadeBy>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <gbConv:note>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</gbConv:note>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005836"/>
+        <dcterms:title>vertebrate consensus sequence for strong initiation of translation (Kozak, 1987)</dcterms:title>
+        <gbConv:regulatory_class>other</gbConv:regulatory_class>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>26</sbol:start>
+            <sbol:end>35</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:geneInsertName>STAT3(Y705F)</addgene:geneInsertName>
+    <addgene:purpose>Luciferase Reporter for mutant STAT3</addgene:purpose>
+    <addgene:vectorType>Luciferase</addgene:vectorType>
+    <addgene:totalVectorSizeBp>2351</addgene:totalVectorSizeBp>
+    <addgene:mutation>Tyrosine 705 to Phenylalanine</addgene:mutation>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:backboneManufacturer>Clontech</addgene:backboneManufacturer>
+    <dcterms:description>Luciferase Reporter for mutant STAT3.</dcterms:description>
+    <genbank:division>SYN</genbank:division>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:altName>signal transducer and activator of transcription 3 (acute-phase response factor)</addgene:altName>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2">
+        <gbConv:label>minP</gbConv:label>
+        <dcterms:title>minP</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <gbConv:note>minimal TATA-box promoter with low basal activity</gbConv:note>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range">
+            <sbol:start>91</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range"/>
+            <sbol:end>122</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:refBib>  The association and nuclear translocation of the PIAS3-STAT3 complex is ligand and time dependent. Dabir S, Kluge A, Dowlati A. Mol Cancer Res. 2009 Nov;7(11):1854-60. doi: 10.1158/1541-7786.MCR-09-0313. Epub 2009 Nov 10. 10.1158/1541-7786.MCR-09-0313   PubMed 19903771   </addgene:refBib>
+    <addgene:plasmidTitle>STAT3(Y705F)-TAL-Luc</addgene:plasmidTitle>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:academicNonprofitTerms>UBMTA
+Luciferase Limited Use Label License</addgene:academicNonprofitTerms>
+    <addgene:fiveCloningSite>NheI
+    (not destroyed)</addgene:fiveCloningSite>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:fiveSequencingPrimer>5'-CGGGAGGTACTTGGAGCG-3'</addgene:fiveSequencingPrimer>
+    <addgene:addgeneId>46933</addgene:addgeneId>
+    <genbank:date>18-MAY-2021</genbank:date>
+    <addgene:promoter>TA Luciferase</addgene:promoter>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1701/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:entrezGene>STAT3
+
+                        
+                        (a.k.a. ADMIO, ADMIO1, APRF, HIES)</addgene:entrezGene>
+    <addgene:vectorBackbone>pTAL-Luc</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>857</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3">
+        <dcterms:title>FLAG</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:label>FLAG</gbConv:label>
+        <gbConv:product>FLAG(R) epitope tag, followed by an enterokinase cleavage site</gbConv:product>
+        <gbConv:translation>DYKDDDDK</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3/range">
+            <sbol:start>216</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation3/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>239</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19903771"/>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:refMethod> STAT3(Y705F)-TAL-Luc was a gift from  Afshin Dowlati    (Addgene plasmid # 46933 ; http://n2t.net/addgene:46933 ; RRID:Addgene_46933)    </addgene:refMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:authors>Dabir S, Kluge A, Dowlati A</genbank:authors>
+    <genbank:title>The association and nuclear translocation of the PIAS3-STAT3 complex is ligand and time dependent.</genbank:title>
+    <genbank:pubmed>19903771</genbank:pubmed>
+    <genbank:journal>Mol Cancer Res. 2009 Nov;7(11):1854-60. doi: 10.1158/1541-7786.MCR-09-0313. Epub 2009 Nov 10.</genbank:journal>
+    <genbank:label>1  (bases 1 to 857)</genbank:label>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:elements>cctttctttatgtttttggcgtcttccatggtggctttaccaacagtaccggaatgccaagctttttaccaacagtaccggaatgccaagctggaattcgagcttccattatataccctctagagtctagatctcgagcggccgccactgtgctggatatctgcagaattccaccacactggactagtggatccgagctcggtaccaagctttcacttgtcatcgtcgtccttgtagtccatgggggaggtagcgcactccgaggtcaactccatgtcaaaggtgagggactcaaactgccctcctgctgagggttcagcaccttcaccattatttccaaactgcatcaatgaatctaaagtgcggggggacatcggcaggtcaatggtattgctgcaggtcgttggtgtcacacagataaacttggtcttcaggaatggggcagcgctacctgggtcagcttcaggatgctcctggctctctggccgacaatactttccgaatgcctcctccttgggaatgtcaggatagagatagaccagtggagacaccaggatattggtagcatccatgatcttatagcccatgatgatttcagcaaatgacatgttgttcagctgctgctttgtgtatggttccacggactggatctgggtcttaccgctgatgtccttctccacccaagtgaaagtgacgcctccttctttgctgctttcactgaatcttagcaggaaggtgcctggaggcttagtgctcaagatggcccgctcccgctccttactgataaagcccatgatgtacccttcgttccaaagggccaggatgtactttttcacaaggtcaatgatattgtccag</sbol:elements>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 857)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:journal>Exported May 18, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+</rdf:RDF>

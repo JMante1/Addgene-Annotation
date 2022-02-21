@@ -1,0 +1,134 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jul 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:label>2  (bases 1 to 672)</genbank:label>
+  </genbank:Reference>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:title>Identification of Barkor as a mammalian autophagy-specific factor for Beclin 1 and class III phosphatidylinositol 3-kinase.</genbank:title>
+    <genbank:authors>Sun Q, Fan W, Chen K, Ding X, Chen S, Zhong Q</genbank:authors>
+    <genbank:pubmed>19050071</genbank:pubmed>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2008 Dec 9. 105(49):19211-6.</genbank:journal>
+    <genbank:label>1  (bases 1 to 672)</genbank:label>
+  </genbank:Reference>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:plasmidTitle>pcDNA3-Barkor 1-180</addgene:plasmidTitle>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/696/"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:geneInsertName>Barkor</addgene:geneInsertName>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>20</sbol:start>
+            <sbol:end>37</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>HHHHHH</gbConv:translation>
+        <gbConv:product>6xHis affinity tag</gbConv:product>
+        <dcterms:title>6xHis</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:label>6xHis</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:tagsFusionProteins>Myc (C terminal on insert)
+His (C terminal on insert)</addgene:tagsFusionProteins>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <addgene:threeSequencingPrimer>BGH-rev</addgene:threeSequencingPrimer>
+    <genbank:division>SYN</genbank:division>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:fiveSequencingPrimer>CMV, T7</addgene:fiveSequencingPrimer>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <obo:OBI_0001617>19050071</obo:OBI_0001617>
+    <addgene:threeCloningSite>NotI
+    (unknown if destroyed)</addgene:threeCloningSite>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19050071"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:refMethod> pcDNA3-Barkor 1-180 was a gift from  Qing Zhong    (Addgene plasmid # 24396 ; http://n2t.net/addgene:24396 ; RRID:Addgene_24396)    </addgene:refMethod>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:insertSizeBp>540</addgene:insertSizeBp>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2">
+        <gbConv:translation>EQKLISEEDL</gbConv:translation>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2"/>
+        <dcterms:title>Myc</dcterms:title>
+        <gbConv:product>Myc (human c-Myc proto-oncogene) epitope tag</gbConv:product>
+        <gbConv:label>Myc</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>82</sbol:end>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>53</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>672</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:keywords>pcDNA3-Barkor 1-180</genbank:keywords>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:addgeneId>24396</addgene:addgeneId>
+    <genbank:date>02-JUL-2021</genbank:date>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:refBib>  Identification of Barkor as a mammalian autophagy-specific factor for Beclin 1 and class III phosphatidylinositol 3-kinase. Sun Q, Fan W, Chen K, Ding X, Chen S, Zhong Q. Proc Natl Acad Sci U S A. 2008 Dec 9. 105(49):19211-6. 10.1073/pnas.0810452105   PubMed 19050071   </addgene:refBib>
+    <addgene:fiveCloningSite>XbaI
+    (unknown if destroyed)</addgene:fiveCloningSite>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <addgene:mutation>Contains aa 1-180.</addgene:mutation>
+    <addgene:entrezGene>ATG14
+
+                        
+                        (a.k.a. ATG14L, BARKOR, KIAA0831)</addgene:entrezGene>
+    <addgene:altName>Atg14, Atg14L</addgene:altName>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:termsAndLicenses>UBMTA</addgene:termsAndLicenses>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:backboneSizeWoInsertBp>5489</addgene:backboneSizeWoInsertBp>
+    <addgene:vectorBackbone>pCDNA3.0/Myc/His</addgene:vectorBackbone>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctggagaccgtttaactcaatgatgatgatgatgatggtcgacggcgctattcagatcctcttctgagatgagtttttgttcgggcccaagcttggtaccgagctcggatccactagtccagtgtggtggaattctgcagatatccagcacagtggcggccgcggtctttttttctaccaggtcaccaagtttgcgattatgcctctgaatcttctcctttttctcttggtgccgttgtgctcgactgtaaagcttctgattcttttccttggttttgagaaggccttcagaatttttctccatttcttcatttcctttacatattgtttgttttaactgttcaatcctcatcttgcaggacattattttccatctcaactgatctgttatccattttccttccatagcttttaacacttctttctgaaattcttcttgcttgctcttaagtcggcttaacctttccttcttgtcgataaacctctcccggtcgcggccgtcgaagtagacgaaatcgccgctctgaacgcatttggcgcaggtcagccgccggcgggtagtgttgcacagcgggcagcgctccacagccacgtacagcccctccgcatcgtccacggagtccaccaggtcccgggcgagcggccggggcccgcagccaggagcctccagcg</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

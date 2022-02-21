@@ -1,0 +1,111 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:title>Direct Submission</genbank:title>
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 869)</genbank:label>
+    <genbank:journal>Exported Sep 2, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+  </genbank:Reference>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <addgene:backboneManufacturer>Addgene plasmid # 39280</addgene:backboneManufacturer>
+    <addgene:backboneSizeWoInsertBp>2300</addgene:backboneSizeWoInsertBp>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18197241"/>
+    <addgene:tagFusionProtein>kanMX6 module - reverse orientation (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:entrezGene>urg1
+
+                        
+                        (a.k.a. SPAC1002.19)</addgene:entrezGene>
+    <addgene:vectorType>Yeast genomic targeting</addgene:vectorType>
+    <addgene:refBib>  urg1: a uracil-regulatable promoter system for fission yeast with short induction and repression times. Watt S, Mata J, Lopez-Maury L, Marguerat S, Burns G, Bahler J. PLoS One. 2008 Jan 16;3(1):e1428. 10.1371/journal.pone.0001428   PubMed 18197241   </addgene:refBib>
+    <addgene:selectableMarkers>Gentamicin</addgene:selectableMarkers>
+    <addgene:copyNumber>Unknown</addgene:copyNumber>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <addgene:modificationsToBackbone>nmt1 promoter has been replaced with urg1 promoter</addgene:modificationsToBackbone>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:division>SYN</genbank:division>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:locus>Exported</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <gbConv:label>urg1 promoter</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <gbConv:note>urg1 promoter from Schizosaccharomyces pombe, conferring rapid uracil-induced expression</gbConv:note>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>729</sbol:end>
+            <sbol:start>55</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>urg1 promoter</dcterms:title>
+        <sbol:displayId>annotation1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <genbank:date>02-SEP-2021</genbank:date>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:refMethod> pFA6a-kanMX6-Purg1 was a gift from  Jurg Bahler    (Addgene plasmid # 39349 ; http://n2t.net/addgene:39349 ; RRID:Addgene_39349)    </addgene:refMethod>
+    <addgene:threeCloningSite>PacI
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <obo:OBI_0001617>18197241</obo:OBI_0001617>
+    <addgene:insertSizeBp>2300</addgene:insertSizeBp>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1325/"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:threeSequencingPrimer>T7_promoter</addgene:threeSequencingPrimer>
+    <addgene:fiveCloningSite>BglII
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:addgeneId>39349</addgene:addgeneId>
+    <addgene:vectorBackbone>pFA6a-kanMX6-P3nmt1</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>869</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveSequencingPrimer>Sp6_primer</addgene:fiveSequencingPrimer>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:plasmidTitle>pFA6a-kanMX6-Purg1</addgene:plasmidTitle>
+    <genbank:keywords>pFA6a-kanMX6-Purg1</genbank:keywords>
+    <addgene:geneInsertName>urg1 promoter</addgene:geneInsertName>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <addgene:species>S. pombe (fission yeast)</addgene:species>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:elements>cgctgcaggtcgacggatccccgggttaattaacctttgttcagtggcaagcatattgaattagttctaatttagtaattgaagaaaacggataagtaaaacaacaagaaaaatgacaaacgaatgttcaatgggtagaaagaaattcgtttcacaaaattagcctttaaacaaagtgaattgagtaaggcagctaaagtaatgaatgaaacctttgcaattgatgttgaaccgtatggatttcctcccttatttatagccttccagatactatcaatgaaagcgctagctcgcatgataccagataccacgcggacttgccgcgggcacttcctcgtcagcgaaccgaaaacaataccttgtttacatcgttgcgccttcttagaccttacgaagtcgcggggaagggtcgtgcacgcatgttctcgagcggcgctaccgcgggcaatagccgacgcaagtcattgtttagaagaaaaaaaatttttttgtaatgtaaacaattggaattggttgatgtcagtaagcaaatattcccatttacaggaaaagaatagaacatcattcttacaagtattcaaagaacgatcgaaaagatggtttctatttccacggctttgtatttatacaattcgtaatagtcagtagtgaaggcgtttgccacacattctagttcgaaattcttttttacgtaggatataaaaataataatccgtgtcacgctaatcgagatctgtttagcttgcctcgtccccgccgggtcacccggccagcgacatggaggcccagaataccctccttgacagtcttgacgtgcgcagctcaggggcatgatgtgactgtcgcccgtacatttagcccatacatcc</sbol:elements>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:journal>PLoS One. 2008 Jan 16;3(1):e1428.</genbank:journal>
+    <genbank:authors>Watt S, Mata J, Lopez-Maury L, Marguerat S, Burns G, Bahler J</genbank:authors>
+    <genbank:pubmed>18197241</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 869)</genbank:label>
+    <genbank:title>urg1: a uracil-regulatable promoter system for fission yeast with short induction and repression times.</genbank:title>
+  </genbank:Reference>
+</rdf:RDF>

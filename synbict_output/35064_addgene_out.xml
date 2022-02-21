@@ -1,0 +1,113 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:authors>.</genbank:authors>
+    <genbank:label>2  (bases 1 to 467)</genbank:label>
+    <genbank:journal>Exported May 24, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <gbConv:translation>DYKDDDDK</gbConv:translation>
+        <dcterms:title>FLAG</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:label>FLAG</gbConv:label>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>25</sbol:start>
+            <sbol:end>48</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:product>FLAG(R) epitope tag, followed by an enterokinase cleavage site</gbConv:product>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:species>H. sapiens (human)</addgene:species>
+    <genbank:division>SYN</genbank:division>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>467</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <genbank:keywords>IFI16-FL (pcDNA3-FLAG)</genbank:keywords>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:fiveCloningSite>BamHI
+    (not destroyed)</addgene:fiveCloningSite>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/21397192"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:fiveSequencingPrimer>CMV-Fwd</addgene:fiveSequencingPrimer>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <addgene:addgeneId>35064</addgene:addgeneId>
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:insertSizeBp>2187</addgene:insertSizeBp>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <addgene:refMethod> IFI16-FL (pcDNA3-FLAG) was a gift from  Cheryl Arrowsmith    (Addgene plasmid # 35064 ; http://n2t.net/addgene:35064 ; RRID:Addgene_35064)    </addgene:refMethod>
+    <dcterms:description>synthetic linear DNA</dcterms:description>
+    <addgene:geneInsertName>IFI16</addgene:geneInsertName>
+    <addgene:threeSequencingPrimer>BGH-Rev</addgene:threeSequencingPrimer>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/732/"/>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <genbank:locus>Exported</genbank:locus>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+    <obo:OBI_0001617>21397192</obo:OBI_0001617>
+    <addgene:tagFusionProtein>FLAG (N terminal on backbone)</addgene:tagFusionProtein>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <addgene:backboneSizeWoInsertBp>5400</addgene:backboneSizeWoInsertBp>
+    <addgene:articlesCitingThisPlasmid>5 References</addgene:articlesCitingThisPlasmid>
+    <addgene:vectorBackbone>pcDNA3-FLAG</addgene:vectorBackbone>
+    <addgene:copyNumber>High Copy</addgene:copyNumber>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:displayId>Exported</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:plasmidTitle>IFI16-FL (pcDNA3-FLAG)</addgene:plasmidTitle>
+    <genbank:date>24-MAY-2021</genbank:date>
+    <addgene:entrezGene>IFI16
+
+                        
+                        (a.k.a. IFNGIP1, PYHIN2)</addgene:entrezGene>
+    <addgene:refBib>  Interferon-inducible protein 16: insight into the interaction with tumor suppressor p53. Liao JC, Lam R, Brazda V, Duan S, Ravichandran M, Ma J, Xiao T, Tempel W, Zuo X, Wang YX, Chirgadze NY, Arrowsmith CH. Structure. 2011 Mar 9;19(3):418-29. 10.1016/j.str.2010.12.015   PubMed 21397192   </addgene:refBib>
+    <addgene:promoter>CMV</addgene:promoter>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:backboneManufacturer>Invitrogen</addgene:backboneManufacturer>
+    <addgene:threeCloningSite>XbaI
+    (not destroyed)</addgene:threeCloningSite>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:elements>gggagacccaagcttggtaccatggactacaaagacgatgacgataaagccgccagtttaaacggcgcgccattaattaaggatccaatgggaaaaaaatacaagaacattgttctactaaaaggattagaggtcatcaatgattatcattttagaatggttaagtccttactgagcaacgatttaaaacttaatttaaaaatgagagaagagtatgacaaaattcagattgctgacttgatggaagaaaagttccgaggtgatgctggtttgggcaaactaataaaaattttcgaagatataccaacgcttgaagacctggctgaaactcttaaaaaagaaaagttaaaagtaaaaggaccagccctatcaagaaagaggaagaaggaagtggatgctacttcacctgcaccctccacaagcagcactgtcaaaactgaaggagcagaggcaactcctggagctca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:journal>Structure. 2011 Mar 9;19(3):418-29.</genbank:journal>
+    <genbank:authors>Liao JC, Lam R, Brazda V, Duan S, Ravichandran M, Ma J, Xiao T, Tempel W, Zuo X, Wang YX, Chirgadze NY, Arrowsmith CH</genbank:authors>
+    <genbank:title>Interferon-inducible protein 16: insight into the interaction with tumor suppressor p53.</genbank:title>
+    <genbank:pubmed>21397192</genbank:pubmed>
+    <genbank:label>1  (bases 1 to 467)</genbank:label>
+  </genbank:Reference>
+</rdf:RDF>

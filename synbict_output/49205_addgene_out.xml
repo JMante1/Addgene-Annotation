@@ -1,0 +1,116 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:addgene="https://www.addgene.org/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:gff3="http://sbolstandard.org/gff3#" xmlns:cello="http://cellocad.org/Terms/cello#">
+  <sbol:ComponentDefinition rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported">
+    <sbol:sequence rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+    <addgene:altName>Havcr1</addgene:altName>
+    <addgene:copyNumber>Low Copy</addgene:copyNumber>
+    <genbank:keywords>Flag&#8208;mTim1 (Bl/6)</genbank:keywords>
+    <addgene:mutation>Tim1 lacks its own signal sequence</addgene:mutation>
+    <addgene:academicNonprofitTerms>UBMTA</addgene:academicNonprofitTerms>
+    <addgene:backboneManufacturer>Kane Lab</addgene:backboneManufacturer>
+    <addgene:species>M. musculus (mouse)</addgene:species>
+    <addgene:refMethod> Flag&#8208;mTim1 (Bl/6) was a gift from  Lawrence Kane    (Addgene plasmid # 49205 ; http://n2t.net/addgene:49205 ; RRID:Addgene_49205)    </addgene:refMethod>
+    <addgene:purpose>expresses Flag tagged mouse Tim1</addgene:purpose>
+    <addgene:vectorType>Mammalian Expression</addgene:vectorType>
+    <addgene:threeCloningSite>EcoRI
+    (not destroyed)</addgene:threeCloningSite>
+    <obo:OBI_0001617>16284246</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported"/>
+    <addgene:industryTerms>Not Available to Industry</addgene:industryTerms>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1"/>
+    <addgene:tagsFusionProteins>signal sequence (N terminal on backbone)
+FLAG (N terminal on backbone)</addgene:tagsFusionProteins>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:displayId>Exported</sbol:displayId>
+    <addgene:vectorBackbone>pCDEF3-CD8SS-Flag</addgene:vectorBackbone>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1">
+        <dcterms:title>FLAG</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation1/range"/>
+            <sbol:start>87</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>110</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <gbConv:product>FLAG(R) epitope tag, followed by an enterokinase cleavage site</gbConv:product>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:translation>DYKDDDDK</gbConv:translation>
+        <gbConv:label>FLAG</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>expresses Flag tagged mouse Tim1.</dcterms:description>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <addgene:selectableMarkers>Neomycin (select with G418)</addgene:selectableMarkers>
+    <addgene:entrezGene>Havcr1
+
+                        
+                        (a.k.a. RP23-31K14.2, AI503787, KIM-1, TIM-1, Tim1, Timd1)</addgene:entrezGene>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0">
+        <sbol:location>
+          <sbol:Range rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range">
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0/range"/>
+            <sbol:end>824</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/annotation0"/>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <addgene:fiveCloningSite>Cla1
+    (not destroyed)</addgene:fiveCloningSite>
+    <genbank:date>14-JUN-2021</genbank:date>
+    <addgene:modificationsToBackbone>a pCDEF3 expression plasmid containing the human CD8&#945; signal sequence and Flag epitope tag</addgene:modificationsToBackbone>
+    <addgene:plasmidTitle>Flag&#8208;mTim1 (Bl/6)</addgene:plasmidTitle>
+    <addgene:refBib>  T cell Ig and mucin 1 (TIM-1) is expressed on in vivo-activated T cells and provides a costimulatory signal for T cell activation. de Souza AJ, Oriss TB, O'malley KJ, Ray A, Kane LP. Proc Natl Acad Sci U S A. 2005 Nov 22;102(47):17113-8. Epub 2005 Nov 11. 10.1073/pnas.0508643102   PubMed 16284246   </addgene:refBib>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <addgene:addgeneId>49205</addgene:addgeneId>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <addgene:growthTemperature>37&#176;C</addgene:growthTemperature>
+    <addgene:depositingLab rdf:resource="https://www.addgene.org/browse/pi/1748/"/>
+    <genbank:division>SYN</genbank:division>
+    <addgene:bacterialResistances>Ampicillin</addgene:bacterialResistances>
+    <addgene:threeSequencingPrimer>SP6</addgene:threeSequencingPrimer>
+    <addgene:doi rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16284246"/>
+    <addgene:geneInsertName>Tim1 (BL/6 allele)</addgene:geneInsertName>
+    <genbank:locus>Exported</genbank:locus>
+    <genbank:reference rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0"/>
+    <addgene:growthStrains>DH5alpha</addgene:growthStrains>
+    <addgene:promoter>EF1a</addgene:promoter>
+    <addgene:fiveSequencingPrimer>EF1a-F</addgene:fiveSequencingPrimer>
+    <addgene:cloningMethod>Restriction Enzyme</addgene:cloningMethod>
+  </sbol:ComponentDefinition>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference1">
+    <genbank:label>2  (bases 1 to 824)</genbank:label>
+    <genbank:authors>.</genbank:authors>
+    <genbank:journal>Exported Jun 14, 2021 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+    <genbank:title>Direct Submission</genbank:title>
+  </genbank:Reference>
+  <sbol:Sequence rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq">
+    <sbol:elements>agcttggtaccgagctcggatccatggccttaccagtgaccgccttgctcctgccgctagccttgctgctccacgccgccaggccggattacaaggacgatgacgacaagatcgattcttatgtggaagtaaagggggtggtgggtcaccctgtcacacttccatgtacttactcaacatatcgtggaatcacaacgacatgttggggccgagggcaatgcccatcttctgcttgtcaaaatacacttatttggaccaatggacatcgtgtcacctatcagaagagcagtcggtacaacttaaaggggcatatttcagaaggagatgtgtccttgacgatagagaactctgttgagagtgacagtggtctgtattgttgtcgagtggagattcctggatggtttaatgatcagaaagtgaccttttcattgcaagttaaaccagagattcccacacgtcctccaagaagacccacaactacaaggcccacagctacaggaagacccacggctatttcaacaagatccacacatgtaccaacatcaaccagagtctctacctccactcctccaacatctacacacacatggactcacaaaccagactggaatggcactgtgacatcctcaggagatacctggagtaatcacactgaagcaatccctccagggaagccgcagaaaaaccctactaagggcttctatgttggcatctgcatcgcagccctgctgctactgctccttgtgagcaccgtggctatcaccaggtacatacttatgaaaaggaagtcagcatctctaagcgtggttgccttccgtgtctct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Exported_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported_seq"/>
+  </sbol:Sequence>
+  <genbank:Reference rdf:about="file:///Users/lukas/Lab/GitHub_Repositories/addgene-parallel/addgene_sbol/www.examples.org/Exported/reference0">
+    <genbank:title>T cell Ig and mucin 1 (TIM-1) is expressed on in vivo-activated T cells and provides a costimulatory signal for T cell activation.</genbank:title>
+    <genbank:label>1  (bases 1 to 824)</genbank:label>
+    <genbank:pubmed>16284246</genbank:pubmed>
+    <genbank:authors>de Souza AJ, Oriss TB, O'malley KJ, Ray A, Kane LP</genbank:authors>
+    <genbank:journal>Proc Natl Acad Sci U S A. 2005 Nov 22;102(47):17113-8. Epub 2005 Nov 11.</genbank:journal>
+  </genbank:Reference>
+</rdf:RDF>
