@@ -39,6 +39,7 @@ for ind, file in enumerate(file_list):
             # print(all_dict)
 # print(components_dict)
 df = pd.DataFrame.from_dict(components_dict, orient='index')
+df.to_csv(os.path.join(cwd, 'Analysis', 'subparts_overview.csv'))
 df.to_excel(os.path.join(cwd, 'Analysis', 'subparts_overview.xlsx'))
 
 df1 = pd.DataFrame.from_dict(all_an_dict, orient='index')
